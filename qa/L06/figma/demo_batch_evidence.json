@@ -1,0 +1,105 @@
+{
+  "texts": [
+    "Как продлить книгу?",
+    "Спасибо"
+  ],
+  "lengths_without_padding": [
+    6,
+    3
+  ],
+  "batch": {
+    "input_ids": [
+      [
+        2,
+        7063,
+        40959,
+        15655,
+        35,
+        3
+      ],
+      [
+        2,
+        32426,
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    "token_type_ids": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "attention_mask": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "tokens": [
+    [
+      "[CLS]",
+      "Как",
+      "продлить",
+      "книгу",
+      "?",
+      "[SEP]"
+    ],
+    [
+      "[CLS]",
+      "Спасибо",
+      "[SEP]",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ]
+  ],
+  "batch_shape": [
+    2,
+    6
+  ],
+  "hidden_shape_from_config": [
+    2,
+    6,
+    312
+  ],
+  "cls_shape_from_config": [
+    2,
+    312
+  ],
+  "encoder_inference_performed": false,
+  "transformers_version": "5.16.1",
+  "sha256": {
+    ".cache\\models\\encoder\\tokenizer.json": "45cc9f974145661db6bc020795839d1dc371adc19a9c78b910393209b4fe5efc",
+    ".cache\\models\\encoder\\tokenizer_config.json": "74aab51b71a8d116c035464df96c600770f9844696b8965e397b2b1649010686",
+    ".cache\\models\\encoder\\config.json": "adee8b3e344bcb8379f44d0b3577c267d52881341e05d973c43e49974778dfff",
+    "course\\models-lock.json": "7e1e6b025927346bfbaafc172bc1e78bafae0c7755931aec60e29aa00561c883"
+  }
+}
