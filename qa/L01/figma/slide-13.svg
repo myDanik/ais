@@ -1,0 +1,39 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_12_42)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="433.236" y="163.002">&#x410;&#x434;&#x440;&#x435;&#x441; &#x440;&#x430;&#x441;&#x43f;&#x430;&#x43b;&#x441;&#x44f; &#x43d;&#x430; &#x447;&#x430;&#x441;&#x442;&#x438;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">13</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="106" letter-spacing="0px"><tspan x="513.227" y="432.73">help@sever.example</tspan></text>
+<path d="M960 520V589M951 570L960 589L969 570" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="290" height="99" transform="translate(144 650)" fill="#EAF5EF"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="230.315" y="722.059">help</tspan></text>
+<rect width="140" height="99" transform="translate(474 650)" fill="#EAF5EF"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="514.48" y="722.059">@</tspan></text>
+<rect width="380" height="99" transform="translate(654 650)" fill="#EAF5EF"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="772.264" y="722.059">sever</tspan></text>
+<rect width="100" height="99" transform="translate(1074 650)" fill="#EAF5EF"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="1115.65" y="722.059">.</tspan></text>
+<rect width="562" height="99" transform="translate(1214 650)" fill="#EAF5EF"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="1381.79" y="722.059">example</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="343.627" y="896.223">&#x41e;&#x434;&#x438;&#x43d; &#x430;&#x434;&#x440;&#x435;&#x441; &#x434;&#x43b;&#x44f; &#x447;&#x435;&#x43b;&#x43e;&#x432;&#x435;&#x43a;&#x430; &#x2014; &#x43f;&#x44f;&#x442;&#x44c; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x43e;&#x432; &#x434;&#x43b;&#x44f; &#x44d;&#x442;&#x43e;&#x433;&#x43e; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x43b;&#x430;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_12_42" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_12_42"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_12_42" result="effect2_dropShadow_12_42"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_12_42" result="shape"/>
+</filter>
+</defs>
+</svg>
+

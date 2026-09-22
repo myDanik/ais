@@ -1,0 +1,380 @@
+{
+  "sha256": "e87b593905a8e3385e32e459cab63ae31a1c4efcda570d502cc3a3421ea6cbeb",
+  "slides": 23,
+  "size_emu": [
+    12192000,
+    6858000
+  ],
+  "shape_types": {
+    "AUTO_SHAPE (1)": 418,
+    "PICTURE (13)": 3
+  },
+  "fonts": [
+    {
+      "name": "Carlito",
+      "bold": false,
+      "runs": 199
+    },
+    {
+      "name": "Prata",
+      "bold": false,
+      "runs": 34
+    },
+    {
+      "name": "Carlito",
+      "bold": true,
+      "runs": 25
+    }
+  ],
+  "media_parts": [
+    "ppt/media/",
+    "ppt/media/image-4-1.png",
+    "ppt/media/image-4-2.svg",
+    "ppt/media/image-4-3.png",
+    "ppt/media/image-4-4.svg",
+    "ppt/media/image-4-5.png",
+    "ppt/media/image-4-6.svg"
+  ],
+  "embedded_font_parts": [],
+  "edit_probe_ok": true,
+  "geometry_probe_ok": true,
+  "slide_results": [
+    {
+      "slide": 1,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 8
+      },
+      "text_boxes": 6,
+      "notes_match": true,
+      "notes_chars": 313,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 2,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 25
+      },
+      "text_boxes": 13,
+      "notes_match": true,
+      "notes_chars": 314,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 3,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes_chars": 386,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 4,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17,
+        "PICTURE (13)": 3
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes_chars": 265,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 5,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes_chars": 293,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "Отлично",
+        "не работает"
+      ]
+    },
+    {
+      "slide": 6,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 21
+      },
+      "text_boxes": 13,
+      "notes_match": true,
+      "notes_chars": 388,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "Преподаватель",
+        "студента",
+        "Студент",
+        "преподавателя"
+      ]
+    },
+    {
+      "slide": 7,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 19
+      },
+      "text_boxes": 16,
+      "notes_match": true,
+      "notes_chars": 325,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "id",
+        "text",
+        "label",
+        "group_id",
+        "split"
+      ]
+    },
+    {
+      "slide": 8,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 13,
+      "notes_match": true,
+      "notes_chars": 461,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 9,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17
+      },
+      "text_boxes": 15,
+      "notes_match": true,
+      "notes_chars": 468,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "·"
+      ]
+    },
+    {
+      "slide": 10,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes_chars": 364,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "общежитие",
+        "портал"
+      ]
+    },
+    {
+      "slide": 11,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 11
+      },
+      "text_boxes": 9,
+      "notes_match": true,
+      "notes_chars": 361,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "Библиотека",
+        "Общежитие"
+      ]
+    },
+    {
+      "slide": 12,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 32
+      },
+      "text_boxes": 18,
+      "notes_match": true,
+      "notes_chars": 286,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 13,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes_chars": 322,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 14,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 26
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes_chars": 321,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 15,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 16
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes_chars": 366,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "Не",
+        "Не"
+      ]
+    },
+    {
+      "slide": 16,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17
+      },
+      "text_boxes": 9,
+      "notes_match": true,
+      "notes_chars": 353,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "NFC"
+      ]
+    },
+    {
+      "slide": 17,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 9,
+      "notes_match": true,
+      "notes_chars": 295,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "не"
+      ]
+    },
+    {
+      "slide": 18,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes_chars": 314,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "403"
+      ]
+    },
+    {
+      "slide": 19,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes_chars": 292,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 20,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 22
+      },
+      "text_boxes": 8,
+      "notes_match": true,
+      "notes_chars": 362,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 21,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes_chars": 289,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "стали",
+        "стали"
+      ]
+    },
+    {
+      "slide": 22,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 26
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes_chars": 311,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": []
+    },
+    {
+      "slide": 23,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes_chars": 359,
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "outside": [],
+      "bold_texts": [
+        "Не",
+        "12 октября"
+      ]
+    }
+  ]
+}

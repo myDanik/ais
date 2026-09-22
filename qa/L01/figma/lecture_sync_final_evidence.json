@@ -1,0 +1,362 @@
+{
+  "lecture_sha256": "e451c8ef9f3e87cfbe2b0355a3c4925910cee47be42ca2a04bba7c1404da7346",
+  "presentation_sha256": "6b1993d01f14ea53e65c2b654668e9256289256d14a26717c4308e69f44dc0c9",
+  "source_lecture_sha256": "f74b7b59999a48143bbe9d97f4629e02c875156dbe7d33fc3b1cb9fa996008d3",
+  "pages": 12,
+  "headings": [
+    {
+      "slide": 1,
+      "page": 1,
+      "title": "Как компьютер работает с текстом",
+      "position": 168
+    },
+    {
+      "slide": 2,
+      "page": 1,
+      "title": "Сначала определим результат",
+      "position": 839
+    },
+    {
+      "slide": 3,
+      "page": 2,
+      "title": "У NLP-задач разные выходы",
+      "position": 923
+    },
+    {
+      "slide": 4,
+      "page": 3,
+      "title": "Контекст выбирает значение",
+      "position": 749
+    },
+    {
+      "slide": 5,
+      "page": 3,
+      "title": "Одно слово может обмануть",
+      "position": 1487
+    },
+    {
+      "slide": 6,
+      "page": 4,
+      "title": "Набор лемм теряет роли",
+      "position": 179
+    },
+    {
+      "slide": 7,
+      "page": 4,
+      "title": "Корпус хранит связи",
+      "position": 1353
+    },
+    {
+      "slide": 8,
+      "page": 4,
+      "title": "600 строк — 120 ситуаций",
+      "position": 1975
+    },
+    {
+      "slide": 9,
+      "page": 5,
+      "title": "Ошибки видны до обучения",
+      "position": 677
+    },
+    {
+      "slide": 10,
+      "page": 6,
+      "title": "Метка следует правилу",
+      "position": 72
+    },
+    {
+      "slide": 11,
+      "page": 6,
+      "title": "Конфликт меток требует решения",
+      "position": 1443
+    },
+    {
+      "slide": 12,
+      "page": 7,
+      "title": "Границы токена задаёт метод",
+      "position": 471
+    },
+    {
+      "slide": 13,
+      "page": 7,
+      "title": "Адрес распался на части",
+      "position": 1510
+    },
+    {
+      "slide": 14,
+      "page": 8,
+      "title": "Повтор не расширяет словарь",
+      "position": 40
+    },
+    {
+      "slide": 15,
+      "page": 8,
+      "title": "Какие различия можно убрать?",
+      "position": 805
+    },
+    {
+      "slide": 16,
+      "page": 8,
+      "title": "Один вид — две записи",
+      "position": 1942
+    },
+    {
+      "slide": 17,
+      "page": 9,
+      "title": "Удаление «не» меняет смысл",
+      "position": 40
+    },
+    {
+      "slide": 18,
+      "page": 9,
+      "title": "Почему важен номер ошибки",
+      "position": 387
+    },
+    {
+      "slide": 19,
+      "page": 9,
+      "title": "Повторная обработка стабильна",
+      "position": 1079
+    },
+    {
+      "slide": 20,
+      "page": 9,
+      "title": "Лемма связывает словоформы",
+      "position": 1734
+    },
+    {
+      "slide": 21,
+      "page": 10,
+      "title": "Одна форма — разные леммы",
+      "position": 129
+    },
+    {
+      "slide": 22,
+      "page": 10,
+      "title": "Сохраняйте исходную строку",
+      "position": 1663
+    },
+    {
+      "slide": 23,
+      "page": 11,
+      "title": "Что нужно сохранить для задачи?",
+      "position": 2067
+    }
+  ],
+  "heading_order_correct": true,
+  "anchors": [
+    {
+      "slide": 1,
+      "page": 1,
+      "position": 210
+    },
+    {
+      "slide": 2,
+      "page": 1,
+      "position": 876
+    },
+    {
+      "slide": 3,
+      "page": 2,
+      "position": 958
+    },
+    {
+      "slide": 4,
+      "page": 3,
+      "position": 785
+    },
+    {
+      "slide": 5,
+      "page": 3,
+      "position": 1522
+    },
+    {
+      "slide": 6,
+      "page": 4,
+      "position": 211
+    },
+    {
+      "slide": 7,
+      "page": 4,
+      "position": 1382
+    },
+    {
+      "slide": 8,
+      "page": 4,
+      "position": 2009
+    },
+    {
+      "slide": 9,
+      "page": 5,
+      "position": 711
+    },
+    {
+      "slide": 10,
+      "page": 6,
+      "position": 104
+    },
+    {
+      "slide": 11,
+      "page": 6,
+      "position": 1484
+    },
+    {
+      "slide": 12,
+      "page": 7,
+      "position": 509
+    },
+    {
+      "slide": 13,
+      "page": 7,
+      "position": 1544
+    },
+    {
+      "slide": 14,
+      "page": 8,
+      "position": 78
+    },
+    {
+      "slide": 15,
+      "page": 8,
+      "position": 844
+    },
+    {
+      "slide": 16,
+      "page": 8,
+      "position": 1974
+    },
+    {
+      "slide": 17,
+      "page": 9,
+      "position": 77
+    },
+    {
+      "slide": 18,
+      "page": 9,
+      "position": 423
+    },
+    {
+      "slide": 19,
+      "page": 9,
+      "position": 1119
+    },
+    {
+      "slide": 20,
+      "page": 9,
+      "position": 1771
+    },
+    {
+      "slide": 21,
+      "page": 10,
+      "position": 165
+    },
+    {
+      "slide": 22,
+      "page": 10,
+      "position": 1700
+    },
+    {
+      "slide": 23,
+      "page": 11,
+      "position": 2109
+    }
+  ],
+  "anchors_order_correct": true,
+  "anchors_in_correct_source_blocks": true,
+  "out_of_page_text_spans": [],
+  "presentation_pptx_notes": [
+    {
+      "slide": 1,
+      "notes_match": true
+    },
+    {
+      "slide": 2,
+      "notes_match": true
+    },
+    {
+      "slide": 3,
+      "notes_match": true
+    },
+    {
+      "slide": 4,
+      "notes_match": true
+    },
+    {
+      "slide": 5,
+      "notes_match": true
+    },
+    {
+      "slide": 6,
+      "notes_match": true
+    },
+    {
+      "slide": 7,
+      "notes_match": true
+    },
+    {
+      "slide": 8,
+      "notes_match": true
+    },
+    {
+      "slide": 9,
+      "notes_match": true
+    },
+    {
+      "slide": 10,
+      "notes_match": true
+    },
+    {
+      "slide": 11,
+      "notes_match": true
+    },
+    {
+      "slide": 12,
+      "notes_match": true
+    },
+    {
+      "slide": 13,
+      "notes_match": true
+    },
+    {
+      "slide": 14,
+      "notes_match": true
+    },
+    {
+      "slide": 15,
+      "notes_match": true
+    },
+    {
+      "slide": 16,
+      "notes_match": true
+    },
+    {
+      "slide": 17,
+      "notes_match": true
+    },
+    {
+      "slide": 18,
+      "notes_match": true
+    },
+    {
+      "slide": 19,
+      "notes_match": true
+    },
+    {
+      "slide": 20,
+      "notes_match": true
+    },
+    {
+      "slide": 21,
+      "notes_match": true
+    },
+    {
+      "slide": 22,
+      "notes_match": true
+    },
+    {
+      "slide": 23,
+      "notes_match": true
+    }
+  ],
+  "teacher_and_student_lecture_equal": true
+}

@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_14_6)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="466.623" y="163.002">&#x41e;&#x434;&#x438;&#x43d; &#x432;&#x438;&#x434; &#x2014; &#x434;&#x432;&#x435; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x438;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">16</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="182" letter-spacing="0px"><tspan x="445.081" y="469.421">&#x439;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="431.159" y="582.223">U+0439</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="182" letter-spacing="0px"><tspan x="1357.08" y="469.421">&#x438;&#x306;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="1248.44" y="582.223">U+0438 + U+0306</tspan></text>
+<path d="M504 665L873 740M852.588 745.035L873 740L856.173 727.396" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1416 665L1047 740M1063.83 727.396L1047 740L1067.41 745.035" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="52" font-weight="bold" letter-spacing="0px"><tspan x="917.344" y="789.773">NFC</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="106" letter-spacing="0px"><tspan x="925.685" y="917.943">&#x439;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_14_6" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_6"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_14_6" result="effect2_dropShadow_14_6"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_14_6" result="shape"/>
+</filter>
+</defs>
+</svg>
+

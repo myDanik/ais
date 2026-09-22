@@ -1,0 +1,13 @@
+{
+  "changed_rendered_slides": [
+    "slide-18.png"
+  ],
+  "unchanged_rendered_slides": 22,
+  "sha256": "e87b593905a8e3385e32e459cab63ae31a1c4efcda570d502cc3a3421ea6cbeb",
+  "notes_match": true,
+  "text_boxes": 258,
+  "all_fragments_match": true,
+  "max_baseline_error_px": 0.127,
+  "text_probe_ok": true,
+  "geometry_probe_ok": true
+}

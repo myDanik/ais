@@ -1,0 +1,1499 @@
+[
+  {
+    "slide": 1,
+    "expected": 6,
+    "matched": 6,
+    "errors": [],
+    "max_baseline_error_px": 0.127,
+    "matches": [
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Как компьютер",
+        "dx_svg_px": -0.082,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "работает с текстом",
+        "dx_svg_px": -0.017,
+        "dy_svg_px": 0.024
+      },
+      {
+        "text": "Что сохранить, когда превращаешь",
+        "dx_svg_px": 0.007,
+        "dy_svg_px": -0.081
+      },
+      {
+        "text": "сообщение в данные",
+        "dx_svg_px": -0.077,
+        "dy_svg_px": -0.127
+      }
+    ]
+  },
+  {
+    "slide": 2,
+    "expected": 13,
+    "matched": 13,
+    "errors": [],
+    "max_baseline_error_px": 0.121,
+    "matches": [
+      {
+        "text": "Сначала определим результат",
+        "dx_svg_px": -0.074,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "2",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Одно сообщение",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.034
+      },
+      {
+        "text": "«Я не могу войти",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "в личный кабинет»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "Выбрать отдел",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.054,
+        "dy_svg_px": -0.068
+      },
+      {
+        "text": "Извлечь сведения",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": -0.018
+      },
+      {
+        "text": "личный кабинет",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": -0.121
+      },
+      {
+        "text": "Подготовить ответ",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "«Какой кабинет",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": -0.029
+      },
+      {
+        "text": "вы используете?»",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": -0.007
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "expected": 14,
+    "matched": 14,
+    "errors": [],
+    "max_baseline_error_px": 0.099,
+    "matches": [
+      {
+        "text": "У NLP-задач разные выходы",
+        "dx_svg_px": -0.009,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "3",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«Не могу войти в личный кабинет»",
+        "dx_svg_px": -0.061,
+        "dy_svg_px": -0.099
+      },
+      {
+        "text": "Классификация",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.051,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "Извлечение",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "личный кабинет",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": 0.035
+      },
+      {
+        "text": "сервис",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": -0.041
+      },
+      {
+        "text": "Поиск",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.05
+      },
+      {
+        "text": "1  Восстановление доступа",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "Выше остальных документов",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.013
+      },
+      {
+        "text": "Генерация",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": -0.05
+      },
+      {
+        "text": "«Что появляется при входе?»",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": 0.009
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "expected": 7,
+    "matched": 7,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Контекст выбирает значение",
+        "dx_svg_px": -0.033,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "4",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "ключ",
+        "dx_svg_px": -0.046,
+        "dy_svg_px": -0.022
+      },
+      {
+        "text": "от комнаты",
+        "dx_svg_px": -0.022,
+        "dy_svg_px": 0.017
+      },
+      {
+        "text": "доступа к сервису",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.017
+      },
+      {
+        "text": "Lucide · ISC",
+        "dx_svg_px": -0.022,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.121,
+    "matches": [
+      {
+        "text": "Одно слово может обмануть",
+        "dx_svg_px": -0.071,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "5",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.121
+      },
+      {
+        "text": ",",
+        "dx_svg_px": -0.078,
+        "dy_svg_px": -0.121
+      },
+      {
+        "text": "портал снова ",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.079
+      },
+      {
+        "text": "»",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": -0.079
+      },
+      {
+        "text": "Отлично",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": -0.121
+      },
+      {
+        "text": "не работает",
+        "dx_svg_px": 0.024,
+        "dy_svg_px": -0.079
+      },
+      {
+        "text": "Тон задаёт сочетание слов",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": 0.033
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "expected": 13,
+    "matched": 13,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Набор лемм теряет роли",
+        "dx_svg_px": 0.015,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "6",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": " консультирует ",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "Преподаватель",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "студента",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": " консультирует ",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "Студент",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "преподавателя",
+        "dx_svg_px": 0.028,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "Леммы без порядка",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "преподаватель",
+        "dx_svg_px": -0.057,
+        "dy_svg_px": 0.001
+      },
+      {
+        "text": "консультировать",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": 0.001
+      },
+      {
+        "text": "студент",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": 0.001
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "expected": 16,
+    "matched": 16,
+    "errors": [],
+    "max_baseline_error_px": 0.09,
+    "matches": [
+      {
+        "text": "Корпус хранит связи",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "7",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«Не открывается",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.021
+      },
+      {
+        "text": "учебный портал»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.019
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": -0.09
+      },
+      {
+        "text": "id",
+        "dx_svg_px": 0.022,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "запись",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "text",
+        "dx_svg_px": 0.022,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "сообщение",
+        "dx_svg_px": 0.028,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "label",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "категория",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "group_id",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.037
+      },
+      {
+        "text": "исходная ситуация",
+        "dx_svg_px": 0.028,
+        "dy_svg_px": 0.037
+      },
+      {
+        "text": "split",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.041
+      },
+      {
+        "text": "часть выборки",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": 0.041
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "expected": 13,
+    "matched": 13,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "600 строк — 120 ситуаций",
+        "dx_svg_px": 0.011,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "8",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "600",
+        "dx_svg_px": -0.047,
+        "dy_svg_px": -0.051
+      },
+      {
+        "text": "строк в корпусе",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": -0.003
+      },
+      {
+        "text": "120",
+        "dx_svg_px": -0.066,
+        "dy_svg_px": -0.051
+      },
+      {
+        "text": "исходных ситуаций",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": -0.003
+      },
+      {
+        "text": "Одна ситуация — пять формулировок",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.048
+      },
+      {
+        "text": "Основа",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "Приветствие",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "Просьба",
+        "dx_svg_px": 0.027,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "Благодарность",
+        "dx_svg_px": -0.002,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "Консультация",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": -0.028
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "expected": 15,
+    "matched": 15,
+    "errors": [],
+    "max_baseline_error_px": 0.062,
+    "matches": [
+      {
+        "text": "Ошибки видны до обучения",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "9",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Пробел",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.037
+      },
+      {
+        "text": "«Не открывается учебный портал",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": -0.027
+      },
+      {
+        "text": "»",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.027
+      },
+      {
+        "text": "·",
+        "dx_svg_px": -0.01,
+        "dy_svg_px": -0.027
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": -0.062
+      },
+      {
+        "text": "Пустота",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.005
+      },
+      {
+        "text": "«   »",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Библиотека",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "Метка",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.031
+      },
+      {
+        "text": "«Когда можно продлить книгу?»",
+        "dx_svg_px": -0.062,
+        "dy_svg_px": -0.033
+      },
+      {
+        "text": "Общежитие",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": -0.01
+      },
+      {
+        "text": "· обозначает пробел",
+        "dx_svg_px": 0.024,
+        "dy_svg_px": -0.014
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Метка следует правилу",
+        "dx_svg_px": -0.077,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "10",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«Не могу оплатить ",
+        "dx_svg_px": 0.004,
+        "dy_svg_px": 0.025
+      },
+      {
+        "text": "через ",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "»",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "общежитие",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.025
+      },
+      {
+        "text": "портал",
+        "dx_svg_px": 0.025,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "О чём обращение?",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.026
+      },
+      {
+        "text": "Оплата общежития",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.021
+      },
+      {
+        "text": "Что именно мешает?",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.026
+      },
+      {
+        "text": "Сбой сайта?",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.021
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "expected": 9,
+    "matched": 9,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Конфликт меток требует решения",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "11",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Одна категория на обращение",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "«Когда можно продлить книгу?»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.02
+      },
+      {
+        "text": "Библиотека",
+        "dx_svg_px": 0.022,
+        "dy_svg_px": 0.02
+      },
+      {
+        "text": "«Когда можно продлить книгу?»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "Общежитие",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "Сверить сообщение и правила разметки",
+        "dx_svg_px": -0.077,
+        "dy_svg_px": -0.005
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "expected": 18,
+    "matched": 18,
+    "errors": [],
+    "max_baseline_error_px": 0.066,
+    "matches": [
+      {
+        "text": "Границы токена задаёт метод",
+        "dx_svg_px": -0.074,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "12",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "ИТ-поддержка: вход не работает!",
+        "dx_svg_px": -0.031,
+        "dy_svg_px": 0.031
+      },
+      {
+        "text": "split() · 4 токена",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "ИТ-поддержка:",
+        "dx_svg_px": -0.052,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "вход",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "не",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "работает!",
+        "dx_svg_px": -0.052,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "\\w+|[^\\w\\s] · 8 токенов",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.056
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.058,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "-",
+        "dx_svg_px": -0.073,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "поддержка",
+        "dx_svg_px": -0.04,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": ":",
+        "dx_svg_px": -0.046,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "вход",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "не",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "работает",
+        "dx_svg_px": -0.064,
+        "dy_svg_px": -0.066
+      },
+      {
+        "text": "!",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.066
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.075,
+    "matches": [
+      {
+        "text": "Адрес распался на части",
+        "dx_svg_px": -0.046,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "13",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "help@sever.example",
+        "dx_svg_px": 0.013,
+        "dy_svg_px": 0.008
+      },
+      {
+        "text": "help",
+        "dx_svg_px": 0.029,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "@",
+        "dx_svg_px": 0.008,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "sever",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": ".",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "example",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "Один адрес для человека — пять элементов для этого правила",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": 0.035
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Повтор не расширяет словарь",
+        "dx_svg_px": 0.027,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "14",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "3 вхождения",
+        "dx_svg_px": -0.057,
+        "dy_svg_px": -0.007
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.052,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "журнал",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.066,
+        "dy_svg_px": 0.045
+      },
+      {
+        "text": "журнал",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": 0.045
+      },
+      {
+        "text": "2 типа в словаре",
+        "dx_svg_px": -0.058,
+        "dy_svg_px": 0.017
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Какие различия можно убрать?",
+        "dx_svg_px": 0.003,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "15",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Исходная запись",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "··",
+        "dx_svg_px": 0.008,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "··отменяйте·запись!··",
+        "dx_svg_px": 0.002,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "Не",
+        "dx_svg_px": -0.039,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "После сжатия пробелов",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.054
+      },
+      {
+        "text": "·отменяйте·запись!",
+        "dx_svg_px": -0.079,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "Не",
+        "dx_svg_px": -0.064,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "· обозначает пробел",
+        "dx_svg_px": 0.024,
+        "dy_svg_px": -0.002
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "expected": 9,
+    "matched": 9,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Один вид — две записи",
+        "dx_svg_px": 0.017,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "16",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "й",
+        "dx_svg_px": -0.041,
+        "dy_svg_px": -0.003
+      },
+      {
+        "text": "U+0439",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "й",
+        "dx_svg_px": -0.078,
+        "dy_svg_px": -0.003
+      },
+      {
+        "text": "U+0438 + U+0306",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "NFC",
+        "dx_svg_px": -0.052,
+        "dy_svg_px": -0.041
+      },
+      {
+        "text": "й",
+        "dx_svg_px": -0.059,
+        "dy_svg_px": 0.029
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "expected": 9,
+    "matched": 9,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Удаление «не» меняет смысл",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "17",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«Я доволен работой портала»",
+        "dx_svg_px": -0.038,
+        "dy_svg_px": -0.004
+      },
+      {
+        "text": "«Я ",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": -0.03
+      },
+      {
+        "text": " доволен работой портала»",
+        "dx_svg_px": 0.025,
+        "dy_svg_px": -0.03
+      },
+      {
+        "text": "не",
+        "dx_svg_px": -0.078,
+        "dy_svg_px": -0.03
+      },
+      {
+        "text": "Удалили «я» и «не»",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.019
+      },
+      {
+        "text": "доволен работой портала",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": 0.035
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "expected": 7,
+    "matched": 7,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Почему важен номер ошибки",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "18",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Ошибка ",
+        "dx_svg_px": -0.082,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "403",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "Удалили цифры",
+        "dx_svg_px": -0.022,
+        "dy_svg_px": -0.009
+      },
+      {
+        "text": "Ошибка",
+        "dx_svg_px": -0.054,
+        "dy_svg_px": -0.058
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.088,
+    "matches": [
+      {
+        "text": "Повторная обработка стабильна",
+        "dx_svg_px": 0.011,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "19",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "f — сжатие пробелов",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": 0.003
+      },
+      {
+        "text": "f(f(x)) = f(x)",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": 0.064
+      },
+      {
+        "text": "Вход",
+        "dx_svg_px": 0.007,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "··Ошибка··403··",
+        "dx_svg_px": 0.013,
+        "dy_svg_px": -0.013
+      },
+      {
+        "text": "После f",
+        "dx_svg_px": -0.049,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "Ошибка 403",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.013
+      },
+      {
+        "text": "После ещё одного f",
+        "dx_svg_px": -0.024,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "Ошибка 403",
+        "dx_svg_px": 0.02,
+        "dy_svg_px": -0.013
+      },
+      {
+        "text": "· обозначает пробел",
+        "dx_svg_px": -0.062,
+        "dy_svg_px": -0.088
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "expected": 8,
+    "matched": 8,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Лемма связывает словоформы",
+        "dx_svg_px": 0.007,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "20",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.049
+      },
+      {
+        "text": "книги",
+        "dx_svg_px": 0.015,
+        "dy_svg_px": 0.049
+      },
+      {
+        "text": "книгой",
+        "dx_svg_px": -0.058,
+        "dy_svg_px": 0.049
+      },
+      {
+        "text": "Лемматизация",
+        "dx_svg_px": -0.026,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.057,
+        "dy_svg_px": -0.052
+      }
+    ]
+  },
+  {
+    "slide": 21,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Одна форма — разные леммы",
+        "dx_svg_px": 0.023,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "21",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "образцы ",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.022
+      },
+      {
+        "text": "стали",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": -0.022
+      },
+      {
+        "text": "студенты ",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.022
+      },
+      {
+        "text": "проверять результаты",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "стали",
+        "dx_svg_px": 0.02,
+        "dy_svg_px": -0.022
+      },
+      {
+        "text": "сталь",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "стать",
+        "dx_svg_px": -0.024,
+        "dy_svg_px": 0.046
+      }
+    ]
+  },
+  {
+    "slide": 22,
+    "expected": 14,
+    "matched": 14,
+    "errors": [],
+    "max_baseline_error_px": 0.077,
+    "matches": [
+      {
+        "text": "Сохраняйте исходную строку",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "22",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "text",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.025
+      },
+      {
+        "text": "«  Не  отменяйте",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.049
+      },
+      {
+        "text": "запись!  »",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.077
+      },
+      {
+        "text": "normalized",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Не отменяйте запись!",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": 0.008
+      },
+      {
+        "text": "tokens",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.005
+      },
+      {
+        "text": "Не",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "отменяйте",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "запись",
+        "dx_svg_px": -0.082,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "!",
+        "dx_svg_px": 0.02,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "Оригинал остаётся рядом с результатом обработки",
+        "dx_svg_px": -0.061,
+        "dy_svg_px": 0.017
+      }
+    ]
+  },
+  {
+    "slide": 23,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Что нужно сохранить для задачи?",
+        "dx_svg_px": -0.021,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "23",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Исходная строка с пробелами",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.01
+      },
+      {
+        "text": "«  ",
+        "dx_svg_px": -0.049,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "  отменяйте запись",
+        "dx_svg_px": -0.042,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "на ",
+        "dx_svg_px": 0.023,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "!  »",
+        "dx_svg_px": -0.054,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "Не",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "12 октября",
+        "dx_svg_px": -0.033,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "Что убираем?",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": -0.019
+      },
+      {
+        "text": "Что должно остаться?",
+        "dx_svg_px": -0.024,
+        "dy_svg_px": -0.019
+      }
+    ]
+  }
+]
