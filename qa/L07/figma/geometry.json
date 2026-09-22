@@ -1,0 +1,3062 @@
+[
+  [
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 1
+    },
+    {
+      "text": "1",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 2
+    },
+    {
+      "text": "Инструкции",
+      "x": 610.492,
+      "baseline": 346.336,
+      "font": "Prata",
+      "size": 112.0,
+      "bold": false,
+      "width": 703.0,
+      "object": 3
+    },
+    {
+      "text": "и ответы LLM",
+      "x": 562.531,
+      "baseline": 480.336,
+      "font": "Prata",
+      "size": 112.0,
+      "bold": false,
+      "width": 794.9,
+      "object": 4
+    },
+    {
+      "text": "Как задать задачу модели",
+      "x": 649.785,
+      "baseline": 656.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 623.6,
+      "object": 6
+    },
+    {
+      "text": "и проверить её ответ",
+      "x": 709.094,
+      "baseline": 723.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 502.2,
+      "object": 7
+    }
+  ],
+  [
+    {
+      "text": "Один документ, три проверки",
+      "x": 328.729,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1269.2,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "2",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Учебный документ D03 · правила продления книги",
+      "x": 460.783,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1000.7,
+      "object": 5
+    },
+    {
+      "text": "Вопрос",
+      "x": 364.585,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 128.8,
+      "object": 6
+    },
+    {
+      "text": "Основание в D03",
+      "x": 861.914,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 304.0,
+      "object": 7
+    },
+    {
+      "text": "Ожидаемый ответ",
+      "x": 1381.14,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 328.1,
+      "object": 8
+    },
+    {
+      "text": "На какой срок?",
+      "x": 275.25,
+      "baseline": 491.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 308.8,
+      "object": 9
+    },
+    {
+      "text": "Срок указан",
+      "x": 891.703,
+      "baseline": 491.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 245.3,
+      "object": 10
+    },
+    {
+      "text": "14 дней",
+      "x": 1464.05,
+      "baseline": 491.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 161.8,
+      "object": 11
+    },
+    {
+      "text": "При чужой брони?",
+      "x": 238.594,
+      "baseline": 563.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 381.1,
+      "object": 12
+    },
+    {
+      "text": "Продление запрещено",
+      "x": 779.695,
+      "baseline": 563.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 470.2,
+      "object": 13
+    },
+    {
+      "text": "Нет",
+      "x": 1508.88,
+      "baseline": 563.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 72.4,
+      "object": 14
+    },
+    {
+      "text": "Сколько раз за семестр?",
+      "x": 180.609,
+      "baseline": 635.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 499.2,
+      "object": 15
+    },
+    {
+      "text": "Число не задано",
+      "x": 844.875,
+      "baseline": 635.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 338.2,
+      "object": 16
+    },
+    {
+      "text": "НЕТ ДАННЫХ",
+      "x": 1411.31,
+      "baseline": 635.406,
+      "font": "Carlito",
+      "size": 48.0,
+      "bold": false,
+      "width": 267.6,
+      "object": 17
+    },
+    {
+      "text": "Сначала определяем ответы сами — затем проверяем модель",
+      "x": 400.731,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1123.2,
+      "object": 18
+    },
+    {
+      "text": "Учебная база «Север» · D03",
+      "x": 1470.2,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 306.4,
+      "object": 19
+    }
+  ],
+  [
+    {
+      "text": "Обучающие сигналы различаются",
+      "x": 222.006,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1478.3,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "3",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Предобучение",
+      "x": 144.0,
+      "baseline": 414.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 345.3,
+      "object": 5
+    },
+    {
+      "text": "Продолжение текста по префиксу",
+      "x": 654.0,
+      "baseline": 414.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 779.9,
+      "object": 6
+    },
+    {
+      "text": "SFT",
+      "x": 144.0,
+      "baseline": 523.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 77.0,
+      "object": 7
+    },
+    {
+      "text": "Запрос и желаемый ответ",
+      "x": 654.0,
+      "baseline": 523.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 594.4,
+      "object": 8
+    },
+    {
+      "text": "Предпочтения",
+      "x": 144.0,
+      "baseline": 632.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 340.5,
+      "object": 9
+    },
+    {
+      "text": "Сравнение ответов на один запрос",
+      "x": 654.0,
+      "baseline": 632.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 804.1,
+      "object": 10
+    },
+    {
+      "text": "Форматы обучающего сигнала; не обязательная цепочка для любой LLM",
+      "x": 309.451,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1303.5,
+      "object": 11
+    },
+    {
+      "text": "Ouyang et al., 2022 · Rafailov et al., 2023",
+      "x": 1346.52,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 431.3,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Что именно требуется от ответа",
+      "x": 272.742,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1378.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "4",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Требования уточнённой инструкции strict",
+      "x": 553.232,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 817.9,
+      "object": 5
+    },
+    {
+      "text": "Источник",
+      "x": 144.0,
+      "baseline": 414.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 220.5,
+      "object": 6
+    },
+    {
+      "text": "Используй только документ ниже",
+      "x": 654.0,
+      "baseline": 414.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 779.3,
+      "object": 7
+    },
+    {
+      "text": "Форма",
+      "x": 144.0,
+      "baseline": 523.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 162.3,
+      "object": 8
+    },
+    {
+      "text": "Одно короткое предложение",
+      "x": 654.0,
+      "baseline": 523.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 678.1,
+      "object": 9
+    },
+    {
+      "text": "Нет факта",
+      "x": 144.0,
+      "baseline": 632.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": true,
+      "width": 232.1,
+      "object": 10
+    },
+    {
+      "text": "Ответь точно: НЕТ ДАННЫХ",
+      "x": 654.0,
+      "baseline": 632.957,
+      "font": "Carlito",
+      "size": 54.0,
+      "bold": false,
+      "width": 627.6,
+      "object": 11
+    },
+    {
+      "text": "Выполнение каждого требования ещё предстоит проверить",
+      "x": 423.003,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1077.6,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Две инструкции, один источник",
+      "x": 286.318,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1353.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "5",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Меняется инструкция; документ и три вопроса сохраняются",
+      "x": 371.636,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1179.1,
+      "object": 5
+    },
+    {
+      "text": "basic",
+      "x": 482.926,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 90.1,
+      "object": 6
+    },
+    {
+      "text": "Документ + вопрос",
+      "x": 300.445,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 455.6,
+      "object": 7
+    },
+    {
+      "text": "strict",
+      "x": 1346.86,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 90.6,
+      "object": 8
+    },
+    {
+      "text": "Документ + вопрос",
+      "x": 1164.45,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 455.6,
+      "object": 9
+    },
+    {
+      "text": "Источник, форма, отказ",
+      "x": 1111.34,
+      "baseline": 612.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 562.9,
+      "object": 10
+    },
+    {
+      "text": "Qwen3-0.6B · фиксированные веса · greedy · без few-shot",
+      "x": 453.99,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1015.1,
+      "object": 11
+    }
+  ],
+  [
+    {
+      "text": "Пример добавляется в контекст",
+      "x": 276.146,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1368.8,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "6",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Учебный пример демонстраций",
+      "x": 644.604,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 632.2,
+      "object": 5
+    },
+    {
+      "text": "«Ссылка для восстановления пароля",
+      "x": 144.0,
+      "baseline": 402.059,
+      "font": "Carlito",
+      "size": 66.0,
+      "bold": false,
+      "width": 1033.7,
+      "object": 6
+    },
+    {
+      "text": "действует 30 минут»",
+      "x": 144.0,
+      "baseline": 481.059,
+      "font": "Carlito",
+      "size": 66.0,
+      "bold": false,
+      "width": 580.4,
+      "object": 7
+    },
+    {
+      "text": "Как долго действует?",
+      "x": 144.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 381.8,
+      "object": 8
+    },
+    {
+      "text": "30 минут",
+      "x": 144.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 237.5,
+      "object": 9
+    },
+    {
+      "text": "Сколько повторных запросов?",
+      "x": 1008.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 542.5,
+      "object": 10
+    },
+    {
+      "text": "НЕТ ДАННЫХ",
+      "x": 1008.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 345.5,
+      "object": 11
+    },
+    {
+      "text": "Примеры показывают и извлечение факта, и отказ",
+      "x": 507.413,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 907.0,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Few-shot не обновляет веса",
+      "x": 376.553,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1169.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "7",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Few-shot в контексте",
+      "x": 334.533,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 390.1,
+      "object": 5
+    },
+    {
+      "text": "Примеры входят",
+      "x": 329.348,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 399.9,
+      "object": 6
+    },
+    {
+      "text": "в текущий запрос",
+      "x": 319.23,
+      "baseline": 582.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 417.8,
+      "object": 7
+    },
+    {
+      "text": "Веса прежние",
+      "x": 361.012,
+      "baseline": 679.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 334.7,
+      "object": 8
+    },
+    {
+      "text": "SFT",
+      "x": 1361.04,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 61.8,
+      "object": 9
+    },
+    {
+      "text": "Примеры входят",
+      "x": 1193.35,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 399.9,
+      "object": 10
+    },
+    {
+      "text": "в обучающие данные",
+      "x": 1135.24,
+      "baseline": 582.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 513.5,
+      "object": 11
+    },
+    {
+      "text": "Веса обновляются",
+      "x": 1175.25,
+      "baseline": 679.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 434.7,
+      "object": 12
+    },
+    {
+      "text": "В новом независимом вызове нужные демонстрации передаются снова",
+      "x": 312.158,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1296.7,
+      "object": 13
+    }
+  ],
+  [
+    {
+      "text": "Масштабирование оценок",
+      "x": 394.723,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1130.2,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "8",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Оценки следующего токена z",
+      "x": 599.766,
+      "baseline": 427.824,
+      "font": "Carlito",
+      "size": 58.0,
+      "bold": false,
+      "width": 724.5,
+      "object": 5
+    },
+    {
+      "text": "p = softmax(z / T)",
+      "x": 657.068,
+      "baseline": 598.895,
+      "font": "Carlito",
+      "size": 86.0,
+      "bold": false,
+      "width": 608.0,
+      "object": 6
+    },
+    {
+      "text": "T > 0",
+      "x": 903.586,
+      "baseline": 760.824,
+      "font": "Carlito",
+      "size": 58.0,
+      "bold": false,
+      "width": 112.8,
+      "object": 7
+    },
+    {
+      "text": "При положительной T порядок оценок сохраняется",
+      "x": 500.687,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 922.0,
+      "object": 8
+    }
+  ],
+  [
+    {
+      "text": "Три значения temperature",
+      "x": 407.027,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1116.5,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "9",
+      "x": 1764.85,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 11.2,
+      "object": 4
+    },
+    {
+      "text": "Учебные оценки z = (2; 1; 0) · вероятности округлены",
+      "x": 443.825,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1035.1,
+      "object": 5
+    },
+    {
+      "text": "T",
+      "x": 283.767,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 20.5,
+      "object": 6
+    },
+    {
+      "text": "Токен A",
+      "x": 598.488,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 139.3,
+      "object": 7
+    },
+    {
+      "text": "Токен B",
+      "x": 1043.23,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 137.8,
+      "object": 8
+    },
+    {
+      "text": "Токен C",
+      "x": 1487.45,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 137.4,
+      "object": 9
+    },
+    {
+      "text": "0,5",
+      "x": 253.562,
+      "baseline": 506.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 80.8,
+      "object": 10
+    },
+    {
+      "text": "0,8668",
+      "x": 576.906,
+      "baseline": 506.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 11
+    },
+    {
+      "text": "0,1173",
+      "x": 1020.91,
+      "baseline": 506.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 12
+    },
+    {
+      "text": "0,0159",
+      "x": 1464.91,
+      "baseline": 506.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 13
+    },
+    {
+      "text": "1",
+      "x": 277.781,
+      "baseline": 597.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 32.4,
+      "object": 14
+    },
+    {
+      "text": "0,6652",
+      "x": 576.906,
+      "baseline": 597.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 15
+    },
+    {
+      "text": "0,2447",
+      "x": 1020.91,
+      "baseline": 597.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 16
+    },
+    {
+      "text": "0,0900",
+      "x": 1464.91,
+      "baseline": 597.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 17
+    },
+    {
+      "text": "2",
+      "x": 277.781,
+      "baseline": 688.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 32.4,
+      "object": 18
+    },
+    {
+      "text": "0,5065",
+      "x": 576.906,
+      "baseline": 688.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 19
+    },
+    {
+      "text": "0,3072",
+      "x": 1020.91,
+      "baseline": 688.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 20
+    },
+    {
+      "text": "0,1863",
+      "x": 1464.91,
+      "baseline": 688.375,
+      "font": "Carlito",
+      "size": 64.0,
+      "bold": false,
+      "width": 178.0,
+      "object": 21
+    },
+    {
+      "text": "Температура меняет концентрацию вероятностей",
+      "x": 513.729,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 897.8,
+      "object": 22
+    }
+  ],
+  [
+    {
+      "text": "Уверенность и достоверность",
+      "x": 325.119,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1274.6,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "10",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Greedy",
+      "x": 463.289,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 129.9,
+      "object": 5
+    },
+    {
+      "text": "Выбираем максимум",
+      "x": 274.523,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 508.4,
+      "object": 6
+    },
+    {
+      "text": "Без случайной выборки",
+      "x": 244.418,
+      "baseline": 612.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 566.9,
+      "object": 7
+    },
+    {
+      "text": "Низкая T при sampling",
+      "x": 1185.32,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 413.6,
+      "object": 8
+    },
+    {
+      "text": "Усиливаем предпочтение",
+      "x": 1086.84,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 614.8,
+      "object": 9
+    },
+    {
+      "text": "Факт не проверяется",
+      "x": 1144.59,
+      "baseline": 612.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 495.3,
+      "object": 10
+    },
+    {
+      "text": "Если неверный ответ уже лидирует, низкая T не делает его верным",
+      "x": 358.239,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1209.5,
+      "object": 11
+    }
+  ],
+  [
+    {
+      "text": "Top-p оставляет нужную массу",
+      "x": 302.232,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1324.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "11",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "p = (0,5; 0,3; 0,2) · порог top-p = 0,75",
+      "x": 611.002,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 698.1,
+      "object": 5
+    },
+    {
+      "text": "Добавляем",
+      "x": 268.163,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 202.4,
+      "object": 6
+    },
+    {
+      "text": "Накопленная масса",
+      "x": 738.925,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 350.8,
+      "object": 7
+    },
+    {
+      "text": "Решение",
+      "x": 1425.16,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 160.2,
+      "object": 8
+    },
+    {
+      "text": "A",
+      "x": 352.785,
+      "baseline": 498.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 32.4,
+      "object": 9
+    },
+    {
+      "text": "0,5",
+      "x": 878.617,
+      "baseline": 498.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 70.8,
+      "object": 10
+    },
+    {
+      "text": "Недостаточно",
+      "x": 1339.62,
+      "baseline": 498.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 332.7,
+      "object": 11
+    },
+    {
+      "text": "A + B",
+      "x": 310.922,
+      "baseline": 579.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 116.2,
+      "object": 12
+    },
+    {
+      "text": "0,8",
+      "x": 878.617,
+      "baseline": 579.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 70.8,
+      "object": 13
+    },
+    {
+      "text": "Порог достигнут",
+      "x": 1311.13,
+      "baseline": 579.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 388.1,
+      "object": 14
+    },
+    {
+      "text": "C",
+      "x": 354.07,
+      "baseline": 660.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 29.9,
+      "object": 15
+    },
+    {
+      "text": "—",
+      "x": 888.652,
+      "baseline": 660.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 50.7,
+      "object": 16
+    },
+    {
+      "text": "Не добавляем",
+      "x": 1335.28,
+      "baseline": 660.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 340.7,
+      "object": 17
+    },
+    {
+      "text": "Оставляем минимальное число верхних кандидатов",
+      "x": 490.351,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 940.7,
+      "object": 18
+    },
+    {
+      "text": "Holtzman et al., 2020 · ручной пример",
+      "x": 1361.96,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 414.8,
+      "object": 19
+    }
+  ],
+  [
+    {
+      "text": "Делим на выбранную массу",
+      "x": 373.846,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1177.8,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "12",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Сохранённая масса: 0,5 + 0,3 = 0,8",
+      "x": 541.369,
+      "baseline": 427.824,
+      "font": "Carlito",
+      "size": 58.0,
+      "bold": false,
+      "width": 837.7,
+      "object": 5
+    },
+    {
+      "text": "(0,5 / 0,8; 0,3 / 0,8; 0)",
+      "x": 624.197,
+      "baseline": 589.477,
+      "font": "Carlito",
+      "size": 76.0,
+      "bold": false,
+      "width": 671.1,
+      "object": 6
+    },
+    {
+      "text": "(0,625; 0,375; 0)",
+      "x": 766.94,
+      "baseline": 760.824,
+      "font": "Carlito",
+      "size": 58.0,
+      "bold": false,
+      "width": 386.0,
+      "object": 7
+    },
+    {
+      "text": "Нормируем вероятности оставшихся кандидатов заново",
+      "x": 454.462,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1013.2,
+      "object": 8
+    }
+  ],
+  [
+    {
+      "text": "Порядок правил декодирования",
+      "x": 279.92,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1366.7,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "13",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Порядок операций в версии библиотеки, используемой в работе",
+      "x": 322.491,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1279.3,
+      "object": 5
+    },
+    {
+      "text": "Temperature",
+      "x": 221.097,
+      "baseline": 498.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 331.0,
+      "object": 6
+    },
+    {
+      "text": "T = 0,5 или 1",
+      "x": 282.824,
+      "baseline": 577.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 199.6,
+      "object": 7
+    },
+    {
+      "text": "Top-k",
+      "x": 891.4,
+      "baseline": 498.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 142.7,
+      "object": 8
+    },
+    {
+      "text": "k = 20",
+      "x": 914.021,
+      "baseline": 577.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 92.0,
+      "object": 9
+    },
+    {
+      "text": "Top-p",
+      "x": 1466.55,
+      "baseline": 498.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 147.1,
+      "object": 10
+    },
+    {
+      "text": "p = 0,8",
+      "x": 1485.27,
+      "baseline": 577.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 104.2,
+      "object": 11
+    },
+    {
+      "text": "Ручной пример top-p объяснял только одну из этих операций",
+      "x": 409.919,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1103.2,
+      "object": 18
+    },
+    {
+      "text": "Transformers 5.16.1 · generation/utils.py",
+      "x": 1347.0,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 434.3,
+      "object": 19
+    }
+  ],
+  [
+    {
+      "text": "EOS или предел продолжения",
+      "x": 321.346,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1286.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "14",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "max_new_tokens = 64 задаёт предел новых токенов",
+      "x": 455.685,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1013.6,
+      "object": 5
+    },
+    {
+      "text": "EOS",
+      "x": 492.916,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 70.8,
+      "object": 6
+    },
+    {
+      "text": "Стоп",
+      "x": 404.208,
+      "baseline": 552.919,
+      "font": "Prata",
+      "size": 98.0,
+      "bold": false,
+      "width": 247.6,
+      "object": 7
+    },
+    {
+      "text": "Специальный токен",
+      "x": 291.312,
+      "baseline": 663.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 474.4,
+      "object": 8
+    },
+    {
+      "text": "завершения",
+      "x": 382.887,
+      "baseline": 730.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 290.1,
+      "object": 9
+    },
+    {
+      "text": "limit",
+      "x": 1351.91,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 80.1,
+      "object": 10
+    },
+    {
+      "text": "64",
+      "x": 1322.88,
+      "baseline": 565.336,
+      "font": "Prata",
+      "size": 112.0,
+      "bold": false,
+      "width": 138.2,
+      "object": 11
+    },
+    {
+      "text": "Достигнут предел",
+      "x": 1180.99,
+      "baseline": 679.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 424.5,
+      "object": 12
+    },
+    {
+      "text": "продолжения",
+      "x": 1228.46,
+      "baseline": 746.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 330.7,
+      "object": 13
+    },
+    {
+      "text": "Число токенов и причина остановки сохраняются вместе с ответом",
+      "x": 361.479,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1199.8,
+      "object": 14
+    }
+  ],
+  [
+    {
+      "text": "От ролей к последовательности",
+      "x": 283.242,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1362.9,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "15",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Сообщения",
+      "x": 235.362,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 294.9,
+      "object": 5
+    },
+    {
+      "text": "system · user",
+      "x": 282.156,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 202.8,
+      "object": 6
+    },
+    {
+      "text": "Chat template",
+      "x": 787.207,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 347.8,
+      "object": 7
+    },
+    {
+      "text": "роли и разделители",
+      "x": 798.593,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 325.4,
+      "object": 8
+    },
+    {
+      "text": "Начало ответа",
+      "x": 1355.4,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 364.0,
+      "object": 9
+    },
+    {
+      "text": "assistant",
+      "x": 1470.31,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 135.2,
+      "object": 10
+    },
+    {
+      "text": "В нашем опыте «только по документу» входит в user лишь для strict",
+      "x": 351.779,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1220.8,
+      "object": 17
+    },
+    {
+      "text": "Transformers · Chat templates",
+      "x": 1459.3,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 321.4,
+      "object": 18
+    }
+  ],
+  [
+    {
+      "text": "Считаем весь вход модели",
+      "x": 405.715,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1121.5,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "16",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Подготовка входа перед вызовом модели",
+      "x": 550.335,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 827.5,
+      "object": 5
+    },
+    {
+      "text": "Шаблон",
+      "x": 286.471,
+      "baseline": 492.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 193.2,
+      "object": 6
+    },
+    {
+      "text": "содержимое и роли",
+      "x": 221.092,
+      "baseline": 570.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 325.1,
+      "object": 7
+    },
+    {
+      "text": "Токенизация",
+      "x": 808.516,
+      "baseline": 492.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 308.6,
+      "object": 8
+    },
+    {
+      "text": "без повторных",
+      "x": 840.823,
+      "baseline": 570.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 238.6,
+      "object": 9
+    },
+    {
+      "text": "специальных токенов",
+      "x": 784.399,
+      "baseline": 616.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 351.8,
+      "object": 10
+    },
+    {
+      "text": "Проверка длины",
+      "x": 1337.29,
+      "baseline": 492.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 400.7,
+      "object": 11
+    },
+    {
+      "text": "источник целиком",
+      "x": 1388.67,
+      "baseline": 570.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 298.8,
+      "object": 12
+    },
+    {
+      "text": "В этой работе вход длиннее 768 токенов отклоняется",
+      "x": 483.665,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 957.1,
+      "object": 19
+    }
+  ],
+  [
+    {
+      "text": "Отделяем новые токены",
+      "x": 441.973,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1040.0,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "17",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Выход генератора = префикс + продолжение",
+      "x": 407.754,
+      "baseline": 427.824,
+      "font": "Carlito",
+      "size": 58.0,
+      "bold": false,
+      "width": 1112.8,
+      "object": 5
+    },
+    {
+      "text": "output[0, input_length:]",
+      "x": 556.326,
+      "baseline": 595.027,
+      "font": "Carlito",
+      "size": 82.0,
+      "bold": false,
+      "width": 808.5,
+      "object": 6
+    },
+    {
+      "text": "Декодируем только новые токены",
+      "x": 551.184,
+      "baseline": 758.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 825.0,
+      "object": 7
+    },
+    {
+      "text": "Введённый документ не является новым ответом",
+      "x": 516.211,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 890.3,
+      "object": 8
+    }
+  ],
+  [
+    {
+      "text": "Два критерия ответа",
+      "x": 515.678,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 888.4,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "18",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Главный факт оценивается относительно поставленного вопроса",
+      "x": 325.321,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1276.7,
+      "object": 5
+    },
+    {
+      "text": "Вопрос",
+      "x": 384.585,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 128.8,
+      "object": 6
+    },
+    {
+      "text": "Короткий ответ",
+      "x": 816.823,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 275.5,
+      "object": 7
+    },
+    {
+      "text": "Что не так",
+      "x": 1375.18,
+      "baseline": 421.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 180.0,
+      "object": 8
+    },
+    {
+      "text": "Продлить при чужой брони?",
+      "x": 162.915,
+      "baseline": 490.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 573.7,
+      "object": 9
+    },
+    {
+      "text": "«Можно»",
+      "x": 856.443,
+      "baseline": 490.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 195.5,
+      "object": 10
+    },
+    {
+      "text": "Противоречит источнику",
+      "x": 1216.35,
+      "baseline": 490.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 497.8,
+      "object": 11
+    },
+    {
+      "text": "Сколько раз за семестр?",
+      "x": 205.784,
+      "baseline": 560.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 488.8,
+      "object": 12
+    },
+    {
+      "text": "«14 дней»",
+      "x": 850.637,
+      "baseline": 560.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 206.5,
+      "object": 13
+    },
+    {
+      "text": "Отвечает на другой вопрос",
+      "x": 1195.03,
+      "baseline": 560.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 540.5,
+      "object": 14
+    },
+    {
+      "text": "В обоих примерах главный факт получает 0 баллов",
+      "x": 503.578,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 914.8,
+      "object": 15
+    }
+  ],
+  [
+    {
+      "text": "Смысл отказа и формат",
+      "x": 454.523,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1013.4,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "19",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "При отсутствии факта strict требует точную строку",
+      "x": 472.71,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 977.2,
+      "object": 5
+    },
+    {
+      "text": "Содержательный отказ",
+      "x": 311.91,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 436.6,
+      "object": 6
+    },
+    {
+      "text": "«В источнике",
+      "x": 369.898,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 317.5,
+      "object": 7
+    },
+    {
+      "text": "это не указано»",
+      "x": 340.777,
+      "baseline": 582.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 375.9,
+      "object": 8
+    },
+    {
+      "text": "Заданный формат",
+      "x": 1222.32,
+      "baseline": 421.539,
+      "font": "Carlito",
+      "size": 44.0,
+      "bold": false,
+      "width": 339.3,
+      "object": 9
+    },
+    {
+      "text": "НЕТ ДАННЫХ",
+      "x": 1236.03,
+      "baseline": 515.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 312.3,
+      "object": 10
+    },
+    {
+      "text": "У basic такого требования не было; его проверяем по своей инструкции",
+      "x": 317.162,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1286.8,
+      "object": 11
+    }
+  ],
+  [
+    {
+      "text": "Схема верна, факт ошибочен",
+      "x": 343.535,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1237.0,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "20",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Ручной контрпример для вопроса о сроке",
+      "x": 549.055,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 823.1,
+      "object": 5
+    },
+    {
+      "text": "{\"answer\":\"42\",\"has_answer\":true}",
+      "x": 144.0,
+      "baseline": 401.217,
+      "font": "Carlito",
+      "size": 65.0,
+      "bold": false,
+      "width": 932.7,
+      "object": 6
+    },
+    {
+      "text": "Два ключа, верные типы",
+      "x": 144.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 440.7,
+      "object": 7
+    },
+    {
+      "text": "Схема выполнена",
+      "x": 144.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 470.9,
+      "object": 8
+    },
+    {
+      "text": "Документ сообщает 14 дней",
+      "x": 1008.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 509.6,
+      "object": 9
+    },
+    {
+      "text": "Факт ошибочен",
+      "x": 1008.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 409.9,
+      "object": 10
+    },
+    {
+      "text": "Парсер и проверка содержания решают разные задачи",
+      "x": 464.695,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 993.5,
+      "object": 11
+    }
+  ],
+  [
+    {
+      "text": "Условие прочитано неверно",
+      "x": 360.475,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1212.3,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "21",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Фактический ответ strict на вопрос о чужой брони",
+      "x": 470.441,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 980.6,
+      "object": 5
+    },
+    {
+      "text": "«Ответ: Можно.»",
+      "x": 144.0,
+      "baseline": 434.18,
+      "font": "Carlito",
+      "size": 100.0,
+      "bold": false,
+      "width": 731.6,
+      "object": 6
+    },
+    {
+      "text": "В документе D03",
+      "x": 144.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 303.2,
+      "object": 7
+    },
+    {
+      "text": "При чужой брони",
+      "x": 144.0,
+      "baseline": 791.799,
+      "font": "Carlito",
+      "size": 55.0,
+      "bold": false,
+      "width": 411.2,
+      "object": 8
+    },
+    {
+      "text": "продление запрещено",
+      "x": 144.0,
+      "baseline": 857.799,
+      "font": "Carlito",
+      "size": 55.0,
+      "bold": false,
+      "width": 533.1,
+      "object": 9
+    },
+    {
+      "text": "Главный факт",
+      "x": 1008.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 244.4,
+      "object": 10
+    },
+    {
+      "text": "0 баллов",
+      "x": 1008.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 233.7,
+      "object": 11
+    },
+    {
+      "text": "Лабораторная 7 · strict / reservation",
+      "x": 1385.9,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 391.9,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Срок не заменяет число раз",
+      "x": 363.674,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1195.1,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "22",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "«Сколько раз за семестр можно продлевать книгу?»",
+      "x": 447.846,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 1028.2,
+      "object": 5
+    },
+    {
+      "text": "«Продление книги можно",
+      "x": 144.0,
+      "baseline": 411.477,
+      "font": "Carlito",
+      "size": 76.0,
+      "bold": false,
+      "width": 848.0,
+      "object": 6
+    },
+    {
+      "text": "продлить на 14 дней.»",
+      "x": 144.0,
+      "baseline": 502.477,
+      "font": "Carlito",
+      "size": 76.0,
+      "bold": false,
+      "width": 732.6,
+      "object": 7
+    },
+    {
+      "text": "В документе",
+      "x": 144.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 225.3,
+      "object": 8
+    },
+    {
+      "text": "Число не задано",
+      "x": 144.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 436.6,
+      "object": 9
+    },
+    {
+      "text": "В ответе strict",
+      "x": 1008.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 245.0,
+      "object": 10
+    },
+    {
+      "text": "Количество заменено сроком",
+      "x": 1008.0,
+      "baseline": 792.641,
+      "font": "Carlito",
+      "size": 56.0,
+      "bold": false,
+      "width": 709.6,
+      "object": 11
+    },
+    {
+      "text": "Лабораторная 7 · strict / count",
+      "x": 1445.21,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 332.2,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Четыре одинаковых ответа",
+      "x": 379.342,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1167.2,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "23",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Один strict-вопрос о сроке · top-p = 0,8 · top-k = 20",
+      "x": 472.867,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 978.6,
+      "object": 5
+    },
+    {
+      "text": "T",
+      "x": 263.767,
+      "baseline": 393.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 20.5,
+      "object": 6
+    },
+    {
+      "text": "seed",
+      "x": 513.825,
+      "baseline": 393.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 80.3,
+      "object": 7
+    },
+    {
+      "text": "Буквальный ответ",
+      "x": 879.834,
+      "baseline": 393.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 320.8,
+      "object": 8
+    },
+    {
+      "text": "Остановка",
+      "x": 1483.12,
+      "baseline": 393.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 186.3,
+      "object": 9
+    },
+    {
+      "text": "0,5",
+      "x": 244.304,
+      "baseline": 462.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 59.3,
+      "object": 10
+    },
+    {
+      "text": "7",
+      "x": 542.089,
+      "baseline": 462.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 23.8,
+      "object": 11
+    },
+    {
+      "text": "14 дней.",
+      "x": 954.79,
+      "baseline": 462.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 170.2,
+      "object": 12
+    },
+    {
+      "text": "EOS",
+      "x": 1538.52,
+      "baseline": 462.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 75.7,
+      "object": 13
+    },
+    {
+      "text": "0,5",
+      "x": 244.304,
+      "baseline": 532.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 59.3,
+      "object": 14
+    },
+    {
+      "text": "42",
+      "x": 530.179,
+      "baseline": 532.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 47.6,
+      "object": 15
+    },
+    {
+      "text": "14 дней.",
+      "x": 954.79,
+      "baseline": 532.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 170.2,
+      "object": 16
+    },
+    {
+      "text": "EOS",
+      "x": 1538.52,
+      "baseline": 532.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 75.7,
+      "object": 17
+    },
+    {
+      "text": "1",
+      "x": 262.089,
+      "baseline": 602.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 23.8,
+      "object": 18
+    },
+    {
+      "text": "7",
+      "x": 542.089,
+      "baseline": 602.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 23.8,
+      "object": 19
+    },
+    {
+      "text": "14 дней.",
+      "x": 954.79,
+      "baseline": 602.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 170.2,
+      "object": 20
+    },
+    {
+      "text": "EOS",
+      "x": 1538.52,
+      "baseline": 602.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 75.7,
+      "object": 21
+    },
+    {
+      "text": "1",
+      "x": 262.089,
+      "baseline": 672.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 23.8,
+      "object": 22
+    },
+    {
+      "text": "42",
+      "x": 530.179,
+      "baseline": 672.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 47.6,
+      "object": 23
+    },
+    {
+      "text": "14 дней.",
+      "x": 954.79,
+      "baseline": 672.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 170.2,
+      "object": 24
+    },
+    {
+      "text": "EOS",
+      "x": 1538.52,
+      "baseline": 672.064,
+      "font": "Carlito",
+      "size": 47.0,
+      "bold": false,
+      "width": 75.7,
+      "object": 25
+    },
+    {
+      "text": "Одинаковые строки не означают одинаковых распределений",
+      "x": 409.57,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1105.5,
+      "object": 26
+    },
+    {
+      "text": "Лабораторная 7 · четыре sampling-вызова",
+      "x": 1313.46,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 463.5,
+      "object": 27
+    }
+  ],
+  [
+    {
+      "text": "JSON прошёл обе проверки",
+      "x": 369.539,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1183.4,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "24",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "Фактический объект из отдельного JSON-запроса",
+      "x": 479.516,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 965.1,
+      "object": 5
+    },
+    {
+      "text": "{\"answer\":\"14\",\"has_answer\":true}",
+      "x": 144.0,
+      "baseline": 401.217,
+      "font": "Carlito",
+      "size": 65.0,
+      "bold": false,
+      "width": 932.7,
+      "object": 6
+    },
+    {
+      "text": "Структура",
+      "x": 144.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 176.8,
+      "object": 7
+    },
+    {
+      "text": "Схема выполнена",
+      "x": 144.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 470.9,
+      "object": 8
+    },
+    {
+      "text": "Содержание",
+      "x": 1008.0,
+      "baseline": 707.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 226.0,
+      "object": 9
+    },
+    {
+      "text": "Срок верен",
+      "x": 1008.0,
+      "baseline": 798.191,
+      "font": "Carlito",
+      "size": 62.0,
+      "bold": false,
+      "width": 298.3,
+      "object": 10
+    },
+    {
+      "text": "Единица «дней» внутри строки схемой не требовалась",
+      "x": 468.489,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 983.8,
+      "object": 11
+    },
+    {
+      "text": "Лабораторная 7 · отдельный JSON-запрос",
+      "x": 1317.22,
+      "baseline": 976.387,
+      "font": "Carlito",
+      "size": 26.0,
+      "bold": false,
+      "width": 461.4,
+      "object": 12
+    }
+  ],
+  [
+    {
+      "text": "Следующий шаг — поиск",
+      "x": 422.408,
+      "baseline": 163.002,
+      "font": "Prata",
+      "size": 84.0,
+      "bold": false,
+      "width": 1078.4,
+      "object": 1
+    },
+    {
+      "text": "Системы искусственного интеллекта · NLP",
+      "x": 144.0,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 392.2,
+      "object": 3
+    },
+    {
+      "text": "25",
+      "x": 1753.7,
+      "baseline": 1025.52,
+      "font": "Carlito",
+      "size": 22.0,
+      "bold": false,
+      "width": 22.4,
+      "object": 4
+    },
+    {
+      "text": "В этой лекции D03 был выбран заранее",
+      "x": 571.808,
+      "baseline": 325.223,
+      "font": "Carlito",
+      "size": 46.0,
+      "bold": false,
+      "width": 776.7,
+      "object": 5
+    },
+    {
+      "text": "Найти",
+      "x": 305.499,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 154.1,
+      "object": 6
+    },
+    {
+      "text": "документы в коллекции",
+      "x": 187.917,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 390.8,
+      "object": 7
+    },
+    {
+      "text": "Передать",
+      "x": 839.326,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 242.2,
+      "object": 8
+    },
+    {
+      "text": "нужные фрагменты",
+      "x": 801.673,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 316.7,
+      "object": 9
+    },
+    {
+      "text": "Проверить",
+      "x": 1400.05,
+      "baseline": 496.508,
+      "font": "Carlito",
+      "size": 60.0,
+      "bold": false,
+      "width": 274.3,
+      "object": 10
+    },
+    {
+      "text": "ответ и основания",
+      "x": 1389.4,
+      "baseline": 575.988,
+      "font": "Carlito",
+      "size": 38.0,
+      "bold": false,
+      "width": 295.8,
+      "object": 11
+    },
+    {
+      "text": "Ошибка чтения уже найденного документа требует отдельного разбора",
+      "x": 315.583,
+      "baseline": 931.355,
+      "font": "Carlito",
+      "size": 42.0,
+      "bold": false,
+      "width": 1295.5,
+      "object": 18
+    }
+  ]
+]

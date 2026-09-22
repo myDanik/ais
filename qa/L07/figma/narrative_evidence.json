@@ -1,0 +1,44 @@
+{
+  "strict_answers": {
+    "duration": "На 14 дней.",
+    "reservation": "Ответ: Можно.",
+    "count": "Продление книги можно продлить на 14 дней."
+  },
+  "sampling_texts": [
+    "14 дней.",
+    "14 дней.",
+    "14 дней.",
+    "14 дней."
+  ],
+  "json": {
+    "answer": "14",
+    "has_answer": true
+  },
+  "temperature_probabilities": {
+    "0.5": [
+      0.8668133321973348,
+      0.11731042782619837,
+      0.015876239976466765
+    ],
+    "1": [
+      0.6652409557748219,
+      0.24472847105479764,
+      0.09003057317038046
+    ],
+    "2": [
+      0.506480391055654,
+      0.3071958857184984,
+      0.18632372322584756
+    ]
+  },
+  "transformers_version": "5.16.1",
+  "sha256": {
+    "source\\lectures\\L07.md": "d2168b40c135b56ce3b4a92f5d27a0a8afb19a72eb477ef495fddd43da926ef5",
+    "source\\figma\\L07_content.json": "a72f4190c5c4a43aa7c672c39de30c7743e374b59f58076511e9e0a9a0b734b7",
+    "source\\figma\\L07_visuals.json": "691f22b5b72c79fc14267e84be4c0f84ded4a495cf310ed360024224f8e08a07",
+    "source\\figma\\L07_design.md": "8419ba254a649b931624f69489ca42500d21577932737cd59a31a6a3933338fb",
+    "outputs\\L07\\run_records.json": "2bb25662a9f5d67693bb809863a4e727c2e01ad4dad354022bdf08bee8d6cf89"
+  },
+  "notes23_corrected": true,
+  "strict_count_quote_in_lecture": true
+}

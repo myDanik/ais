@@ -1,0 +1,206 @@
+{
+  "lesson": "L07",
+  "sha256": {
+    "source\\lectures\\L07.md": "f3d3f11b9f61ecdce26d0fcc336974e050e73b2d44a0f5ee1d1032996612383b",
+    "source\\labs\\L07.py": "96270348d6b136c3e83a1b211c394693a8e55e2b1b2ba7696789d6efd6800a32",
+    "source\\labs\\L07.json": "09364a63f6eb6ed9db97b8a31bc12aca09e40efd72288cac428a0945fd526dae",
+    "dist\\teacher\\L07\\solution.ipynb": "65306c8b067c35d845a87798f5a602ef2e639ba38c998b2cddfc3d0281512236",
+    "outputs\\L07\\run_records.json": "2bb25662a9f5d67693bb809863a4e727c2e01ad4dad354022bdf08bee8d6cf89"
+  },
+  "code_cells": 16,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "errors": [],
+  "data_copies": {
+    "requests.csv": {
+      "sha256": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+      "identical": true
+    },
+    "knowledge.csv": {
+      "sha256": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+      "identical": true
+    },
+    "retrieval_queries.csv": {
+      "sha256": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112",
+      "identical": true
+    }
+  },
+  "code_matches_current_lab_sources": true,
+  "matched_code_cells": 16,
+  "saved_rows_verified": 11,
+  "exact_texts_match_notebook": true,
+  "all_input_lengths_retokenized": true,
+  "transformers_version": "5.16.1",
+  "warper_lines": {
+    "TemperatureLogitsWarper": [
+      1312
+    ],
+    "TopKLogitsWarper": [
+      1317
+    ],
+    "TopPLogitsWarper": [
+      1321
+    ]
+  },
+  "runs_summary": [
+    {
+      "question_id": "duration",
+      "variant": "basic",
+      "text": "На 14 дней.",
+      "input_tokens": 147,
+      "new_tokens": 7,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": "reservation",
+      "variant": "basic",
+      "text": "Да, можно продлить книгу, если её забронировал другой читатель.",
+      "input_tokens": 154,
+      "new_tokens": 21,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": "count",
+      "variant": "basic",
+      "text": "Сколько раз за семестр можно продлевать книгу — это зависит от того, сколько раз книга была продлена в библиотеке. Если книга продлена на 14 дней, то за каждую неделю можно продлить её. Поэтому, если кни",
+      "input_tokens": 151,
+      "new_tokens": 64,
+      "stop": "limit",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": "duration",
+      "variant": "strict",
+      "text": "На 14 дней.",
+      "input_tokens": 186,
+      "new_tokens": 7,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": "reservation",
+      "variant": "strict",
+      "text": "Ответ: Можно.",
+      "input_tokens": 193,
+      "new_tokens": 6,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": "count",
+      "variant": "strict",
+      "text": "Продление книги можно продлить на 14 дней.",
+      "input_tokens": 190,
+      "new_tokens": 16,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    },
+    {
+      "question_id": null,
+      "variant": null,
+      "text": "14 дней.",
+      "input_tokens": 186,
+      "new_tokens": 5,
+      "stop": "EOS",
+      "mode": "sample",
+      "temperature": 0.5,
+      "top_p": 0.8,
+      "top_k": 20,
+      "seed": 7
+    },
+    {
+      "question_id": null,
+      "variant": null,
+      "text": "14 дней.",
+      "input_tokens": 186,
+      "new_tokens": 5,
+      "stop": "EOS",
+      "mode": "sample",
+      "temperature": 0.5,
+      "top_p": 0.8,
+      "top_k": 20,
+      "seed": 42
+    },
+    {
+      "question_id": null,
+      "variant": null,
+      "text": "14 дней.",
+      "input_tokens": 186,
+      "new_tokens": 5,
+      "stop": "EOS",
+      "mode": "sample",
+      "temperature": 1.0,
+      "top_p": 0.8,
+      "top_k": 20,
+      "seed": 7
+    },
+    {
+      "question_id": null,
+      "variant": null,
+      "text": "14 дней.",
+      "input_tokens": 186,
+      "new_tokens": 5,
+      "stop": "EOS",
+      "mode": "sample",
+      "temperature": 1.0,
+      "top_p": 0.8,
+      "top_k": 20,
+      "seed": 42
+    },
+    {
+      "question_id": null,
+      "variant": null,
+      "text": "{\n  \"answer\": \"14\",\n  \"has_answer\": true\n}",
+      "input_tokens": 181,
+      "new_tokens": 18,
+      "stop": "EOS",
+      "mode": "greedy",
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "seed": 42
+    }
+  ]
+}
