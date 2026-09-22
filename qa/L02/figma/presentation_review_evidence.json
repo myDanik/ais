@@ -1,0 +1,4523 @@
+{
+  "date": "2026-09-08",
+  "mode": "review of exported local SVG/PDF; no Figma calls",
+  "slides_available": 23,
+  "expected_slides": 23,
+  "slides": [
+    {
+      "number": 1,
+      "title": "Классификация текста",
+      "pdf_sha256": "5ea59503adaa457faf83b412ace41da964f5b4727c11e71f80c01309c918d9fb",
+      "svg_sha256": "a7da3ea9a62d3b2567e0c38342a0cb5bd28964994cd469ab2360e6ee81577a7d",
+      "render_sha256": "dd0cb74c96453f987ca30be1f350b05f357d0b5c973e795c5e8f04482cf5b2dd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "1",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Prata",
+          "font_size": 112.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Классификация\n",
+              "x": "510.141",
+              "baseline": "346.336"
+            },
+            {
+              "text": "текста",
+              "x": "772.586",
+              "baseline": "480.336"
+            }
+          ],
+          "text": "Классификация\n текста"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "От слов в сообщении\n",
+              "x": "707.562",
+              "baseline": "656.641"
+            },
+            {
+              "text": "к решению модели",
+              "x": "729.711",
+              "baseline": "723.641"
+            }
+          ],
+          "text": "От слов в сообщении\n к решению модели"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": [
+        {
+          "a": 0,
+          "b": 1,
+          "fraction_of_smaller_bbox": 0.1509,
+          "a_bbox": [
+            510.140625,
+            219.88800048828125,
+            1409.584716796875,
+            377.69598388671875
+          ],
+          "b_bbox": [
+            772.5859375,
+            353.88800048828125,
+            1147.449951171875,
+            511.69598388671875
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "fraction_of_smaller_bbox": 0.1509,
+          "a_bbox": [
+            707.5625,
+            593.9439697265625,
+            1211.742431640625,
+            672.8480224609375
+          ],
+          "b_bbox": [
+            729.7109375,
+            660.9439697265625,
+            1189.652587890625,
+            739.8480224609375
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "При обучении известны ответы",
+      "pdf_sha256": "ac125c321e8f4f4ee0bb70805fe02be504be868349a52c7246f924f5faa1a7c5",
+      "svg_sha256": "70e64de6221d928d3681e16269d0a34a8736cdc2819ebffe60fa6fe330e6af50",
+      "render_sha256": "d0378827387460269ab5df4a6097c7f1d05b4a7626e290b07911b91cf5a64ac8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "При обучении известны ответы",
+              "x": "282.217",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "При обучении известны ответы"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "2",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Обучение",
+              "x": "144",
+              "baseline": "343.355"
+            }
+          ],
+          "text": "Обучение"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Тексты + верные метки",
+              "x": "144",
+              "baseline": "452.375"
+            }
+          ],
+          "text": "Тексты + верные метки"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Параметры\n",
+              "x": "1284",
+              "baseline": "452.375"
+            },
+            {
+              "text": "модели",
+              "x": "1284",
+              "baseline": "529.375"
+            }
+          ],
+          "text": "Параметры\n модели"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Применение",
+              "x": "144",
+              "baseline": "693.355"
+            }
+          ],
+          "text": "Применение"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Новый текст",
+              "x": "144",
+              "baseline": "802.375"
+            }
+          ],
+          "text": "Новый текст"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Модель",
+              "x": "804",
+              "baseline": "802.375"
+            }
+          ],
+          "text": "Модель"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Категория",
+              "x": "1344",
+              "baseline": "802.375"
+            }
+          ],
+          "text": "Категория"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 3,
+      "title": "Проверяем на новых ситуациях",
+      "pdf_sha256": "e26bbb557408d253ae7d1f0d0e6c6b168525136eef098b3c4a33646c9f7d6636",
+      "svg_sha256": "ee86f2aa13ef2f422645b59498a5d99e48115de1e19b5a5141a0c8c87c749d91",
+      "render_sha256": "57b1ca0a77d55b1effe27cdecb6b845b32e2dc659d34e130024faad9c0c1abb3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Проверяем на новых ситуациях",
+              "x": "283.324",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Проверяем на новых ситуациях"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "3",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "3"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Все варианты одного обращения остаются вместе",
+              "x": "448.992",
+              "baseline": "339.406"
+            }
+          ],
+          "text": "Все варианты одного обращения остаются вместе"
+        },
+        {
+          "font": "Prata",
+          "font_size": 132.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "72",
+              "x": "552.923",
+              "baseline": "544.646"
+            }
+          ],
+          "text": "72"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "train",
+              "x": "582.758",
+              "baseline": "709.223"
+            }
+          ],
+          "text": "train"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "360 строк",
+              "x": "544.916",
+              "baseline": "778.672"
+            }
+          ],
+          "text": "360 строк"
+        },
+        {
+          "font": "Prata",
+          "font_size": 132.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "24",
+              "x": "1202.52",
+              "baseline": "544.646"
+            }
+          ],
+          "text": "24"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "validation",
+              "x": "1190",
+              "baseline": "709.223"
+            }
+          ],
+          "text": "validation"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "120 строк",
+              "x": "1200.12",
+              "baseline": "778.672"
+            }
+          ],
+          "text": "120 строк"
+        },
+        {
+          "font": "Prata",
+          "font_size": 132.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "24",
+              "x": "1536.12",
+              "baseline": "544.646"
+            }
+          ],
+          "text": "24"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "test",
+              "x": "1579.82",
+              "baseline": "709.223"
+            }
+          ],
+          "text": "test"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "120 строк",
+              "x": "1533.72",
+              "baseline": "778.672"
+            }
+          ],
+          "text": "120 строк"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "120 групп · 600 строк",
+              "x": "764.514",
+              "baseline": "907.539"
+            }
+          ],
+          "text": "120 групп · 600 строк"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный корпус · разделение по group_id",
+              "x": "1314.5",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный корпус · разделение по group_id"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 4,
+      "title": "Каждому слову — своя координата",
+      "pdf_sha256": "193a292c768514b09f2f8f6473de9ce3118e08bdab9946f0fc7f267bde53da49",
+      "svg_sha256": "16c65d9701c9d9562781df6c83b2d852d4387e86b6676fecc569a077e2b27bf8",
+      "render_sha256": "2e23cb042e33f008256913977c641db77edbea7368be3109644c1acffb2b53e9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Каждому слову — своя координата",
+              "x": "216.182",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Каждому слову — своя координата"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "4",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "4"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d1",
+              "x": "144",
+              "baseline": "333.406"
+            }
+          ],
+          "text": "d1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "книга книга библиотека",
+              "x": "274",
+              "baseline": "333.406"
+            }
+          ],
+          "text": "книга книга библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d2",
+              "x": "144",
+              "baseline": "401.406"
+            }
+          ],
+          "text": "d2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "книга продление",
+              "x": "274",
+              "baseline": "401.406"
+            }
+          ],
+          "text": "книга продление"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d3",
+              "x": "144",
+              "baseline": "469.406"
+            }
+          ],
+          "text": "d3"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "общежитие оплата",
+              "x": "274",
+              "baseline": "469.406"
+            }
+          ],
+          "text": "общежитие оплата"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "библиотека",
+              "x": "335.664",
+              "baseline": "611.672"
+            }
+          ],
+          "text": "библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "книга",
+              "x": "685.754",
+              "baseline": "611.672"
+            }
+          ],
+          "text": "книга"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "общежитие",
+              "x": "932.172",
+              "baseline": "611.672"
+            }
+          ],
+          "text": "общежитие"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "оплата",
+              "x": "1270.95",
+              "baseline": "611.672"
+            }
+          ],
+          "text": "оплата"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "продление",
+              "x": "1533.25",
+              "baseline": "611.672"
+            }
+          ],
+          "text": "продление"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "d1",
+              "x": "188.162",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "d1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1",
+              "x": "421.822",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "2",
+              "x": "719.822",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1017.82",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1315.82",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1613.82",
+              "baseline": "684.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "d2",
+              "x": "188.162",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "d2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "421.822",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1",
+              "x": "719.822",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1017.82",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1315.82",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1",
+              "x": "1613.82",
+              "baseline": "760.773"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "d3",
+              "x": "188.162",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "d3"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "421.822",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "719.822",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1",
+              "x": "1017.82",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1",
+              "x": "1315.82",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1613.82",
+              "baseline": "836.773"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный пример · строки — документы, столбцы — слова",
+              "x": "1132.12",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный пример · строки — документы, столбцы — слова"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 5,
+      "title": "TF и DF считают разные вещи",
+      "pdf_sha256": "b24dfc35cbc1ace4b62a5d1039273d82f97b888585a9ec0f768423536175e439",
+      "svg_sha256": "ef260d966fa41ab46f38498b478f33a177cafda936852d6139571c229657663c",
+      "render_sha256": "5b125d1a257d729a62a095e909724367cc6c23214054e1c861cf2ca719cd9982",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "TF и DF считают разные вещи",
+              "x": "311.461",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "TF и DF считают разные вещи"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "5",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "5"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "В первом документе",
+              "x": "144",
+              "baseline": "363.223"
+            }
+          ],
+          "text": "В первом документе"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книга",
+              "x": "198.406",
+              "baseline": "521.375"
+            }
+          ],
+          "text": "книга"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книга",
+              "x": "482.406",
+              "baseline": "521.375"
+            }
+          ],
+          "text": "книга"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "библиотека",
+              "x": "144",
+              "baseline": "626.641"
+            }
+          ],
+          "text": "библиотека"
+        },
+        {
+          "font": "Prata",
+          "font_size": 112.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "TF = 2",
+              "x": "144",
+              "baseline": "834.336"
+            }
+          ],
+          "text": "TF = 2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Во всей коллекции",
+              "x": "1050",
+              "baseline": "363.223"
+            }
+          ],
+          "text": "Во всей коллекции"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d1",
+              "x": "1050",
+              "baseline": "474.539"
+            }
+          ],
+          "text": "d1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книга книга библиотека",
+              "x": "1150",
+              "baseline": "478.406"
+            }
+          ],
+          "text": "книга книга библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d2",
+              "x": "1050",
+              "baseline": "554.539"
+            }
+          ],
+          "text": "d2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книга продление",
+              "x": "1150",
+              "baseline": "558.406"
+            }
+          ],
+          "text": "книга продление"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "d3",
+              "x": "1050",
+              "baseline": "634.539"
+            }
+          ],
+          "text": "d3"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "общежитие оплата",
+              "x": "1150",
+              "baseline": "638.406"
+            }
+          ],
+          "text": "общежитие оплата"
+        },
+        {
+          "font": "Prata",
+          "font_size": 112.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "DF = 2",
+              "x": "1050",
+              "baseline": "834.336"
+            }
+          ],
+          "text": "DF = 2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный пример · DF учитывает документ один раз",
+              "x": "1205.09",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный пример · DF учитывает документ один раз"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 6,
+      "title": "Меньше DF — больше IDF",
+      "pdf_sha256": "b4c68022302075385d602fe21b5270eeb00e089b170be96e45458d437b45d662",
+      "svg_sha256": "f965ac36ef053f9a499c97a8d83fc385098af8fab219b29d43d0720585d5c0c7",
+      "render_sha256": "05668e8f06b4284565ee027c5e71c8e0fa67521e7783823b75e6c509361dd9cf",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Меньше DF — больше IDF",
+              "x": "393.328",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Меньше DF — больше IDF"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "6",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "6"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "N = 3 документа",
+              "x": "808.32",
+              "baseline": "325.539"
+            }
+          ],
+          "text": "N = 3 документа"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 74.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "IDF = 1 + ln((1 + N) / (1 + DF))",
+              "x": "523.769",
+              "baseline": "446.793"
+            }
+          ],
+          "text": "IDF = 1 + ln((1 + N) / (1 + DF))"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "книга",
+              "x": "452.406",
+              "baseline": "640.375"
+            }
+          ],
+          "text": "книга"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "DF = 2",
+              "x": "472.27",
+              "baseline": "722.539"
+            }
+          ],
+          "text": "DF = 2"
+        },
+        {
+          "font": "Prata",
+          "font_size": 104.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "1,2877",
+              "x": "380.379",
+              "baseline": "853.312"
+            }
+          ],
+          "text": "1,2877"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "библиотека",
+              "x": "1233.06",
+              "baseline": "640.375"
+            }
+          ],
+          "text": "библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "DF = 1",
+              "x": "1336.27",
+              "baseline": "722.539"
+            }
+          ],
+          "text": "DF = 1"
+        },
+        {
+          "font": "Prata",
+          "font_size": 104.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "1,6931",
+              "x": "1244.28",
+              "baseline": "853.312"
+            }
+          ],
+          "text": "1,6931"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "scikit-learn · сглаженный IDF; натуральный логарифм",
+              "x": "1194.28",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "scikit-learn · сглаженный IDF; натуральный логарифм"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 7,
+      "title": "Длина вектора становится единицей",
+      "pdf_sha256": "e43ef381b1a8f5a17f7e89172342662122a429d3bde8d74c76e82206c7ac0466",
+      "svg_sha256": "84d05adeffd3dcb9914b056397a411488a14b4190b8cb0dee0eea164fb3fa2fc",
+      "render_sha256": "e921785a610335307452ea26819bf59a721a1da5f9324ba4d496c4789ce1e4aa",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Длина вектора становится единицей",
+              "x": "178.078",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Длина вектора становится единицей"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "7",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "7"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Координаты: библиотека, книга",
+              "x": "675.454",
+              "baseline": "328.355"
+            }
+          ],
+          "text": "Координаты: библиотека, книга"
+        },
+        {
+          "font": "Prata",
+          "font_size": 104.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "(1,6931; 2,5754)",
+              "x": "586.148",
+              "baseline": "483.312"
+            }
+          ],
+          "text": "(1,6931; 2,5754)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "÷ евклидова длина",
+              "x": "1054",
+              "baseline": "592.355"
+            }
+          ],
+          "text": "÷ евклидова длина"
+        },
+        {
+          "font": "Prata",
+          "font_size": 104.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "(0,5494; 0,8356)",
+              "x": "545.371",
+              "baseline": "765.312"
+            }
+          ],
+          "text": "(0,5494; 0,8356)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "0,5494² + 0,8356² ≈ 1",
+              "x": "752.414",
+              "baseline": "882.406"
+            }
+          ],
+          "text": "0,5494² + 0,8356² ≈ 1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Сумма координат не обязана равняться 1",
+              "x": "1316",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Сумма координат не обязана равняться 1"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 8,
+      "title": "Побеждает наибольшая оценка",
+      "pdf_sha256": "8d790b4dd355b08f203caeeddef5872f1271a42807baf6ce243253f84c46da46",
+      "svg_sha256": "a810695cc76075326e92c183b521e894ab688cc3ba701fe7f1c143c04bb2b481",
+      "render_sha256": "955b383f6ae3b6ea2df43044449895ba966ebcca0af3596ec999c69f59a70b27",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Побеждает наибольшая оценка",
+              "x": "291.076",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Побеждает наибольшая оценка"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "8",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "8"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "x: книга = 0,8; пароль = 0,1",
+              "x": "645.602",
+              "baseline": "344.641"
+            }
+          ],
+          "text": "x: книга = 0,8; пароль = 0,1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 38.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Коэффициенты заданы вручную · b = 0",
+              "x": "648.912",
+              "baseline": "420.988"
+            }
+          ],
+          "text": "Коэффициенты заданы вручную · b = 0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Библиотека",
+              "x": "144",
+              "baseline": "600.375"
+            }
+          ],
+          "text": "Библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "2 × 0,8 − 0,1 = 1,5",
+              "x": "744",
+              "baseline": "611.477"
+            }
+          ],
+          "text": "2 × 0,8 − 0,1 = 1,5"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "ИТ",
+              "x": "144",
+              "baseline": "771.375"
+            }
+          ],
+          "text": "ИТ"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "−0,8 + 2 × 0,1 = −0,6",
+              "x": "744",
+              "baseline": "782.477"
+            }
+          ],
+          "text": "−0,8 + 2 × 0,1 = −0,6"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный пример · s_c = w_cᵀx + b_c",
+              "x": "1386.13",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный пример · s_c = w_cᵀx + b_c"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 9,
+      "title": "Softmax даёт вероятности",
+      "pdf_sha256": "bbcd924a7fc959c2374673ee87a352e428aa03a110faebcbdd46525b5e02e3ff",
+      "svg_sha256": "4a2e8a60890e10c9b3f2e02e0753abf7e100b1de9a0f0ec10d67207752657950",
+      "render_sha256": "d18f47010e452ddb1593b0e1840f9ea7bf0342ea97338baa373a5f033db355cf",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Softmax даёт вероятности",
+              "x": "404.936",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Softmax даёт вероятности"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "9",
+              "x": "1764.85",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "9"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "p(c) = exp(s_c) / Σ exp(s_j)",
+              "x": "621.656",
+              "baseline": "344.375"
+            }
+          ],
+          "text": "p(c) = exp(s_c) / Σ exp(s_j)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Библиотека",
+              "x": "144",
+              "baseline": "501.773"
+            }
+          ],
+          "text": "Библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "s = 1,5",
+              "x": "746",
+              "baseline": "494.539"
+            }
+          ],
+          "text": "s = 1,5"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "89,1%",
+              "x": "1615.5",
+              "baseline": "513.375"
+            }
+          ],
+          "text": "89,1%"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "ИТ",
+              "x": "144",
+              "baseline": "686.773"
+            }
+          ],
+          "text": "ИТ"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "s = −0,6",
+              "x": "746",
+              "baseline": "679.539"
+            }
+          ],
+          "text": "s = −0,6"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "10,9%",
+              "x": "1615.5",
+              "baseline": "698.375"
+            }
+          ],
+          "text": "10,9%"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "0,891 + 0,109 = 1",
+              "x": "792.867",
+              "baseline": "915.406"
+            }
+          ],
+          "text": "0,891 + 0,109 = 1"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 10,
+      "title": "Уверенная ошибка стоит дороже",
+      "pdf_sha256": "594aa259c9f36aaddfda3f31cfb618d5d0a71785636b755597b5b2c74a886231",
+      "svg_sha256": "1d03349ddaab934837ecd81ceae8eb39d2d75568a4018972158704525e15743a",
+      "render_sha256": "50a50cef972a49651c70159b1397d972f3a26d661e3d3cd49c5219d6b10f64a8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Уверенная ошибка стоит дороже",
+              "x": "257.648",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Уверенная ошибка стоит дороже"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "10",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "10"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "L = −ln(p_y)",
+              "x": "795.186",
+              "baseline": "345.926"
+            }
+          ],
+          "text": "L = −ln(p_y)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "291.891",
+              "baseline": "897.938"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0,5",
+              "x": "959.781",
+              "baseline": "897.938"
+            }
+          ],
+          "text": "0,5"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "1",
+              "x": "1651.89",
+              "baseline": "897.938"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "1",
+              "x": "251.781",
+              "baseline": "710.938"
+            }
+          ],
+          "text": "1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "2",
+              "x": "251.781",
+              "baseline": "565.938"
+            }
+          ],
+          "text": "2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 32.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "3",
+              "x": "251.781",
+              "baseline": "420.938"
+            }
+          ],
+          "text": "3"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "p_y = 0,1\n",
+              "x": "535",
+              "baseline": "481.773"
+            },
+            {
+              "text": "L ≈ 2,303",
+              "x": "535",
+              "baseline": "543.773"
+            }
+          ],
+          "text": "p_y = 0,1\n L ≈ 2,303"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "p_y = 0,9\n",
+              "x": "1250",
+              "baseline": "704.773"
+            },
+            {
+              "text": "L ≈ 0,105",
+              "x": "1250",
+              "baseline": "766.773"
+            }
+          ],
+          "text": "p_y = 0,9\n L ≈ 0,105"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 38.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Вероятность правильного класса p_y",
+              "x": "662.049",
+              "baseline": "951.988"
+            }
+          ],
+          "text": "Вероятность правильного класса p_y"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 38.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Потеря L",
+              "x": "144",
+              "baseline": "347.988"
+            }
+          ],
+          "text": "Потеря L"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 11,
+      "title": "Новый вес — новая оценка",
+      "pdf_sha256": "6fe9dc9dc56389162d76eb35f0857e98e44f78b9631fd75ed5bb3b605a175353",
+      "svg_sha256": "c0ba23138256ccf4b5150339ba22cf1a46f5c236b6e38e2ad0565e59c4f6eafd",
+      "render_sha256": "eb98ad48d2a92405817934f2082241ed145d546b3bc6fb283a4a0dcf34e309a0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Новый вес — новая оценка",
+              "x": "381.229",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Новый вес — новая оценка"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "11",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "11"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Правильный класс — библиотека",
+              "x": "618.797",
+              "baseline": "335.406"
+            }
+          ],
+          "text": "Правильный класс — библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Вес «книги»",
+              "x": "144",
+              "baseline": "494.641"
+            }
+          ],
+          "text": "Вес «книги»"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "2",
+              "x": "944.233",
+              "baseline": "515.66"
+            }
+          ],
+          "text": "2"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "→",
+              "x": "1222.32",
+              "baseline": "507.926"
+            }
+          ],
+          "text": "→"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "2,1",
+              "x": "1525.72",
+              "baseline": "515.66"
+            }
+          ],
+          "text": "2,1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Оценка",
+              "x": "144",
+              "baseline": "638.641"
+            }
+          ],
+          "text": "Оценка"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "1,5",
+              "x": "914.717",
+              "baseline": "659.66"
+            }
+          ],
+          "text": "1,5"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "→",
+              "x": "1222.32",
+              "baseline": "651.926"
+            }
+          ],
+          "text": "→"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "1,58",
+              "x": "1505.95",
+              "baseline": "659.66"
+            }
+          ],
+          "text": "1,58"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Вероятность",
+              "x": "144",
+              "baseline": "782.641"
+            }
+          ],
+          "text": "Вероятность"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "0,891",
+              "x": "875.184",
+              "baseline": "803.66"
+            }
+          ],
+          "text": "0,891"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "→",
+              "x": "1222.32",
+              "baseline": "795.926"
+            }
+          ],
+          "text": "→"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 78.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "0,898",
+              "x": "1486.18",
+              "baseline": "803.66"
+            }
+          ],
+          "text": "0,898"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный шаг · изменён один вес; остальные параметры прежние",
+              "x": "1049.93",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный шаг · изменён один вес; остальные параметры прежние"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": [
+        {
+          "a": 2,
+          "b": 3,
+          "fraction_of_smaller_bbox": 1.0,
+          "a_bbox": [
+            144.0,
+            439.0,
+            402.83203125,
+            504.239990234375
+          ],
+          "b_bbox": [
+            372.592041015625,
+            439.0,
+            402.83203125,
+            504.239990234375
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Регуляризация ограничивает веса",
+      "pdf_sha256": "dee94a39027d9ff44536d49026e5cbfd1cd22a97ae463faa8200f66615d3c4b3",
+      "svg_sha256": "19baa4b050414b4639eee0907c025b6cc9dbe48785877dd21a97f05fe721f796",
+      "render_sha256": "a7a6ffe7355f9f8a7e744647b9a498c1f4b9b2f89d8d29f4ccb05abf41b7b4b8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Регуляризация ограничивает веса",
+              "x": "227.625",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Регуляризация ограничивает веса"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "12",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "12"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "При обучении учитываем",
+              "x": "709.83",
+              "baseline": "345.223"
+            }
+          ],
+          "text": "При обучении учитываем"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 66.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Логарифмическую\n",
+              "x": "223.545",
+              "baseline": "499.059"
+            },
+            {
+              "text": "потерю на train",
+              "x": "268.501",
+              "baseline": "578.059"
+            }
+          ],
+          "text": "Логарифмическую\n потерю на train"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 96.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "+",
+              "x": "916.094",
+              "baseline": "527.312"
+            }
+          ],
+          "text": "+"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 66.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Штраф за большие\n",
+              "x": "1151",
+              "baseline": "499.059"
+            },
+            {
+              "text": "коэффициенты",
+              "x": "1205.46",
+              "baseline": "578.059"
+            }
+          ],
+          "text": "Штраф за большие\n коэффициенты"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 104.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "C ↓",
+              "x": "278.418",
+              "baseline": "843.047"
+            }
+          ],
+          "text": "C ↓"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 86.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "→",
+              "x": "641.073",
+              "baseline": "825.895"
+            }
+          ],
+          "text": "→"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Более сильная\n",
+              "x": "850",
+              "baseline": "805.375"
+            },
+            {
+              "text": "регуляризация",
+              "x": "850",
+              "baseline": "882.375"
+            }
+          ],
+          "text": "Более сильная\n регуляризация"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "scikit-learn · LogisticRegression: C — обратная сила регуляризации",
+              "x": "1057.6",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "scikit-learn · LogisticRegression: C — обратная сила регуляризации"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 13,
+      "title": "Baseline задаёт точку отсчёта",
+      "pdf_sha256": "b91944978301769d2910ca17517e19d3a8f48b7bf1cf70c08992c16e3cccb5a4",
+      "svg_sha256": "2b8d8486d92ba5538d7583651c855d2cd33c752951cb28cbabf711b46b32f78a",
+      "render_sha256": "da250c66ac19beeaab650700374d11ac86465a9cc42f77bc8a7bca3a38c39a3b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Baseline задаёт точку отсчёта",
+              "x": "330.82",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Baseline задаёт точку отсчёта"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "13",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "13"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Шесть равных классов",
+              "x": "299.508",
+              "baseline": "397.406"
+            }
+          ],
+          "text": "Шесть равных классов"
+        },
+        {
+          "font": "Prata",
+          "font_size": 158.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "16,7%",
+              "x": "326.103",
+              "baseline": "600.849"
+            }
+          ],
+          "text": "16,7%"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Всегда одна категория",
+              "x": "289.694",
+              "baseline": "739.09"
+            }
+          ],
+          "text": "Всегда одна категория"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "90% писем — ИТ",
+              "x": "1221.7",
+              "baseline": "397.406"
+            }
+          ],
+          "text": "90% писем — ИТ"
+        },
+        {
+          "font": "Prata",
+          "font_size": 158.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "90%",
+              "x": "1220.19",
+              "baseline": "600.849"
+            }
+          ],
+          "text": "90%"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Всегда ИТ",
+              "x": "1288.12",
+              "baseline": "739.09"
+            }
+          ],
+          "text": "Всегда ИТ"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Обе стратегии обходятся без чтения текста",
+              "x": "487.049",
+              "baseline": "902.773"
+            }
+          ],
+          "text": "Обе стратегии обходятся без чтения текста"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебные распределения · доля правильных ответов",
+              "x": "1201.05",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебные распределения · доля правильных ответов"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 14,
+      "title": "Accuracy может скрыть провал",
+      "pdf_sha256": "1349f3b1506cdafe9ed0dce94fd45a75f91c7d81eb529b91a4a49d12f67ad00f",
+      "svg_sha256": "6e213733fd0d28eead7574fea1dad2d784c847e77137e0083e39cf9d01f0967a",
+      "render_sha256": "65af62fa8de2c3f93f5069048e1e6a61c54a29976e6d3569dbd4bf3402ac6b87",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Accuracy может скрыть провал",
+              "x": "296.244",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Accuracy может скрыть провал"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "14",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "14"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Модель всегда отвечает A",
+              "x": "694.148",
+              "baseline": "327.406"
+            }
+          ],
+          "text": "Модель всегда отвечает A"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Предсказанный класс",
+              "x": "1036.1",
+              "baseline": "424.355"
+            }
+          ],
+          "text": "Предсказанный класс"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Истинный\n",
+              "x": "272",
+              "baseline": "595.539"
+            },
+            {
+              "text": "класс",
+              "x": "272",
+              "baseline": "648.539"
+            }
+          ],
+          "text": "Истинный\n класс"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "A",
+              "x": "1055.52",
+              "baseline": "512.09"
+            }
+          ],
+          "text": "A"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "B",
+              "x": "1496.4",
+              "baseline": "512.09"
+            }
+          ],
+          "text": "B"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "A",
+              "x": "716.045",
+              "baseline": "633.18"
+            }
+          ],
+          "text": "A"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "90",
+              "x": "1019.32",
+              "baseline": "633.18"
+            }
+          ],
+          "text": "90"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1484.66",
+              "baseline": "633.18"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "B",
+              "x": "717.803",
+              "baseline": "767.18"
+            }
+          ],
+          "text": "B"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "10",
+              "x": "1019.32",
+              "baseline": "767.18"
+            }
+          ],
+          "text": "10"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 100.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1484.66",
+              "baseline": "767.18"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 56.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Accuracy = 90 / 100 = 0,9",
+              "x": "144",
+              "baseline": "914.641"
+            }
+          ],
+          "text": "Accuracy = 90 / 100 = 0,9"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "B: найдено 0 из 10",
+              "x": "1366.86",
+              "baseline": "914.773"
+            }
+          ],
+          "text": "B: найдено 0 из 10"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 15,
+      "title": "Precision и recall считают разное",
+      "pdf_sha256": "a5590aaf5b66d2b1a7c55380f763e44dcbd4d2e310af9763500cb0ab72ee6bd8",
+      "svg_sha256": "58908afbe7eebc94eb5b3d7d5a1534827dc4ffd5fbda5999882ae2cc79d28cd3",
+      "render_sha256": "41aeabb098714643b4df5507a9f4422896b74b79ff293738093fca300b7e42e1",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Precision и recall считают разное",
+              "x": "261.012",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Precision и recall считают разное"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "15",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "15"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Для A: TP = 90, FP = 10, FN = 0",
+              "x": "638.732",
+              "baseline": "340.773"
+            }
+          ],
+          "text": "Для A: TP = 90, FP = 10, FN = 0"
+        },
+        {
+          "font": "Prata",
+          "font_size": 76.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Precision",
+              "x": "356.406",
+              "baseline": "475.478"
+            }
+          ],
+          "text": "Precision"
+        },
+        {
+          "font": "Prata",
+          "font_size": 76.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Recall",
+              "x": "1279.56",
+              "baseline": "475.478"
+            }
+          ],
+          "text": "Recall"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "90",
+              "x": "393.453",
+              "baseline": "613.344"
+            }
+          ],
+          "text": "90"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "100",
+              "x": "373.18",
+              "baseline": "728.344"
+            }
+          ],
+          "text": "100"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "= 0,9",
+              "x": "658",
+              "baseline": "671.477"
+            }
+          ],
+          "text": "= 0,9"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "90",
+              "x": "1257.45",
+              "baseline": "613.344"
+            }
+          ],
+          "text": "90"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "90",
+              "x": "1257.45",
+              "baseline": "728.344"
+            }
+          ],
+          "text": "90"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "= 1",
+              "x": "1520",
+              "baseline": "671.477"
+            }
+          ],
+          "text": "= 1"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Среди предсказанных A",
+              "x": "293.912",
+              "baseline": "877.223"
+            }
+          ],
+          "text": "Среди предсказанных A"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Среди всех настоящих A",
+              "x": "1155.78",
+              "baseline": "877.223"
+            }
+          ],
+          "text": "Среди всех настоящих A"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 16,
+      "title": "Macro-F1 даёт классам равный вес",
+      "pdf_sha256": "0178c9c62772cbb68bb326b9b496b61ebd2777bfaaadde41982206de1f171cbb",
+      "svg_sha256": "536757c2140d0b6042dfbd4f68c55a05c5c679d734a6911314250c4bad430206",
+      "render_sha256": "4532522386ed94296a2a0781e50e4bfa239fc8e30d0a68021e7941344b48bbe6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Macro-F1 даёт классам равный вес",
+              "x": "230.865",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Macro-F1 даёт классам равный вес"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "16",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "16"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 60.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "F1 = 2TP / (2TP + FP + FN)",
+              "x": "648.867",
+              "baseline": "347.508"
+            }
+          ],
+          "text": "F1 = 2TP / (2TP + FP + FN)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "F1(A)",
+              "x": "474.167",
+              "baseline": "492.09"
+            }
+          ],
+          "text": "F1(A)"
+        },
+        {
+          "font": "Prata",
+          "font_size": 114.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "0,9474",
+              "x": "346.813",
+              "baseline": "633.467"
+            }
+          ],
+          "text": "0,9474"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "F1(B)",
+              "x": "1339.05",
+              "baseline": "492.09"
+            }
+          ],
+          "text": "F1(B)"
+        },
+        {
+          "font": "Prata",
+          "font_size": 114.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "0",
+              "x": "1352.31",
+              "baseline": "633.467"
+            }
+          ],
+          "text": "0"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 82.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "(0,9474 + 0) / 2 ≈ 0,4737",
+              "x": "552.803",
+              "baseline": "828.027"
+            }
+          ],
+          "text": "(0,9474 + 0) / 2 ≈ 0,4737"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "У тех же ответов accuracy = 0,9",
+              "x": "649.688",
+              "baseline": "937.406"
+            }
+          ],
+          "text": "У тех же ответов accuracy = 0,9"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 17,
+      "title": "Словоформы имеют общие части",
+      "pdf_sha256": "5521f6b3022492d28a0a0bd3cf670a66baba7f52bfe16d85ac667241f12723ba",
+      "svg_sha256": "65c0f273299dded3eb62be83e11fe325c8a97efe6fc12b0fe6737f46132c88ea",
+      "render_sha256": "b9219c07f9bde094f482467401776ee67c2cabb5cee48a4f3f81d80cc9c975d0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Словоформы имеют общие части",
+              "x": "248.789",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Словоформы имеют общие части"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "17",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "17"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 116.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "а",
+              "x": "613.414",
+              "baseline": "467.148"
+            }
+          ],
+          "text": "а"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 116.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книг",
+              "x": "386.965",
+              "baseline": "467.148"
+            }
+          ],
+          "text": "книг"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 116.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "у",
+              "x": "1478.94",
+              "baseline": "467.148"
+            }
+          ],
+          "text": "у"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 116.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "книг",
+              "x": "1252.49",
+              "baseline": "467.148"
+            }
+          ],
+          "text": "книг"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Например",
+              "x": "863.428",
+              "baseline": "634.539"
+            }
+          ],
+          "text": "Например"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 74.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "кни",
+              "x": "741.019",
+              "baseline": "805.793"
+            }
+          ],
+          "text": "кни"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 74.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "ниг",
+              "x": "1069.39",
+              "baseline": "805.793"
+            }
+          ],
+          "text": "ниг"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "char_wb · длины 3–5 · внутри границ слов",
+              "x": "551.503",
+              "baseline": "934.223"
+            }
+          ],
+          "text": "char_wb · длины 3–5 · внутри границ слов"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 18,
+      "title": "Выбираем по validation",
+      "pdf_sha256": "5fba4b74827eacb895d72f8377461ba7071d3f761651a334c824956dd62e70f8",
+      "svg_sha256": "16df1126f386fe94a9add0bd9664aeb050ffbabd591016bb53e96b09abd30d21",
+      "render_sha256": "e4b911847e37243181f19284183be87ed8a28633425034cea6414220bcb8b03b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Выбираем по validation",
+              "x": "465.146",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Выбираем по validation"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "18",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "18"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 52.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Macro-F1 на validation",
+              "x": "717.113",
+              "baseline": "336.773"
+            }
+          ],
+          "text": "Macro-F1 на validation"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Слова",
+              "x": "439.44",
+              "baseline": "475.926"
+            }
+          ],
+          "text": "Слова"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Униграммы и биграммы",
+              "x": "310.063",
+              "baseline": "563.355"
+            }
+          ],
+          "text": "Униграммы и биграммы"
+        },
+        {
+          "font": "Prata",
+          "font_size": 126.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "0,4120",
+              "x": "329.648",
+              "baseline": "719.253"
+            }
+          ],
+          "text": "0,4120"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 70.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Символы",
+              "x": "1254.94",
+              "baseline": "475.926"
+            }
+          ],
+          "text": "Символы"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "char_wb, длины 3–5",
+              "x": "1212.64",
+              "baseline": "563.355"
+            }
+          ],
+          "text": "char_wb, длины 3–5"
+        },
+        {
+          "font": "Prata",
+          "font_size": 126.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "0,7430",
+              "x": "1184.67",
+              "baseline": "719.253"
+            }
+          ],
+          "text": "0,7430"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Одинаковый train и алгоритм · отдельное обучение",
+              "x": "433.711",
+              "baseline": "904.406"
+            }
+          ],
+          "text": "Одинаковый train и алгоритм · отдельное обучение"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Выполненная лабораторная L02 · validation: 120 строк",
+              "x": "1179.98",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Выполненная лабораторная L02 · validation: 120 строк"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 19,
+      "title": "Pipeline сохраняет порядок действий",
+      "pdf_sha256": "615a28208458ff0f83709826319601e5dfe094c5fbeb4c7ff71bf3ec9f70441b",
+      "svg_sha256": "abf552d4c42df3665174e705a8ed9b71e36b4703fd4bf4fc2362cd7c39e6c2f8",
+      "render_sha256": "2f8bbb32e5e21116c5dd79ce5b490211919056f7ef53e1b927fe8a1b8882d0b3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Pipeline сохраняет порядок действий",
+              "x": "171.475",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Pipeline сохраняет порядок действий"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "19",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "19"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Обучение",
+              "x": "144",
+              "baseline": "349.355"
+            }
+          ],
+          "text": "Обучение"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Тексты train",
+              "x": "144",
+              "baseline": "442.824"
+            }
+          ],
+          "text": "Тексты train"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "train",
+              "x": "144",
+              "baseline": "513.672"
+            }
+          ],
+          "text": "train"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 62.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "TF-IDF",
+              "x": "692",
+              "baseline": "446.191"
+            }
+          ],
+          "text": "TF-IDF"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "fit",
+              "x": "692",
+              "baseline": "523.223"
+            }
+          ],
+          "text": "fit"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Классификатор",
+              "x": "1240",
+              "baseline": "442.824"
+            }
+          ],
+          "text": "Классификатор"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "fit(X, y)",
+              "x": "1240",
+              "baseline": "519.223"
+            }
+          ],
+          "text": "fit(X, y)"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Применение",
+              "x": "144",
+              "baseline": "681.355"
+            }
+          ],
+          "text": "Применение"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Новые тексты",
+              "x": "144",
+              "baseline": "774.824"
+            }
+          ],
+          "text": "Новые тексты"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 40.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "validation / test",
+              "x": "144",
+              "baseline": "845.672"
+            }
+          ],
+          "text": "validation / test"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 62.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "TF-IDF",
+              "x": "692",
+              "baseline": "778.191"
+            }
+          ],
+          "text": "TF-IDF"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "transform",
+              "x": "692",
+              "baseline": "855.223"
+            }
+          ],
+          "text": "transform"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Классификатор",
+              "x": "1240",
+              "baseline": "774.824"
+            }
+          ],
+          "text": "Классификатор"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "predict",
+              "x": "1240",
+              "baseline": "851.223"
+            }
+          ],
+          "text": "predict"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "y — верные метки train · predict использует сохранённые словарь, IDF и веса",
+              "x": "927.369",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "y — верные метки train · predict использует сохранённые словарь, IDF и веса"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 20,
+      "title": "Сначала split, затем fit",
+      "pdf_sha256": "57d830f2ed951b401dbc93e654cf5359b6c16b15f07ce4b955a850bcea3c440a",
+      "svg_sha256": "a01391e96339d130c45eb5915c5a9248310c15e6f099f6fd2ae589e547d4000a",
+      "render_sha256": "d227946c1781d8c6877f95fdbadd215cf0f03c8d4041a60dff51eb2ed31ee866",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Сначала split, затем fit",
+              "x": "489.346",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Сначала split, затем fit"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "20",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "20"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Ошибка: сначала обучили преобразователь на всех текстах",
+              "x": "144",
+              "baseline": "348.223"
+            }
+          ],
+          "text": "Ошибка: сначала обучили преобразователь на всех текстах"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 68.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Все тексты",
+              "x": "144",
+              "baseline": "454.242"
+            }
+          ],
+          "text": "Все тексты"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 68.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "fit TF-IDF",
+              "x": "730",
+              "baseline": "454.242"
+            }
+          ],
+          "text": "fit TF-IDF"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 68.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "split",
+              "x": "1396",
+              "baseline": "454.242"
+            }
+          ],
+          "text": "split"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 44.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Словарь и IDF уже учитывают test",
+              "x": "144",
+              "baseline": "543.539"
+            }
+          ],
+          "text": "Словарь и IDF уже учитывают test"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Сначала отделяем проверочные ситуации",
+              "x": "144",
+              "baseline": "721.223"
+            }
+          ],
+          "text": "Сначала отделяем проверочные ситуации"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 68.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "split по группам",
+              "x": "144",
+              "baseline": "827.242"
+            }
+          ],
+          "text": "split по группам"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 68.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "fit только на train",
+              "x": "1110",
+              "baseline": "827.242"
+            }
+          ],
+          "text": "fit только на train"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Отложенные тексты проходят transform",
+              "x": "1337.88",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Отложенные тексты проходят transform"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 21,
+      "title": "На тесте верны 95 ответов из 120",
+      "pdf_sha256": "95ab5be5397078301ac52d92a5ddddfcfa89e82dfff4e4bf83b6005bbd22ed36",
+      "svg_sha256": "171b90f0e2d3ee0f62489d0e61b69f4d510ed72490dcefbf6da601ba7b16fde4",
+      "render_sha256": "5d4238ed9f3dfbf7cd269222ff515f34ad86143dbe3a7c8769d9840e4ac5a38a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "На тесте верны 95 ответов из 120",
+              "x": "250.307",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "На тесте верны 95 ответов из 120"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "21",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "21"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 50.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "TF-IDF char_wb + логистическая регрессия",
+              "x": "514.541",
+              "baseline": "340.09"
+            }
+          ],
+          "text": "TF-IDF char_wb + логистическая регрессия"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Правильные ответы",
+              "x": "324.258",
+              "baseline": "482.406"
+            }
+          ],
+          "text": "Правильные ответы"
+        },
+        {
+          "font": "Prata",
+          "font_size": 152.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "95 / 120",
+              "x": "236.988",
+              "baseline": "673.956"
+            }
+          ],
+          "text": "95 / 120"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Accuracy ≈ 0,792",
+              "x": "363.305",
+              "baseline": "802.406"
+            }
+          ],
+          "text": "Accuracy ≈ 0,792"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Macro-F1",
+              "x": "1298.6",
+              "baseline": "482.406"
+            }
+          ],
+          "text": "Macro-F1"
+        },
+        {
+          "font": "Prata",
+          "font_size": 152.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "0,765",
+              "x": "1189.46",
+              "baseline": "673.956"
+            }
+          ],
+          "text": "0,765"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "24 исходные ситуации",
+              "x": "1163.65",
+              "baseline": "802.406"
+            }
+          ],
+          "text": "24 исходные ситуации"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Выполненная лабораторная L02 · выбранный вариант, отложенный test",
+              "x": "981.883",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Выполненная лабораторная L02 · выбранный вариант, отложенный test"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 22,
+      "title": "Число метрики не объясняет ошибку",
+      "pdf_sha256": "347158cfe5093c3ae85b9db169802c84e75e3dc24b11af40ac18df8f016599e6",
+      "svg_sha256": "d4b7f2e471dfd176a069e4d7ef04da763dd2689c797acf863297a00b5e6e9a53",
+      "render_sha256": "e9bcfa74ecd3ec8b5017cdd5ee4127301b2828d92c26bacb682529e9ac66dcf2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Число метрики не объясняет ошибку",
+              "x": "165.814",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Число метрики не объясняет ошибку"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "22",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "22"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "«Не могу найти ",
+              "x": "144",
+              "baseline": "426.344"
+            },
+            {
+              "text": "в списке доступной литературы.»",
+              "x": "144",
+              "baseline": "522.344"
+            }
+          ],
+          "text": "«Не могу найти  в списке доступной литературы.»"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 80.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "монографию\n",
+              "x": "688.062",
+              "baseline": "426.344"
+            }
+          ],
+          "text": "монографию\n"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Верная категория",
+              "x": "144",
+              "baseline": "693.355"
+            }
+          ],
+          "text": "Верная категория"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Библиотека",
+              "x": "144",
+              "baseline": "799.477"
+            }
+          ],
+          "text": "Библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 42.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Ответ модели",
+              "x": "1008",
+              "baseline": "693.355"
+            }
+          ],
+          "text": "Ответ модели"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "ИТ",
+              "x": "1008",
+              "baseline": "799.477"
+            }
+          ],
+          "text": "ИТ"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Какие признаки могли повлиять на ответ?",
+              "x": "530.484",
+              "baseline": "913.406"
+            }
+          ],
+          "text": "Какие признаки могли повлиять на ответ?"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "Учебный корпус · точная строка из ошибок выбранной модели",
+              "x": "1080.91",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "Учебный корпус · точная строка из ошибок выбранной модели"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    },
+    {
+      "number": 23,
+      "title": "Одна просьба — разные ответы",
+      "pdf_sha256": "83044a649b11e44d923b91e17869aaba8897caf08ae0e4e969b2ef318b462638",
+      "svg_sha256": "dd12d95cda0cc71106d45b800dcef25df164904b7ee51395c076bdd8128abcc0",
+      "render_sha256": "1b50c2c53a3d193acdc11291800460992fc33aa0106ed3ce6e7a540174168fcf",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "text_nodes": [
+        {
+          "font": "Prata",
+          "font_size": 84.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Одна просьба — разные ответы",
+              "x": "280.863",
+              "baseline": "163.002"
+            }
+          ],
+          "text": "Одна просьба — разные ответы"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Системы искусственного интеллекта · NLP",
+              "x": "144",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "Системы искусственного интеллекта · NLP"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 22.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "23",
+              "x": "1753.7",
+              "baseline": "1025.52"
+            }
+          ],
+          "text": "23"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 48.0,
+          "fill": "#65706A",
+          "lines": [
+            {
+              "text": "Верная категория — библиотека",
+              "x": "144",
+              "baseline": "325.406"
+            }
+          ],
+          "text": "Верная категория — библиотека"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "«Мне нужна помощь в подборе\n",
+              "x": "144",
+              "baseline": "447.824"
+            },
+            {
+              "text": "источников для курсовой.»",
+              "x": "144",
+              "baseline": "517.824"
+            }
+          ],
+          "text": "«Мне нужна помощь в подборе\n источников для курсовой.»"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 76.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "ИТ",
+              "x": "1390",
+              "baseline": "490.477"
+            }
+          ],
+          "text": "ИТ"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "«",
+              "x": "144",
+              "baseline": "709.824"
+            },
+            {
+              "text": " Мне нужна помощь\n",
+              "x": "529.383",
+              "baseline": "709.824"
+            },
+            {
+              "text": "в подборе источников для курсовой.»",
+              "x": "144",
+              "baseline": "779.824"
+            }
+          ],
+          "text": "«  Мне нужна помощь\n в подборе источников для курсовой.»"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 58.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Здравствуйте!",
+              "x": "173.736",
+              "baseline": "709.824"
+            }
+          ],
+          "text": "Здравствуйте!"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 64.0,
+          "fill": "#1D9A78",
+          "lines": [
+            {
+              "text": "Учебный\n",
+              "x": "1390",
+              "baseline": "717.375"
+            },
+            {
+              "text": "процесс",
+              "x": "1390",
+              "baseline": "794.375"
+            }
+          ],
+          "text": "Учебный\n процесс"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 46.0,
+          "fill": "#161B18",
+          "lines": [
+            {
+              "text": "Как проверить устойчивость к формулировке?",
+              "x": "506.716",
+              "baseline": "915.223"
+            }
+          ],
+          "text": "Как проверить устойчивость к формулировке?"
+        },
+        {
+          "font": "Carlito",
+          "font_size": 26.0,
+          "fill": "#0070C0",
+          "lines": [
+            {
+              "text": "library-20 · все пять ошибочны: один ответ ИТ, четыре — учебный процесс",
+              "x": "957.609",
+              "baseline": "974.387"
+            }
+          ],
+          "text": "library-20 · все пять ошибочны: один ответ ИТ, четыре — учебный процесс"
+        }
+      ],
+      "outside_page_text_bbox": [],
+      "possible_bbox_overlaps": []
+    }
+  ],
+  "exact_input_checks": [
+    {
+      "slide": 22,
+      "row_id": "library-19-1",
+      "input": "Не могу найти монографию в списке доступной литературы.",
+      "matches_csv_exactly": true
+    },
+    {
+      "slide": 23,
+      "row_id": "library-20-1",
+      "input": "Мне нужна помощь в подборе источников для курсовой.",
+      "matches_csv_exactly": true
+    },
+    {
+      "slide": 23,
+      "row_id": "library-20-2",
+      "input": "Здравствуйте! Мне нужна помощь в подборе источников для курсовой.",
+      "matches_csv_exactly": true
+    }
+  ],
+  "lecture": {
+    "pdf_sha256": "b6cdbe6c1d367de4c707d37adc96010bde8793f817ae8fa25f385aca290ada61",
+    "pages": 11,
+    "headings": [
+      {
+        "number": 1,
+        "title": "Классификация текста",
+        "page": 1
+      },
+      {
+        "number": 2,
+        "title": "При обучении известны ответы",
+        "page": 1
+      },
+      {
+        "number": 3,
+        "title": "Проверяем на новых ситуациях",
+        "page": 2
+      },
+      {
+        "number": 4,
+        "title": "Каждому слову — своя координата",
+        "page": 2
+      },
+      {
+        "number": 5,
+        "title": "TF и DF считают разные вещи",
+        "page": 3
+      },
+      {
+        "number": 6,
+        "title": "Меньше DF — больше IDF",
+        "page": 4
+      },
+      {
+        "number": 7,
+        "title": "Длина вектора становится единицей",
+        "page": 4
+      },
+      {
+        "number": 8,
+        "title": "Побеждает наибольшая оценка",
+        "page": 4
+      },
+      {
+        "number": 9,
+        "title": "Softmax даёт вероятности",
+        "page": 5
+      },
+      {
+        "number": 10,
+        "title": "Уверенная ошибка стоит дороже",
+        "page": 5
+      },
+      {
+        "number": 11,
+        "title": "Новый вес — новая оценка",
+        "page": 5
+      },
+      {
+        "number": 12,
+        "title": "Регуляризация ограничивает веса",
+        "page": 6
+      },
+      {
+        "number": 13,
+        "title": "Baseline задаёт точку отсчёта",
+        "page": 6
+      },
+      {
+        "number": 14,
+        "title": "Accuracy может скрыть провал",
+        "page": 7
+      },
+      {
+        "number": 15,
+        "title": "Precision и recall считают разное",
+        "page": 7
+      },
+      {
+        "number": 16,
+        "title": "Macro-F1 даёт классам равный вес",
+        "page": 7
+      },
+      {
+        "number": 17,
+        "title": "Словоформы имеют общие части",
+        "page": 8
+      },
+      {
+        "number": 18,
+        "title": "Выбираем по validation",
+        "page": 8
+      },
+      {
+        "number": 19,
+        "title": "Pipeline сохраняет порядок действий",
+        "page": 9
+      },
+      {
+        "number": 20,
+        "title": "Сначала split, затем fit",
+        "page": 9
+      },
+      {
+        "number": 21,
+        "title": "На тесте верны 95 ответов из 120",
+        "page": 10
+      },
+      {
+        "number": 22,
+        "title": "Число метрики не объясняет ошибку",
+        "page": 10
+      },
+      {
+        "number": 23,
+        "title": "Одна просьба — разные ответы",
+        "page": 10
+      }
+    ]
+  },
+  "source_sha256": {
+    "source\\lectures\\L02.md": "b4ac031bf1573a2226f0269d4a0aab23c750e6b228272b23e0365fbbb988b116",
+    "source\\figma\\L02_content.json": "079f8f837ac92c6a0277a87c6c4b5cf8c1ffe0ffd3202c6d5752eb5c3ba88929",
+    "source\\figma\\L02_design.md": "e8c7161a47022c56138fb908480397f48ded3933b54fdf0566b7b2a3be2c184c"
+  },
+  "manual_review": "see presentation_review.md; bbox overlaps are candidates, not automatic failures"
+}

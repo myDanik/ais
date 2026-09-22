@@ -1,0 +1,267 @@
+{
+  "review_date": "2026-09-08",
+  "sha256": {
+    "source/lectures/L02.md": "e7582033d83f0b96cd23d85178c408254cdda2f12b4bf4fba699d4444fcfdde9",
+    "source/figma/L02_content.json": "9dc0f2e828f1abe5ceedb1c0bd1ddc378f1ca79127cb99dcde0a108c5869036d",
+    "source/figma/L02_design.md": "e8c7161a47022c56138fb908480397f48ded3933b54fdf0566b7b2a3be2c184c"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Классификация текста",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 2,
+      "title": "При обучении известны ответы",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 3,
+      "title": "Проверяем на новых ситуациях",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 4,
+      "title": "Каждому слову — своя координата",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 5,
+      "title": "TF и DF считают разные вещи",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 6,
+      "title": "Меньше DF — больше IDF",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 7,
+      "title": "Длина вектора становится единицей",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 8,
+      "title": "Побеждает наибольшая оценка",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 9,
+      "title": "Softmax даёт вероятности",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 10,
+      "title": "Уверенная ошибка стоит дороже",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 11,
+      "title": "Новый вес — новая оценка",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 12,
+      "title": "Регуляризация ограничивает веса",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 13,
+      "title": "Baseline задаёт точку отсчёта",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 14,
+      "title": "Accuracy может скрыть провал",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 15,
+      "title": "Precision и recall считают разное",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 16,
+      "title": "Macro-F1 даёт классам равный вес",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 17,
+      "title": "Словоформы имеют общие части",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 18,
+      "title": "Выбираем по validation",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 19,
+      "title": "Pipeline сохраняет порядок действий",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 20,
+      "title": "Сначала split, затем fit",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 21,
+      "title": "На тесте верны 95 ответов из 120",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 22,
+      "title": "Число метрики не объясняет ошибку",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    },
+    {
+      "slide": 23,
+      "title": "Одна просьба — разные ответы",
+      "number_matches": true,
+      "title_matches": true,
+      "section_matches": true,
+      "anchor_in_fragment": true,
+      "anchor_occurrences_in_lecture": 1,
+      "notes_count": 3,
+      "title_in_design": true
+    }
+  ],
+  "checks": "23 sequential headings, titles, section IDs, unique in-fragment anchors, notes and design titles match",
+  "numerical_review_reference": "facts_evidence.json",
+  "new_experiment_runs": 0,
+  "visual_review_pending": true
+}

@@ -1,0 +1,1779 @@
+[
+  {
+    "slide": 1,
+    "expected": 6,
+    "matched": 6,
+    "errors": [],
+    "max_baseline_error_px": 0.127,
+    "matches": [
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Классификация",
+        "dx_svg_px": -0.019,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "текста",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": 0.024
+      },
+      {
+        "text": "От слов в сообщении",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.081
+      },
+      {
+        "text": "к решению модели",
+        "dx_svg_px": -0.073,
+        "dy_svg_px": -0.127
+      }
+    ]
+  },
+  {
+    "slide": 2,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "При обучении известны ответы",
+        "dx_svg_px": 0.001,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "2",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Обучение",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.033
+      },
+      {
+        "text": "Тексты + верные метки",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.035
+      },
+      {
+        "text": "Параметры",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.035
+      },
+      {
+        "text": "модели",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.023
+      },
+      {
+        "text": "Применение",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Новый текст",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Модель",
+        "dx_svg_px": -0.038,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Категория",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": -0.001
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "expected": 15,
+    "matched": 15,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Проверяем на новых ситуациях",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "3",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Все варианты одного обращения остаются вместе",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.042
+      },
+      {
+        "text": "72",
+        "dx_svg_px": 0.003,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "train",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": 0.063
+      },
+      {
+        "text": "360 строк",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "24",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "validation",
+        "dx_svg_px": -0.072,
+        "dy_svg_px": 0.063
+      },
+      {
+        "text": "120 строк",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "24",
+        "dx_svg_px": -0.026,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "test",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": 0.063
+      },
+      {
+        "text": "120 строк",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "120 групп · 600 строк",
+        "dx_svg_px": -0.066,
+        "dy_svg_px": -0.055
+      },
+      {
+        "text": "Учебный корпус · разделение по group_id",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "expected": 33,
+    "matched": 33,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Каждому слову — своя координата",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "4",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "d1",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "книга книга библиотека",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": -0.052
+      },
+      {
+        "text": "d2",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.02
+      },
+      {
+        "text": "книга продление",
+        "dx_svg_px": -0.06,
+        "dy_svg_px": -0.02
+      },
+      {
+        "text": "d3",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "общежитие оплата",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "библиотека",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": 0.004,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "общежитие",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "оплата",
+        "dx_svg_px": -0.064,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "продление",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "d1",
+        "dx_svg_px": 0.002,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "2",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.035
+      },
+      {
+        "text": "d2",
+        "dx_svg_px": 0.002,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "d3",
+        "dx_svg_px": 0.002,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.015
+      },
+      {
+        "text": "Учебный пример · строки — документы, столбцы — слова",
+        "dx_svg_px": -0.02,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "expected": 17,
+    "matched": 17,
+    "errors": [],
+    "max_baseline_error_px": 0.127,
+    "matches": [
+      {
+        "text": "TF и DF считают разные вещи",
+        "dx_svg_px": 0.009,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "5",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "В первом документе",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": 0.02,
+        "dy_svg_px": 0.029
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": 0.029
+      },
+      {
+        "text": "библиотека",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.127
+      },
+      {
+        "text": "TF = 2",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.014
+      },
+      {
+        "text": "Во всей коллекции",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "d1",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": -0.077
+      },
+      {
+        "text": "книга книга библиотека",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "d2",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": -0.083
+      },
+      {
+        "text": "книга продление",
+        "dx_svg_px": -0.04,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "d3",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": -0.089
+      },
+      {
+        "text": "общежитие оплата",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "DF = 2",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.014
+      },
+      {
+        "text": "Учебный пример · DF учитывает документ один раз",
+        "dx_svg_px": -0.082,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Меньше DF — больше IDF",
+        "dx_svg_px": 0.008,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "6",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "N = 3 документа",
+        "dx_svg_px": 0.008,
+        "dy_svg_px": -0.065
+      },
+      {
+        "text": "IDF = 1 + ln((1 + N) / (1 + DF))",
+        "dx_svg_px": 0.017,
+        "dy_svg_px": -0.053
+      },
+      {
+        "text": "книга",
+        "dx_svg_px": 0.004,
+        "dy_svg_px": 0.029
+      },
+      {
+        "text": "DF = 2",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.045
+      },
+      {
+        "text": "1,2877",
+        "dx_svg_px": -0.027,
+        "dy_svg_px": -0.084
+      },
+      {
+        "text": "библиотека",
+        "dx_svg_px": 0.01,
+        "dy_svg_px": 0.029
+      },
+      {
+        "text": "DF = 1",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.045
+      },
+      {
+        "text": "1,6931",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.084
+      },
+      {
+        "text": "scikit-learn · сглаженный IDF; натуральный логарифм",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "expected": 9,
+    "matched": 9,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Длина вектора становится единицей",
+        "dx_svg_px": -0.062,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "7",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Координаты: библиотека, книга",
+        "dx_svg_px": -0.072,
+        "dy_svg_px": 0.011
+      },
+      {
+        "text": "(1,6931; 2,5754)",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.062
+      },
+      {
+        "text": "÷ евклидова длина",
+        "dx_svg_px": -0.022,
+        "dy_svg_px": 0.029
+      },
+      {
+        "text": "(0,5494; 0,8356)",
+        "dx_svg_px": -0.041,
+        "dy_svg_px": -0.072
+      },
+      {
+        "text": "0,5494² + 0,8356² ≈ 1",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "Сумма координат не обязана равняться 1",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Побеждает наибольшая оценка",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "8",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "x: книга = 0,8; пароль = 0,1",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.119
+      },
+      {
+        "text": "Коэффициенты заданы вручную · b = 0",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": -0.044
+      },
+      {
+        "text": "Библиотека",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.003
+      },
+      {
+        "text": "2 × 0,8 − 0,1 = 1,5",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": 0.013
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.011
+      },
+      {
+        "text": "−0,8 + 2 × 0,1 = −0,6",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Учебный пример · s_c = w_cᵀx + b_c",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.075,
+    "matches": [
+      {
+        "text": "Softmax даёт вероятности",
+        "dx_svg_px": 0.022,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "9",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "p(c) = exp(s_c) / Σ exp(s_j)",
+        "dx_svg_px": -0.074,
+        "dy_svg_px": 0.035
+      },
+      {
+        "text": "Библиотека",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.041
+      },
+      {
+        "text": "s = 1,5",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.063
+      },
+      {
+        "text": "89,1%",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": -0.021
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.005
+      },
+      {
+        "text": "s = −0,6",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "10,9%",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": 0.025
+      },
+      {
+        "text": "0,891 + 0,109 = 1",
+        "dx_svg_px": -0.017,
+        "dy_svg_px": -0.042
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "expected": 16,
+    "matched": 16,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Уверенная ошибка стоит дороже",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "10",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "L = −ln(p_y)",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": -0.042
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.035,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "0,5",
+        "dx_svg_px": -0.027,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "1",
+        "dx_svg_px": -0.065,
+        "dy_svg_px": -0.008
+      },
+      {
+        "text": "2",
+        "dx_svg_px": -0.065,
+        "dy_svg_px": -0.03
+      },
+      {
+        "text": "3",
+        "dx_svg_px": -0.065,
+        "dy_svg_px": -0.05
+      },
+      {
+        "text": "p_y = 0,1",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": 0.003
+      },
+      {
+        "text": "L ≈ 2,303",
+        "dx_svg_px": -0.046,
+        "dy_svg_px": -0.031
+      },
+      {
+        "text": "p_y = 0,9",
+        "dx_svg_px": 0.022,
+        "dy_svg_px": -0.023
+      },
+      {
+        "text": "L ≈ 0,105",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Вероятность правильного класса p_y",
+        "dx_svg_px": 0.011,
+        "dy_svg_px": 0.0
+      },
+      {
+        "text": "Потеря L",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.006
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "expected": 17,
+    "matched": 17,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Новый вес — новая оценка",
+        "dx_svg_px": -0.025,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "11",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Правильный класс — библиотека",
+        "dx_svg_px": -0.051,
+        "dy_svg_px": -0.01
+      },
+      {
+        "text": "Вес «книги»",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.109
+      },
+      {
+        "text": "2",
+        "dx_svg_px": -0.013,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "→",
+        "dx_svg_px": -0.02,
+        "dy_svg_px": -0.014
+      },
+      {
+        "text": "2,1",
+        "dx_svg_px": -0.058,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "Оценка",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.109
+      },
+      {
+        "text": "1,5",
+        "dx_svg_px": -0.033,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "→",
+        "dx_svg_px": -0.02,
+        "dy_svg_px": -0.014
+      },
+      {
+        "text": "1,58",
+        "dx_svg_px": -0.072,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "Вероятность",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.109
+      },
+      {
+        "text": "0,891",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "→",
+        "dx_svg_px": -0.02,
+        "dy_svg_px": -0.014
+      },
+      {
+        "text": "0,898",
+        "dx_svg_px": 0.024,
+        "dy_svg_px": -0.038
+      },
+      {
+        "text": "Учебный шаг · изменён один вес; остальные параметры прежние",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "expected": 14,
+    "matched": 14,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Регуляризация ограничивает веса",
+        "dx_svg_px": -0.003,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "12",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "При обучении учитываем",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.037
+      },
+      {
+        "text": "Логарифмическую",
+        "dx_svg_px": -0.061,
+        "dy_svg_px": -0.047
+      },
+      {
+        "text": "потерю на train",
+        "dx_svg_px": -0.061,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "+",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": -0.068
+      },
+      {
+        "text": "Штраф за большие",
+        "dx_svg_px": -0.078,
+        "dy_svg_px": -0.047
+      },
+      {
+        "text": "коэффициенты",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "C ↓",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.081
+      },
+      {
+        "text": "→",
+        "dx_svg_px": -0.047,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "Более сильная",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": 0.005
+      },
+      {
+        "text": "регуляризация",
+        "dx_svg_px": -0.06,
+        "dy_svg_px": -0.007
+      },
+      {
+        "text": "scikit-learn · LogisticRegression: C — обратная сила регуляризации",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Baseline задаёт точку отсчёта",
+        "dx_svg_px": -0.016,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "13",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Шесть равных классов",
+        "dx_svg_px": -0.0,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "16,7%",
+        "dx_svg_px": -0.005,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "Всегда одна категория",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "90% писем — ИТ",
+        "dx_svg_px": -0.024,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "90%",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "Всегда ИТ",
+        "dx_svg_px": -0.058,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "Обе стратегии обходятся без чтения текста",
+        "dx_svg_px": -0.057,
+        "dy_svg_px": 0.005
+      },
+      {
+        "text": "Учебные распределения · доля правильных ответов",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "expected": 17,
+    "matched": 17,
+    "errors": [],
+    "max_baseline_error_px": 0.127,
+    "matches": [
+      {
+        "text": "Accuracy может скрыть провал",
+        "dx_svg_px": -0.08,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "14",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Модель всегда отвечает A",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.062
+      },
+      {
+        "text": "Предсказанный класс",
+        "dx_svg_px": -0.038,
+        "dy_svg_px": -0.009
+      },
+      {
+        "text": "Истинный",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.037
+      },
+      {
+        "text": "класс",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": -0.085
+      },
+      {
+        "text": "A",
+        "dx_svg_px": -0.068,
+        "dy_svg_px": 0.018
+      },
+      {
+        "text": "B",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.018
+      },
+      {
+        "text": "A",
+        "dx_svg_px": -0.071,
+        "dy_svg_px": -0.034
+      },
+      {
+        "text": "90",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": -0.034
+      },
+      {
+        "text": "0",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.034
+      },
+      {
+        "text": "B",
+        "dx_svg_px": -0.071,
+        "dy_svg_px": -0.068
+      },
+      {
+        "text": "10",
+        "dx_svg_px": 0.018,
+        "dy_svg_px": -0.068
+      },
+      {
+        "text": "0",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.068
+      },
+      {
+        "text": "Accuracy = 90 / 100 = 0,9",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.127
+      },
+      {
+        "text": "B: найдено 0 из 10",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": -0.033
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "expected": 14,
+    "matched": 14,
+    "errors": [],
+    "max_baseline_error_px": 0.058,
+    "matches": [
+      {
+        "text": "Precision и recall считают разное",
+        "dx_svg_px": 0.002,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "15",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Для A: TP = 90, FP = 10, FN = 0",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": 0.009
+      },
+      {
+        "text": "Precision",
+        "dx_svg_px": -0.034,
+        "dy_svg_px": 0.006
+      },
+      {
+        "text": "Recall",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.006
+      },
+      {
+        "text": "90",
+        "dx_svg_px": -0.005,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "100",
+        "dx_svg_px": -0.028,
+        "dy_svg_px": -0.01
+      },
+      {
+        "text": "= 0,9",
+        "dx_svg_px": -0.022,
+        "dy_svg_px": 0.051
+      },
+      {
+        "text": "90",
+        "dx_svg_px": -0.002,
+        "dy_svg_px": 0.016
+      },
+      {
+        "text": "90",
+        "dx_svg_px": -0.002,
+        "dy_svg_px": -0.01
+      },
+      {
+        "text": "= 1",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": 0.051
+      },
+      {
+        "text": "Среди предсказанных A",
+        "dx_svg_px": -0.072,
+        "dy_svg_px": 0.043
+      },
+      {
+        "text": "Среди всех настоящих A",
+        "dx_svg_px": -0.038,
+        "dy_svg_px": 0.043
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "expected": 10,
+    "matched": 10,
+    "errors": [],
+    "max_baseline_error_px": 0.094,
+    "matches": [
+      {
+        "text": "Macro-F1 даёт классам равный вес",
+        "dx_svg_px": -0.011,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "16",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "F1 = 2TP / (2TP + FP + FN)",
+        "dx_svg_px": -0.017,
+        "dy_svg_px": -0.094
+      },
+      {
+        "text": "F1(A)",
+        "dx_svg_px": -0.045,
+        "dy_svg_px": 0.004
+      },
+      {
+        "text": "0,9474",
+        "dx_svg_px": -0.079,
+        "dy_svg_px": -0.037
+      },
+      {
+        "text": "F1(B)",
+        "dx_svg_px": -0.076,
+        "dy_svg_px": 0.004
+      },
+      {
+        "text": "0",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": -0.037
+      },
+      {
+        "text": "(0,9474 + 0) / 2 ≈ 0,4737",
+        "dx_svg_px": -0.047,
+        "dy_svg_px": -0.027
+      },
+      {
+        "text": "У тех же ответов accuracy = 0,9",
+        "dx_svg_px": -0.044,
+        "dy_svg_px": -0.046
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.089,
+    "matches": [
+      {
+        "text": "Словоформы имеют общие части",
+        "dx_svg_px": -0.077,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "17",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "а",
+        "dx_svg_px": 0.004,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "книг",
+        "dx_svg_px": -0.035,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "у",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "книг",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": 0.002
+      },
+      {
+        "text": "Например",
+        "dx_svg_px": -0.052,
+        "dy_svg_px": -0.089
+      },
+      {
+        "text": "кни",
+        "dx_svg_px": 0.015,
+        "dy_svg_px": -0.073
+      },
+      {
+        "text": "ниг",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": -0.073
+      },
+      {
+        "text": "char_wb · длины 3–5 · внутри границ слов",
+        "dx_svg_px": -0.051,
+        "dy_svg_px": 0.019
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Выбираем по validation",
+        "dx_svg_px": -0.038,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "18",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Macro-F1 на validation",
+        "dx_svg_px": -0.061,
+        "dy_svg_px": -0.017
+      },
+      {
+        "text": "Слова",
+        "dx_svg_px": -0.014,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "Униграммы и биграммы",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": 0.003
+      },
+      {
+        "text": "0,4120",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": -0.103
+      },
+      {
+        "text": "Символы",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "char_wb, длины 3–5",
+        "dx_svg_px": -0.036,
+        "dy_svg_px": 0.003
+      },
+      {
+        "text": "0,7430",
+        "dx_svg_px": -0.072,
+        "dy_svg_px": -0.103
+      },
+      {
+        "text": "Одинаковый train и алгоритм · отдельное обучение",
+        "dx_svg_px": -0.067,
+        "dy_svg_px": -0.04
+      },
+      {
+        "text": "Выполненная лабораторная L02 · validation: 120 строк",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "expected": 18,
+    "matched": 18,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Pipeline сохраняет порядок действий",
+        "dx_svg_px": 0.021,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "19",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Обучение",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.013
+      },
+      {
+        "text": "Тексты train",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.004
+      },
+      {
+        "text": "train",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.034
+      },
+      {
+        "text": "TF-IDF",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": -0.075
+      },
+      {
+        "text": "fit",
+        "dx_svg_px": -0.062,
+        "dy_svg_px": 0.053
+      },
+      {
+        "text": "Классификатор",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": 0.004
+      },
+      {
+        "text": "fit(X, y)",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "Применение",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.037
+      },
+      {
+        "text": "Новые тексты",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.002
+      },
+      {
+        "text": "validation / test",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.04
+      },
+      {
+        "text": "TF-IDF",
+        "dx_svg_px": -0.006,
+        "dy_svg_px": -0.081
+      },
+      {
+        "text": "transform",
+        "dx_svg_px": -0.062,
+        "dy_svg_px": 0.047
+      },
+      {
+        "text": "Классификатор",
+        "dx_svg_px": -0.07,
+        "dy_svg_px": -0.002
+      },
+      {
+        "text": "predict",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": 0.021
+      },
+      {
+        "text": "y — верные метки train · predict использует сохранённые словарь, IDF и веса",
+        "dx_svg_px": -0.043,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 20,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Сначала split, затем fit",
+        "dx_svg_px": -0.03,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "20",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Ошибка: сначала обучили преобразователь на всех текстах",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.041
+      },
+      {
+        "text": "Все тексты",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.018
+      },
+      {
+        "text": "fit TF-IDF",
+        "dx_svg_px": -0.078,
+        "dy_svg_px": -0.018
+      },
+      {
+        "text": "split",
+        "dx_svg_px": -0.05,
+        "dy_svg_px": -0.018
+      },
+      {
+        "text": "Словарь и IDF уже учитывают test",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.081
+      },
+      {
+        "text": "Сначала отделяем проверочные ситуации",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": 0.025
+      },
+      {
+        "text": "split по группам",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "fit только на train",
+        "dx_svg_px": -0.01,
+        "dy_svg_px": -0.036
+      },
+      {
+        "text": "Отложенные тексты проходят transform",
+        "dx_svg_px": 0.016,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 21,
+    "expected": 11,
+    "matched": 11,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "На тесте верны 95 ответов из 120",
+        "dx_svg_px": -0.007,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "21",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "TF-IDF char_wb + логистическая регрессия",
+        "dx_svg_px": 0.003,
+        "dy_svg_px": 0.01
+      },
+      {
+        "text": "Правильные ответы",
+        "dx_svg_px": 0.026,
+        "dy_svg_px": -0.062
+      },
+      {
+        "text": "95 / 120",
+        "dx_svg_px": -0.012,
+        "dy_svg_px": -0.048
+      },
+      {
+        "text": "Accuracy ≈ 0,792",
+        "dx_svg_px": -0.017,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "Macro-F1",
+        "dx_svg_px": -0.048,
+        "dy_svg_px": -0.062
+      },
+      {
+        "text": "0,765",
+        "dx_svg_px": 0.014,
+        "dy_svg_px": -0.048
+      },
+      {
+        "text": "24 исходные ситуации",
+        "dx_svg_px": -0.084,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "Выполненная лабораторная L02 · выбранный вариант, отложенный test",
+        "dx_svg_px": -0.019,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 22,
+    "expected": 12,
+    "matched": 12,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Число метрики не объясняет ошибку",
+        "dx_svg_px": 0.012,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "22",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "«Не могу найти ",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.014
+      },
+      {
+        "text": "в списке доступной литературы.»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.032
+      },
+      {
+        "text": "монографию",
+        "dx_svg_px": 0.02,
+        "dy_svg_px": -0.014
+      },
+      {
+        "text": "Верная категория",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "Библиотека",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "Ответ модели",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.001
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "Какие признаки могли повлиять на ответ?",
+        "dx_svg_px": -0.066,
+        "dy_svg_px": -0.026
+      },
+      {
+        "text": "Учебный корпус · точная строка из ошибок выбранной модели",
+        "dx_svg_px": -0.002,
+        "dy_svg_px": -0.119
+      }
+    ]
+  },
+  {
+    "slide": 23,
+    "expected": 15,
+    "matched": 15,
+    "errors": [],
+    "max_baseline_error_px": 0.119,
+    "matches": [
+      {
+        "text": "Одна просьба — разные ответы",
+        "dx_svg_px": -0.007,
+        "dy_svg_px": 0.046
+      },
+      {
+        "text": "Системы искусственного интеллекта · NLP",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "23",
+        "dx_svg_px": -0.018,
+        "dy_svg_px": -0.058
+      },
+      {
+        "text": "Верная категория — библиотека",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.046
+      },
+      {
+        "text": "«Мне нужна помощь в подборе",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.006
+      },
+      {
+        "text": "источников для курсовой.»",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": 0.01
+      },
+      {
+        "text": "ИТ",
+        "dx_svg_px": -0.06,
+        "dy_svg_px": 0.031
+      },
+      {
+        "text": "«",
+        "dx_svg_px": -0.056,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": " Мне нужна помощь",
+        "dx_svg_px": 0.015,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "в подборе источников для курсовой.»",
+        "dx_svg_px": 0.0,
+        "dy_svg_px": -0.012
+      },
+      {
+        "text": "Здравствуйте!",
+        "dx_svg_px": 0.028,
+        "dy_svg_px": -0.028
+      },
+      {
+        "text": "Учебный",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": 0.017
+      },
+      {
+        "text": "процесс",
+        "dx_svg_px": -0.004,
+        "dy_svg_px": 0.007
+      },
+      {
+        "text": "Как проверить устойчивость к формулировке?",
+        "dx_svg_px": 0.006,
+        "dy_svg_px": 0.027
+      },
+      {
+        "text": "library-20 · все пять ошибочны: один ответ ИТ, четыре — учебный процесс",
+        "dx_svg_px": -0.065,
+        "dy_svg_px": -0.119
+      }
+    ]
+  }
+]

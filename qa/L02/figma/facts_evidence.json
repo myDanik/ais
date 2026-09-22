@@ -1,0 +1,583 @@
+{
+  "review_date": "2026-09-08",
+  "versions": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "sklearn": "1.9.0"
+  },
+  "sha256": {
+    "source/lectures/L02.md": "94b8584fa2a17246eb67796c4ef53161cd525054320eac8ca0d1d8b7544b26c5",
+    "source/labs/L02.py": "78a4612e1f0a402e885b012956ffb9152bab054020764e3d6051ae41c840299e",
+    "source/labs/L02.json": "620445d6e999085546b04674b7013a0be5cfb0e6d383b7092593a13c1239a129",
+    "dist/teacher/L02/solution.ipynb": "475941e4498ddd8a6d8c92418e1e170b672d87f9d5c9fe008043dc4877c79f38",
+    "data/requests.csv": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+    "dist/teacher/data/requests.csv": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+    "scripts/build_notebooks.py": "abcdf650e3022b676f555b327aa3f76e69054c7c660fb35e36884655ecfd1944"
+  },
+  "notebook_outputs": [
+    {
+      "cell_index_zero_based": 1,
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_index_zero_based": 3,
+      "execution_count": 2,
+      "outputs": [
+        "{'train': 360, 'validation': 120, 'test': 120}\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 5,
+      "execution_count": 3,
+      "outputs": [
+        "      true predicted  correct\n0       it        it     True\n1  library        it    False\n2  library   library     True",
+        "Доля верных ответов: 0.6666666666666666\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 8,
+      "execution_count": 4,
+      "outputs": [
+        "train {'it': 60, 'library': 60, 'dormitory': 60, 'study': 60, 'admission': 60, 'scholarship': 60}\nvalidation {'it': 20, 'library': 20, 'dormitory': 20, 'study': 20, 'admission': 20, 'scholarship': 20}\ntest {'it': 20, 'library': 20, 'dormitory': 20, 'study': 20, 'admission': 20, 'scholarship': 20}\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 9,
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_index_zero_based": 12,
+      "execution_count": 6,
+      "outputs": [
+        "['библиотека' 'книга' 'общежитие' 'оплата' 'продление']\nIDF: [1.693147 1.287682 1.693147 1.693147 1.693147]\n",
+        "   библиотека     книга  общежитие    оплата  продление\n0    0.549351  0.835592   0.000000  0.000000   0.000000\n1    0.000000  0.605349   0.000000  0.000000   0.795961\n2    0.000000  0.000000   0.707107  0.707107   0.000000"
+      ]
+    },
+    {
+      "cell_index_zero_based": 13,
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_index_zero_based": 16,
+      "execution_count": 8,
+      "outputs": [
+        "{'accuracy': 0.16666666666666666, 'macro_f1': 0.047619047619047616}\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 17,
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_index_zero_based": 20,
+      "execution_count": 10,
+      "outputs": [
+        "       accuracy  macro_f1\nwords  0.450000  0.412048\nchars  0.741667  0.742991",
+        "Выбран: chars\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 21,
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_index_zero_based": 24,
+      "execution_count": 12,
+      "outputs": [
+        "{'accuracy': 0.7916666666666666, 'macro_f1': 0.7651970897407003}\n              precision    recall  f1-score   support\n\n   admission       0.80      1.00      0.89        20\n   dormitory       1.00      1.00      1.00        20\n          it       0.62      1.00      0.77        20\n     library       0.71      0.50      0.59        20\n scholarship       1.00      1.00      1.00        20\n       study       0.56      0.25      0.34        20\n\n    accuracy                           0.79       120\n   macro avg       0.78      0.79      0.77       120\nweighted avg       0.78      0.79      0.77       120\n\n",
+        "<Figure size 800x400 with 1 Axes>",
+        "       group_id                                               text    label  \\\n190  library-19  Не могу найти монографию в списке доступной ли...  library   \n195  library-20  Мне нужна помощь в подборе источников для курс...  library   \n385    study-18         Когда откроется запись на повторный зачёт?    study   \n390    study-19         Как исправить ошибку в зачётной ведомости?    study   \n395    study-20     Где опубликован график экзаменационной сессии?    study   \n\n     predicted  \n190         it  \n195         it  \n385         it  \n390         it  \n395  admission  ",
+        "[('', 'it'), ('жжжжжжжжж', 'it'), ('Не открывается виртуальная комната конференции', 'it')]\n"
+      ]
+    },
+    {
+      "cell_index_zero_based": 25,
+      "execution_count": 13,
+      "outputs": []
+    }
+  ],
+  "source_sync": {
+    "five_solution_cells_match_python": true,
+    "teacher_ending_matches_json": true
+  },
+  "data": {
+    "rows": 600,
+    "groups": 120,
+    "rows_per_group": 5,
+    "splits": {
+      "train": {
+        "rows": 360,
+        "groups": 72,
+        "class_counts": {
+          "it": 60,
+          "library": 60,
+          "dormitory": 60,
+          "study": 60,
+          "admission": 60,
+          "scholarship": 60
+        }
+      },
+      "validation": {
+        "rows": 120,
+        "groups": 24,
+        "class_counts": {
+          "it": 20,
+          "library": 20,
+          "dormitory": 20,
+          "study": 20,
+          "admission": 20,
+          "scholarship": 20
+        }
+      },
+      "test": {
+        "rows": 120,
+        "groups": 24,
+        "class_counts": {
+          "it": 20,
+          "library": 20,
+          "dormitory": 20,
+          "study": 20,
+          "admission": 20,
+          "scholarship": 20
+        }
+      }
+    },
+    "group_intersections_empty": true
+  },
+  "manual": {
+    "toy": {
+      "vocabulary": [
+        "библиотека",
+        "книга",
+        "общежитие",
+        "оплата",
+        "продление"
+      ],
+      "idf": [
+        1.6931471805599454,
+        1.2876820724517808,
+        1.6931471805599454,
+        1.6931471805599454,
+        1.6931471805599454
+      ],
+      "unnormalized_first": [
+        1.6931471805599454,
+        2.5753641449035616,
+        0,
+        0,
+        0
+      ],
+      "first_l2_length_before_normalization": 3.082084984858942,
+      "normalized_matrix": [
+        [
+          0.5493512310263033,
+          0.8355915419449176,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.6053485081062916,
+          0.0,
+          0.0,
+          0.7959605415681652
+        ],
+        [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ]
+      ]
+    },
+    "linear": {
+      "features": [
+        0.8,
+        0.1
+      ],
+      "scores": [
+        1.5,
+        -0.6000000000000001
+      ],
+      "softmax": [
+        0.8909031788043871,
+        0.10909682119561294
+      ],
+      "loss_library": 0.11551952317975495,
+      "loss_p09": 0.10536051565782628,
+      "loss_p01": 2.3025850929940455,
+      "updated_weight": 2.1,
+      "updated_scores": [
+        1.58,
+        -0.6000000000000001
+      ],
+      "updated_softmax": [
+        0.8984390721023634,
+        0.10156092789763664
+      ],
+      "updated_loss_library": 0.10709638573961529,
+      "gradient_library_book_single_example_no_regularization": -0.08727745695649035
+    },
+    "always_A_90_10": {
+      "confusion_true_rows": [
+        [
+          90,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "accuracy": 0.9,
+      "precision_A": 0.9,
+      "recall_A": 1,
+      "F1_A": 0.9473684210526315,
+      "F1_B": 0,
+      "macro_F1": 0.47368421052631576
+    },
+    "six_balanced_always_one": {
+      "accuracy": 0.16666666666666666,
+      "F1_predicted_class": 0.2857142857142857,
+      "macro_F1": 0.047619047619047616
+    }
+  },
+  "char_wb_verification": {
+    "fit_seconds": 0.07784030004404485,
+    "validation_scores": {
+      "accuracy": 0.7416666666666667,
+      "macro_f1": 0.7429906658307709
+    },
+    "test_scores": {
+      "accuracy": 0.7916666666666666,
+      "macro_f1": 0.7651970897407003
+    },
+    "labels": [
+      "admission",
+      "dormitory",
+      "it",
+      "library",
+      "scholarship",
+      "study"
+    ],
+    "confusion_matrix_true_rows": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        10,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        5,
+        0,
+        6,
+        4,
+        0,
+        5
+      ]
+    ],
+    "errors": [
+      {
+        "id": "library-19-1",
+        "text": "Не могу найти монографию в списке доступной литературы.",
+        "label": "library",
+        "group_id": "library-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-19-2",
+        "text": "Здравствуйте! Не могу найти монографию в списке доступной литературы.",
+        "label": "library",
+        "group_id": "library-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-19-3",
+        "text": "Подскажите, пожалуйста. Не могу найти монографию в списке доступной литературы.",
+        "label": "library",
+        "group_id": "library-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-19-4",
+        "text": "Не могу найти монографию в списке доступной литературы. Буду благодарен за ответ.",
+        "label": "library",
+        "group_id": "library-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-19-5",
+        "text": "Нужна консультация. Не могу найти монографию в списке доступной литературы.",
+        "label": "library",
+        "group_id": "library-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-20-1",
+        "text": "Мне нужна помощь в подборе источников для курсовой.",
+        "label": "library",
+        "group_id": "library-20",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "library-20-2",
+        "text": "Здравствуйте! Мне нужна помощь в подборе источников для курсовой.",
+        "label": "library",
+        "group_id": "library-20",
+        "split": "test",
+        "predicted": "study"
+      },
+      {
+        "id": "library-20-3",
+        "text": "Подскажите, пожалуйста. Мне нужна помощь в подборе источников для курсовой.",
+        "label": "library",
+        "group_id": "library-20",
+        "split": "test",
+        "predicted": "study"
+      },
+      {
+        "id": "library-20-4",
+        "text": "Мне нужна помощь в подборе источников для курсовой. Буду благодарен за ответ.",
+        "label": "library",
+        "group_id": "library-20",
+        "split": "test",
+        "predicted": "study"
+      },
+      {
+        "id": "library-20-5",
+        "text": "Нужна консультация. Мне нужна помощь в подборе источников для курсовой.",
+        "label": "library",
+        "group_id": "library-20",
+        "split": "test",
+        "predicted": "study"
+      },
+      {
+        "id": "study-18-1",
+        "text": "Когда откроется запись на повторный зачёт?",
+        "label": "study",
+        "group_id": "study-18",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-18-2",
+        "text": "Здравствуйте! Когда откроется запись на повторный зачёт?",
+        "label": "study",
+        "group_id": "study-18",
+        "split": "test",
+        "predicted": "library"
+      },
+      {
+        "id": "study-18-3",
+        "text": "Подскажите, пожалуйста. Когда откроется запись на повторный зачёт?",
+        "label": "study",
+        "group_id": "study-18",
+        "split": "test",
+        "predicted": "library"
+      },
+      {
+        "id": "study-18-4",
+        "text": "Когда откроется запись на повторный зачёт? Буду благодарен за ответ.",
+        "label": "study",
+        "group_id": "study-18",
+        "split": "test",
+        "predicted": "library"
+      },
+      {
+        "id": "study-18-5",
+        "text": "Нужна консультация. Когда откроется запись на повторный зачёт?",
+        "label": "study",
+        "group_id": "study-18",
+        "split": "test",
+        "predicted": "library"
+      },
+      {
+        "id": "study-19-1",
+        "text": "Как исправить ошибку в зачётной ведомости?",
+        "label": "study",
+        "group_id": "study-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-19-2",
+        "text": "Здравствуйте! Как исправить ошибку в зачётной ведомости?",
+        "label": "study",
+        "group_id": "study-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-19-3",
+        "text": "Подскажите, пожалуйста. Как исправить ошибку в зачётной ведомости?",
+        "label": "study",
+        "group_id": "study-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-19-4",
+        "text": "Как исправить ошибку в зачётной ведомости? Буду благодарен за ответ.",
+        "label": "study",
+        "group_id": "study-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-19-5",
+        "text": "Нужна консультация. Как исправить ошибку в зачётной ведомости?",
+        "label": "study",
+        "group_id": "study-19",
+        "split": "test",
+        "predicted": "it"
+      },
+      {
+        "id": "study-20-1",
+        "text": "Где опубликован график экзаменационной сессии?",
+        "label": "study",
+        "group_id": "study-20",
+        "split": "test",
+        "predicted": "admission"
+      },
+      {
+        "id": "study-20-2",
+        "text": "Здравствуйте! Где опубликован график экзаменационной сессии?",
+        "label": "study",
+        "group_id": "study-20",
+        "split": "test",
+        "predicted": "admission"
+      },
+      {
+        "id": "study-20-3",
+        "text": "Подскажите, пожалуйста. Где опубликован график экзаменационной сессии?",
+        "label": "study",
+        "group_id": "study-20",
+        "split": "test",
+        "predicted": "admission"
+      },
+      {
+        "id": "study-20-4",
+        "text": "Где опубликован график экзаменационной сессии? Буду благодарен за ответ.",
+        "label": "study",
+        "group_id": "study-20",
+        "split": "test",
+        "predicted": "admission"
+      },
+      {
+        "id": "study-20-5",
+        "text": "Нужна консультация. Где опубликован график экзаменационной сессии?",
+        "label": "study",
+        "group_id": "study-20",
+        "split": "test",
+        "predicted": "admission"
+      }
+    ],
+    "error_groups": {
+      "library-19": {
+        "it": 5
+      },
+      "library-20": {
+        "study": 4,
+        "it": 1
+      },
+      "study-18": {
+        "library": 4,
+        "it": 1
+      },
+      "study-19": {
+        "it": 5
+      },
+      "study-20": {
+        "admission": 5
+      }
+    },
+    "controls": [
+      {
+        "text": "",
+        "predicted": "it",
+        "nnz": 0
+      },
+      {
+        "text": "жжжжжжжжж",
+        "predicted": "it",
+        "nnz": 0
+      },
+      {
+        "text": "Не открывается виртуальная комната конференции",
+        "predicted": "it",
+        "nnz": 64
+      },
+      {
+        "text": "Мне нужна помощь в подборе источников для курсовой.",
+        "predicted": "it",
+        "nnz": 75
+      },
+      {
+        "text": "Мне нужна помощь в подборе источников для курсовой",
+        "predicted": "study",
+        "nnz": 75
+      },
+      {
+        "text": "Здравствуйте! Мне нужна помощь в подборе источников для курсовой.",
+        "predicted": "study",
+        "nnz": 111
+      }
+    ],
+    "intercepts": {
+      "admission": 0.0006551863374492772,
+      "dormitory": -0.06229711394776912,
+      "it": 0.2067941084118221,
+      "library": 0.1279219391675159,
+      "scholarship": -0.42124413537826894,
+      "study": 0.14817001540944144
+    },
+    "implementation_char_wb": "    def _char_wb_ngrams(self, text_document):\n        \"\"\"Whitespace sensitive char-n-gram tokenization.\n\n        Tokenize text_document into a sequence of character n-grams\n        operating only inside word boundaries. n-grams at the edges\n        of words are padded with space.\"\"\"\n        # normalize white spaces\n        text_document = self._white_spaces.sub(\" \", text_document)\n\n        min_n, max_n = self.ngram_range\n        ngrams = []\n\n        # bind method outside of loop to reduce overhead\n        ngrams_append = ngrams.append\n\n        for w in text_document.split():\n            w = \" \" + w + \" \"\n            w_len = len(w)\n            for n in range(min_n, max_n + 1):\n                offset = 0\n                ngrams_append(w[offset : offset + n])\n                while offset + n < w_len:\n                    offset += 1\n                    ngrams_append(w[offset : offset + n])\n                if offset == 0:  # count a short word (w_len < n) only once\n                    break\n        return ngrams\n"
+  },
+  "result": "all numerical and exact-input checks passed; see facts_review.md for wording observations"
+}
