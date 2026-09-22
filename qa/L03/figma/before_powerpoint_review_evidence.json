@@ -1,0 +1,485 @@
+{
+  "sha256": {
+    "assets\\figma\\L03\\slide-01.svg": "49647f33831e0d3e341c7d645527e96eabc485a4ae4a9ac0249499a69625fb01",
+    "qa\\L03\\figma\\slide-01.pdf": "fd2a2b52072168521d034a76a5523c5563106d0ef4ec2c55fbe1ed4f56376ac1",
+    "qa\\L03\\figma\\slide-01.png": "9e678daa187909214c1e65a46b84696197dff32b615a3aae50e71f616afe8910",
+    "qa\\L03\\figma\\editable_slides\\slide-01.png": "45cf9e6b78c98441a54e354627a89e61dc6546614c75cf64e84f92bfac524ab8",
+    "assets\\figma\\L03\\slide-02.svg": "306c6ac06e7185c4ab82df0f7602b350dc58743c7875a5ce0347962bf70d78f7",
+    "qa\\L03\\figma\\slide-02.pdf": "606ec7e3d88afb2a4553837a009385bc8a4df958300914cfd82bdcad4339d5c1",
+    "qa\\L03\\figma\\slide-02.png": "8802d78a4a2a041308c8146cfe461042f58dac9fbef91a7d81ff008d30deef82",
+    "qa\\L03\\figma\\editable_slides\\slide-02.png": "981b929f3c661481ce4ea8930b4ef990349e61702b12cc05555a318688f98ad0",
+    "assets\\figma\\L03\\slide-03.svg": "640b53c506459dbbbe05ec08a61df4f2f698b1831d38c6338abf5fa2472d3749",
+    "qa\\L03\\figma\\slide-03.pdf": "a8923c47c84d501d80d07f9cf8026b7c4a8edafa83b2dfc54021877bd12f500c",
+    "qa\\L03\\figma\\slide-03.png": "8bf323ff544f1f50f27e15469a09d6ce0c40702d338397c89b9dd081fa3354b4",
+    "qa\\L03\\figma\\editable_slides\\slide-03.png": "af5ebf56610d4fce844484b5e156c7b8bf33a734b3fd0e9fa9fc73b871544122",
+    "assets\\figma\\L03\\slide-04.svg": "9c6800101d90fde961894643abd93d82ef9713b0abb716168611a95d26c04b1e",
+    "qa\\L03\\figma\\slide-04.pdf": "368a924f71f1046708952059712a39400feae2b687c59cc66ebf723b67df6b98",
+    "qa\\L03\\figma\\slide-04.png": "166e579f33e70a0b2950e035c310ddd3cac22cda913bfd3b0d92d337d78d8632",
+    "qa\\L03\\figma\\editable_slides\\slide-04.png": "52dd64e3a2586af2edd3373d7c633a7a4395ed9e57577f1b54da83deaaa8f804",
+    "assets\\figma\\L03\\slide-05.svg": "55658c46f678f7a061c9a077f452b4d12c8e185688490f4dc776cfa36e09c420",
+    "qa\\L03\\figma\\slide-05.pdf": "debaad6d6cb79f3013d80bdd718513afe166be59b97686fe89a7375b71f0d0d3",
+    "qa\\L03\\figma\\slide-05.png": "7e70efb1f569e1da8041ba8df6374c1f29cbf2afa5c2554e750867e8096d4ba4",
+    "qa\\L03\\figma\\editable_slides\\slide-05.png": "095450199fcd04b1770ac0fb4248834500ec680840e750cbaaf86fe8184ae38c",
+    "assets\\figma\\L03\\slide-06.svg": "c2e0bd2a14fc05f6bb18ea7f62699879723f32e866b6d3362e72be149a212612",
+    "qa\\L03\\figma\\slide-06.pdf": "cf7c3a1d820b782694d0dd14507afe3296ad7a9fe768b427d425acb626a41846",
+    "qa\\L03\\figma\\slide-06.png": "61e44ce21da8e665409eda2f2f4ae61410d352aef5f26eb32c464e94d673a79f",
+    "qa\\L03\\figma\\editable_slides\\slide-06.png": "ce1e5ebd7b37cdd31e1cfdb540b71edd8f60b70b84293211c1c754a75888163d",
+    "assets\\figma\\L03\\slide-07.svg": "4c7291a33dcfc243efd296d0313622f67dd5bef72f1cbd1bd9f6cd9c2811f6d2",
+    "qa\\L03\\figma\\slide-07.pdf": "a2e67b4e918d76915ee674eacddd6a4e41b16d1ad82ed19bea056952190726e3",
+    "qa\\L03\\figma\\slide-07.png": "a7a91e3b753d4fe824b02d207af261496ff8241de3b7dc1abbf9c3d36f8fa7a6",
+    "qa\\L03\\figma\\editable_slides\\slide-07.png": "11187ca9fa0503f272016167f9286ec6a6f6e9b62d688525ad513616709ae646",
+    "assets\\figma\\L03\\slide-08.svg": "42cac3a546a4f2d358cdc696d4eae09623ccc3d18ee0bcbc17d4fa9ded7f9eae",
+    "qa\\L03\\figma\\slide-08.pdf": "48b268f708c000d6423ed8c387292417203ccdda41d51f88230996f89f33eada",
+    "qa\\L03\\figma\\slide-08.png": "44464fa04138c841812d68fdfaffc3c362a269b0343caa28a0d793dd67a54c0a",
+    "qa\\L03\\figma\\editable_slides\\slide-08.png": "98d687f69f3b4147f082b841faefbf761153497fe00262f0adebec737294e797",
+    "assets\\figma\\L03\\slide-09.svg": "5d251b375a086c2c7ff119cabade6a25a1c3afb573226be7da63a3591c7a9ebb",
+    "qa\\L03\\figma\\slide-09.pdf": "c5fef64038d281085a8c5bbc2bfc6f531049a2722551d68dfecfa231561fa54d",
+    "qa\\L03\\figma\\slide-09.png": "f9293166a4457269e2ae4ae4963f3a3b5cd7c2840374086a47386a337730716f",
+    "qa\\L03\\figma\\editable_slides\\slide-09.png": "132a91dd384e3e609854cb8ec0f07d54e198fc29e0ba55d77a752068f312a9ba",
+    "assets\\figma\\L03\\slide-10.svg": "4201f21255c2e636df8336830916bd739772eb09664b906f7a5afbccafefb4e0",
+    "qa\\L03\\figma\\slide-10.pdf": "8788d134ea20ed4acc0e75b9d90fc54713d707d05b24c415b9b327972579839a",
+    "qa\\L03\\figma\\slide-10.png": "2492f40ebf1a6031dd6f4e22911e9ecd9583103c1c7ee8aadacd6a2305cb8140",
+    "qa\\L03\\figma\\editable_slides\\slide-10.png": "ecda88fe165ad4113e141ee734a0487287a2626721649c1e07545474fa0bca41",
+    "assets\\figma\\L03\\slide-11.svg": "96160dd8653c56f3f85b4ab75f7094d9f2e78fb35f1b854402bfe8cecd48fb50",
+    "qa\\L03\\figma\\slide-11.pdf": "c1f75a706c0b6f279018668be2335fcbed2e2f92cc7a5c52a5f31bb75fe471ec",
+    "qa\\L03\\figma\\slide-11.png": "1c2b5d6066f92c72763570a05f28b24f169e6e0eba370e7d1cb5e7a115ee61fe",
+    "qa\\L03\\figma\\editable_slides\\slide-11.png": "493a2593b2e65fcf4f8d8729b806b676515af039511066a1b45fdf55a70f0eb9",
+    "assets\\figma\\L03\\slide-12.svg": "b480e44d864f2952d4f4aaef06b26d752e5f4124b0fd57894a68e3c8847630e4",
+    "qa\\L03\\figma\\slide-12.pdf": "18bf739669e5af36eaf56449067a2009a857c28331d281bec48f705ad458d49c",
+    "qa\\L03\\figma\\slide-12.png": "f00ac137c6921c9d4161c22b615dd0ff13b5cb44f1855eff78a4e9f6fe13d43c",
+    "qa\\L03\\figma\\editable_slides\\slide-12.png": "374d19f8ca9b6b9c0f63a8d8c6241ec4ac2579596f1d0c52bfdf495e473c7d80",
+    "assets\\figma\\L03\\slide-13.svg": "6dc48c18c5fb400e9e33c6b7e01b3d836882e8cd2e9d58ccf6b986d376c7daf2",
+    "qa\\L03\\figma\\slide-13.pdf": "aaa0cac6dda2b3b41ee43f51cd37fbff03db8894f2810b9b25e11a8f4866dc7f",
+    "qa\\L03\\figma\\slide-13.png": "70ce08d787930d0c094d1cc4c84e4e8ee582605c24f16ebddc6f100588397891",
+    "qa\\L03\\figma\\editable_slides\\slide-13.png": "92edbb2127d8f6837b445db703cc6f7339bf278613a95abbbc70341ac0225832",
+    "assets\\figma\\L03\\slide-14.svg": "d6df75a40e5b44a69f77e93a8720c7251ccc457ff8e3d2f26b64b3f3270d71bb",
+    "qa\\L03\\figma\\slide-14.pdf": "bfa6ce50e6b7079cf1cd33a666cb4a3d6f99035ffbb72ae8a4ba293b5775dcb4",
+    "qa\\L03\\figma\\slide-14.png": "311502d47107bf88b18b14bdeaa1df574483c82837fb365efaa5f5f462ca19a1",
+    "qa\\L03\\figma\\editable_slides\\slide-14.png": "6640a67e343521d9e190d1cf4634304047dee7e5b6182beef5fb03b33ec29ada",
+    "assets\\figma\\L03\\slide-15.svg": "017a1455ad2ce404797ed3fb220015eda0f27fc3ef93ed44365bad0d84e023e6",
+    "qa\\L03\\figma\\slide-15.pdf": "bb77b0fe33a7aba1f8050912f264d59ea28056b1f9ff81efdbd0ac37c6b8c0ef",
+    "qa\\L03\\figma\\slide-15.png": "339307fb67fc629acd4cd511605b2e3f76399d4b13f262eade51606a0be6b781",
+    "qa\\L03\\figma\\editable_slides\\slide-15.png": "6f5cf7a442b9cac42e205cb809ffb889bf749a1886d54a41ae3531c5578dff14",
+    "assets\\figma\\L03\\slide-16.svg": "77ca685b37febeebf9698138a14284b1af8e4b5674a1189aa57b198a1b8ab723",
+    "qa\\L03\\figma\\slide-16.pdf": "aacf1ed44d1a1e2a034f58a5e421060188322b8845e1d6607fbe130a898d9293",
+    "qa\\L03\\figma\\slide-16.png": "8f45c0261e43d0fa259e1f5f19f6970633a07112e1c732aa43e68cf3b63c09c3",
+    "qa\\L03\\figma\\editable_slides\\slide-16.png": "5a00e64bcfc5cce38d84ed45f5388bb53a81185cd6613355780e169016a35774",
+    "assets\\figma\\L03\\slide-17.svg": "3c6a40c42d10302ddaec3b7a17a6b5d5d90aab178ff04c47f2db1a7c3d22aee1",
+    "qa\\L03\\figma\\slide-17.pdf": "e09aaa234c6a2d5f57afbacaf8304ecb4502c691441578cc19088828c206ad34",
+    "qa\\L03\\figma\\slide-17.png": "bfdbe593e112cca6bb68d5992bec3ba49cfdbab9db54e087e0976168ed3199a8",
+    "qa\\L03\\figma\\editable_slides\\slide-17.png": "98855b0538cc2ebbeafe51bd8c0df73263c43631c98d0950619f13b5cb667618",
+    "assets\\figma\\L03\\slide-18.svg": "182500766e29a2be34f8a1410ba8d892f171e2ca7d543b8da7b809071dd3ba8b",
+    "qa\\L03\\figma\\slide-18.pdf": "d138a26f1111fd00306d70cea2af39e445aa004c342dbad5b170cd92f38762bf",
+    "qa\\L03\\figma\\slide-18.png": "26e7a88c1aeb2ff9df7e273d07304e843dc8f7cd9f92062e04f9b605b2499a75",
+    "qa\\L03\\figma\\editable_slides\\slide-18.png": "ba75207d1f079b49b2a217d68e3448f118e12e19b0b05235825fb17f0b567c8b",
+    "assets\\figma\\L03\\slide-19.svg": "2f8e2577f287bae9469c2d7c872df01d7d3400c8279cb1ca4f2df89264a1f7a4",
+    "qa\\L03\\figma\\slide-19.pdf": "1b315726682e791dc7f5339e75b7081d4c4549004e76a3c0465c3a65d0b2ab3f",
+    "qa\\L03\\figma\\slide-19.png": "bc6b0897dccca7f5777073d7a766d98f11dec4f0da4639aaa6a78821d6e32407",
+    "qa\\L03\\figma\\editable_slides\\slide-19.png": "67c5631236588884bbbf53c4c22d16d59b147e3ffb2902aca4bc4adaa9e233f4",
+    "assets\\figma\\L03\\slide-20.svg": "174f1f7dd178a9d10fbdbe08dd23b1ea48bfa4118a5792f87372f6f804ae82ff",
+    "qa\\L03\\figma\\slide-20.pdf": "f627bfbc51668011fcf43cfa399834097ad4c44d3c51d64e3caf3554ebd5cf04",
+    "qa\\L03\\figma\\slide-20.png": "32aab375cc4b7aedcdfa17bc6373a0ed2d40d6624e5da17b42e447634ae2e331",
+    "qa\\L03\\figma\\editable_slides\\slide-20.png": "11cb3c9b78b7d9beb86f858b5f050c1f7d8daccf54527ffb50ec5f74e9a16242",
+    "assets\\figma\\L03\\slide-21.svg": "3f641947a0ad4b8b1f7ee5d3b7f6928b7273d92c9009034546d9308ce01bb2a4",
+    "qa\\L03\\figma\\slide-21.pdf": "6f35ae90f7cdeb1006ba93c6908b0ab20c05f49d61e3642d26669da3a29504a7",
+    "qa\\L03\\figma\\slide-21.png": "139582aa5f1956934bd27852e7cab38eb41b89e7f839190d4ec277c84ea8f7ca",
+    "qa\\L03\\figma\\editable_slides\\slide-21.png": "2bd8f493af28b04dfcba700cd5b8e4c70496ac90def79ac1ed704bc740f2ea58",
+    "assets\\figma\\L03\\slide-22.svg": "6ab939425536c1c97ccb05351eab422968050abafd42c21ad1f7c9fcfa0a6c86",
+    "qa\\L03\\figma\\slide-22.pdf": "f1147019c6b04a1118c6f1aa1cd7cb63ac27662fdf1e2e3ce5406611ad56ddd4",
+    "qa\\L03\\figma\\slide-22.png": "a36795d71b68fa82c6456d5fd74414ad8352d606808dbff91f0b6e83bf2f0d9f",
+    "qa\\L03\\figma\\editable_slides\\slide-22.png": "bd11af6bdd4a90b0f6e8f92db3769ea91ec3df0bce0e7d217285814b71978e7c",
+    "assets\\figma\\L03\\slide-23.svg": "d3c3b7edebeaa0bd55ad9ace7c528289464435364cab5afbbfa082d2a53ec837",
+    "qa\\L03\\figma\\slide-23.pdf": "58a4241dfa90f35fce5092807308535ad8dcad4428947380d80ee16c7f85c706",
+    "qa\\L03\\figma\\slide-23.png": "5c1855291f49a3ded79b3064d06be12bb3fdad39e8fb7e46b538e4296d4565a3",
+    "qa\\L03\\figma\\editable_slides\\slide-23.png": "3ef9bc1a0d511c5aa9a5fdabd9c511f3227ac11d5074a48abb6fe22d988fcfd5",
+    "qa\\L03\\figma\\editable.pptx": "f251d8c0280f9571c571001d024b144046f84fa272de1de2d23f1ea114fd5481",
+    "qa\\L03\\figma\\editable.pdf": "62bbcf3824ff5a8e14c26e2981ed899508d0db6e93204c2d7c236076c6af92cf",
+    "qa\\L03\\figma\\presentation.pdf": "2c512013b9be3b60cbd10b53b094e7408b3ecbd38dcc91a19e8d3f9d7e54d685",
+    "dist\\teacher\\L03\\lecture.pdf": "da8c89992f74c71a678542818351a41fdaf6e6fe7eb13da2b0ddcfb8adcdec6b",
+    "source\\lectures\\L03.md": "37385bd8e1030b667acd885b39b225beac9bb2b6a5d4aef7766caff43d8e0b46",
+    "source\\figma\\L03_content.json": "6e4c7602ddcba013a0f22d4b63e6385ee1be020057bf8afae9a8e068072c2feb",
+    "source\\figma\\L03_visuals.json": "c59fd3a5ba7b95847343647354d9e46c9fd5937bc868f4bb630b8713703937b2"
+  },
+  "slides": 23,
+  "size_emu": [
+    12192000,
+    6858000
+  ],
+  "slide_results": [
+    {
+      "slide": 1,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 8
+      },
+      "text_boxes": 6,
+      "notes_match": true,
+      "notes": "L03-S01\n- Категория уже известна, но для ответа нужна конкретная инструкция.\n- Сегодня проследить представление, ранжирование и чтение найденного источника.\nФрагмент лекции: Классификатор может определить,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 2,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17
+      },
+      "text_boxes": 9,
+      "notes_match": true,
+      "notes": "L03-S01\n- Для продления книги нужен текст с условиями.\n- Порядок результатов важен: документ о заселении не должен вытеснять нужную инструкцию.\n- Далее векторизуем коллекцию.\nФрагмент лекции: Теперь результатом системы станет список документов,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 3,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L03-S02\n- В TF-IDF координаты привязаны к словарным признакам; у плотного вектора они обычно не имеют простых названий.\n- Значения здесь схематические, не результаты кодирования.\nФрагмент лекции: После TF-IDF",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 4,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S02\n- Одинаковая размерность двух векторов не гарантирует одинакового смысла координат.\n- Показаны условные словарные оси, переставленные местами.\n- Реальные энкодеры могут различаться сложнее.\nФрагмент лекции: Для поиска требуется общее пространство.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 5,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 25
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S03\n- Одинаковый масштаб осей. u и v образуют 45°, u и w — 90°.\n- Косинусы равны примерно 0,7071 и 0.\n- Это геометрия заданных векторов, а не вероятность ответа.\n- Следующий слайд разбирает первый расчёт.\nФрагмент лекции: Один из распространённых способов сравнить векторы",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 6,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 8
+      },
+      "text_boxes": 6,
+      "notes_match": true,
+      "notes": "L03-S03\n- Скалярное произведение равно 1, длины векторов равны 1 и √2.\n- Подставить числа в формулу.\n- Для единичных норм косинус совпадает со скалярным произведением, что удобно при сравнении со всеми документами.\n- Затем изменить масштаб одного вектора.\nФрагмент лекции: Скалярное произведение u и v равно 1,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 7,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L03-S03\n- Умножение v на положительное число 10 увеличивает в 10 раз и скалярное произведение, и норму v.\n- Отношение сохраняется.\n- При отрицательном масштабе направление меняется.\n- Нулевой вектор разберём отдельно.\nФрагмент лекции: Теперь заменим v на (10;10).",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 8,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17
+      },
+      "text_boxes": 9,
+      "notes_match": true,
+      "notes": "L03-S03\n- Если ни один фрагмент запроса не попал в словарь, норма равна 0 и косинус не определён.\n- Наша функция возвращает пустую выдачу.\n- Случай ненулевого запроса и нулевой оценки отдельного документа разберём на Q04.\n- Теперь сократим размерность представления.\nФрагмент лекции: Нулевой вектор — отдельный случай:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 9,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 10
+      },
+      "text_boxes": 8,
+      "notes_match": true,
+      "notes": "L03-S04\n- Направления V_k выбраны по матрице документов; запрос использует те же.\n- Сокращение ранга минимизирует квадратичную ошибку восстановления.\n- В следующем примере выполним это преобразование на конкретных числах.\nФрагмент лекции: Попробуем перейти",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 10,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 22
+      },
+      "text_boxes": 17,
+      "notes_match": true,
+      "notes": "L03-S04\n- В ручной матрице сумма квадратов первой координаты равна 8, второй — 1; столбцы ортогональны.\n- При k=1 остаётся первая ось, с точностью до знака.\n- Проекции равны 2, 0 и 2.\n- Это учебные числа; далее покажем размеры матрицы основной работы.\nФрагмент лекции: Посмотрим на маленькую матрицу из трёх строк:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 11,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L03-S04\n- Фактическая матрица TF-IDF имеет размер 12×670, после SVD — 12×6.\n- Двенадцать документов остаются теми же.\n- Размерность меньше, но полезность для запроса проверяется отдельно.\n- После нормировки перейдём к другому способу получить плотные представления — Word2Vec.\nФрагмент лекции: Если исходная матрица X",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 12,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 19
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L03-S05\n- Окно ±1 вокруг «читает» включает «студент» и «новую», но не «книгу».\n- Радиус 2 добавил бы и эту пару.\n- Обучающие ответы создаются из позиций в самом тексте.\n- Сопоставить это с обратной задачей CBOW.\nФрагмент лекции: Другая идея — учить представления по окружениям слов.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 13,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S05\n- Один и тот же фрагмент даёт разные направления предсказания.\n- В CBOW используется объединённое представление окружения.\n- Это разные обучающие задачи, а не последовательные шаги одного энкодера.\nФрагмент лекции: В Word2Vec есть также вариант CBOW:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 14,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S05\n- «Замок» выбран отрицательным примером конкретного шага; это не запрет сочетания в языке.\n- К скалярному произведению обучаемых векторов применяется сигмоида.\n- Потеря поощряет большую оценку положительной пары и меньшую отрицательной.\n- Затем обсудить внутреннее устройство слова.\nФрагмент лекции: Для большого словаря сравнивать каждую пару",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 15,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S06\n- Книга и книгой имеют общие символьные части.\n- В fastText обучаемые подсловные векторы участвуют в представлении слова.\n- Это не морфемный разбор.\n- Далее меняется и контекст употребления.\nФрагмент лекции: Статическому словарю трудно обработать слово,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 16,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L03-S07\n- Здесь два употребления слова, а не две записи статического словаря.\n- На слайде сопоставлены два употребления; численные значения векторов не показаны.\nФрагмент лекции: Контекстная модель получает",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 17,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L03-S07\n- Различить входной текст, векторы позиций h_i и агрегированный вектор документа.\n- Каждый h_i сам является вектором.\n- Pooling выбирается по модели; CLS будет подробно разобран в L06.\n- Для поиска итоговый вектор должен совпадать по смыслу координат с индексом.\nФрагмент лекции: Это меняет и единицу, которую мы сравниваем.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 18,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 19
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L03-S08\n- TF-IDF и SVD обучаются на документах; индекс сохраняет соответствие строк и doc_id.\n- К запросу применяются эти преобразования через transform.\n- Эталонные ответы в fit не включаются.\n- Дальше оценим полученный порядок документов.\nФрагмент лекции: Соберём поиск по шагам.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 19,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 21
+      },
+      "text_boxes": 19,
+      "notes_match": true,
+      "notes": "L03-S09\n- Ранги эталонов: 1, 3, отсутствие в top-3 и 2.\n- Вклад MRR равен обратному рангу; вне top-3 он нулевой.\n- На следующем кадре усредняем по четырём ответимым вопросам.\nФрагмент лекции: Предположим, у каждого ответимого вопроса",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 20,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 15
+      },
+      "text_boxes": 13,
+      "notes_match": true,
+      "notes": "L03-S09\n- Один первый ранг из четырёх, три попадания в top-3 из четырёх.\n- Сумма обратных рангов равна 11/6; делим её на 4.\n- Перемещение эталона с третьего места на второе сохраняет Recall@3 и повышает MRR@3.\n- Затем посмотрим реальную выдачу.\nФрагмент лекции: Тогда Recall@1=1/4=0,25;",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 21,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L03-S10\n- Q04: «Какие сведения нужны при технической ошибке?».\n- В TF-IDF D02 третий с score=0; его место определяется doc_id после D05 и D01.\n- В SVD D02 первый с близостью около 0,7899.\n- Вклад Recall@3 одинаков, вклад MRR меняется с 1/3 на 1.\n- Эталон действительно содержит нужные сведения.\nФрагмент лекции: Запрос Q04",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 22,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 16
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes": "L03-S10\n- На тесте 16 вопросов с эталоном.\n- Recall@1 у обоих методов — 14/16; Recall@3 у TF-IDF — 15/16, у SVD — 16/16.\n- Разница соответствует одному вопросу в маленькой коллекции.\n- Для вопросов без ответа нужен отдельный разбор.\nФрагмент лекции: В лабораторной мы сравним TF-IDF",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 23,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L03-S10\n- Точная строка Q26 взята из CSV.\n- SVD возвращает D11 с косинусом 0,9909, но документ о назначении не сообщает сумму.\n- Близость темы не является вероятностью наличия факта.\n- Завершить предложением проверить источник; на следующем занятии перейдём к предсказанию продолжения.\nФрагмент лекции: Другой вопрос касается суммы стипендии.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    }
+  ],
+  "fonts": [
+    {
+      "font": "Carlito",
+      "bold": false,
+      "runs": 224
+    },
+    {
+      "font": "Prata",
+      "bold": false,
+      "runs": 29
+    },
+    {
+      "font": "Carlito",
+      "bold": true,
+      "runs": 1
+    }
+  ],
+  "pdf_fonts": [
+    "ABAAAA+Carlito-Regular",
+    "BAAAAA+Carlito-Regular",
+    "BBAAAA+Carlito-Regular",
+    "CAAAAA+Prata-Regular",
+    "DAAAAA+Carlito-Regular",
+    "EAAAAA+Prata-Regular",
+    "FAAAAA+Carlito-Regular",
+    "GAAAAA+Carlito-Regular",
+    "HAAAAA+Carlito-Regular",
+    "IAAAAA+Carlito-Regular",
+    "JAAAAA+Carlito-Regular",
+    "KAAAAA+Carlito-Regular",
+    "LAAAAA+Carlito-Regular",
+    "MAAAAA+Carlito-Regular",
+    "NAAAAA+Carlito-Regular",
+    "OAAAAA+Carlito-Regular",
+    "PAAAAA+Carlito-Regular",
+    "QAAAAA+Carlito-Regular",
+    "RAAAAA+Carlito-Regular",
+    "SAAAAA+Carlito-Regular",
+    "TAAAAA+Carlito-Regular",
+    "UAAAAA+Prata-Regular",
+    "VAAAAA+Carlito-Regular",
+    "WAAAAA+Carlito-Bold",
+    "XAAAAA+Carlito-Regular",
+    "YAAAAA+Carlito-Regular",
+    "ZAAAAA+Prata-Regular"
+  ],
+  "media_parts": [
+    "ppt/media/"
+  ],
+  "negative_extents": [],
+  "shape_types": {
+    "AUTO_SHAPE (1)": 350
+  }
+}

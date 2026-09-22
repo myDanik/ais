@@ -1,0 +1,197 @@
+{
+  "lesson": "L03",
+  "sha256": {
+    "source\\lectures\\L03.md": "62d409db827fb8eb257594be8cfacb0f06a1da3ff339b69e81b2cf57ec4bc496",
+    "source\\labs\\L03.py": "09b4346549b9a83258379a8396302c76acc68e95e8044e8a9e375a8455b61470",
+    "source\\labs\\L03.json": "c734087785af133c77cbbc00b9ebb0708bc86a412e6a281513b43cd7df66f60f",
+    "dist\\teacher\\L03\\solution.ipynb": "a628632e0bf96aba5c9c28acc78f8f3a2e529189c07573bcd0b742f302b08917"
+  },
+  "code_cells": 12,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "errors": [],
+  "data_copies": {
+    "requests.csv": {
+      "sha256": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+      "identical": true
+    },
+    "knowledge.csv": {
+      "sha256": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+      "identical": true
+    },
+    "retrieval_queries.csv": {
+      "sha256": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112",
+      "identical": true
+    }
+  },
+  "lightweight_reexecution": "passed; all original assertions; no model downloads or neural inference",
+  "metrics": [
+    {
+      "split": "validation",
+      "method": "tfidf",
+      "recall_at_1": 0.75,
+      "recall_at_3": 0.875,
+      "mrr_at_3": 0.7916666666666666,
+      "n_answerable": 8
+    },
+    {
+      "split": "validation",
+      "method": "svd",
+      "recall_at_1": 0.875,
+      "recall_at_3": 0.875,
+      "mrr_at_3": 0.875,
+      "n_answerable": 8
+    },
+    {
+      "split": "test",
+      "method": "tfidf",
+      "recall_at_1": 0.875,
+      "recall_at_3": 0.9375,
+      "mrr_at_3": 0.90625,
+      "n_answerable": 16
+    },
+    {
+      "split": "test",
+      "method": "svd",
+      "recall_at_1": 0.875,
+      "recall_at_3": 1.0,
+      "mrr_at_3": 0.9166666666666666,
+      "n_answerable": 16
+    }
+  ],
+  "shapes": {
+    "tfidf": [
+      12,
+      670
+    ],
+    "svd": [
+      12,
+      6
+    ],
+    "tfidf_nnz": 816
+  },
+  "diagnostics": {
+    "Какие сведения нужны при технической ошибке?": {
+      "tfidf": [
+        {
+          "doc_id": "D05",
+          "title": "Заселение",
+          "score": 0.08549228621978715
+        },
+        {
+          "doc_id": "D01",
+          "title": "Восстановление доступа",
+          "score": 0.0806777341202132
+        },
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.0
+        }
+      ],
+      "svd": [
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.7898822962427494
+        },
+        {
+          "doc_id": "D01",
+          "title": "Восстановление доступа",
+          "score": 0.7831684168807158
+        },
+        {
+          "doc_id": "D04",
+          "title": "Читальный зал",
+          "score": 0.6236962390442642
+        }
+      ]
+    },
+    "Сколько рублей составляет академическая стипендия?": {
+      "tfidf": [
+        {
+          "doc_id": "D11",
+          "title": "Социальная стипендия",
+          "score": 0.13559796286874265
+        },
+        {
+          "doc_id": "D01",
+          "title": "Восстановление доступа",
+          "score": 0.0
+        },
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.0
+        }
+      ],
+      "svd": [
+        {
+          "doc_id": "D11",
+          "title": "Социальная стипендия",
+          "score": 0.9908601239579707
+        },
+        {
+          "doc_id": "D09",
+          "title": "Документы абитуриента",
+          "score": 0.8478592574346859
+        },
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.2868120414290386
+        }
+      ]
+    },
+    "Кто выдаёт ключи при заселении?": {
+      "tfidf": [
+        {
+          "doc_id": "D05",
+          "title": "Заселение",
+          "score": 0.1396083187883015
+        },
+        {
+          "doc_id": "D01",
+          "title": "Восстановление доступа",
+          "score": 0.06587309406615022
+        },
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.0
+        }
+      ],
+      "svd": [
+        {
+          "doc_id": "D02",
+          "title": "Техническая поддержка",
+          "score": 0.9128655391948526
+        },
+        {
+          "doc_id": "D04",
+          "title": "Читальный зал",
+          "score": 0.8468223226508387
+        },
+        {
+          "doc_id": "D05",
+          "title": "Заселение",
+          "score": 0.8110730819798329
+        }
+      ]
+    }
+  },
+  "code_matches_current_lab_sources": true,
+  "matched_code_cells": 12
+}
