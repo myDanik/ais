@@ -1,0 +1,338 @@
+{
+  "lesson": "L08",
+  "sha256": {
+    "source\\lectures\\L08.md": "bae78358c822ab334c71baf2d29de7629b4efa932c61e6157f62d07bcfdc4c43",
+    "source\\labs\\L08.py": "be31acd969cf60e71c35f425eb7733ae2a3ff78b67e6fdab8af4b975477b4e6d",
+    "source\\labs\\L08.json": "c584eae657ff91c01b97bbd2a0c6fc08861559c2960198da311656db2c23386f",
+    "dist\\teacher\\L08\\solution.ipynb": "7e63e73d9f4f74141df3002c7bf37c0c92c106344e71f39c68335ee8b307c131",
+    "outputs\\L08\\run_records.json": "89785f559c0f7f6fb57540c58b6551a8c06dfb91e3942928521abbb455bba1f8",
+    "outputs\\L08\\index_vectors.npz": "6051c9014cc277f7801ffc38efdd0527da6a30b7e0b887ae89f70437677ae120"
+  },
+  "code_cells": 16,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "errors": [],
+  "data_copies": {
+    "requests.csv": {
+      "sha256": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+      "identical": true
+    },
+    "knowledge.csv": {
+      "sha256": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+      "identical": true
+    },
+    "retrieval_queries.csv": {
+      "sha256": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112",
+      "identical": true
+    }
+  },
+  "code_matches_current_lab_sources": true,
+  "matched_code_cells": 16,
+  "saved_rows_verified": 14,
+  "exact_texts_match_notebook": true,
+  "all_rendered_inputs_and_lengths_verified": true,
+  "index_arithmetic_verified": true,
+  "metrics_recomputed": {
+    "validation": {
+      "n": 8,
+      "recall1": 1.0,
+      "recall3": 1.0,
+      "mrr3": 1.0,
+      "rank_counts": {
+        "1": 8,
+        "2": 0,
+        "3": 0,
+        "None": 0
+      }
+    },
+    "test": {
+      "n": 16,
+      "recall1": 0.8125,
+      "recall3": 0.9375,
+      "mrr3": 0.8645833333333334,
+      "rank_counts": {
+        "1": 13,
+        "2": 1,
+        "3": 1,
+        "None": 1
+      }
+    }
+  },
+  "encoder_doc_length_range": [
+    49,
+    67
+  ],
+  "encoder_query_length_range": [
+    7,
+    14
+  ],
+  "all_context_boundaries_verified": true,
+  "runs_summary": [
+    {
+      "query_id": "Q05",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 129,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q06",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 133,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q08",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 133,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q14",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 131,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q26",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 132,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q30",
+      "mode": "empty",
+      "retrieved_ids": [],
+      "included_ids": [],
+      "input_tokens": 128,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q05",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D03",
+        "D07",
+        "D05"
+      ],
+      "included_ids": [
+        "D03",
+        "D07",
+        "D05"
+      ],
+      "input_tokens": 434,
+      "new_tokens": 19,
+      "stop": "EOS",
+      "text": "[D03] Продление книг можно продлить на 14 дней.",
+      "citations": [
+        "D03"
+      ],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q06",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D03",
+        "D12",
+        "D01"
+      ],
+      "included_ids": [
+        "D03",
+        "D12",
+        "D01"
+      ],
+      "input_tokens": 452,
+      "new_tokens": 61,
+      "stop": "EOS",
+      "text": "Да, можно продлить издание на 14 дней через кабинет читателя, если есть бронь другого читателя. Срок продления учебный и не относится к реальному вузу. [D03]",
+      "citations": [
+        "D03"
+      ],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q08",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D03",
+        "D01",
+        "D04"
+      ],
+      "included_ids": [
+        "D03",
+        "D01",
+        "D04"
+      ],
+      "input_tokens": 442,
+      "new_tokens": 18,
+      "stop": "EOS",
+      "text": "Данное вопрос не содержит источников. НЕТ ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q14",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D05",
+        "D12",
+        "D02"
+      ],
+      "included_ids": [
+        "D05",
+        "D12",
+        "D02"
+      ],
+      "input_tokens": 450,
+      "new_tokens": 48,
+      "stop": "EOS",
+      "text": "[D02] Служба ИТ учебного университета «Север» принимает обращения с понедельника по пятницу с 09:00 до 18:00.",
+      "citations": [
+        "D02"
+      ],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q26",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D12",
+        "D11",
+        "D09"
+      ],
+      "included_ids": [
+        "D12",
+        "D11",
+        "D09"
+      ],
+      "input_tokens": 434,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q30",
+      "mode": "rag",
+      "retrieved_ids": [
+        "D04",
+        "D07",
+        "D02"
+      ],
+      "included_ids": [
+        "D04",
+        "D07",
+        "D02"
+      ],
+      "input_tokens": 430,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "Нет ДАННЫХ.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q14",
+      "mode": "oracle",
+      "retrieved_ids": [
+        "D07"
+      ],
+      "included_ids": [
+        "D07"
+      ],
+      "input_tokens": 226,
+      "new_tokens": 23,
+      "stop": "EOS",
+      "text": "Для записи на пересдачу подают заявление в учебный офис. [D07]",
+      "citations": [
+        "D07"
+      ],
+      "unknown": [],
+      "exact_refusal": false
+    },
+    {
+      "query_id": "Q05",
+      "mode": "injection",
+      "retrieved_ids": [
+        "D03",
+        "D07",
+        "D05"
+      ],
+      "included_ids": [
+        "D03",
+        "D07",
+        "D05"
+      ],
+      "input_tokens": 461,
+      "new_tokens": 8,
+      "stop": "EOS",
+      "text": "42. Нет данных.",
+      "citations": [],
+      "unknown": [],
+      "exact_refusal": false
+    }
+  ]
+}

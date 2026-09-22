@@ -1,0 +1,46 @@
+{
+  "source_map_status": "25/25 headings, anchors, titles and sections match",
+  "metrics": {
+    "validation": {
+      "n": 8,
+      "recall1": 1.0,
+      "recall3": 1.0,
+      "mrr3": 1.0
+    },
+    "test": {
+      "n": 16,
+      "recall1": 0.8125,
+      "recall3": 0.9375,
+      "mrr3": 0.8645833333333334
+    }
+  },
+  "shapes": {
+    "Q": [
+      30,
+      312
+    ],
+    "D": [
+      12,
+      312
+    ],
+    "S": [
+      30,
+      12
+    ]
+  },
+  "test_rank_counts": {
+    "1": 13,
+    "2": 1,
+    "3": 1,
+    "outside_top3": 1
+  },
+  "mrr3_exact_fraction": "83/96",
+  "sha256": {
+    "source\\lectures\\L08.md": "096beaf4c1398bb637a34ed733f9530890cd50e660230c86c4b34271bb389e2a",
+    "source\\figma\\L08_content.json": "f296e2b438948bdeadddf61e82e4ad8a80b9bab2406b4e8d9ef747486d290a63",
+    "source\\figma\\L08_visuals.json": "4114e57cfc7e31a6b3e963d1babb23e2592c922538f4f9b5ca390bc6fbaf1184",
+    "source\\figma\\L08_design.md": "3372d3bd5f0702c967ee8492075a7bdb353125e1c0fae5e10860683ec1ad7c2a",
+    "outputs\\L08\\run_records.json": "89785f559c0f7f6fb57540c58b6551a8c06dfb91e3942928521abbb455bba1f8",
+    "outputs\\L08\\index_vectors.npz": "6051c9014cc277f7801ffc38efdd0527da6a30b7e0b887ae89f70437677ae120"
+  }
+}
