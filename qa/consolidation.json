@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "unchanged_ready_files": {
+    "student": 64,
+    "teacher": 118
+  },
+  "removed_versioned_roots": [
+    "dist/v2",
+    "dist/archive",
+    "source/v2",
+    "course/v2",
+    "scripts/v2",
+    "qa/v2"
+  ]
+}

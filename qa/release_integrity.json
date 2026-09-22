@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "slides": 191,
+  "executed_cells": 112,
+  "pdf_files_checked": 83,
+  "lessons": [
+    {
+      "lesson": "L01",
+      "slides": 23,
+      "executed_cells": 14,
+      "pptx_sha256": "ee9414910eccc98c22cc529cdf9791c4135fa08670a6c3c771fa130f5872ca94",
+      "mcp_calls": 469
+    },
+    {
+      "lesson": "L02",
+      "slides": 23,
+      "executed_cells": 13,
+      "pptx_sha256": "b20a226b0ecb92a8ea9570476be834d91b6f0f60bbf9776cf7e69181b009195f",
+      "mcp_calls": 569
+    },
+    {
+      "lesson": "L03",
+      "slides": 23,
+      "executed_cells": 12,
+      "pptx_sha256": "a1f260fc3196069e77dbdf55ca7aa3d547177182a7116461fb6169f67ec44754",
+      "mcp_calls": 398
+    },
+    {
+      "lesson": "L04",
+      "slides": 24,
+      "executed_cells": 14,
+      "pptx_sha256": "bb8909727a8501523f95ce140c3e0a4d3281f49bfb0fda8c391954ff4cd1bee7",
+      "mcp_calls": 389
+    },
+    {
+      "lesson": "L05",
+      "slides": 24,
+      "executed_cells": 13,
+      "pptx_sha256": "b1795887351858e002d7b2f063d79dda67672c2a15c14a24724b50e5a79d58e9",
+      "mcp_calls": 374
+    },
+    {
+      "lesson": "L06",
+      "slides": 24,
+      "executed_cells": 14,
+      "pptx_sha256": "6235ddfb146303647fc3a0126724ee1b315cb8f47d3b5b85287908dfe8c4731d",
+      "mcp_calls": 406
+    },
+    {
+      "lesson": "L07",
+      "slides": 25,
+      "executed_cells": 16,
+      "pptx_sha256": "16606a793dffc24388ec368ee34f6b85006d6e55bc189b31245dfce11f227eac",
+      "mcp_calls": 427
+    },
+    {
+      "lesson": "L08",
+      "slides": 25,
+      "executed_cells": 16,
+      "pptx_sha256": "36ed06c738a5a735a7d756ef9fbf4076b8e0c8ab70f18b6dffb7194c617d655a",
+      "mcp_calls": 433
+    }
+  ],
+  "errors": []
+}

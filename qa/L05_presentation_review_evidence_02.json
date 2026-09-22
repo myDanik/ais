@@ -1,0 +1,333 @@
+{
+  "sha256": {
+    "dist\\teacher\\L05\\presentation.pptx": "a46f3e43503f82f325297e769fac12f037114e9e52bc69d4c011afe982efebb6",
+    "dist\\teacher\\L05\\presentation.pdf": "0a93728e412985af7e5620223ad656bf0624d70e5bb5f1a6c41c83480a1c0b1b",
+    "dist\\teacher\\L05\\presentation_slides\\slide-01.png": "d8d211eb8627757fe01faf213c79aba1b20c74064c58fa9a3f7fb5e38134c570",
+    "dist\\teacher\\L05\\presentation_slides\\slide-02.png": "eebee890cd3fb101c41c6c074dafcb5b0d2b9c31ede01990e7cbfbbaa9d80ee8",
+    "dist\\teacher\\L05\\presentation_slides\\slide-03.png": "dc02daee5c31c6b1fa3c6adc40669c9230bf3d4c5441644ce374b96bf774b83b",
+    "dist\\teacher\\L05\\presentation_slides\\slide-04.png": "19f6d5d6750e8482a1b58579b60efcce8eb767374be8b0b2c85431cf6e28eb0e",
+    "dist\\teacher\\L05\\presentation_slides\\slide-05.png": "b7adfa85154022dd7066f8a2929a04e4c456f58bdd7dfa06d0da344aef1624c6",
+    "dist\\teacher\\L05\\presentation_slides\\slide-06.png": "5d970738d32248e91ad753dc2a9cedc752cbc2bc1eddb6564dc7418e6ea36d79",
+    "dist\\teacher\\L05\\presentation_slides\\slide-07.png": "54d16c6d561e927199616ffd9c8fc7d105b99933502e442617af30fae81196b9",
+    "dist\\teacher\\L05\\presentation_slides\\slide-08.png": "65c745260194f885a72b0f4d251aea67314adb3c79da0771c6531274460cd1e8",
+    "dist\\teacher\\L05\\presentation_slides\\slide-09.png": "e9c2ce5a9ab529d187eaaf9bbcf8db6553f5238eaf4516b1f701f0f7d40b3875",
+    "dist\\teacher\\L05\\presentation_slides\\slide-10.png": "5cab8e03e1ba056d7b7ab6b5d6e7cf682412108b6f1871a637dbf22b73c1f587",
+    "dist\\teacher\\L05\\presentation_slides\\slide-11.png": "379927f6d6d6713bd8372a4c7c2ae403f91b5899f974fea2f1baba058a1b3445",
+    "dist\\teacher\\L05\\presentation_slides\\slide-12.png": "640ca735dc4a1ff3960c6f4aa3d9219bbda2b3f8dc0ffcbfd906f1122c321401",
+    "dist\\teacher\\L05\\presentation_slides\\slide-13.png": "49de17de0069d0ace34833879f3b48033a3da549d7598d536349fba078580f06",
+    "dist\\teacher\\L05\\presentation_slides\\slide-14.png": "d94550342995cb68a7e707bfe335d5ad82ed23eca3e9ea850179770fda5f226c",
+    "dist\\teacher\\L05\\presentation_slides\\slide-15.png": "fdcebd6ac6ab57d4e73aa9bf58defd09817db47a57a84a6a4c484a801e11668a",
+    "dist\\teacher\\L05\\presentation_slides\\slide-16.png": "8cf511d0052b82d293c0edeb099a397b822706d026a8c2d006dd361e2a22f8bf",
+    "dist\\teacher\\L05\\presentation_slides\\slide-17.png": "67d2904242867d0ee324f2739c24cba212816092e127b8b8f80a97768de8cd59",
+    "dist\\teacher\\L05\\presentation_slides\\slide-18.png": "82c0609160f3cb2bcf450761c572d78aa3aebd0fa84ffbc522db5e269f2602a4",
+    "dist\\teacher\\L05\\presentation_slides\\slide-19.png": "5c05ddd42f36906bd8f7f9a6a7655e64a9e2e8be02d3783fbb92f8a9f27e3c77",
+    "dist\\teacher\\L05\\presentation_slides\\slide-20.png": "4d79d1a245e2287302626e9a870ae1d22a4dc0dd286b3b616ac7956295f24b47",
+    "dist\\teacher\\L05\\presentation_slides\\slide-21.png": "b3670e342f44e3452289b50f3cc251c6e5e1b90695e8c6954eb1c82de035ac0c",
+    "dist\\teacher\\L05\\presentation_slides\\slide-22.png": "65194fea2321d916e7c30ecbd5ccfebcecb92bd0bb00bbd3fd699694e9e023ed",
+    "dist\\teacher\\L05\\presentation_slides\\slide-23.png": "500b7073056aad48dcbb4f07dfe9cec83d75180b8d3077580ac130e2223db5b6",
+    "dist\\teacher\\L05\\presentation_slides\\slide-24.png": "8aef0795b2071c3dd544718c664be36c132d87df06e43af27e7195cf8eae4be9"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "shape_count": 11,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 2,
+      "shape_count": 29,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 3,
+      "shape_count": 52,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 4,
+      "shape_count": 45,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 5,
+      "shape_count": 36,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 6,
+      "shape_count": 16,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 7,
+      "shape_count": 55,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 8,
+      "shape_count": 46,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 9,
+      "shape_count": 28,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 10,
+      "shape_count": 26,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 11,
+      "shape_count": 27,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 12,
+      "shape_count": 25,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 13,
+      "shape_count": 25,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 14,
+      "shape_count": 33,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Перестановка входа и выхода",
+        "Системы искусственного интеллекта · NLP",
+        "14",
+        "В этом опыте все ключи доступны и позиционных признаков нет",
+        "x₁",
+        "o₁",
+        "x₂",
+        "o₂",
+        "x₃",
+        "o₃",
+        "x₃",
+        "o₃",
+        "x₁",
+        "o₁",
+        "x₂",
+        "o₂",
+        "Вход",
+        "Выход"
+      ],
+      "notes": "L05-S05\nСопоставить верхний и нижний ряд. Маски и позиции отсутствуют. После одинаковой перестановки строк выходы меняют порядок таким же образом.\nФрагмент лекции: Для следующего опыта временно уберём маски: 14"
+    },
+    {
+      "slide": 15,
+      "shape_count": 36,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Позиции остаются на местах",
+        "Системы искусственного интеллекта · NLP",
+        "15",
+        "Переставляем X, но сохраняем координаты P",
+        "x₁",
+        "+",
+        "p₁",
+        "x₃",
+        "+",
+        "p₁",
+        "x₂",
+        "+",
+        "p₂",
+        "x₁",
+        "+",
+        "p₂",
+        "x₃",
+        "+",
+        "p₃",
+        "x₂",
+        "+",
+        "p₃",
+        "Позиционный сигнал теперь соединён с другим содержимым"
+      ],
+      "notes": "L05-S05\nСравнить перемещение содержимого и фиксированные позиционные значения. X меняется по порядку, P сохраняется по местам. Это уже другое изменение входа, чем перестановка X+P целиком.\nФрагмент лекции: Один из способов — добавить к представлению токена позиционный вектор: 15"
+    },
+    {
+      "slide": 16,
+      "shape_count": 71,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "У каждой головы свои проекции",
+        "Системы искусственного интеллекта · NLP",
+        "16",
+        "Каждая голова даёт выход для всех N позиций",
+        "x₁",
+        "x₂",
+        "x₃",
+        "Голова 1",
+        "Q₁",
+        "K₁",
+        "V₁",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "O",
+        "(1)",
+        "Голова 2",
+        "Q₂",
+        "K₂",
+        "V₂",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "O",
+        "(2)",
+        "Голова 3",
+        "Q₃",
+        "K₃",
+        "V₃",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "·",
+        "O",
+        "(3)"
+      ],
+      "notes": "L05-S06\nОбъяснить параллельные обучаемые преобразования. Каждая голова получает общий X, но строит собственные Q/K/V и веса. Предметные роли голов заранее не назначаются.\nФрагмент лекции: Если сделать несколько голов, каждая сможет выполнять сравнение в своём представлении. 16"
+    },
+    {
+      "slide": 17,
+      "shape_count": 39,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Соединяем результаты голов",
+        "Системы искусственного интеллекта · NLP",
+        "17",
+        "Берём одну и ту же позицию i во всех головах",
+        "Позиция i · голова 1",
+        "a   b",
+        "Позиция i · голова 2",
+        "c   d",
+        "Позиция i · голова 3",
+        "e   f",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "После объединения — проекция ",
+        "W",
+        "O",
+        " в ширину модели"
+      ],
+      "notes": "L05-S06\nПроследить, что координаты складываются рядом, а не усредняются. Для одной позиции три пары признаков дают шесть координат. W_O возвращает нужную ширину.\nФрагмент лекции: Затем выходы конкатенируют по координатам и применяют выходную проекцию W_O. 17"
+    },
+    {
+      "slide": 18,
+      "shape_count": 34,
+      "picture_count": 2,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 19,
+      "shape_count": 41,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 20,
+      "shape_count": 18,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 21,
+      "shape_count": 13,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 22,
+      "shape_count": 41,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 23,
+      "shape_count": 14,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 24,
+      "shape_count": 20,
+      "picture_count": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    }
+  ],
+  "changed_renders": [
+    "dist\\teacher\\L05\\presentation_slides\\slide-14.png",
+    "dist\\teacher\\L05\\presentation_slides\\slide-15.png",
+    "dist\\teacher\\L05\\presentation_slides\\slide-16.png",
+    "dist\\teacher\\L05\\presentation_slides\\slide-17.png"
+  ],
+  "mcp_operations": 833,
+  "mcp_errors": [],
+  "pdf_bounds_issues": [],
+  "validator": "All validations PASSED! (python -X utf8)",
+  "unchanged_prior_png_count": 20,
+  "reviewed_full_size_again": [
+    14,
+    15,
+    16,
+    17
+  ]
+}

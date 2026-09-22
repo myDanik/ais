@@ -1,0 +1,360 @@
+{
+  "source": "my-ml-lecture",
+  "server": "lgwanai/mypoint-mcp + documented local extensions",
+  "transport": "stdio",
+  "slides": 2,
+  "operations": [
+    {
+      "name": "create_ppt",
+      "arguments": {
+        "title": "Новая ML-лекция",
+        "author": "Курс СИИ · NLP",
+        "subject": "Новая ML-лекция",
+        "layout": "LAYOUT_WIDE"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ PowerPoint 演示文稿已创建"
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_slide",
+      "arguments": {
+        "background": "FFFFFF"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 新幻灯片已创建"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Системы искусственного интеллекта · NLP",
+        "x": 3.85,
+        "y": 7.03,
+        "w": 5.65,
+        "h": 0.25,
+        "fontFace": "Calibri",
+        "fontSize": 10,
+        "color": "898989",
+        "margin": 0,
+        "valign": "middle",
+        "align": "center"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "1",
+        "x": 12,
+        "y": 7.03,
+        "w": 0.4,
+        "h": 0.25,
+        "fontFace": "Calibri",
+        "fontSize": 10,
+        "color": "898989",
+        "margin": 0,
+        "valign": "middle",
+        "align": "right"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Mixture of Experts",
+        "x": 1,
+        "y": 2.08,
+        "w": 11.3,
+        "h": 1.28,
+        "fontFace": "Prata",
+        "fontSize": 52,
+        "color": "000000",
+        "margin": 0,
+        "valign": "middle",
+        "align": "center"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_shape",
+      "arguments": {
+        "shapeType": "line",
+        "x": 0.917,
+        "y": 3.7,
+        "w": 11.5,
+        "h": 0,
+        "flipH": false,
+        "flipV": false,
+        "options": {
+          "line": {
+            "color": "1D9A78",
+            "width": 2,
+            "endArrowType": "none",
+            "dashType": "solid"
+          }
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 形状已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Разные пути для разных токенов",
+        "x": 1.25,
+        "y": 4.22,
+        "w": 10.83,
+        "h": 1.2,
+        "fontFace": "Calibri",
+        "fontSize": 30,
+        "color": "000000",
+        "margin": 0,
+        "valign": "middle",
+        "align": "center"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_speaker_notes",
+      "arguments": {
+        "text": "DEMO-S01\nОбъяснить, что эксперт — FFN, а маршрутизатор выбирает путь для токена.\nФрагмент лекции: В обычном блоке Transformer все токены проходят через одну и ту же feed-forward сеть."
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Speaker notes added"
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_slide",
+      "arguments": {
+        "background": "FFFFFF"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 新幻灯片已创建"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Выход выбранных экспертов",
+        "x": 0.917,
+        "y": 0.7,
+        "w": 11.5,
+        "h": 0.82,
+        "fontFace": "Prata",
+        "fontSize": 44,
+        "color": "000000",
+        "margin": 0,
+        "valign": "middle",
+        "align": "center"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_shape",
+      "arguments": {
+        "shapeType": "line",
+        "x": 0.917,
+        "y": 1.85,
+        "w": 11.5,
+        "h": 0,
+        "flipH": false,
+        "flipV": false,
+        "options": {
+          "line": {
+            "color": "1D9A78",
+            "width": 2,
+            "endArrowType": "none",
+            "dashType": "solid"
+          }
+        }
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 形状已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Системы искусственного интеллекта · NLP",
+        "x": 3.85,
+        "y": 7.03,
+        "w": 5.65,
+        "h": 0.25,
+        "fontFace": "Calibri",
+        "fontSize": 10,
+        "color": "898989",
+        "margin": 0,
+        "valign": "middle",
+        "align": "center"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "2",
+        "x": 12,
+        "y": 7.03,
+        "w": 0.4,
+        "h": 0.25,
+        "fontFace": "Calibri",
+        "fontSize": 10,
+        "color": "898989",
+        "margin": 0,
+        "valign": "middle",
+        "align": "right"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Веса получены после выбора top-2 и нормировки",
+        "x": 1.02,
+        "y": 2.01,
+        "w": 11.29,
+        "h": 0.62,
+        "fontFace": "Calibri",
+        "fontSize": 28,
+        "color": "000000",
+        "margin": 0,
+        "valign": "middle"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_image",
+      "arguments": {
+        "path": "D:\\AIS\\assets\\generated\\my-ml-lecture-equation.svg",
+        "x": 1.15,
+        "y": 3.753609375,
+        "w": 11.03,
+        "h": 0.79278125
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 图片已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_speaker_notes",
+      "arguments": {
+        "text": "DEMO-S02\nСопоставить коэффициенты с оставшимися оценками 0,55 и 0,25.\nИллюстрация: y=0.6875\\,E_1(x)+0.3125\\,E_2(x)\nФрагмент лекции: В таком примере результат равен 0,6875 E₁(x) + 0,3125 E₂(x)"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Speaker notes added"
+          }
+        ]
+      }
+    },
+    {
+      "name": "save_ppt",
+      "arguments": {
+        "filePath": "D:\\AIS\\output\\my-ml-lecture.pptx"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ PowerPoint 文件已保存到: D:\\AIS\\output\\my-ml-lecture.pptx"
+          }
+        ]
+      }
+    }
+  ]
+}

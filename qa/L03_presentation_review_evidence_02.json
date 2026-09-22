@@ -1,0 +1,282 @@
+{
+  "sha256": {
+    "dist\\teacher\\L03\\presentation.pptx": "5ab459011f31b2961405c79a7e680635c7b1f4683bdae61b5a2d9959437e88c3",
+    "dist\\teacher\\L03\\presentation.pdf": "e8a9a4dabd2d26484fa5975617a8721ad7fe9c1f4fe77578dbc7b4b83c2044e5",
+    "dist\\teacher\\L03\\presentation_slides\\slide-01.png": "212ffd64281a8da19d6d5724d8b646f644d3a984622cbce0c0731ee04c52fa2e",
+    "dist\\teacher\\L03\\presentation_slides\\slide-02.png": "8e06c7b4d8952afdf21389bdf5c5b5ad7e795302bab41dce7eb6cc8381689807",
+    "dist\\teacher\\L03\\presentation_slides\\slide-03.png": "336b4d0567848111b6a72de81803d31b7901dceb69665253276cf4b644022085",
+    "dist\\teacher\\L03\\presentation_slides\\slide-04.png": "c06e4e8616deaeb5ed434a29448545e49d7d2b20ae645044361b031bf7fcdff7",
+    "dist\\teacher\\L03\\presentation_slides\\slide-05.png": "86ed11affd3aa97b5dfae27a970bd4b7875595a676353006b7dda752e0654de0",
+    "dist\\teacher\\L03\\presentation_slides\\slide-06.png": "3c3a1925561b9930005af00589e1c20f34abf60fdc378375aba51530ea0d482d",
+    "dist\\teacher\\L03\\presentation_slides\\slide-07.png": "01d4d6f9704d0e6c7327e5bbfee71133982970731caa229862b8b3adbebb35a5",
+    "dist\\teacher\\L03\\presentation_slides\\slide-08.png": "ac45dfb6f0929383976bcaccc93027fbf3d475a01287222eb40775e20267f067",
+    "dist\\teacher\\L03\\presentation_slides\\slide-09.png": "10bfadced05de13eaed32f69ab7beeaf4e83bf8a9ed7c866339beab6b9b4d9c2",
+    "dist\\teacher\\L03\\presentation_slides\\slide-10.png": "93fdad8eda03b62d5b96fe3d56562f9dbe279f1e55a9de6d05efa013c378ca31",
+    "dist\\teacher\\L03\\presentation_slides\\slide-11.png": "2596c9a038b4cedfe9ebb8b798952c0fbb1c959d5fb320181779186c9b7879fe",
+    "dist\\teacher\\L03\\presentation_slides\\slide-12.png": "bd52d1ea4d80d60b4b03f63a098ded182f5421919c8fd741fe4fd7ee6edbd24d",
+    "dist\\teacher\\L03\\presentation_slides\\slide-13.png": "700ef9e22f5fd6a386d36c9718dc5818dde54be02c064b16f1e6b63337fae592",
+    "dist\\teacher\\L03\\presentation_slides\\slide-14.png": "4c055afc64ba7cf28c54c49e27efba2b297b3469cb2ad2f21045446b948c88d9",
+    "dist\\teacher\\L03\\presentation_slides\\slide-15.png": "f3243f27fe4f797b57b9a6cae4971c1d27321067be5934e3d59d34b020caec7d",
+    "dist\\teacher\\L03\\presentation_slides\\slide-16.png": "6e8d438cf5cc8ad33ddb764b97a64e269bda580356871a6b2b9f4d8427f03488",
+    "dist\\teacher\\L03\\presentation_slides\\slide-17.png": "3d7cf7cd5fb21f322a4495a21bc0eaa997b9f369d04ab1255ff552d1c3102ca4",
+    "dist\\teacher\\L03\\presentation_slides\\slide-18.png": "121cf13b9546f779f7af26c1ad1bfc5d5853a0fa1dfe3969f1da9bba7b203b71",
+    "dist\\teacher\\L03\\presentation_slides\\slide-19.png": "b61a0d5f7f4e061bdb31ab4daa16f7e854312649aeccb7fa30f21ef21dc730d5",
+    "dist\\teacher\\L03\\presentation_slides\\slide-20.png": "f3473622f405a950ccde82f65d123457a51c861e768ac8619d611fc87983b9e0",
+    "dist\\teacher\\L03\\presentation_slides\\slide-21.png": "590cf470eebb49e24f268fae35ae6f4e6f6039c0bcf3677399be070bd3d169c2",
+    "dist\\teacher\\L03\\presentation_slides\\slide-22.png": "bd1eea8f2e4bd1adc4322414a50d0c4a4c827c39f54136ed551cc4c6e189339a",
+    "dist\\teacher\\L03\\presentation_slides\\slide-23.png": "52bb40c0ee6a5be5427d870e4962cded87cd6badceddb0be71671c59bdb32d3d"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 5,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S01\nКатегория уже известна, но для ответа нужна конкретная инструкция. Сегодня проследить представление, ранжирование и чтение найденного источника.\nФрагмент лекции: Классификатор может определить, что вопрос относится к библиотеке. 1"
+    },
+    {
+      "slide": 2,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S01\nДля продления книги нужен текст с условиями. Порядок результатов важен: документ о заселении не должен вытеснять нужную инструкцию. Далее векторизуем коллекцию.\nФрагмент лекции: Теперь результатом системы станет список документов, 2"
+    },
+    {
+      "slide": 3,
+      "shapes": 30,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S02\nВ TF-IDF координаты привязаны к словарным признакам; у плотного вектора они обычно не имеют простых названий. Значения здесь схематические, не результаты кодирования.\nФрагмент лекции: Плотное представление устроено иначе. 3"
+    },
+    {
+      "slide": 4,
+      "shapes": 15,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S02\nОдинаковая длина двух векторов не гарантирует одинакового смысла координат. Показаны условные словарные оси, переставленные местами. Реальные энкодеры могут различаться сложнее.\nФрагмент лекции: Для поиска требуется общее пространство. 4"
+    },
+    {
+      "slide": 5,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S03\nОдинаковый масштаб осей. u и v образуют 45°, u и w — 90°. Косинусы равны примерно 0,7071 и 0. Это геометрия заданных векторов, а не вероятность ответа. Следующий слайд разбирает первый расчёт.\nФрагмент лекции: Пусть u=(1;0), v=(1;1), w=(0;1). 5"
+    },
+    {
+      "slide": 6,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S03\nСкалярное произведение1, длины1 и√2. Подставить числа. При единичных нормах косинус совпадёт с dot, что позже ускоряет сравнение со всеми документами.\nФрагмент лекции: Поэтому cos(u,v)=1/√2≈0,7071. 6"
+    },
+    {
+      "slide": 7,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S03\nПоложительное увеличение v в 10 раз увеличивает в 10 раз и скалярное произведение, и норму v. Отношение сохраняется. При отрицательном масштабе направление меняется. Нулевой вектор разберём отдельно.\nФрагмент лекции: Теперь заменим v на (10;10). 7"
+    },
+    {
+      "slide": 8,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S03\nЕсли ни один фрагмент запроса не попал в словарь, знаменатель равен0. Наша функция возвращает пустую выдачу. Случай ненулевого запроса и нулевых отдельных оценок разберём на Q04.\nФрагмент лекции: Нулевой вектор — отдельный случай: 8"
+    },
+    {
+      "slide": 9,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S04\nНаправления V_k выбраны по матрице документов; запрос использует те же. Сокращение ранга минимизирует квадратичную ошибку восстановления. Следующий пример делает это преобразование численным.\nФрагмент лекции: Новые координаты документов получаются умножением Z=XV_k, 9"
+    },
+    {
+      "slide": 10,
+      "shapes": 39,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S04\nВ ручной матрице сумма квадратов первой координаты равна 8, второй — 1; столбцы ортогональны. При k=1 остаётся первая ось, с точностью до знака. Проекции равны 2, 0 и 2. Это учебные числа; далее покажем размеры матрицы основной работы.\nФрагмент лекции: Посмотрим на маленькую матрицу из трёх строк: 10"
+    },
+    {
+      "slide": 11,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S04\nФактическая TF-IDF матрица12×670, SVD12×6. Двенадцать документов остаются теми же. Размерность меньше, но полезность для запроса требует отдельной проверки.\nФрагмент лекции: В лабораторной у нас будет шесть координат. 11"
+    },
+    {
+      "slide": 12,
+      "shapes": 19,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S05\nОкно ±1 вокруг «читает» включает «студент» и «новую», но не «книгу». Радиус 2 добавил бы и эту пару. Обучающие ответы создаются из позиций в самом тексте. Сопоставить это с обратной задачей CBOW.\nФрагмент лекции: Для центра «читает» получаются две положительные пары: 12"
+    },
+    {
+      "slide": 13,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S05\nОдин и тот же фрагмент даёт разные направления предсказания. В CBOW используется объединённое представление окружения. Не изображать методы последовательными шагами одного энкодера.\nФрагмент лекции: Нарисуем две схемы рядом: 13"
+    },
+    {
+      "slide": 14,
+      "shapes": 13,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S05\n«Замок» выбран отрицательным примером конкретного шага; это не запрет сочетания в языке. Скалярное произведение обучаемых векторов проходит сигмоиду. Потеря поощряет большую оценку положительной пары и меньшую отрицательной. Затем обсудить внутреннее устройство слова.\nФрагмент лекции: Например, положительной паре («читает», «студент») 14"
+    },
+    {
+      "slide": 15,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S06\nКнига и книгой имеют общие символьные части. В fastText обучаемые подсловные векторы участвуют в представлении слова. Это не морфемный разбор. Далее меняется и контекст употребления.\nФрагмент лекции: fastText использует представления символьных фрагментов слова. 15"
+    },
+    {
+      "slide": 16,
+      "shapes": 21,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S07\nЗдесь два употребления слова, а не две записи статического словаря. Полосы условно обозначают разные векторы и не являются измерением модели.\nФрагмент лекции: Представление «ключа» в «ключе от комнаты» может отличаться 16"
+    },
+    {
+      "slide": 17,
+      "shapes": 19,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S07\nРазличить входной текст, векторы позиций h_i и агрегированный вектор документа. Каждый h_i сам является вектором. Pooling выбирается по модели; CLS будет подробно разобран в L06. Для поиска итоговый вектор должен совпадать по смыслу координат с индексом.\nФрагмент лекции: Различайте три вопроса: 17"
+    },
+    {
+      "slide": 18,
+      "shapes": 26,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S08\nДокументы обучают TF-IDF и SVD; индекс сохраняет соответствие строк и doc_id. Запрос применяет эти преобразования через transform. Эталонные ответы в fit не включаются. Дальше оценим полученный порядок документов.\nФрагмент лекции: Новый запрос проходит через тот же TF-IDF. 18"
+    },
+    {
+      "slide": 19,
+      "shapes": 20,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S09\nРанги эталонов: 1, 3, отсутствие в top-3 и 2. Вклад MRR равен обратному рангу; вне top-3 он нулевой. На следующем кадре усредняем по четырём ответимым вопросам.\nФрагмент лекции: Посчитаем пример из четырёх ответимых вопросов. 19"
+    },
+    {
+      "slide": 20,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S09\nОдин первый ранг из четырёх, три попадания в top-3 из четырёх. Сумма обратных рангов равна 11/6; делим её на 4. Перемещение эталона с третьего места на второе сохраняет Recall@3 и повышает MRR@3. Затем посмотрим реальную выдачу.\nФрагмент лекции: Тогда Recall@1=1/4=0,25; 20"
+    },
+    {
+      "slide": 21,
+      "shapes": 13,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S10\nQ04: «Какие сведения нужны при технической ошибке?». В TF-IDF D02 третий с score=0; его место определяется doc_id после D05 и D01. В SVD D02 первый с близостью около 0,7899. Вклад Recall@3 одинаков, вклад MRR меняется с 1/3 на 1. Эталон действительно содержит нужные сведения.\nФрагмент лекции: У этого примера есть важная деталь. 21"
+    },
+    {
+      "slide": 22,
+      "shapes": 15,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S10\nНа тесте 16 вопросов с эталоном. Recall@1 у обоих методов — 14/16; Recall@3 у TF-IDF — 15/16, у SVD — 16/16. Разница соответствует одному вопросу в маленькой коллекции. Для вопросов без ответа нужен отдельный разбор.\nФрагмент лекции: При расширении выдачи до трёх документов у TF-IDF Recall@3 около 0,9375, 22"
+    },
+    {
+      "slide": 23,
+      "shapes": 9,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "notes": "L03-S10\nТочная строка Q26 взята из CSV. SVD возвращает D11 с косинусом 0,9909, но документ о назначении не сообщает сумму. Близость темы не является вероятностью наличия факта. Завершить предложением проверить источник; на следующем занятии перейдём к предсказанию продолжения.\nФрагмент лекции: Другой вопрос касается суммы стипендии. 23"
+    }
+  ],
+  "changed_renders": [
+    "dist\\teacher\\L03\\presentation_slides\\slide-18.png",
+    "dist\\teacher\\L03\\presentation_slides\\slide-22.png"
+  ],
+  "notes_overrides": [
+    {
+      "key": "L03-05",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-07",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-09",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-10",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-12",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-14",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-17",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-18",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-19",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-20",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-21",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-22",
+      "present_in_pptx": true
+    },
+    {
+      "key": "L03-23",
+      "present_in_pptx": true
+    }
+  ],
+  "mcp_operations": 424,
+  "mcp_errors": [],
+  "pdf_bounds_issues": [],
+  "validator": "All validations PASSED! (python -X utf8)",
+  "full_size_viewed_again": [
+    18,
+    22
+  ],
+  "unchanged_png_count": 21
+}

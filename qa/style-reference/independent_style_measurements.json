@@ -1,0 +1,49 @@
+{
+  "source": "C:\\Users\\ruslanzalikov\\Downloads\\Lecture7-UvA-FoMo2026.pdf",
+  "sha256": "32802af9f51e5b91df3479ad5059711c50394ac827d4b695ff6365fb74d7e3bc",
+  "pdf_pages": 76,
+  "pdf_page_points": [
+    842,
+    595
+  ],
+  "logical_frame_points": [
+    11.0,
+    67.0,
+    831.0,
+    528.0
+  ],
+  "logical_frame_ratio": 1.7787418655097613,
+  "wide_ppt_points": [
+    960,
+    540
+  ],
+  "wide_scale_by_width": 1.170731707317073,
+  "pages_visually_reviewed": [
+    1,
+    6,
+    8,
+    11,
+    14,
+    18,
+    20,
+    23
+  ],
+  "reference_heading_font": "BodoniSvtyTwoITCTT-Book",
+  "reference_body_font": "Calibri",
+  "reference_heading_pdf_pt": 37.99,
+  "reference_body_pdf_pt": 23.99,
+  "line_color": "1D9A78",
+  "source_attribution_color": "0070C0",
+  "heading_wide_pt": 44.47609756097561,
+  "body_wide_pt": 28.085853658536582,
+  "line_wide_pt": 1.9994577082192024,
+  "line_logical_relative": {
+    "left": 0.06875,
+    "right": 0.9312499268292683,
+    "y": 0.24652780911062905
+  },
+  "body_left_relative": 0.07625000000000001,
+  "body_first_top_relative": 0.2649119305856833,
+  "header_top_relative": 0.09416767895878524,
+  "footer_top_relative": 0.9409223427331888
+}

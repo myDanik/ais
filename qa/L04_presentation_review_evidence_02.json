@@ -1,0 +1,281 @@
+{
+  "sha256": {
+    "dist\\teacher\\L04\\presentation.pptx": "decfce5f105f7bb083639a94da6f4ee85110e24c1ff3c0a9016c3b7ff44be761",
+    "dist\\teacher\\L04\\presentation.pdf": "2609e400f214f38bc293a4e867284b5b629768e45229434b06b69cec2361a732",
+    "dist\\teacher\\L04\\presentation_slides\\slide-01.png": "ab4949211b436dcecaadc9bfb327ac6af149a0145e3cab5645a9bb2ee1b35ff9",
+    "dist\\teacher\\L04\\presentation_slides\\slide-02.png": "f6d8f478fdaf99773367fb060331cb7045e488b9c85c68f1f4a595e034c4bfab",
+    "dist\\teacher\\L04\\presentation_slides\\slide-03.png": "72e619738d859f2c27b07c717bf1184b9c5e98b27f46ed5cb12bb7f292b42e0f",
+    "dist\\teacher\\L04\\presentation_slides\\slide-04.png": "85ef1177f20f819b12369d6b4a18ec4a391390752a5623ad6174a7b02c6c549c",
+    "dist\\teacher\\L04\\presentation_slides\\slide-05.png": "ca53fd061b8003088b8ee4835773685077d91245de25f6b6530fc9bd324a3e44",
+    "dist\\teacher\\L04\\presentation_slides\\slide-06.png": "8dc2543254305d6d9f2e4e67b220ed2d6d4089c6b43f645a61fc4482e46f858f",
+    "dist\\teacher\\L04\\presentation_slides\\slide-07.png": "7ac94a1e0b51f8dbfd5ff7ae7407f4fd9302ce87de10bb104c1c42b3299521fa",
+    "dist\\teacher\\L04\\presentation_slides\\slide-08.png": "dc1e2a33460ea7cc326fa864b151015b41dcf48ea1635b9cd3ae38af5a1b59f1",
+    "dist\\teacher\\L04\\presentation_slides\\slide-09.png": "0f825bebc2421c150f71065cdedfa42f83241f961e1937b025828189da610b17",
+    "dist\\teacher\\L04\\presentation_slides\\slide-10.png": "d636f4295f2cbfb9bca3786179f29b394408cfd80feafd35c94e9365c99dc6dc",
+    "dist\\teacher\\L04\\presentation_slides\\slide-11.png": "561ba2d54fef24626a93b8df1033a19a3f2dbde0aab1ca7b111c06f2bf266b6f",
+    "dist\\teacher\\L04\\presentation_slides\\slide-12.png": "b785ae01c7a32c2e3d263b75089aa40e2eec674216eafe8689fddcad2fc7c73d",
+    "dist\\teacher\\L04\\presentation_slides\\slide-13.png": "7ed44ca23c953cb0463d8559e69a672f0256cbd68e9a44c17f7e75a0c82ea886",
+    "dist\\teacher\\L04\\presentation_slides\\slide-14.png": "0797939ae850f4941228fe243f01bda1172ba11c89595823cba2f22363f84f10",
+    "dist\\teacher\\L04\\presentation_slides\\slide-15.png": "2d6bb90ee11c00d9ac86caef1789e760341e9f8ed2efc2b103a8387939cf56bb",
+    "dist\\teacher\\L04\\presentation_slides\\slide-16.png": "022d783649e0c36d1b4b0cd1563557c23df6423f08b4a4922905d0084ec8b19c",
+    "dist\\teacher\\L04\\presentation_slides\\slide-17.png": "ef6a2ff4b88cd30ca219dccad209d05e85d3c4139216bec5c254e82d224f1201",
+    "dist\\teacher\\L04\\presentation_slides\\slide-18.png": "c257b94a5f6ced1525adaed7e12e56454fc088acaf9ed070a47c90699b59a3ae",
+    "dist\\teacher\\L04\\presentation_slides\\slide-19.png": "c69d78b0fe58bf7d666ba7e0d1ab002d897b373c495f38b03632bb5bbc0101c7",
+    "dist\\teacher\\L04\\presentation_slides\\slide-20.png": "a9e192d136458dc81470c98b7dc7c3b91e236110dfcd1c17b4b2412423d8f23e",
+    "dist\\teacher\\L04\\presentation_slides\\slide-21.png": "52839d465bb37e70db2293cbad70e464d77d66eece5cf654c007a8159ff82611",
+    "dist\\teacher\\L04\\presentation_slides\\slide-22.png": "9bef29b49c9b021bd49e7604e32cca628a61fa295227ea45ba9a2c0e222233c9",
+    "dist\\teacher\\L04\\presentation_slides\\slide-23.png": "45097610b049eff1df14131056bddc053f92176de31f15c175aef6e48f7b4144",
+    "dist\\teacher\\L04\\presentation_slides\\slide-24.png": "4baa0e1373eb62d4a036798e81c43d00e0599f5ec78640f8db77d5594a5d4be0"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 5,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 2,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 3,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 4,
+      "shapes": 16,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 5,
+      "shapes": 17,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 6,
+      "shapes": 8,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 7,
+      "shapes": 20,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 8,
+      "shapes": 7,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 9,
+      "shapes": 7,
+      "pictures": 1,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 10,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 11,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 12,
+      "shapes": 6,
+      "pictures": 1,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 13,
+      "shapes": 13,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 14,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 15,
+      "shapes": 16,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 16,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Sampling создаёт разные пути",
+        "Системы искусственного интеллекта · NLP",
+        "16",
+        "Префикс «как» · начала фактических продолжений",
+        "Seed",
+        "Продолжение",
+        "7",
+        "подать социальной стипендии",
+        "42",
+        "получить другую сообщить…",
+        "99",
+        "нужно ли <UNK>…"
+      ],
+      "notes": "L04-S06\nПрочитать начала реальных продолжений после «как». Seed 7 дал три показанных слова и EOS; строки seed 42 и 99 сокращены многоточием. Только первый шаг имеет общее распределение: после разных токенов истории расходятся. Повтор одного seed воспроизводит путь. Далее сменим представление истории на рекуррентное состояние.\nФрагмент лекции: При sampling следующий токен выбирается случайно с вероятностями модели. 16"
+    },
+    {
+      "slide": 17,
+      "shapes": 19,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 18,
+      "shapes": 15,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Нулевой вход не стирает прошлое",
+        "Системы искусственного интеллекта · NLP",
+        "18",
+        "hₜ = tanh(0,5hₜ₋₁ + eₜ);  h₀ = 0",
+        "Шаг",
+        "Вход",
+        "Состояние",
+        "1",
+        "1",
+        "tanh(1) ≈ 0,7616",
+        "2",
+        "0",
+        "tanh(0,3808) ≈ 0,3634"
+      ],
+      "notes": "L04-S07\nПараметры заданы вручную, начальное состояние h0=0. Для входов 1 и 0 состояния равны примерно 0,7616 и 0,3634; для двух нулей оба равны нулю. Это демонстрация обновления, не обучение языковой модели. Затем подпишем настоящие входы и цели обучения.\nФрагмент лекции: Возьмём скалярный пример hₜ=tanh(0,5hₜ₋₁+eₜ), h₀=0. 18"
+    },
+    {
+      "slide": 19,
+      "shapes": 27,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 20,
+      "shapes": 12,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 21,
+      "shapes": 9,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 22,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 23,
+      "shapes": 8,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 24,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Прочитаем продолжения",
+        "Системы искусственного интеллекта · NLP",
+        "24",
+        "Greedy",
+        "как <UNK> <UNK> … <UNK>",
+        "40 новых UNK · остановка по пределу",
+        "Sampling · seed 7",
+        "как подать социальной стипендии",
+        "EOS на четвёртом новом предсказании"
+      ],
+      "notes": "L04-S09\nGreedy после «как» выдаёт 40 UNK и достигает предела. Sampling с seed 7 выдаёт три новых слова, затем EOS на четвёртом предсказании. Тематическая узнаваемость не делает фразу грамматически полной. Завершить вопросом о прямом доступе к разным позициям контекста — это тема следующей лекции об attention.\nФрагмент лекции: Sampling с seed 7 дал «как подать социальной стипендии» 24"
+    }
+  ],
+  "changed_renders": [
+    "dist\\teacher\\L04\\presentation_slides\\slide-16.png",
+    "dist\\teacher\\L04\\presentation_slides\\slide-18.png",
+    "dist\\teacher\\L04\\presentation_slides\\slide-24.png"
+  ],
+  "sampling_prefix_checks": [
+    {
+      "seed": 7,
+      "first_three_tokens": "подать социальной стипендии",
+      "shown_prefix_matches": true,
+      "verified_stop": "EOS",
+      "verified_steps": 4
+    },
+    {
+      "seed": 42,
+      "first_three_tokens": "получить другую сообщить",
+      "shown_prefix_matches": true,
+      "verified_stop": "EOS",
+      "verified_steps": 26
+    },
+    {
+      "seed": 99,
+      "first_three_tokens": "нужно ли <UNK>",
+      "shown_prefix_matches": true,
+      "verified_stop": "EOS",
+      "verified_steps": 31
+    }
+  ],
+  "mcp_operations": 370,
+  "mcp_errors": [],
+  "pdf_bounds_issues": [],
+  "validator": "All validations PASSED! (python -X utf8)",
+  "full_size_viewed_again": [
+    16,
+    18,
+    24
+  ],
+  "unchanged_png_count": 21
+}

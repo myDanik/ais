@@ -1,0 +1,17 @@
+{
+  "file": "D:\\AIS\\dist\\samples\\attention.pptx",
+  "sha256": "5b596b983b579e40002b3f9401a921c2808a56356148b24524c02b80e37f571e",
+  "slides": 8,
+  "objects": 231,
+  "mcp_calls": {
+    "create_ppt": 1,
+    "create_slide": 8,
+    "add_text": 120,
+    "add_shape": 111,
+    "add_speaker_notes": 8,
+    "save_ppt": 1
+  },
+  "geometry_issues": [],
+  "edit_probe": "D:\\AIS\\qa\\attention-sample\\review_02_editability_probe.pptx",
+  "original_unchanged": true
+}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "lessons": [
+    {
+      "lesson": "L01",
+      "executed_cells": 14,
+      "exercises": 5
+    },
+    {
+      "lesson": "L02",
+      "executed_cells": 13,
+      "exercises": 5
+    },
+    {
+      "lesson": "L03",
+      "executed_cells": 12,
+      "exercises": 4
+    },
+    {
+      "lesson": "L04",
+      "executed_cells": 14,
+      "exercises": 5
+    },
+    {
+      "lesson": "L05",
+      "executed_cells": 13,
+      "exercises": 5
+    },
+    {
+      "lesson": "L06",
+      "executed_cells": 14,
+      "exercises": 5
+    },
+    {
+      "lesson": "L07",
+      "executed_cells": 16,
+      "exercises": 5
+    },
+    {
+      "lesson": "L08",
+      "executed_cells": 16,
+      "exercises": 5
+    }
+  ],
+  "executed_cells": 112,
+  "student_files": 98,
+  "errors": []
+}

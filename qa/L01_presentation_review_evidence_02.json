@@ -1,0 +1,252 @@
+{
+  "sha256": {
+    "dist\\teacher\\L01\\presentation.pptx": "8ff15a973ee48f095ba41e8740711e863dda5c060a8868c5571740260e26f4c0",
+    "dist\\teacher\\L01\\presentation.pdf": "7c15afa5f0552a6937d8dde9fe08a21c9cfe31109a3ff900fb563f142554c993",
+    "dist\\teacher\\L01\\presentation_slides\\slide-01.png": "43b76d70fa7ffe5272413eb1a82a67e3838d0631df81ca649d6fe5638856bba5",
+    "dist\\teacher\\L01\\presentation_slides\\slide-02.png": "5ef9e817158ecb75cd0d13f31338c74148d5ce02c42406262dc43fc8e485d0a8",
+    "dist\\teacher\\L01\\presentation_slides\\slide-03.png": "4e4c74944580aa51a2e28fb79022c993e9e9b446eaf46bc7d4e7719275e374f6",
+    "dist\\teacher\\L01\\presentation_slides\\slide-04.png": "f006e6abe4321a56eff1f46d2c6c4bc283558d73f943f32a86271b88b7204c3f",
+    "dist\\teacher\\L01\\presentation_slides\\slide-05.png": "53e05ddc1f211682c5515a336e634e0c8e810eb0de0656d702b08408ee3f15c2",
+    "dist\\teacher\\L01\\presentation_slides\\slide-06.png": "ef8e86009056836d2ea7644c4ff7fc20f6eadcef61b361e36fe38958dc90c855",
+    "dist\\teacher\\L01\\presentation_slides\\slide-07.png": "4aa16b3967f116d09770aa82e65215a1297b0d6b127fba76b1f615bd3ee5f25d",
+    "dist\\teacher\\L01\\presentation_slides\\slide-08.png": "96bcc37e3c1d0ff23259946b924f7d8e67dabbab9741c0a3fd639d75048b7516",
+    "dist\\teacher\\L01\\presentation_slides\\slide-09.png": "4920b011611566b1e58a99e9009c3d12b0f39eaa5764ef2dfc643d2f31e56de0",
+    "dist\\teacher\\L01\\presentation_slides\\slide-10.png": "6c2bdd7c50e079c52b73cb1160b7ce7df141848678ca8b62682e3d58f4d987fe",
+    "dist\\teacher\\L01\\presentation_slides\\slide-11.png": "bb9b614de47b5399b4d4ee954f90494032925323d99c5b6c5ccac34b15c39f30",
+    "dist\\teacher\\L01\\presentation_slides\\slide-12.png": "4e7b900ebe919d835d4cd5e02ec68f5938efe59d414d6fda8ae4b8f0968d8656",
+    "dist\\teacher\\L01\\presentation_slides\\slide-13.png": "36735df9baca5c722981c1a750289076434850cd6bbca56ab93ec875447cc5b9",
+    "dist\\teacher\\L01\\presentation_slides\\slide-14.png": "9ea32c3a81e86b52d516cf495e3ddcb105f7631f7c821ad3d03cdd284613459a",
+    "dist\\teacher\\L01\\presentation_slides\\slide-15.png": "44e51a2674b4f2108f8ca9fa01302d029c9cda7be5c35428f2e4f5bcea983217",
+    "dist\\teacher\\L01\\presentation_slides\\slide-16.png": "d15fc56fdd59e1e94f8181249ee078f44f8ab3329c489e756762c2a3f636d38d",
+    "dist\\teacher\\L01\\presentation_slides\\slide-17.png": "4ffd15e0bc9178a8c6b4f8df5e8cc1a78b6ddcab063d811588a244afb6eceefc",
+    "dist\\teacher\\L01\\presentation_slides\\slide-18.png": "e5fe8e870d88b5c6f3800b65df3f3c81f63ae5cb9a7fb05e44ddaac0cc21ef7e",
+    "dist\\teacher\\L01\\presentation_slides\\slide-19.png": "f440f39fa9f27cbb049ff56058eeee9a8bba6705c7133a707c253ce21d724d99",
+    "dist\\teacher\\L01\\presentation_slides\\slide-20.png": "86c389a90ff1ea463293622e0bbf4cf2b37d05c494d30ae7e0577db2065557a3",
+    "dist\\teacher\\L01\\presentation_slides\\slide-21.png": "c877a0805c5294837190518e5b8f96d9d071262b8fd8bb13081f00ad43a4ed65",
+    "dist\\teacher\\L01\\presentation_slides\\slide-22.png": "3a01f4fdaa3d59b1e0f92d2af0ab08ba1cb80ab7c24e5bd7c35845225528353b"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 5,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 2,
+      "shapes": 12,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 3,
+      "shapes": 15,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 4,
+      "shapes": 13,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 5,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 6,
+      "shapes": 14,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 7,
+      "shapes": 7,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 8,
+      "shapes": 16,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 9,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 10,
+      "shapes": 13,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 11,
+      "shapes": 11,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 12,
+      "shapes": 12,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Конфликт нужно разобрать",
+        "Системы искусственного интеллекта · NLP",
+        "12",
+        "«Когда можно продлить книгу?»",
+        "Библиотека",
+        "Общежитие",
+        "Проверить сообщение и правила разметки"
+      ],
+      "notes": "L01-S05\nПрограмма группирует одинаковые обработанные строки и обнаруживает разные категории. Это сигнал чтению инструкции; удаление первой/последней строки не доказывает правильность оставшейся.\nФрагмент лекции: В таблице могут встретиться одинаковые тексты с разными метками. 12"
+    },
+    {
+      "slide": 13,
+      "shapes": 30,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Границы токенов задаёт метод",
+        "Системы искусственного интеллекта · NLP",
+        "13",
+        "split() · 4 токена",
+        "ИТ-поддержка:",
+        "вход",
+        "не",
+        "работает!",
+        "\\w+|[^\\w\\s] · 8 токенов",
+        "ИТ",
+        "-",
+        "поддержка",
+        ":",
+        "вход",
+        "не",
+        "работает",
+        "!"
+      ],
+      "notes": "L01-S06\nОдин текст разбит двумя правилами. Сначала split с пунктуацией внутри, затем регулярное выражение. Число токенов имеет смысл вместе с названием токенизатора.\nФрагмент лекции: Метод `split()` разделит её по пробелам и вернёт четыре элемента: 13"
+    },
+    {
+      "slide": 14,
+      "shapes": 17,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 15,
+      "shapes": 18,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 16,
+      "shapes": 9,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Что сохраняет нормализация?",
+        "Системы искусственного интеллекта · NLP",
+        "16",
+        "Исходная строка",
+        "«  Не   отменяйте запись  »",
+        "«Не отменяйте запись»",
+        "Учебный пример · сжатие повторных и крайних пробелов"
+      ],
+      "notes": "L01-S07\nСравнить исходную и обработанную строку: крайние и повторные пробелы меняются, отрицание остаётся. Здесь показано сжатие пробелов. Unicode NFC — отдельная операция из лекции; пробелы она так не преобразует. Следующий кадр показывает потерю отрицания.\nФрагмент лекции: Нормализация приводит разные записи к выбранному общему виду. 16"
+    },
+    {
+      "slide": 17,
+      "shapes": 10,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 18,
+      "shapes": 9,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 19,
+      "shapes": 16,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 20,
+      "shapes": 12,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    },
+    {
+      "slide": 21,
+      "shapes": 15,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true,
+      "text": [
+        "Сохраняйте исходный текст",
+        "Системы искусственного интеллекта · NLP",
+        "21",
+        "Исходный текст",
+        "Нормализация",
+        "Токенизация",
+        "Сверка с оригиналом",
+        "Сравнение с оригиналом объясняет результат"
+      ],
+      "notes": "L01-S09\nОригинал нужен, чтобы объяснить изменения адреса, отрицания и номера. Преобразования добавляют столбцы. Проверки коротких примеров стоят рядом с соответствующим шагом.\nФрагмент лекции: Исходный текст оставляем в таблице. 21"
+    },
+    {
+      "slide": 22,
+      "shapes": 7,
+      "pictures": 0,
+      "negative_extents": 0,
+      "anchor_valid": true
+    }
+  ],
+  "changed_renders": [
+    "dist\\teacher\\L01\\presentation_slides\\slide-12.png",
+    "dist\\teacher\\L01\\presentation_slides\\slide-13.png",
+    "dist\\teacher\\L01\\presentation_slides\\slide-16.png",
+    "dist\\teacher\\L01\\presentation_slides\\slide-21.png"
+  ],
+  "mcp_operations": 327,
+  "mcp_errors": [],
+  "pdf_bounds_issues": [],
+  "validator": "All validations PASSED! (python -X utf8)",
+  "full_size_viewed_again": [
+    12,
+    13,
+    16,
+    21
+  ],
+  "unchanged_png_count": 18
+}

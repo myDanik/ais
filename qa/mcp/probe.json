@@ -1,0 +1,107 @@
+{
+  "transport": "stdio",
+  "server": "lgwanai/mypoint-mcp",
+  "revision": "94cba87b91782c9fbf53bda11ca1f50f8d9c34c3",
+  "tool_count": 11,
+  "bytes": 45523,
+  "calls": [
+    {
+      "name": "create_ppt",
+      "arguments": {
+        "title": "MCP connection test",
+        "layout": "LAYOUT_WIDE"
+      },
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ PowerPoint 演示文稿已创建"
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_slide",
+      "arguments": {},
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 新幻灯片已创建"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_text",
+      "arguments": {
+        "text": "Текст → представление → модель",
+        "x": 1,
+        "y": 2.1,
+        "w": 11.3,
+        "h": 1.2,
+        "fontFace": "Arial",
+        "fontSize": 36,
+        "color": "18181B",
+        "margin": 0
+      },
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 文本已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_shape",
+      "arguments": {
+        "shapeType": "rect",
+        "x": 1,
+        "y": 3.7,
+        "w": 2,
+        "h": 0.5,
+        "fill": "6D2E46",
+        "line": "6D2E46",
+        "lineSize": 0
+      },
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 形状已添加到幻灯片"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_speaker_notes",
+      "arguments": {
+        "text": "Проверка редактируемого текста, фигуры и заметок через MCP."
+      },
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Speaker notes added"
+          }
+        ]
+      }
+    },
+    {
+      "name": "save_ppt",
+      "arguments": {
+        "filePath": "D:\\AIS\\qa\\mcp\\connection_test.pptx"
+      },
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ PowerPoint 文件已保存到: D:\\AIS\\qa\\mcp\\connection_test.pptx"
+          }
+        ]
+      }
+    }
+  ]
+}

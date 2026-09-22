@@ -1,0 +1,17 @@
+{
+  "student": {
+    "files": 109,
+    "bytes": 6200424,
+    "status": "passed"
+  },
+  "teacher": {
+    "files": 514,
+    "bytes": 29648934,
+    "status": "passed"
+  },
+  "sources": {
+    "files": 622,
+    "bytes": 3804847,
+    "status": "passed"
+  }
+}

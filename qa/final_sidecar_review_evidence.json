@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "slides": 190,
+  "summary": [
+    {
+      "lesson": "L01",
+      "slides": 22,
+      "pptx_sha256": "f61c4be590c0edadcca915e269f24aeffaf23b206dfc551adc261ea45518461d",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 5
+    },
+    {
+      "lesson": "L02",
+      "slides": 23,
+      "pptx_sha256": "f7a3ac74b278ce7b37e29ff0b6ab1fdd60cec02ad336ef643b7a02fb218bd8fc",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 5
+    },
+    {
+      "lesson": "L03",
+      "slides": 23,
+      "pptx_sha256": "5c9459942bd8cf8590e56fa1e8ce0d23c3a183892f5fd4597edd7e65d77d42a7",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 5
+    },
+    {
+      "lesson": "L04",
+      "slides": 24,
+      "pptx_sha256": "e368ae734c2009624755e52a357566561f7a103db55ec51d16206f32f4b91e2d",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 6
+    },
+    {
+      "lesson": "L05",
+      "slides": 24,
+      "pptx_sha256": "a46f3e43503f82f325297e769fac12f037114e9e52bc69d4c011afe982efebb6",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 6
+    },
+    {
+      "lesson": "L06",
+      "slides": 24,
+      "pptx_sha256": "f78d6792d3d0594e0ec399e7b35471b5f7d1868c0ffb4be1a889790f3dd1a907",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 6
+    },
+    {
+      "lesson": "L07",
+      "slides": 25,
+      "pptx_sha256": "dea46afc0772f750ae97e06c6204a4905f7833b4fb1bc6fda688de0c965f9fa1",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 6
+    },
+    {
+      "lesson": "L08",
+      "slides": 25,
+      "pptx_sha256": "5c97632832e51668ca5e5f7a9eb5b6fc1058ec7cbd614c94ea8d53117b7a36f2",
+      "speaker_notes_pages": 4,
+      "slide_map_pages": 6
+    }
+  ],
+  "errors": []
+}

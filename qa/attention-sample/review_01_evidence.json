@@ -1,0 +1,30 @@
+{
+  "file": "D:\\AIS\\dist\\samples\\attention.pptx",
+  "slides": 7,
+  "native_objects": 171,
+  "mcp_operations": 187,
+  "anthropic_validator": "PASSED on reviewed final file",
+  "direct_CT_PositiveSize2D_validation": "FAILED for three negative extents",
+  "negative_extents": [
+    {
+      "slide": 1,
+      "shape_1_based": 10,
+      "cx": -868680,
+      "cy": 822960
+    },
+    {
+      "slide": 2,
+      "shape_1_based": 12,
+      "cx": 2834640,
+      "cy": -822960
+    },
+    {
+      "slide": 4,
+      "shape_1_based": 41,
+      "cx": 932688,
+      "cy": -457200
+    }
+  ],
+  "late_captured_sha256": "5b596b983b579e40002b3f9401a921c2808a56356148b24524c02b80e37f571e",
+  "hash_note": "The hash was captured when the first report was written, after the author concurrently rebuilt the candidate. It is not a fingerprint of the earlier seven-slide version. The listed three negative extents were inspected before that rebuild. Use review_02_evidence.json for the accepted eight-slide file."
+}
