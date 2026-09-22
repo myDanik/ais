@@ -1,0 +1,12 @@
+{
+  "paper": "papers/switch_transformers.pdf",
+  "page": 4,
+  "figure": 2,
+  "crop": [
+    279.0,
+    126.0,
+    381.0,
+    202.0
+  ],
+  "url": "https://jmlr.org/papers/v23/21-0998.html"
+}

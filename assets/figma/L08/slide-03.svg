@@ -1,0 +1,32 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_33)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="365.15" y="163.002">Граница разрывает условие</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">3</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="475.63" y="325.223">Граница разделила связанные части правила D03</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="420.857" y="421.539">Фрагмент 1</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="56" letter-spacing="0px"><tspan x="393.906" y="515.641">Продление&#10;</tspan><tspan x="398.801" y="582.641">на 14 дней</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="1284.86" y="421.539">Фрагмент 2</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="56" letter-spacing="0px"><tspan x="1182.85" y="515.641">При чужой брони&#10;</tspan><tspan x="1116.02" y="582.641">продление недоступно</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="402.105" y="931.355">Первого фрагмента недостаточно для вопроса об исключении</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_3_33" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_33"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_33" result="effect2_dropShadow_3_33"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_33" result="shape"/>
+</filter>
+</defs>
+</svg>
+

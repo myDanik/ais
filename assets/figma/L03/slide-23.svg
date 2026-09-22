@@ -1,0 +1,33 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_6_206)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="312.938" y="163.002">Близость не добавляет фактов</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">23</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="72" letter-spacing="0px"><tspan x="144" y="407.609">«Сколько рублей составляет&#10;</tspan><tspan x="144" y="493.609">академическая стипендия?»</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="144" y="707.355">Косинус с D11</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="100" letter-spacing="0px"><tspan x="144" y="834.18">0,9909</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="1008" y="707.355">Содержание документа</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" letter-spacing="0px"><tspan x="1008" y="790.957">О назначении стипендии.&#10;</tspan><tspan x="1008" y="855.957">Суммы в нём нет.</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="453.867" y="931.355">Близость темы не подтверждает наличие нужного факта</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="26" letter-spacing="0px"><tspan x="1341.77" y="976.387">Q26 · вопрос без ответа в учебной базе</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_6_206" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_206"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_6_206" result="effect2_dropShadow_6_206"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6_206" result="shape"/>
+</filter>
+</defs>
+</svg>
+

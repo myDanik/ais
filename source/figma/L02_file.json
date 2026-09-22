@@ -1,0 +1,144 @@
+{
+  "fileKey": "t1THZMdu1UfCR5h9udzSV5",
+  "url": "https://www.figma.com/slides/t1THZMdu1UfCR5h9udzSV5",
+  "lecture": "source/lectures/L02.md",
+  "status": "approved",
+  "slides": [
+    {
+      "number": 1,
+      "id": "3:2",
+      "title": "Классификация текста"
+    },
+    {
+      "number": 2,
+      "id": "3:11",
+      "title": "При обучении известны ответы"
+    },
+    {
+      "number": 3,
+      "id": "3:32",
+      "title": "Проверяем на новых ситуациях"
+    },
+    {
+      "number": 4,
+      "id": "3:58",
+      "title": "Каждому слову — своя координата"
+    },
+    {
+      "number": 5,
+      "id": "5:5",
+      "title": "TF и DF считают разные вещи"
+    },
+    {
+      "number": 6,
+      "id": "5:34",
+      "title": "Меньше DF — больше IDF"
+    },
+    {
+      "number": 7,
+      "id": "5:53",
+      "title": "Длина вектора становится единицей"
+    },
+    {
+      "number": 8,
+      "id": "5:67",
+      "title": "Побеждает наибольшая оценка"
+    },
+    {
+      "number": 9,
+      "id": "7:6",
+      "title": "Softmax даёт вероятности"
+    },
+    {
+      "number": 10,
+      "id": "7:28",
+      "title": "Уверенная ошибка стоит дороже"
+    },
+    {
+      "number": 11,
+      "id": "7:50",
+      "title": "Новый вес — новая оценка"
+    },
+    {
+      "number": 12,
+      "id": "7:75",
+      "title": "Регуляризация ограничивает веса"
+    },
+    {
+      "number": 13,
+      "id": "9:6",
+      "title": "Baseline задаёт точку отсчёта"
+    },
+    {
+      "number": 14,
+      "id": "9:24",
+      "title": "Accuracy может скрыть провал"
+    },
+    {
+      "number": 15,
+      "id": "9:49",
+      "title": "Precision и recall считают разное"
+    },
+    {
+      "number": 16,
+      "id": "9:71",
+      "title": "Macro-F1 даёт классам равный вес"
+    },
+    {
+      "number": 17,
+      "id": "11:6",
+      "title": "Словоформы имеют общие части"
+    },
+    {
+      "number": 18,
+      "id": "11:24",
+      "title": "Выбираем по validation"
+    },
+    {
+      "number": 19,
+      "id": "11:43",
+      "title": "Pipeline сохраняет порядок действий"
+    },
+    {
+      "number": 20,
+      "id": "11:79",
+      "title": "Сначала split, затем fit"
+    },
+    {
+      "number": 21,
+      "id": "13:6",
+      "title": "На тесте верны 95 ответов из 120"
+    },
+    {
+      "number": 22,
+      "id": "13:24",
+      "title": "Число метрики не объясняет ошибку"
+    },
+    {
+      "number": 23,
+      "id": "13:41",
+      "title": "Одна просьба — разные ответы"
+    }
+  ],
+  "fonts": {
+    "heading": "Prata",
+    "body": "Carlito"
+  },
+  "reference": "L01 / OBqHFG8UVRENgZheAnNGMG",
+  "reviewed": "2026-09-08",
+  "deliverables": {
+    "pptx": "dist/teacher/L02/presentation.pptx",
+    "pdf": "dist/teacher/L02/presentation.pdf"
+  },
+  "sha256": {
+    "pptx": "b20a226b0ecb92a8ea9570476be834d91b6f0f60bbf9776cf7e69181b009195f",
+    "pdf": "9b7425b5d5441fe3c991c81315e256274e90604afdc4f3e662b773d01c758e4b"
+  },
+  "lecture_sync": {
+    "status": "approved",
+    "pages": 11,
+    "visible_slide_cues": 23,
+    "pdf_sha256": "b6cdbe6c1d367de4c707d37adc96010bde8793f817ae8fa25f385aca290ada61",
+    "review": "qa/L02/figma/presentation_review.md"
+  }
+}

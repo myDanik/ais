@@ -1,0 +1,41 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_32)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="283.324" y="163.002">&#x41f;&#x440;&#x43e;&#x432;&#x435;&#x440;&#x44f;&#x435;&#x43c; &#x43d;&#x430; &#x43d;&#x43e;&#x432;&#x44b;&#x445; &#x441;&#x438;&#x442;&#x443;&#x430;&#x446;&#x438;&#x44f;&#x445;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">3</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="48" letter-spacing="0px"><tspan x="448.992" y="339.406">&#x412;&#x441;&#x435; &#x432;&#x430;&#x440;&#x438;&#x430;&#x43d;&#x442;&#x44b; &#x43e;&#x434;&#x43d;&#x43e;&#x433;&#x43e; &#x43e;&#x431;&#x440;&#x430;&#x449;&#x435;&#x43d;&#x438;&#x44f; &#x43e;&#x441;&#x442;&#x430;&#x44e;&#x442;&#x441;&#x44f; &#x432;&#x43c;&#x435;&#x441;&#x442;&#x435;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="132" letter-spacing="0px"><tspan x="552.923" y="544.646">72</tspan></text>
+<rect x="144" y="602" width="964.8" height="44" fill="#1D9A78"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="582.758" y="709.223">train</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="40" letter-spacing="0px"><tspan x="544.916" y="778.672">360 &#x441;&#x442;&#x440;&#x43e;&#x43a;</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="132" letter-spacing="0px"><tspan x="1202.52" y="544.646">24</tspan></text>
+<rect x="1120.8" y="602" width="321.6" height="44" fill="#0070C0"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="1190" y="709.223">validation</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="40" letter-spacing="0px"><tspan x="1200.12" y="778.672">120 &#x441;&#x442;&#x440;&#x43e;&#x43a;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="132" letter-spacing="0px"><tspan x="1536.12" y="544.646">24</tspan></text>
+<rect x="1454.4" y="602" width="321.6" height="44" fill="#65706A"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="1579.82" y="709.223">test</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="40" letter-spacing="0px"><tspan x="1533.72" y="778.672">120 &#x441;&#x442;&#x440;&#x43e;&#x43a;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="764.514" y="907.539">120 &#x433;&#x440;&#x443;&#x43f;&#x43f; &#xb7; 600 &#x441;&#x442;&#x440;&#x43e;&#x43a;</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="26" letter-spacing="0px"><tspan x="1314.5" y="974.387">&#x423;&#x447;&#x435;&#x431;&#x43d;&#x44b;&#x439; &#x43a;&#x43e;&#x440;&#x43f;&#x443;&#x441; &#xb7; &#x440;&#x430;&#x437;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x43f;&#x43e; group_id</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_3_32" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_32"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_32" result="effect2_dropShadow_3_32"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_32" result="shape"/>
+</filter>
+</defs>
+</svg>
+

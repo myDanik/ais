@@ -1,0 +1,33 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_6_207)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="317.982" y="163.002">Sampling &#x441;&#x43e;&#x437;&#x434;&#x430;&#x451;&#x442; &#x440;&#x430;&#x437;&#x43d;&#x44b;&#x435; &#x43f;&#x443;&#x442;&#x438;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">16</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="463.289" y="421.539">Greedy</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="58" letter-spacing="0px"><tspan x="227.153" y="517.824">&#x421;&#x430;&#x43c;&#x44b;&#x439; &#x432;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x44b;&#x439; &#x442;&#x43e;&#x43a;&#x435;&#x43d;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="58" letter-spacing="0px"><tspan x="210.926" y="617.824">&#x41e;&#x434;&#x438;&#x43d; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x451;&#x43d;&#x43d;&#x44b;&#x439; &#x43f;&#x443;&#x442;&#x44c;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="1310.19" y="421.539">Sampling</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="58" letter-spacing="0px"><tspan x="1095.85" y="517.824">&#x412;&#x44b;&#x431;&#x43e;&#x440; &#x43f;&#x43e; &#x432;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x43e;&#x441;&#x442;&#x44f;&#x43c;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="58" letter-spacing="0px"><tspan x="1100.19" y="617.824">&#x412;&#x43e;&#x437;&#x43c;&#x43e;&#x436;&#x43d;&#x44b; &#x440;&#x430;&#x437;&#x43d;&#x44b;&#x435; &#x43f;&#x443;&#x442;&#x438;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="343.351" y="931.355">&#x420;&#x430;&#x437;&#x43d;&#x44b;&#x435; &#x432;&#x44b;&#x431;&#x440;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x442;&#x43e;&#x43a;&#x435;&#x43d;&#x44b; &#x43c;&#x43e;&#x433;&#x443;&#x442; &#x43c;&#x435;&#x43d;&#x44f;&#x442;&#x44c; &#x441;&#x43b;&#x435;&#x434;&#x443;&#x44e;&#x449;&#x438;&#x435; &#x440;&#x430;&#x441;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x44f;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_6_207" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_207"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_6_207" result="effect2_dropShadow_6_207"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_6_207" result="shape"/>
+</filter>
+</defs>
+</svg>
+

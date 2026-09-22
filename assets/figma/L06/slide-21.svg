@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_4_21)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="345.545" y="163.002">Короткие тексты не усечены</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">21</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="604.938" y="325.223">Основной корпус из 600 обращений</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="308.176" y="440.539">Длина со спецтокенами</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="134" letter-spacing="0px"><tspan x="384.194" y="604.777">8–21</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="460.674" y="712.355">токенов</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="1312.72" y="440.539">Усечено</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="134" letter-spacing="0px"><tspan x="1341.35" y="604.777">0</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="1179.29" y="712.355">при пределе опыта 128</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="443.142" y="931.355">Основные ошибки нельзя объяснить отрезанным концом</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_4_21" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4_21"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_4_21" result="effect2_dropShadow_4_21"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_4_21" result="shape"/>
+</filter>
+</defs>
+</svg>
+

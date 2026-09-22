@@ -1,0 +1,203 @@
+{
+  "id": "my-ml-lecture",
+  "title": "Новая ML-лекция",
+  "lecture": "papers/demo_lecture.md",
+  "output": "output/my-ml-lecture.pptx",
+  "slides": [
+    {
+      "id": "opening",
+      "section": "DEMO-S01",
+      "anchor": "В обычном блоке Transformer все токены проходят через одну и ту же feed-forward сеть.",
+      "notes": "Объяснить, что эксперт — FFN, а маршрутизатор выбирает путь для токена.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 3.85,
+            "y": 7.03,
+            "w": 5.65,
+            "h": 0.25,
+            "fontFace": "Calibri",
+            "fontSize": 10,
+            "color": "898989",
+            "margin": 0,
+            "valign": "middle",
+            "align": "center"
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "1",
+            "x": 12,
+            "y": 7.03,
+            "w": 0.4,
+            "h": 0.25,
+            "fontFace": "Calibri",
+            "fontSize": 10,
+            "color": "898989",
+            "margin": 0,
+            "valign": "middle",
+            "align": "right"
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Mixture of Experts",
+            "x": 1,
+            "y": 2.08,
+            "w": 11.3,
+            "h": 1.28,
+            "fontFace": "Prata",
+            "fontSize": 52,
+            "color": "000000",
+            "margin": 0,
+            "valign": "middle",
+            "align": "center"
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 0.917,
+            "y": 3.7,
+            "w": 11.5,
+            "h": 0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 2,
+                "endArrowType": "none",
+                "dashType": "solid"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Разные пути для разных токенов",
+            "x": 1.25,
+            "y": 4.22,
+            "w": 10.83,
+            "h": 1.2,
+            "fontFace": "Calibri",
+            "fontSize": 30,
+            "color": "000000",
+            "margin": 0,
+            "valign": "middle",
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "equation",
+      "section": "DEMO-S02",
+      "anchor": "В таком примере результат равен 0,6875 E₁(x) + 0,3125 E₂(x)",
+      "notes": "Сопоставить коэффициенты с оставшимися оценками 0,55 и 0,25.\nИллюстрация: y=0.6875\\,E_1(x)+0.3125\\,E_2(x)",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Выход выбранных экспертов",
+            "x": 0.917,
+            "y": 0.7,
+            "w": 11.5,
+            "h": 0.82,
+            "fontFace": "Prata",
+            "fontSize": 44,
+            "color": "000000",
+            "margin": 0,
+            "valign": "middle",
+            "align": "center"
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 0.917,
+            "y": 1.85,
+            "w": 11.5,
+            "h": 0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 2,
+                "endArrowType": "none",
+                "dashType": "solid"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 3.85,
+            "y": 7.03,
+            "w": 5.65,
+            "h": 0.25,
+            "fontFace": "Calibri",
+            "fontSize": 10,
+            "color": "898989",
+            "margin": 0,
+            "valign": "middle",
+            "align": "center"
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "2",
+            "x": 12,
+            "y": 7.03,
+            "w": 0.4,
+            "h": 0.25,
+            "fontFace": "Calibri",
+            "fontSize": 10,
+            "color": "898989",
+            "margin": 0,
+            "valign": "middle",
+            "align": "right"
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Веса получены после выбора top-2 и нормировки",
+            "x": 1.02,
+            "y": 2.01,
+            "w": 11.29,
+            "h": 0.62,
+            "fontFace": "Calibri",
+            "fontSize": 28,
+            "color": "000000",
+            "margin": 0,
+            "valign": "middle"
+          }
+        },
+        {
+          "tool": "add_image",
+          "args": {
+            "path": "D:\\AIS\\assets\\generated\\my-ml-lecture-equation.svg",
+            "x": 1.15,
+            "y": 3.753609375,
+            "w": 11.03,
+            "h": 0.79278125
+          }
+        }
+      ]
+    }
+  ]
+}

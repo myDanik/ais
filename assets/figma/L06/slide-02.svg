@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_11)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="262.16" y="163.002">Архитектура, веса и наша задача</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">2</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" font-weight="bold" letter-spacing="0px"><tspan x="144" y="414.957">Архитектура</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" letter-spacing="0px"><tspan x="654" y="414.957">Какие вычисления выполняются</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" font-weight="bold" letter-spacing="0px"><tspan x="144" y="523.957">Веса</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" letter-spacing="0px"><tspan x="654" y="523.957">Какие преобразования уже обучены</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" font-weight="bold" letter-spacing="0px"><tspan x="144" y="632.957">Наша система</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="54" letter-spacing="0px"><tspan x="654" y="632.957">Токенизатор, pooling и классификатор</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="554.479" y="931.355">rubert-tiny2: 3 слоя · 12 голов · 312 координат</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="26" letter-spacing="0px"><tspan x="1362.89" y="976.387">Конфигурация закреплённой модели</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_3_11" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_11"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_11" result="effect2_dropShadow_3_11"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_11" result="shape"/>
+</filter>
+</defs>
+</svg>
+

@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import sharp from 'sharp';
+import {Resvg} from '@resvg/resvg-js';
+import pptxgen from 'pptxgenjs';
+import {mathjax} from 'mathjax-full/js/mathjax.js';
+import {TeX} from 'mathjax-full/js/input/tex.js';
+import {SVG} from 'mathjax-full/js/output/svg.js';
+import {liteAdaptor} from 'mathjax-full/js/adaptors/liteAdaptor.js';
+import {RegisterHTMLHandler} from 'mathjax-full/js/handlers/html.js';
+const adaptor=liteAdaptor();RegisterHTMLHandler(adaptor);
+const math=mathjax.document('',{InputJax:new TeX(),OutputJax:new SVG({fontCache:'none'})});
+const node=math.convert('y=\u005csum_i g_i(x)E_i(x)',{display:true});
+const svg=adaptor.outerHTML(adaptor.firstChild(node));
+const rendered=new Resvg(svg,{fitTo:{mode:'width',value:800}}).render().asPng();
+const png=await sharp(rendered).png().toBuffer();
+await fs.mkdir('qa/stack',{recursive:true});
+await fs.writeFile('qa/stack/equation.svg',svg);await fs.writeFile('qa/stack/equation.png',png);
+console.log(JSON.stringify({node:process.version,sharp:sharp.versions.sharp,resvg:true,mathjax:true,pptxgenjs:new pptxgen().version,equation_bytes:png.length}));

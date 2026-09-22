@@ -1,0 +1,6404 @@
+{
+  "id": "L05",
+  "title": "Внимание и Transformer",
+  "lecture": "source/lectures/L05.md",
+  "output": "dist/teacher/L05/presentation.pptx",
+  "designSource": "https://www.figma.com/slides/iWEEh2xcCzsairLLrpO7eN",
+  "slides": [
+    {
+      "id": "L05-01",
+      "title": "Внимание и Transformer",
+      "section": "L05-S01",
+      "anchor": "Механизм attention позволяет",
+      "notes": "- Начать с идеи: новое представление позиции объединяет информацию из доступного окружения.\n- Веса определяют вклад доступных позиций.\n- Сегодня разберём, как позиция может использовать информацию из окружения.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "1",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Внимание",
+            "x": 4.6436111111111105,
+            "y": 1.6273333333333335,
+            "w": 4.156944444444445,
+            "h": 1.1666666666666667,
+            "fontFace": "Prata",
+            "fontSize": 56.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 67.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "и Transformer",
+            "x": 3.9611527777777775,
+            "y": 2.557888888888889,
+            "w": 5.5875,
+            "h": 1.1666666666666667,
+            "fontFace": "Prata",
+            "fontSize": 56.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 67.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 3.861111111111111,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Как одна позиция получает",
+            "x": 4.405680555555556,
+            "y": 4.171118055555556,
+            "w": 4.651388888888889,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "информацию от остальных",
+            "x": 4.429034722222222,
+            "y": 4.636395833333333,
+            "w": 4.586111111111111,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:2"
+    },
+    {
+      "id": "L05-02",
+      "title": "Нужная деталь бывает далеко",
+      "section": "L05-S01",
+      "anchor": "Представим длинное обращение.",
+      "notes": "- Проследить раннюю деталь в длинном обращении.\n- RNN передаёт состояние по цепочке.\n- Attention позволяет сравнивать запрос с доступными ключами, в том числе удалёнными по позиции; вес ещё предстоит вычислить.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Нужная деталь бывает далеко",
+            "x": 2.2270069444444447,
+            "y": 0.548625,
+            "w": 8.988888888888889,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "2",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Части одного длинного обращения",
+            "x": 4.2748888888888885,
+            "y": 1.9390486111111112,
+            "w": 4.913888888888889,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ошибка 403",
+            "x": 1.5864444444444445,
+            "y": 3.0313055555555555,
+            "w": 2.257638888888889,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "В начале",
+            "x": 2.1636458333333333,
+            "y": 3.736027777777778,
+            "w": 1.0979166666666667,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Попытки входа",
+            "x": 5.336305555555556,
+            "y": 3.0313055555555555,
+            "w": 2.788888888888889,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "В середине",
+            "x": 6.028847222222222,
+            "y": 3.736027777777778,
+            "w": 1.3895833333333334,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Что делать?",
+            "x": 9.62875,
+            "y": 3.0313055555555555,
+            "w": 2.2194444444444446,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "В конце",
+            "x": 10.23861111111111,
+            "y": 3.736027777777778,
+            "w": 0.9909722222222221,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.4398124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.449097222222223,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Для ответа может понадобиться ранняя деталь",
+            "x": 3.7280694444444444,
+            "y": 6.176076388888889,
+            "w": 6.0,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:11"
+    },
+    {
+      "id": "L05-03",
+      "title": "Из X получаем Q, K и V",
+      "section": "L05-S02",
+      "anchor": "Пусть вход представлен матрицей X.",
+      "notes": "- Показать общий вход и три отдельные обучаемые проекции.\n- Строка соответствует позиции.\n- Q и K имеют совместимую ширину; V может иметь другую.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Из X получаем Q, K и V",
+            "x": 3.301388888888889,
+            "y": 0.548625,
+            "w": 6.890277777777778,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "3",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "X",
+            "x": 2.1924375,
+            "y": 3.5008125,
+            "w": 0.5868055555555556,
+            "h": 1.375,
+            "fontFace": "Carlito",
+            "fontSize": 66.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 79.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "N × d",
+            "x": 2.0916111111111113,
+            "y": 4.841826388888888,
+            "w": 0.7888888888888889,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Q = XW_Q",
+            "x": 5.625,
+            "y": 2.121368055555555,
+            "w": 2.3291666666666666,
+            "h": 0.7916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 38.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 45.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запросы",
+            "x": 5.625,
+            "y": 2.8231875,
+            "w": 1.2152777777777777,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 3.361111111111111,
+            "y": 2.4583333333333335,
+            "w": 1.875,
+            "h": 1.6388888888888888,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.177895833333333,
+            "y": 2.4583333333333335,
+            "w": 0.058215277777778046,
+            "h": 0.1338888888888887,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.0956319444444444,
+            "y": 2.4583333333333335,
+            "w": 0.14047916666666696,
+            "h": 0.039777777777777835,
+            "flipH": true,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "K = XW_K",
+            "x": 5.625,
+            "y": 3.683868055555555,
+            "w": 2.1680555555555556,
+            "h": 0.7916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 38.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 45.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ключи",
+            "x": 5.625,
+            "y": 4.3856874999999995,
+            "w": 0.9624999999999999,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 3.361111111111111,
+            "y": 4.020833333333333,
+            "w": 1.875,
+            "h": 0.0763888888888889,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.106819444444444,
+            "y": 4.020833333333333,
+            "w": 0.12929166666666703,
+            "h": 0.06781944444444418,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.101729166666667,
+            "y": 3.963756944444444,
+            "w": 0.13438194444444443,
+            "h": 0.057076388888889246,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "V = XW_V",
+            "x": 5.625,
+            "y": 5.246368055555555,
+            "w": 2.2180555555555554,
+            "h": 0.7916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 38.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 45.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Значения",
+            "x": 5.625,
+            "y": 5.9481874999999995,
+            "w": 1.3340277777777778,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 3.361111111111111,
+            "y": 4.097222222222222,
+            "w": 1.875,
+            "h": 1.4861111111111112,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.0938888888888885,
+            "y": 5.550354166666667,
+            "w": 0.14222222222222236,
+            "h": 0.03297916666666683,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 5.171527777777778,
+            "y": 5.452395833333333,
+            "w": 0.06458333333333302,
+            "h": 0.13093750000000012,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Три обучаемые проекции одного входа",
+            "x": 9.309027777777779,
+            "y": 6.599909722222222,
+            "w": 3.167361111111111,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:32"
+    },
+    {
+      "id": "L05-04",
+      "title": "Размеры подсказывают порядок",
+      "section": "L05-S02",
+      "anchor": "Запрос и ключ должны иметь одинаковую размерность",
+      "notes": "- Для устного примера подставить N=2 и M=3 в показанные общие размерности.\n- Сначала получается таблица 2×3, затем умножение на три значения даёт два выходных вектора.\n- Число запросов и ключей может различаться.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Размеры подсказывают порядок",
+            "x": 1.8624236111111112,
+            "y": 0.548625,
+            "w": 9.756944444444445,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "4",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Матрица",
+            "x": 1.8336111111111113,
+            "y": 2.6344097222222222,
+            "w": 1.2215277777777778,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Размер",
+            "x": 5.059013888888889,
+            "y": 2.6344097222222222,
+            "w": 1.0208333333333333,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Роль",
+            "x": 9.50125,
+            "y": 2.6344097222222222,
+            "w": 0.7006944444444445,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Q",
+            "x": 2.27675,
+            "y": 3.0792083333333333,
+            "w": 0.33541666666666664,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "N × d_k",
+            "x": 5.001354166666667,
+            "y": 3.0792083333333333,
+            "w": 1.136111111111111,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запросы",
+            "x": 9.189097222222223,
+            "y": 3.0792083333333333,
+            "w": 1.3159722222222223,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "K",
+            "x": 2.302298611111111,
+            "y": 3.579208333333333,
+            "w": 0.28402777777777777,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "M × d_k",
+            "x": 4.966361111111111,
+            "y": 3.579208333333333,
+            "w": 1.2055555555555555,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ключи",
+            "x": 9.3275,
+            "y": 3.579208333333333,
+            "w": 1.0388888888888888,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "V",
+            "x": 2.294326388888889,
+            "y": 4.079208333333333,
+            "w": 0.30000000000000004,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "M × d_v",
+            "x": 4.966854166666667,
+            "y": 4.079208333333333,
+            "w": 1.2048611111111112,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Значения",
+            "x": 9.124027777777776,
+            "y": 4.079208333333333,
+            "w": 1.4458333333333333,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "QKᵀ",
+            "x": 2.1413333333333333,
+            "y": 4.579208333333333,
+            "w": 0.6055555555555556,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "N × M",
+            "x": 5.105194444444445,
+            "y": 4.579208333333333,
+            "w": 0.9284722222222221,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Все пары",
+            "x": 9.144513888888888,
+            "y": 4.579208333333333,
+            "w": 1.4055555555555557,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "AV",
+            "x": 2.2049722222222226,
+            "y": 5.079208333333333,
+            "w": 0.4930555555555556,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "N × d_v",
+            "x": 5.001847222222222,
+            "y": 5.079208333333333,
+            "w": 1.1354166666666667,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Новые представления",
+            "x": 8.221666666666668,
+            "y": 5.079208333333333,
+            "w": 3.261111111111111,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Размерности Q и K согласованы; размерность V может отличаться",
+            "x": 2.565673611111111,
+            "y": 6.176076388888889,
+            "w": 8.340972222222222,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:54"
+    },
+    {
+      "id": "L05-05",
+      "title": "Два запроса, два ключа",
+      "section": "L05-S03",
+      "anchor": "В scaled dot-product attention",
+      "notes": "- Первый запрос q₁=(1;0).\n- Его скалярные произведения с ключами равны 1 и 0.\n- Значения V пока не участвуют.\n- На слайде оценки уже разделены на √2; далее применим softmax.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Два запроса, два ключа",
+            "x": 3.240152777777778,
+            "y": 0.548625,
+            "w": 6.99375,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "5",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Q = K = I₂; d_k = 2",
+            "x": 5.530520833333333,
+            "y": 1.9390486111111112,
+            "w": 2.382638888888889,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запросы и ключи",
+            "x": 2.5490347222222223,
+            "y": 2.621798611111111,
+            "w": 2.3451388888888887,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(1; 0)",
+            "x": 3.1231666666666666,
+            "y": 3.1860625000000002,
+            "w": 1.1965277777777779,
+            "h": 0.7708333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 37.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 44.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(0; 1)",
+            "x": 3.1231666666666666,
+            "y": 4.012451388888889,
+            "w": 1.1965277777777779,
+            "h": 0.7708333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 37.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 44.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Значения V",
+            "x": 8.933333333333334,
+            "y": 2.621798611111111,
+            "w": 1.5763888888888888,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "V₁ = (10; 0)",
+            "x": 8.630902777777777,
+            "y": 3.1891805555555552,
+            "w": 2.182638888888889,
+            "h": 0.7083333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 34.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 40.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "V₂ = (0; 20)",
+            "x": 8.609722222222222,
+            "y": 3.966958333333333,
+            "w": 2.2249999999999996,
+            "h": 0.7083333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 34.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 40.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Для q₁: оценки после деления на √2 равны (0,7071; 0)",
+            "x": 3.3492430555555557,
+            "y": 6.176076388888889,
+            "w": 6.751388888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:87"
+    },
+    {
+      "id": "L05-06",
+      "title": "Из оценок получаются веса",
+      "section": "L05-S03",
+      "anchor": "Теперь softmax.",
+      "notes": "- После деления оценок на √2 уже получены 0,7071 и 0.\n- После softmax веса равны 0,6698 и 0,3302, их сумма — 1.\n- Нулевая оценка не означает нулевого веса.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Из оценок получаются веса",
+            "x": 2.582763888888889,
+            "y": 0.548625,
+            "w": 8.307638888888889,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "6",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "exp(0,7071) ≈ 2,028; exp(0) = 1",
+            "x": 4.134951388888889,
+            "y": 2.5682222222222224,
+            "w": 5.184722222222223,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "softmax(0,7071; 0) ≈ (0,6698; 0,3302)",
+            "x": 3.1714305555555553,
+            "y": 3.5698541666666666,
+            "w": 7.1187499999999995,
+            "h": 0.6875,
+            "fontFace": "Carlito",
+            "fontSize": 33.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 39.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Сумма весов равна 1",
+            "x": 4.873048611111112,
+            "y": 4.8807222222222215,
+            "w": 3.698611111111111,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Нулевая оценка не означает нулевой вес",
+            "x": 4.131673611111111,
+            "y": 6.176076388888889,
+            "w": 5.203472222222222,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:105"
+    },
+    {
+      "id": "L05-07",
+      "title": "Выход — взвешенная сумма",
+      "section": "L05-S03",
+      "anchor": "Новое значение для первой позиции",
+      "notes": "- Умножить каждое значение на его вес.\n- Получить (6,6976;0) и (0;6,6048), затем сложить координаты.\n- У меньшего веса может быть заметный вклад, если само значение больше.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Выход — взвешенная сумма",
+            "x": 2.493326388888889,
+            "y": 0.548625,
+            "w": 8.493749999999999,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "7",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Каждый вес умножается на соответствующий V",
+            "x": 2.6003402777777778,
+            "y": 2.5682222222222224,
+            "w": 8.270833333333334,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0,6698 × (10; 0) + 0,3302 × (0; 20)",
+            "x": 3.6297777777777775,
+            "y": 3.572048611111111,
+            "w": 6.179861111111111,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "O₁ ≈ (6,6976; 6,6048)",
+            "x": 4.356645833333333,
+            "y": 4.872638888888889,
+            "w": 4.727083333333334,
+            "h": 0.8125,
+            "fontFace": "Carlito",
+            "fontSize": 39.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 46.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Результат рассчитан с неокруглёнными весами",
+            "x": 8.725208333333335,
+            "y": 6.599909722222222,
+            "w": 3.7472222222222222,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:116"
+    },
+    {
+      "id": "L05-08",
+      "title": "Расчёт для всех запросов",
+      "section": "L05-S03",
+      "anchor": "Для второго запроса в нашем примере",
+      "notes": "- Каждая строка A относится к своему запросу.\n- В нашем симметричном примере веса меняются местами.\n- Умножение A на V даёт по новому вектору для каждой позиции; общего требования симметрии нет.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Расчёт для всех запросов",
+            "x": 2.9128819444444445,
+            "y": 0.548625,
+            "w": 7.635416666666667,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "8",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запрос",
+            "x": 1.4032361111111111,
+            "y": 2.6344097222222222,
+            "w": 0.9715277777777778,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Веса A",
+            "x": 4.578125,
+            "y": 2.6344097222222222,
+            "w": 0.9125000000000001,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Выход O",
+            "x": 9.291111111111112,
+            "y": 2.6344097222222222,
+            "w": 1.1652777777777779,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "q₁",
+            "x": 1.70475,
+            "y": 3.0792083333333333,
+            "w": 0.3680555555555556,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(0,6698; 0,3302)",
+            "x": 3.867513888888889,
+            "y": 3.0792083333333333,
+            "w": 2.332638888888889,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(6,6976; 6,6048)",
+            "x": 8.700833333333334,
+            "y": 3.0792083333333333,
+            "w": 2.332638888888889,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "q₂",
+            "x": 1.6897777777777778,
+            "y": 3.579208333333333,
+            "w": 0.39791666666666664,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(0,3302; 0,6698)",
+            "x": 3.867513888888889,
+            "y": 3.579208333333333,
+            "w": 2.332638888888889,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(3,3024; 13,3952)",
+            "x": 8.616388888888888,
+            "y": 3.579208333333333,
+            "w": 2.5013888888888887,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Каждая строка нормируется отдельно; O = AV",
+            "x": 3.8412916666666663,
+            "y": 6.176076388888889,
+            "w": 5.807638888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Числа округлены для показа",
+            "x": 10.150069444444444,
+            "y": 6.599909722222222,
+            "w": 2.3062500000000004,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:127"
+    },
+    {
+      "id": "L05-09",
+      "title": "Будущее закрыто до softmax",
+      "section": "L05-S04",
+      "anchor": "До сих пор каждый запрос мог обращаться",
+      "notes": "- Заменить оценку будущего ключа на −∞ до softmax.\n- Exp(−∞)=0: первая строка весов становится (1;0).\n- Это результат применения маски, сама маска задаёт доступность.\n- Затем предложить вопрос следующего слайда.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Будущее закрыто до softmax",
+            "x": 2.501875,
+            "y": 0.548625,
+            "w": 8.464583333333334,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "9",
+            "x": 12.255902777777777,
+            "y": 6.9688888888888885,
+            "w": 0.18888888888888888,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Причинная маска · недоступные оценки заменены на −∞",
+            "x": 2.7654791666666667,
+            "y": 1.9390486111111112,
+            "w": 7.9229166666666675,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ключ 1",
+            "x": 4.996486111111111,
+            "y": 2.4134652777777776,
+            "w": 1.0208333333333333,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ключ 2",
+            "x": 7.565902777777778,
+            "y": 2.4134652777777776,
+            "w": 1.0208333333333333,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 4.236111111111111,
+            "y": 3.0694444444444446,
+            "w": 2.4305555555555554,
+            "h": 0.8958333333333334,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "1",
+            "x": 5.3387569444444445,
+            "y": 3.224826388888889,
+            "w": 0.3361111111111111,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "FFFFFF",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 6.805555555555555,
+            "y": 3.0694444444444446,
+            "w": 2.4305555555555554,
+            "h": 0.8958333333333334,
+            "options": {
+              "fill": {
+                "color": "EAF5EF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0",
+            "x": 7.908194444444444,
+            "y": 3.224826388888889,
+            "w": 0.3361111111111111,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 4.236111111111111,
+            "y": 4.0625,
+            "w": 2.4305555555555554,
+            "h": 0.8958333333333334,
+            "options": {
+              "fill": {
+                "color": "A6D7C8"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0,3302",
+            "x": 4.832680555555555,
+            "y": 4.217881944444445,
+            "w": 1.3472222222222223,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 6.805555555555555,
+            "y": 4.0625,
+            "w": 2.4305555555555554,
+            "h": 0.8958333333333334,
+            "options": {
+              "fill": {
+                "color": "61B89F"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0,6698",
+            "x": 7.402152777777778,
+            "y": 4.217881944444445,
+            "w": 1.3472222222222223,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запрос 1",
+            "x": 1.4583333333333333,
+            "y": 3.2944861111111106,
+            "w": 1.3381944444444445,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запрос 2",
+            "x": 1.4583333333333333,
+            "y": 4.287541666666666,
+            "w": 1.3381944444444445,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "O₁ = V₁ = (10; 0)",
+            "x": 5.278645833333333,
+            "y": 5.426215277777778,
+            "w": 2.8868055555555556,
+            "h": 0.6666666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 32.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 38.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Веса A после softmax · первая позиция не использует второй ключ",
+            "x": 7.241805555555555,
+            "y": 6.599909722222222,
+            "w": 5.218055555555555,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:149"
+    },
+    {
+      "id": "L05-10",
+      "title": "Что изменится при замене V2?",
+      "section": "L05-S04",
+      "anchor": "Проверим понимание.",
+      "notes": "- Остановиться на вопросе.\n- Обсудить, какие величины изменились: только V₂; Q, K, V₁ и маска прежние.\n- Попросить предсказать первый выход.\n- Ответ показывается следующим кадром.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Что изменится при замене V2?",
+            "x": 2.085166666666667,
+            "y": 0.548625,
+            "w": 9.284722222222221,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "10",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Q, K, V₁ и маска остаются прежними",
+            "x": 3.588013888888889,
+            "y": 2.5682222222222224,
+            "w": 6.263194444444444,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Изменяем V₂",
+            "x": 5.0100138888888885,
+            "y": 3.561770833333333,
+            "w": 3.4270833333333335,
+            "h": 0.8958333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 43.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 51.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Изменится ли O₁?",
+            "x": 5.162541666666666,
+            "y": 4.8807222222222215,
+            "w": 3.1215277777777777,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Веса первой строки: (1; 0)",
+            "x": 5.067340277777777,
+            "y": 6.176076388888889,
+            "w": 3.307638888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:174"
+    },
+    {
+      "id": "L05-11",
+      "title": "Ранний выход не изменился",
+      "section": "L05-S04",
+      "anchor": "При корректной маске выход первой позиции не меняется",
+      "notes": "- Сопоставить ответ с предыдущим кадром: доступность ключей осталась прежней.\n- Вклад V₂′ равен нулю, поэтому o₁=V₁=(10;0).\n- Это проверка применения маски, которую затем воспроизводим в коде.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ранний выход не изменился",
+            "x": 2.5067152777777775,
+            "y": 0.548625,
+            "w": 8.475694444444445,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "11",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Причинная маска сохранилась",
+            "x": 4.044680555555555,
+            "y": 2.5682222222222224,
+            "w": 5.363194444444444,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "O₁ = 1 × V₁ + 0 × V₂",
+            "x": 4.444,
+            "y": 3.561770833333333,
+            "w": 4.551388888888889,
+            "h": 0.8958333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 43.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 51.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "O₁ остаётся равным (10; 0)",
+            "x": 4.419131944444445,
+            "y": 4.8807222222222215,
+            "w": 4.609027777777778,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Изменение закрытого значения не влияет на этот выход",
+            "x": 3.1692291666666668,
+            "y": 6.176076388888889,
+            "w": 7.131944444444445,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:185"
+    },
+    {
+      "id": "L05-12",
+      "title": "Padding исключаем из ключей",
+      "section": "L05-S04",
+      "anchor": "Другой вид маски нужен для padding.",
+      "notes": "- Сопоставить ключ позиции текста и ключ заполнителя PAD.\n- Для позиции текста указано True, для заполнителя PAD — False.\n- Маска ограничивает ключи; обработка выходов padding-позиций — отдельный вопрос.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Padding исключаем из ключей",
+            "x": 2.1805833333333333,
+            "y": 0.548625,
+            "w": 9.139583333333333,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "12",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "True означает доступный ключ в нашей функции",
+            "x": 3.364284722222222,
+            "y": 1.9390486111111112,
+            "w": 6.738194444444444,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ключ",
+            "x": 4.144951388888889,
+            "y": 2.6344097222222222,
+            "w": 0.7652777777777778,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Разрешён?",
+            "x": 9.458125,
+            "y": 2.6344097222222222,
+            "w": 1.4729166666666667,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Позиция текста",
+            "x": 3.1143958333333335,
+            "y": 3.072972222222222,
+            "w": 2.8319444444444444,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "True",
+            "x": 9.764305555555556,
+            "y": 3.072972222222222,
+            "w": 0.8854166666666666,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Заполнитель PAD",
+            "x": 2.956722222222222,
+            "y": 3.6701944444444448,
+            "w": 3.1881944444444446,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "False",
+            "x": 9.715486111111112,
+            "y": 3.6701944444444448,
+            "w": 0.96875,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Padding не используется как источник информации",
+            "x": 3.4838263888888887,
+            "y": 6.176076388888889,
+            "w": 6.502083333333333,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Соглашение о булевой маске зависит от интерфейса",
+            "x": 8.306111111111111,
+            "y": 6.599909722222222,
+            "w": 4.159722222222222,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:196"
+    },
+    {
+      "id": "L05-13",
+      "title": "Когда все ключи закрыты",
+      "section": "L05-S04",
+      "anchor": "Что произойдёт, если в строке закрыть все ключи?",
+      "notes": "- Попросить восстановить знаменатель softmax.\n- Все экспоненты нулевые, поэтому нормировка не определена.\n- В лабораторной такой вход вызывает ValueError.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Когда все ключи закрыты",
+            "x": 2.8695902777777778,
+            "y": 0.548625,
+            "w": 7.750694444444444,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "13",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Все оценки строки: (−∞; −∞)",
+            "x": 4.2130277777777785,
+            "y": 2.5682222222222224,
+            "w": 5.020138888888889,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0 / (0 + 0)",
+            "x": 5.496423611111111,
+            "y": 3.561770833333333,
+            "w": 2.448611111111111,
+            "h": 0.8958333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 43.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 51.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Нормировка не определена",
+            "x": 4.259437500000001,
+            "y": 4.8807222222222215,
+            "w": 4.946527777777778,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Учебная функция отклоняет такую маску",
+            "x": 4.1383680555555555,
+            "y": 6.176076388888889,
+            "w": 5.174305555555556,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:216"
+    },
+    {
+      "id": "L05-14",
+      "title": "Перестановка входа и выхода",
+      "section": "L05-S05",
+      "anchor": "Для следующего опыта временно уберём маски:",
+      "notes": "- Сопоставить две части равенства: перестановку входных строк и ту же перестановку выходных.\n- Маски и позиции отсутствуют.\n- После одинаковой перестановки строк выходы меняют порядок таким же образом.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Перестановка входа и выхода",
+            "x": 2.314166666666667,
+            "y": 0.548625,
+            "w": 8.916666666666666,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "14",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Без позиционной информации и без масок",
+            "x": 2.9508055555555557,
+            "y": 2.5682222222222224,
+            "w": 7.540277777777778,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Attention(ΠX) = ΠAttention(X)",
+            "x": 3.5687777777777776,
+            "y": 3.5680069444444444,
+            "w": 6.392361111111111,
+            "h": 0.7708333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 37.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 44.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Π — одна и та же перестановка строк",
+            "x": 3.685159722222222,
+            "y": 4.881645833333334,
+            "w": 6.090972222222223,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Выходные строки следуют за входными",
+            "x": 4.193763888888889,
+            "y": 6.176076388888889,
+            "w": 5.088888888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:227"
+    },
+    {
+      "id": "L05-15",
+      "title": "Позиции остаются на местах",
+      "section": "L05-S05",
+      "anchor": "Один из способов — добавить",
+      "notes": "- Сравнить перемещение содержимого и фиксированные позиционные значения.\n- X меняется по порядку, P сохраняется по местам.\n- Это уже другое изменение входа, чем перестановка X+P целиком.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Позиции остаются на местах",
+            "x": 2.3557569444444444,
+            "y": 0.548625,
+            "w": 8.753472222222221,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "15",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Содержимое токена и его место",
+            "x": 3.905041666666667,
+            "y": 2.5682222222222224,
+            "w": 5.668055555555556,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "H = X + P",
+            "x": 5.603152777777778,
+            "y": 3.561770833333333,
+            "w": 2.2347222222222225,
+            "h": 0.8958333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 43.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 51.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Переставляем токены; позиции оставляем на местах",
+            "x": 2.9161805555555556,
+            "y": 4.884763888888888,
+            "w": 7.628472222222222,
+            "h": 0.5,
+            "fontFace": "Carlito",
+            "fontSize": 24.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 28.799999999999997,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Теперь результат может измениться",
+            "x": 4.425333333333334,
+            "y": 6.176076388888889,
+            "w": 4.648611111111111,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:238"
+    },
+    {
+      "id": "L05-16",
+      "title": "У каждой головы свои проекции",
+      "section": "L05-S06",
+      "anchor": "Одна голова attention использует",
+      "notes": "- Объяснить параллельные обучаемые преобразования.\n- Каждая голова получает общий X, но строит собственные Q/K/V и веса.\n- Предметные роли голов заранее не назначаются.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "У каждой головы свои проекции",
+            "x": 1.8789444444444443,
+            "y": 0.548625,
+            "w": 9.705555555555556,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "16",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Один исходный X",
+            "x": 5.479979166666666,
+            "y": 1.9390486111111112,
+            "w": 2.5055555555555555,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Голова 1",
+            "x": 3.1225416666666668,
+            "y": 2.621798611111111,
+            "w": 1.2374999999999998,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Свои W_Q, W_K, W_V",
+            "x": 1.870902777777778,
+            "y": 3.1919513888888886,
+            "w": 3.6826388888888886,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Свои сравнения",
+            "x": 2.344673611111111,
+            "y": 3.8655625,
+            "w": 2.7534722222222223,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Голова 2",
+            "x": 9.122569444444444,
+            "y": 2.621798611111111,
+            "w": 1.2374999999999998,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Другие W_Q, W_K, W_V",
+            "x": 7.69201388888889,
+            "y": 3.1919513888888886,
+            "w": 4.043055555555556,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Другие сравнения",
+            "x": 8.165833333333333,
+            "y": 3.8655625,
+            "w": 3.113888888888889,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Языковая роль головы заранее не назначается",
+            "x": 3.768513888888889,
+            "y": 6.176076388888889,
+            "w": 5.925694444444444,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:249"
+    },
+    {
+      "id": "L05-17",
+      "title": "Соединяем результаты голов",
+      "section": "L05-S06",
+      "anchor": "Для каждой головы вычисляются свои Q, K, V",
+      "notes": "- Проследить, что координаты выходов голов записываются одна за другой, а не усредняются.\n- Для устного примера возьмём три головы по две координаты: получится шесть координат одной позиции.\n- W_O возвращает нужную ширину.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Соединяем результаты голов",
+            "x": 2.3796805555555554,
+            "y": 0.548625,
+            "w": 8.777083333333334,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "17",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Выходы голов",
+            "x": 1.4198194444444445,
+            "y": 3.0313055555555555,
+            "w": 2.6145833333333335,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Каждый: N × d_v",
+            "x": 1.7289027777777777,
+            "y": 3.736027777777778,
+            "w": 1.96875,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Конкатенация",
+            "x": 5.423583333333333,
+            "y": 3.0313055555555555,
+            "w": 2.611111111111111,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "N × (h·d_v)",
+            "x": 6.078458333333334,
+            "y": 3.736027777777778,
+            "w": 1.2868055555555555,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Проекция W_O",
+            "x": 9.327847222222223,
+            "y": 3.0313055555555555,
+            "w": 2.8055555555555554,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Нужная ширина модели",
+            "x": 9.314444444444444,
+            "y": 3.736027777777778,
+            "w": 2.8451388888888887,
+            "h": 0.3958333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 19.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 22.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.4398124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.449097222222223,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Конкатенация соединяет координаты; она не суммирует выходы",
+            "x": 2.6326111111111112,
+            "y": 6.176076388888889,
+            "w": 8.222916666666666,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:267"
+    },
+    {
+      "id": "L05-18",
+      "title": "Внутри блока Transformer",
+      "section": "L05-S07",
+      "anchor": "Attention — часть блока,",
+      "notes": "- Найти слагаемые X и H: они сохраняют вход соответствующего подблока.\n- Здесь pre-norm: LayerNorm перед attention и FFN.\n- Attention включает выходную проекцию, поэтому размерность совместима с X.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Внутри блока Transformer",
+            "x": 2.805215277777778,
+            "y": 0.548625,
+            "w": 7.901388888888889,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "18",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Вариант pre-norm",
+            "x": 5.455180555555556,
+            "y": 1.9390486111111112,
+            "w": 2.5368055555555555,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "H = X + Attention(LayerNorm(X))",
+            "x": 3.625548611111111,
+            "y": 2.853472222222222,
+            "w": 6.241666666666666,
+            "h": 0.6979166666666666,
+            "fontFace": "Carlito",
+            "fontSize": 33.5,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 40.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Y = H + FFN(LayerNorm(H))",
+            "x": 4.129451388888889,
+            "y": 4.874305555555555,
+            "w": 5.194444444444445,
+            "h": 0.6979166666666666,
+            "fontFace": "Carlito",
+            "fontSize": 33.5,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 40.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Attention включает объединение голов и выходную проекцию",
+            "x": 2.7976666666666663,
+            "y": 6.176076388888889,
+            "w": 7.89513888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Показан один из вариантов размещения LayerNorm",
+            "x": 8.351597222222223,
+            "y": 6.599909722222222,
+            "w": 4.112500000000001,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:287"
+    },
+    {
+      "id": "L05-19",
+      "title": "Разная доступность контекста",
+      "section": "L05-S08",
+      "anchor": "Энкодер обрабатывает доступную последовательность целиком.",
+      "notes": "- Это схемы доступности, не численные веса.\n- Энкодер может обращаться к левому и правому окружению; причинный декодер использует префикс.\n- В обоих случаях padding закрывается отдельно.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Разная доступность контекста",
+            "x": 2.1492500000000003,
+            "y": 0.548625,
+            "w": 9.156944444444443,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "19",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Энкодер",
+            "x": 3.1156805555555556,
+            "y": 2.621798611111111,
+            "w": 1.2277777777777779,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(пример: BERT)",
+            "x": 2.6825625,
+            "y": 2.9898541666666665,
+            "w": 2.0805555555555557,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Левое и правое",
+            "x": 2.2375069444444446,
+            "y": 3.5568819444444446,
+            "w": 2.966666666666667,
+            "h": 0.6458333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 31.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 37.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "окружение",
+            "x": 2.652083333333333,
+            "y": 4.0707708333333334,
+            "w": 2.147222222222222,
+            "h": 0.6458333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 31.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 37.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Декодер",
+            "x": 9.107777777777777,
+            "y": 2.621798611111111,
+            "w": 1.2458333333333333,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "(авторегрессионный)",
+            "x": 8.284027777777778,
+            "y": 2.9898541666666665,
+            "w": 2.8784722222222223,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Только доступный",
+            "x": 8.010694444444445,
+            "y": 3.5568819444444446,
+            "w": 3.4791666666666665,
+            "h": 0.6458333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 31.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 37.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "префикс",
+            "x": 8.894930555555554,
+            "y": 4.0707708333333334,
+            "w": 1.6590277777777778,
+            "h": 0.6458333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 31.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 37.199999999999996,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Позиции PAD отдельно исключаются маской ключей",
+            "x": 3.4080625,
+            "y": 6.176076388888889,
+            "w": 6.676388888888889,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:299"
+    },
+    {
+      "id": "L05-20",
+      "title": "Cross-attention связывает два ряда",
+      "section": "L05-S08",
+      "anchor": "В encoder-decoder архитектуре",
+      "notes": "- Различить происхождение Q и K/V.\n- Энкодер обрабатывает исходную последовательность.\n- Декодер формирует запрос по своему состоянию и обращается к представлениям источника.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Cross-attention связывает два ряда",
+            "x": 1.6069305555555555,
+            "y": 0.548625,
+            "w": 10.258333333333333,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "20",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Cross-attention в encoder-decoder модели",
+            "x": 3.859520833333333,
+            "y": 1.9390486111111112,
+            "w": 5.784722222222222,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Источник",
+            "x": 1.9824444444444442,
+            "y": 2.6344097222222222,
+            "w": 1.2743055555555556,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Проекции",
+            "x": 4.718916666666667,
+            "y": 2.6344097222222222,
+            "w": 1.3527777777777779,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Последовательность",
+            "x": 8.163541666666667,
+            "y": 2.6344097222222222,
+            "w": 2.685416666666667,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Декодер",
+            "x": 1.8511805555555556,
+            "y": 3.0738958333333333,
+            "w": 1.55625,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Q",
+            "x": 5.209444444444444,
+            "y": 3.0738958333333333,
+            "w": 0.3729166666666667,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Создаваемый текст",
+            "x": 7.8469444444444445,
+            "y": 3.0738958333333333,
+            "w": 3.3187499999999996,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Энкодер",
+            "x": 1.8612499999999998,
+            "y": 3.6363958333333333,
+            "w": 1.5326388888888889,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "K и V",
+            "x": 4.935625,
+            "y": 3.6363958333333333,
+            "w": 0.9208333333333333,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Исходный текст",
+            "x": 8.151319444444445,
+            "y": 3.6363958333333333,
+            "w": 2.7215277777777778,
+            "h": 0.5833333333333334,
+            "fontFace": "Carlito",
+            "fontSize": 28.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 33.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запросы и источники информации относятся к разным рядам",
+            "x": 2.8280000000000003,
+            "y": 6.176076388888889,
+            "w": 7.793749999999999,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:314"
+    },
+    {
+      "id": "L05-21",
+      "title": "Квадратичный рост",
+      "section": "L05-S09",
+      "anchor": "Если N запросов сравниваются с N ключами,",
+      "notes": "- Сопоставить увеличение стороны в четыре раза с ростом площади в шестнадцать. 4/64 MiB относятся к одной полной матрице float32; весь расход реализации может отличаться.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Квадратичный рост",
+            "x": 3.7275,
+            "y": 0.548625,
+            "w": 5.987500000000001,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "21",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Память одной матрицы оценок в float32",
+            "x": 3.9256527777777777,
+            "y": 1.9390486111111112,
+            "w": 5.606944444444444,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Длина 1024",
+            "x": 2.9359236111111113,
+            "y": 2.7537430555555553,
+            "w": 1.6270833333333334,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "4 MiB",
+            "x": 2.4587013888888887,
+            "y": 3.2751527777777776,
+            "w": 2.5819444444444444,
+            "h": 1.2916666666666667,
+            "fontFace": "Prata",
+            "fontSize": 62.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 74.39999999999999,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "1024² элементов",
+            "x": 2.657375,
+            "y": 4.571909722222222,
+            "w": 2.1944444444444446,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Длина 4096",
+            "x": 8.880347222222222,
+            "y": 2.7537430555555553,
+            "w": 1.6270833333333334,
+            "h": 0.4583333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 22.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 26.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "64 MiB",
+            "x": 8.123541666666666,
+            "y": 3.2751527777777776,
+            "w": 3.1409722222222225,
+            "h": 1.2916666666666667,
+            "fontFace": "Prata",
+            "fontSize": 62.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 74.39999999999999,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "4096² элементов",
+            "x": 8.601805555555556,
+            "y": 4.571909722222222,
+            "w": 2.1944444444444446,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Длина ×4 → число пар ×16",
+            "x": 5.024333333333334,
+            "y": 6.176076388888889,
+            "w": 3.3944444444444444,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Эффективные реализации могут не хранить полную матрицу",
+            "x": 7.648611111111112,
+            "y": 6.599909722222222,
+            "w": 4.804166666666666,
+            "h": 0.2708333333333333,
+            "fontFace": "Carlito",
+            "fontSize": 13.0,
+            "bold": false,
+            "color": "0070C0",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 15.6,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:336"
+    },
+    {
+      "id": "L05-22",
+      "title": "Разные веса — тот же выход",
+      "section": "L05-S09",
+      "anchor": "Есть и другой важный вопрос:",
+      "notes": "- Два набора нормированных весов смешивают одинаковые значения.\n- Оба дают (1;2).\n- Поэтому карта A не определяет содержательную важность без V и дальнейшего вычисления.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Разные веса — тот же выход",
+            "x": 2.455159722222222,
+            "y": 0.548625,
+            "w": 8.590277777777779,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "22",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "V₁ = V₂ = (1; 2)",
+            "x": 5.511826388888888,
+            "y": 2.5682222222222224,
+            "w": 2.4194444444444443,
+            "h": 0.6041666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 29.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 34.8,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0,9V₁ + 0,1V₂ = (1; 2)",
+            "x": 4.486493055555555,
+            "y": 3.5658125,
+            "w": 4.46875,
+            "h": 0.7916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 38.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 45.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "0,2V₁ + 0,8V₂ = (1; 2)",
+            "x": 4.486493055555555,
+            "y": 4.871368055555555,
+            "w": 4.46875,
+            "h": 0.7916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 38.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 45.6,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Разные карты весов могут дать один выход",
+            "x": 3.9785763888888885,
+            "y": 6.176076388888889,
+            "w": 5.509027777777778,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:355"
+    },
+    {
+      "id": "L05-23",
+      "title": "Что проверить в реализации",
+      "section": "L05-S10",
+      "anchor": "В лабораторной мы реализуем",
+      "notes": "- Связать каждую проверку с разобранной операцией: строковая нормировка, запрет ключа и изменение будущего значения.\n- Студенты должны объяснить ожидаемый результат до выполнения кода.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Что проверить в реализации",
+            "x": 2.396770833333333,
+            "y": 0.548625,
+            "w": 8.659027777777778,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "23",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Нормировка",
+            "x": 1.0,
+            "y": 2.5066458333333332,
+            "w": 2.1861111111111113,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": true,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Сумма весов допустимой строки равна 1",
+            "x": 4.541666666666667,
+            "y": 2.5066458333333332,
+            "w": 6.628472222222222,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запрет",
+            "x": 1.0,
+            "y": 3.263590277777778,
+            "w": 1.2131944444444445,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": true,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Закрытый ключ получает нулевой вес",
+            "x": 4.541666666666667,
+            "y": 3.263590277777778,
+            "w": 6.134027777777778,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Независимость",
+            "x": 1.0,
+            "y": 4.020534722222222,
+            "w": 2.5993055555555555,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": true,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Будущее не меняет ранний выход",
+            "x": 4.541666666666667,
+            "y": 4.020534722222222,
+            "w": 5.574999999999999,
+            "h": 0.5625,
+            "fontFace": "Carlito",
+            "fontSize": 27.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 32.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Каждая проверка связана с конкретным шагом расчёта",
+            "x": 3.2311805555555555,
+            "y": 6.176076388888889,
+            "w": 6.997222222222223,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:366"
+    },
+    {
+      "id": "L05-24",
+      "title": "От ручных матриц к модели",
+      "section": "L05-S10",
+      "anchor": "На следующем занятии вместо маленьких матриц",
+      "notes": "- Завершить вопросом о происхождении проекций.\n- Сегодня числа были заданы вручную; в предобученном энкодере параметры уже получены на данных.\n- Механизм внимания остаётся тем же.",
+      "background": "FFFFFF",
+      "objects": [
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 0.0,
+            "y": 0.0,
+            "w": 13.333333333333334,
+            "h": 7.5,
+            "options": {
+              "fill": {
+                "color": "FFFFFF"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "От ручных матриц к модели",
+            "x": 2.5428888888888888,
+            "y": 0.548625,
+            "w": 8.413888888888888,
+            "h": 0.875,
+            "fontFace": "Prata",
+            "fontSize": 42.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 50.4,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "rect",
+            "x": 1.0,
+            "y": 1.4791666666666667,
+            "w": 11.333333333333334,
+            "h": 0.027777777777777776,
+            "options": {
+              "fill": {
+                "color": "1D9A78"
+              },
+              "line": {
+                "transparency": 100
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Системы искусственного интеллекта · NLP",
+            "x": 1.0,
+            "y": 6.9688888888888885,
+            "w": 2.834722222222222,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "24",
+            "x": 12.178472222222222,
+            "y": 6.9688888888888885,
+            "w": 0.26666666666666666,
+            "h": 0.22916666666666666,
+            "fontFace": "Carlito",
+            "fontSize": 11.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 13.2,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Следующая лекция",
+            "x": 5.354729166666667,
+            "y": 1.9390486111111112,
+            "w": 2.740277777777778,
+            "h": 0.4791666666666667,
+            "fontFace": "Carlito",
+            "fontSize": 23.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 27.599999999999998,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Ручные матрицы",
+            "x": 1.1616388888888889,
+            "y": 3.0313055555555555,
+            "w": 3.102777777777778,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Предобученный",
+            "x": 5.222576388888889,
+            "y": 3.0313055555555555,
+            "w": 3.011111111111111,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "энкодер",
+            "x": 5.9370972222222225,
+            "y": 3.531305555555556,
+            "w": 1.5902777777777777,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "161B18",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Признаки",
+            "x": 9.815347222222222,
+            "y": 3.0313055555555555,
+            "w": 1.8305555555555557,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "для задачи",
+            "x": 9.692430555555555,
+            "y": 3.531305555555556,
+            "w": 2.0756944444444443,
+            "h": 0.625,
+            "fontFace": "Carlito",
+            "fontSize": 30.0,
+            "bold": false,
+            "color": "1D9A78",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 36.0,
+            "charSpacing": 0
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.4398124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 4.7523124999999995,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.449097222222223,
+            "y": 3.3680555555555554,
+            "w": 0.4444444444444444,
+            "h": 0.0,
+            "flipH": false,
+            "flipV": false,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3680555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": false,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_shape",
+          "args": {
+            "shapeType": "line",
+            "x": 8.761597222222223,
+            "y": 3.3055555555555554,
+            "w": 0.13194444444444445,
+            "h": 0.0625,
+            "flipH": true,
+            "flipV": true,
+            "options": {
+              "line": {
+                "color": "1D9A78",
+                "width": 1.5,
+                "beginArrowType": "none",
+                "endArrowType": "none"
+              }
+            }
+          }
+        },
+        {
+          "tool": "add_text",
+          "args": {
+            "text": "Запросы, ключи, значения и маски сохраняют свой смысл",
+            "x": 3.072388888888889,
+            "y": 6.176076388888889,
+            "w": 7.303472222222222,
+            "h": 0.4375,
+            "fontFace": "Carlito",
+            "fontSize": 21.0,
+            "bold": false,
+            "color": "65706A",
+            "margin": 0,
+            "valign": "top",
+            "align": "left",
+            "lineSpacing": 25.2,
+            "charSpacing": 0
+          }
+        }
+      ],
+      "figmaNodeId": "2:384"
+    }
+  ]
+}

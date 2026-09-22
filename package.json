@@ -1,0 +1,25 @@
+{
+  "name": "nlp-lecture-studio",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:demo": "node scripts/build_cli.mjs --deck demo",
+    "build": "node scripts/build_cli.mjs",
+    "check:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.17.3",
+    "@resvg/resvg-js": "2.6.2",
+    "mathjax-full": "3.2.2",
+    "pptxgenjs": "3.12.0",
+    "sharp": "0.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "typescript": "5.9.2"
+  },
+  "overrides": {
+    "@xmldom/xmldom": "0.9.12"
+  }
+}

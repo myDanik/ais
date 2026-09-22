@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_232)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="389.473" y="163.002">Факт верен, вопрос другой</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">14</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="504.762" y="325.223">Q14 · «Куда подают заявление на пересдачу?»</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="70" letter-spacing="0px"><tspan x="144" y="405.926">Ответ сообщает часы работы&#10;</tspan><tspan x="144" y="489.926">ИТ-службы и ссылается на D02</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="144" y="707.355">Поддержка источником</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="62" letter-spacing="0px"><tspan x="144" y="798.191">Часы верны</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="1008" y="707.355">Ответ на вопрос</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="62" letter-spacing="0px"><tspan x="1008" y="798.191">Место подачи&#10;</tspan><tspan x="1008" y="872.191">не названо</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="427.474" y="931.355">Показан смысл фактического ответа, а не дословная цитата</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="26" letter-spacing="0px"><tspan x="1469.61" y="976.387">Лабораторная 8 · RAG / Q14</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_3_232" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_232"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_232" result="effect2_dropShadow_3_232"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_232" result="shape"/>
+</filter>
+</defs>
+</svg>
+

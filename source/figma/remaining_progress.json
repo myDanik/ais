@@ -1,0 +1,51 @@
+{
+  "scope": [
+    "L03",
+    "L04",
+    "L05",
+    "L06",
+    "L07",
+    "L08"
+  ],
+  "status": "complete",
+  "files": [
+    {
+      "id": "L03",
+      "fileKey": "3zSCQpTw4wqVEoGM8rHcNh",
+      "url": "https://www.figma.com/slides/3zSCQpTw4wqVEoGM8rHcNh",
+      "status": "approved"
+    },
+    {
+      "id": "L04",
+      "fileKey": "nmDKsYmBWXnqAGU6Q6e2kW",
+      "url": "https://www.figma.com/slides/nmDKsYmBWXnqAGU6Q6e2kW",
+      "status": "approved"
+    },
+    {
+      "id": "L05",
+      "fileKey": "iWEEh2xcCzsairLLrpO7eN",
+      "url": "https://www.figma.com/slides/iWEEh2xcCzsairLLrpO7eN",
+      "status": "approved"
+    },
+    {
+      "id": "L06",
+      "fileKey": "PMxgmP3frzQXWJa3ztQtQs",
+      "url": "https://www.figma.com/slides/PMxgmP3frzQXWJa3ztQtQs",
+      "status": "approved"
+    },
+    {
+      "id": "L07",
+      "fileKey": "1pX1lytnPVflurO7lqKQQq",
+      "url": "https://www.figma.com/slides/1pX1lytnPVflurO7lqKQQq",
+      "status": "approved"
+    },
+    {
+      "id": "L08",
+      "fileKey": "mfVmTY7dC1EFHUnGKIARcS",
+      "url": "https://www.figma.com/slides/mfVmTY7dC1EFHUnGKIARcS",
+      "status": "approved"
+    }
+  ],
+  "slides": 145,
+  "reviewed": "2026-09-21"
+}

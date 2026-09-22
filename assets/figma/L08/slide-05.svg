@@ -1,0 +1,36 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_67)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="230.25" y="163.002">Индекс связан с редакцией текста</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">Системы искусственного интеллекта · NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">5</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="695.612" y="325.223">При изменении документа</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="55" letter-spacing="0px"><tspan x="193.47" y="491.799">Новая редакция</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="38" letter-spacing="0px"><tspan x="194.188" y="569.988">текст и происхождение</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="55" letter-spacing="0px"><tspan x="796.799" y="491.799">Новый вектор</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="38" letter-spacing="0px"><tspan x="835.257" y="569.988">та же редакция</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="55" letter-spacing="0px"><tspan x="1371.93" y="491.799">Обновлённый </tspan><tspan x="1454.83" y="557.799">индекс</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="38" letter-spacing="0px"><tspan x="1320.13" y="635.988">актуальная связь с текстом</tspan></text>
+<path d="M639.333 485H703.333M684.333 494L703.333 485L684.333 476" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1216.67 485H1280.67M1261.67 494L1280.67 485L1261.67 476" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="386.396" y="931.355">Удалённый документ не должен возвращаться как старая копия</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_3_67" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_67"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_67" result="effect2_dropShadow_3_67"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_67" result="shape"/>
+</filter>
+</defs>
+</svg>
+

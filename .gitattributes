@@ -1,0 +1,12 @@
+# Preserve published course files and their SHA-256 manifests byte for byte.
+* -text
+
+*.pdf binary
+*.pptx binary
+*.docx binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ttf binary
+*.npz binary

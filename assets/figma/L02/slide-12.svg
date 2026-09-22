@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_7_75)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="227.625" y="163.002">&#x420;&#x435;&#x433;&#x443;&#x43b;&#x44f;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44f; &#x43e;&#x433;&#x440;&#x430;&#x43d;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x432;&#x435;&#x441;&#x430;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">12</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="46" letter-spacing="0px"><tspan x="709.83" y="345.223">&#x41f;&#x440;&#x438; &#x43e;&#x431;&#x443;&#x447;&#x435;&#x43d;&#x438;&#x438; &#x443;&#x447;&#x438;&#x442;&#x44b;&#x432;&#x430;&#x435;&#x43c;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="223.545" y="499.059">&#x41b;&#x43e;&#x433;&#x430;&#x440;&#x438;&#x444;&#x43c;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x443;&#x44e;&#10;</tspan><tspan x="268.501" y="578.059">&#x43f;&#x43e;&#x442;&#x435;&#x440;&#x44e; &#x43d;&#x430; train</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="96" letter-spacing="0px"><tspan x="916.094" y="527.312">+</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="66" letter-spacing="0px"><tspan x="1151" y="499.059">&#x428;&#x442;&#x440;&#x430;&#x444; &#x437;&#x430; &#x431;&#x43e;&#x43b;&#x44c;&#x448;&#x438;&#x435;&#10;</tspan><tspan x="1205.46" y="578.059">&#x43a;&#x43e;&#x44d;&#x444;&#x444;&#x438;&#x446;&#x438;&#x435;&#x43d;&#x442;&#x44b;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="104" letter-spacing="0px"><tspan x="278.418" y="843.047">C &#x2193;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="86" letter-spacing="0px"><tspan x="641.073" y="825.895">&#x2192;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="850" y="805.375">&#x411;&#x43e;&#x43b;&#x435;&#x435; &#x441;&#x438;&#x43b;&#x44c;&#x43d;&#x430;&#x44f;&#10;</tspan><tspan x="850" y="882.375">&#x440;&#x435;&#x433;&#x443;&#x43b;&#x44f;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44f;</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="26" letter-spacing="0px"><tspan x="1057.6" y="974.387">scikit-learn &#xb7; LogisticRegression: C &#x2014; &#x43e;&#x431;&#x440;&#x430;&#x442;&#x43d;&#x430;&#x44f; &#x441;&#x438;&#x43b;&#x430; &#x440;&#x435;&#x433;&#x443;&#x43b;&#x44f;&#x440;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_7_75" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_75"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_7_75" result="effect2_dropShadow_7_75"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_7_75" result="shape"/>
+</filter>
+</defs>
+</svg>
+

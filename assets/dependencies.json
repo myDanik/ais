@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prata/Prata-Regular.ttf",
+    "path": "assets/fonts/prata/Prata-Regular.ttf",
+    "sha256": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+    "cyrillic": true,
+    "family": "Prata"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prata/OFL.txt",
+    "path": "assets/fonts/prata/OFL.txt",
+    "sha256": "1e055d25bde41906cc2e1a08bc156e7776d5084e1640d75dbd0065a937b488e3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf",
+    "path": "assets/fonts/bodonimoda/BodoniModa[opsz,wght].ttf",
+    "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+    "cyrillic": false,
+    "family": "Bodoni Moda"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/OFL.txt",
+    "path": "assets/fonts/bodonimoda/OFL.txt",
+    "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+  },
+  {
+    "url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v26.07.0-0/Release-26.07.0-0.zip",
+    "path": ".tools/downloads/Release-26.07.0-0.zip",
+    "sha256": "a711b0563b06edc488583d28198b6734c5a494afbbd1b9d87d3d2866062fb7e2"
+  }
+]

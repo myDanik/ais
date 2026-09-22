@@ -1,0 +1,20 @@
+{
+  "file": "D:\\AIS\\output\\demo.pptx",
+  "slides": 5,
+  "renderer": "LibreOffice + Poppler",
+  "fonts": [
+    "BAAAAA+Prata-Regular",
+    "CAAAAA+Calibri",
+    "DAAAAA+Calibri",
+    "EAAAAA+Calibri",
+    "FAAAAA+Calibri",
+    "GAAAAA+Calibri",
+    "HAAAAA+Cambria",
+    "IAAAAA+Calibri",
+    "JAAAAA+Calibri",
+    "KAAAAA+Prata-Regular",
+    "LAAAAA+Calibri"
+  ],
+  "errors": [],
+  "visual_review_required": true
+}

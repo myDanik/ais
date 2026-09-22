@@ -1,0 +1,27 @@
+{
+  "id": "my-ml-lecture",
+  "title": "Новая ML-лекция",
+  "lecture": "papers/demo_lecture.md",
+  "output": "output/my-ml-lecture.pptx",
+  "slides": [
+    {
+      "id": "opening",
+      "section": "DEMO-S01",
+      "anchor": "В обычном блоке Transformer все токены проходят через одну и ту же feed-forward сеть.",
+      "layout": "section",
+      "title": "Mixture of Experts",
+      "subtitle": "Разные пути для разных токенов",
+      "notes": "Объяснить, что эксперт — FFN, а маршрутизатор выбирает путь для токена."
+    },
+    {
+      "id": "equation",
+      "section": "DEMO-S02",
+      "anchor": "В таком примере результат равен 0,6875 E₁(x) + 0,3125 E₂(x)",
+      "layout": "equation",
+      "title": "Выход выбранных экспертов",
+      "subtitle": "Веса получены после выбора top-2 и нормировки",
+      "tex": "y=0.6875\\,E_1(x)+0.3125\\,E_2(x)",
+      "notes": "Сопоставить коэффициенты с оставшимися оценками 0,55 и 0,25."
+    }
+  ]
+}

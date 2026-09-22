@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_16_25)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="321.879" y="163.002">&#x41e;&#x434;&#x43d;&#x430; &#x444;&#x43e;&#x440;&#x43c;&#x430; &#x2014; &#x440;&#x430;&#x437;&#x43d;&#x44b;&#x435; &#x43b;&#x435;&#x43c;&#x43c;&#x44b;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">21</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="68" letter-spacing="0px"><tspan x="144" y="404.242">&#x43e;&#x431;&#x440;&#x430;&#x437;&#x446;&#x44b; </tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="68" font-weight="bold" letter-spacing="0px"><tspan x="410.754" y="404.242">&#x441;&#x442;&#x430;&#x43b;&#x438;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="68" letter-spacing="0px"><tspan x="1032" y="404.242">&#x441;&#x442;&#x443;&#x434;&#x435;&#x43d;&#x442;&#x44b; </tspan><tspan x="1032" y="486.242">&#x43f;&#x440;&#x43e;&#x432;&#x435;&#x440;&#x44f;&#x442;&#x44c; &#x440;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;&#x44b;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="68" font-weight="bold" letter-spacing="0px"><tspan x="1310.04" y="404.242">&#x441;&#x442;&#x430;&#x43b;&#x438;&#10;</tspan></text>
+<path d="M516 624V722M507 703L516 722L525 703" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1404 624V722M1395 703L1404 722L1413 703" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="112" letter-spacing="0px"><tspan x="358.828" y="891.336">&#x441;&#x442;&#x430;&#x43b;&#x44c;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="112" letter-spacing="0px"><tspan x="1250.33" y="891.336">&#x441;&#x442;&#x430;&#x442;&#x44c;</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_16_25" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_16_25"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_16_25" result="effect2_dropShadow_16_25"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_16_25" result="shape"/>
+</filter>
+</defs>
+</svg>
+

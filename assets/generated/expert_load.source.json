@@ -1,0 +1,17 @@
+{
+  "type": "author-illustration",
+  "unbalanced": [
+    8,
+    0,
+    0,
+    0
+  ],
+  "balanced": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "unit": "tokens",
+  "not_an_empirical_benchmark": true
+}

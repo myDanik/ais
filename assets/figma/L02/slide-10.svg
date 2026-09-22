@@ -1,0 +1,42 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_7_28)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="257.648" y="163.002">&#x423;&#x432;&#x435;&#x440;&#x435;&#x43d;&#x43d;&#x430;&#x44f; &#x43e;&#x448;&#x438;&#x431;&#x43a;&#x430; &#x441;&#x442;&#x43e;&#x438;&#x442; &#x434;&#x43e;&#x440;&#x43e;&#x436;&#x435;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1753.7" y="1025.52">10</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="70" letter-spacing="0px"><tspan x="795.186" y="345.926">L = &#x2212;ln(p_y)</tspan></text>
+<path d="M300 846H1660" stroke="#65706A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 395V846" stroke="#65706A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="291.891" y="897.938">0</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="959.781" y="897.938">0,5</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="1651.89" y="897.938">1</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="251.781" y="710.938">1</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="251.781" y="565.938">2</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="32" letter-spacing="0px"><tspan x="251.781" y="420.938">3</tspan></text>
+<path d="M368 411.619L381.6 438.056L395.2 460.407L408.8 479.769L422.4 496.848L436 512.125L449.6 525.945L463.2 538.562L476.8 550.168L490.4 560.914L504 570.918L517.6 580.276L531.2 589.066L544.8 597.354L558.4 605.194L572 612.632L585.6 619.706L599.2 626.452L612.8 632.897L626.4 639.068L640 644.987L653.6 650.674L667.2 656.147L680.8 661.42L694.4 666.508L708 671.424L721.6 676.179L735.2 680.782L748.8 685.244L762.4 689.573L776 693.776L789.6 697.861L803.2 701.833L816.8 705.7L830.4 709.467L844 713.138L857.6 716.718L871.2 720.212L884.8 723.624L898.4 726.958L912 730.216L925.6 733.403L939.2 736.522L952.8 739.575L966.4 742.564L980 745.494L993.6 748.365L1007.2 751.181L1020.8 753.943L1034.4 756.653L1048 759.314L1061.6 761.926L1075.2 764.493L1088.8 767.015L1102.4 769.493L1116 771.93L1129.6 774.327L1143.2 776.685L1156.8 779.005L1170.4 781.288L1184 783.537L1197.6 785.75L1211.2 787.931L1224.8 790.079L1238.4 792.196L1252 794.282L1265.6 796.339L1279.2 798.367L1292.8 800.367L1306.4 802.34L1320 804.286L1333.6 806.207L1347.2 808.102L1360.8 809.973L1374.4 811.82L1388 813.644L1401.6 815.446L1415.2 817.225L1428.8 818.982L1442.4 820.719L1456 822.435L1469.6 824.131L1483.2 825.807L1496.8 827.464L1510.4 829.103L1524 830.723L1537.6 832.325L1551.2 833.91L1564.8 835.477L1578.4 837.028L1592 838.563L1605.6 840.081L1619.2 841.583L1632.8 843.071L1646.4 844.543L1660 846" stroke="#1D9A78" stroke-width="5"/>
+<rect x="429" y="505.125" width="14" height="14" fill="#1D9A78"/>
+<rect x="1517" y="823.723" width="14" height="14" fill="#1D9A78"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="52" letter-spacing="0px"><tspan x="535" y="481.773">p_y = 0,1&#10;</tspan><tspan x="535" y="543.773">L &#x2248; 2,303</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="52" letter-spacing="0px"><tspan x="1250" y="704.773">p_y = 0,9&#10;</tspan><tspan x="1250" y="766.773">L &#x2248; 0,105</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="38" letter-spacing="0px"><tspan x="662.049" y="951.988">&#x412;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x43e;&#x441;&#x442;&#x44c; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x43a;&#x43b;&#x430;&#x441;&#x441;&#x430; p_y</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="38" letter-spacing="0px"><tspan x="144" y="347.988">&#x41f;&#x43e;&#x442;&#x435;&#x440;&#x44f; L</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_7_28" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_28"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_7_28" result="effect2_dropShadow_7_28"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_7_28" result="shape"/>
+</filter>
+</defs>
+</svg>
+

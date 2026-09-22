@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "author": "Авторский учебный комплект NLP",
+  "license": "CC BY 4.0",
+  "rows": 600,
+  "groups": 120,
+  "labels": {
+    "it": "ИТ",
+    "library": "Библиотека",
+    "dormitory": "Общежитие",
+    "study": "Учебный процесс",
+    "admission": "Поступление",
+    "scholarship": "Стипендия"
+  },
+  "split_policy": "base request group: 12/4/4 per category; no group crosses splits",
+  "limitations": [
+    "120 base requests with 5 stylistic variants each, not 600 independent situations",
+    "No claim of real-world representativeness or production performance",
+    "Fictional university rules; no real student data",
+    "A single author label does not guarantee that every short request is unambiguous; discuss cases such as admission-19"
+  ],
+  "sha256": {
+    "audit_requests.csv": "f266edcd1758e23deb1390ef985c1b4ea598f1916fc5fb81ac342f42d5c98d6e",
+    "knowledge.csv": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+    "requests.csv": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+    "retrieval_queries.csv": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112"
+  }
+}

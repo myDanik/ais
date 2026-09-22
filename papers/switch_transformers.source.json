@@ -1,0 +1,12 @@
+{
+  "url": "https://jmlr.org/papers/volume23/21-0998/21-0998.pdf",
+  "title": "Switch Transformers",
+  "authors": [
+    "William Fedus",
+    "Barret Zoph",
+    "Noam Shazeer"
+  ],
+  "year": 2022,
+  "venue": "JMLR",
+  "sha256": "8831edca732dd939854957b4b1a493fa553e7b43dd431a5d4fee15493bba6e3e"
+}

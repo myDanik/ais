@@ -1,0 +1,36 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_7_6)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="404.936" y="163.002">Softmax &#x434;&#x430;&#x451;&#x442; &#x432;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x43e;&#x441;&#x442;&#x438;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">9</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="621.656" y="344.375">p(c) = exp(s_c) / &#x3a3; exp(s_j)</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="52" letter-spacing="0px"><tspan x="144" y="501.773">&#x411;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x430;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="746" y="494.539">s = 1,5</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" font-weight="bold" letter-spacing="0px"><tspan x="1615.5" y="513.375">89,1%</tspan></text>
+<rect x="144" y="548" width="1016" height="30" fill="#1D9A78"/>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="52" letter-spacing="0px"><tspan x="144" y="686.773">&#x418;&#x422;</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="44" letter-spacing="0px"><tspan x="746" y="679.539">s = &#x2212;0,6</tspan></text>
+<text fill="#0070C0" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" font-weight="bold" letter-spacing="0px"><tspan x="1615.5" y="698.375">10,9%</tspan></text>
+<rect x="144" y="733" width="124" height="30" fill="#0070C0"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="48" letter-spacing="0px"><tspan x="792.867" y="915.406">0,891 + 0,109 = 1</tspan></text>
+</g>
+<defs>
+<filter id="filter0_dd_7_6" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_6"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_7_6" result="effect2_dropShadow_7_6"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_7_6" result="shape"/>
+</filter>
+</defs>
+</svg>
+

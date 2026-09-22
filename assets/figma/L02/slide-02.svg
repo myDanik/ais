@@ -1,0 +1,36 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_11)">
+<rect width="1920" height="1080" fill="white"/>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Prata" font-size="84" letter-spacing="0px"><tspan x="282.217" y="163.002">&#x41f;&#x440;&#x438; &#x43e;&#x431;&#x443;&#x447;&#x435;&#x43d;&#x438;&#x438; &#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43d;&#x44b; &#x43e;&#x442;&#x432;&#x435;&#x442;&#x44b;</tspan></text>
+<rect x="144" y="213" width="1632" height="4" fill="#1D9A78"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="144" y="1025.52">&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x44b; &#x438;&#x441;&#x43a;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x43d;&#x442;&#x435;&#x43b;&#x43b;&#x435;&#x43a;&#x442;&#x430; &#xb7; NLP</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="22" letter-spacing="0px"><tspan x="1764.85" y="1025.52">2</tspan></text>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="144" y="343.355">&#x41e;&#x431;&#x443;&#x447;&#x435;&#x43d;&#x438;&#x435;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="144" y="452.375">&#x422;&#x435;&#x43a;&#x441;&#x442;&#x44b; + &#x432;&#x435;&#x440;&#x43d;&#x44b;&#x435; &#x43c;&#x435;&#x442;&#x43a;&#x438;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="1284" y="452.375">&#x41f;&#x430;&#x440;&#x430;&#x43c;&#x435;&#x442;&#x440;&#x44b;&#10;</tspan><tspan x="1284" y="529.375">&#x43c;&#x43e;&#x434;&#x435;&#x43b;&#x438;</tspan></text>
+<path d="M932 433H1200M1181 442L1200 433L1181 424" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#65706A" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="42" letter-spacing="0px"><tspan x="144" y="693.355">&#x41f;&#x440;&#x438;&#x43c;&#x435;&#x43d;&#x435;&#x43d;&#x438;&#x435;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="144" y="802.375">&#x41d;&#x43e;&#x432;&#x44b;&#x439; &#x442;&#x435;&#x43a;&#x441;&#x442;</tspan></text>
+<text fill="#161B18" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="804" y="802.375">&#x41c;&#x43e;&#x434;&#x435;&#x43b;&#x44c;</tspan></text>
+<text fill="#1D9A78" style="white-space: pre" xml:space="preserve" font-family="Carlito" font-size="64" letter-spacing="0px"><tspan x="1344" y="802.375">&#x41a;&#x430;&#x442;&#x435;&#x433;&#x43e;&#x440;&#x438;&#x44f;</tspan></text>
+<path d="M650 770H768M749 779L768 770L749 761" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1190 770H1308M1289 779L1308 770L1289 761" stroke="#1D9A78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_dd_3_11" x="-20" y="-15" width="1960" height="1120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_11"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_11" result="effect2_dropShadow_3_11"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_11" result="shape"/>
+</filter>
+</defs>
+</svg>
+
