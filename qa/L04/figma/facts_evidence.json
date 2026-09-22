@@ -1,0 +1,215 @@
+{
+  "lesson": "L04",
+  "sha256": {
+    "source\\lectures\\L04.md": "fedb46fba7ffdb16bab13e0f6d7ccbae86b147d9f88b81548da4ca74035e1ce2",
+    "source\\labs\\L04.py": "af4e15923161252f782650f890fc294bf6c50f717b759b773054efed25238111",
+    "source\\labs\\L04.json": "b48d169d6712316785f206a8bd71a0c4c43b96a615247ab5d5f6ee43c17b12ee",
+    "dist\\teacher\\L04\\solution.ipynb": "d97591761268970499cd8aee30289c0faba5f84825e7c7a3e35703a1b9c35443"
+  },
+  "code_cells": 14,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "errors": [],
+  "data_copies": {
+    "requests.csv": {
+      "sha256": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+      "identical": true
+    },
+    "knowledge.csv": {
+      "sha256": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+      "identical": true
+    },
+    "retrieval_queries.csv": {
+      "sha256": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112",
+      "identical": true
+    }
+  },
+  "lightweight_reexecution": "passed; all original assertions; no model downloads or neural inference",
+  "comparison": [
+    {
+      "n": 1,
+      "train_ppl": 9.69441883509939,
+      "validation_ppl": 6.638789747762561,
+      "train_targets": 527,
+      "validation_targets": 189
+    },
+    {
+      "n": 2,
+      "train_ppl": 5.2484267274753655,
+      "validation_ppl": 4.979993795227658,
+      "train_targets": 527,
+      "validation_targets": 189
+    },
+    {
+      "n": 3,
+      "train_ppl": 5.044076214419683,
+      "validation_ppl": 6.038190116930906,
+      "train_targets": 527,
+      "validation_targets": 189
+    }
+  ],
+  "test": {
+    "ppl": 4.940421045685083,
+    "mean_nll": 1.5974505594878547,
+    "targets": 190
+  },
+  "coverage": {
+    "train": {
+      "words": 455,
+      "unk_fraction": 0.5802197802197803
+    },
+    "validation": {
+      "words": 165,
+      "unk_fraction": 0.6848484848484848
+    },
+    "test": {
+      "words": 166,
+      "unk_fraction": 0.7108433734939759
+    }
+  },
+  "vocab_size": 47,
+  "generations": {
+    "greedy": {
+      "text": "как <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>",
+      "tokens": [
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>"
+      ],
+      "stopped_by": "limit",
+      "steps": 40
+    },
+    "sample_7": {
+      "text": "как подать социальной стипендии",
+      "tokens": [
+        "подать",
+        "социальной",
+        "стипендии"
+      ],
+      "stopped_by": "EOS",
+      "steps": 4
+    },
+    "sample_42": {
+      "text": "как получить другую сообщить о <UNK> стипендии можно ли <UNK> <UNK> <UNK> после из продлить другую выплаты не <UNK> к ли можно ли узнать социальной стипендии",
+      "tokens": [
+        "получить",
+        "другую",
+        "сообщить",
+        "о",
+        "<UNK>",
+        "стипендии",
+        "можно",
+        "ли",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "после",
+        "из",
+        "продлить",
+        "другую",
+        "выплаты",
+        "не",
+        "<UNK>",
+        "к",
+        "ли",
+        "можно",
+        "ли",
+        "узнать",
+        "социальной",
+        "стипендии"
+      ],
+      "stopped_by": "EOS",
+      "steps": 26
+    },
+    "sample_99": {
+      "text": "как нужно ли <UNK> справка о к <UNK> <UNK> <UNK> <UNK> после <UNK> <UNK> <UNK> <UNK> <UNK> после <UNK> в <UNK> <UNK> <UNK> <UNK> не <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>",
+      "tokens": [
+        "нужно",
+        "ли",
+        "<UNK>",
+        "справка",
+        "о",
+        "к",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "после",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "после",
+        "<UNK>",
+        "в",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "не",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>",
+        "<UNK>"
+      ],
+      "stopped_by": "EOS",
+      "steps": 31
+    }
+  },
+  "code_matches_current_lab_sources": true,
+  "matched_code_cells": 14
+}

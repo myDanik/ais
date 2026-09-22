@@ -1,0 +1,532 @@
+{
+  "sha256": {
+    "assets\\figma\\L04\\slide-01.svg": "bf6095fd8b519b891de4d36c5e35035a7c46b71adbb6d970ebdc0b053292d3ed",
+    "qa\\L04\\figma\\slide-01.pdf": "2281a8b8fa7c6724e29543d3ed97b87d6cd88c1c458f3601d6b39269767e304a",
+    "qa\\L04\\figma\\slide-01.png": "070ff629dd0c6b62c932744eb30f114302572013b34ba146358de039bec6e5d2",
+    "qa\\L04\\figma\\editable_slides\\slide-01.png": "7e728f3cdd2b8ce4b60ab713fe5df32157acfe92333297dfaae48508917d7972",
+    "assets\\figma\\L04\\slide-02.svg": "b583b1d1c9f88dd91990818cf96bb328c38fcabb45fd90b1b2fa753e6da12565",
+    "qa\\L04\\figma\\slide-02.pdf": "0f35fcee155537e2d75ba62dc19089b61a5666dae3b43f1bde187d5e365c161c",
+    "qa\\L04\\figma\\slide-02.png": "da00ca5dddf5c32a4fe533402c2608706d54fca4035ff9e847ff71b12b4fc11e",
+    "qa\\L04\\figma\\editable_slides\\slide-02.png": "9edb182c6da5bea988b63b513f3a203d7b7b948f2d0198b8336d1db0450e841f",
+    "assets\\figma\\L04\\slide-03.svg": "e96d837ca9c39c1cf9d970a6228afa79389a59f7bf0593cfd4bcb5063bfe4915",
+    "qa\\L04\\figma\\slide-03.pdf": "1e2db58e326bb9d50d923dc45e5336c87eeeaa33f61c2b40749b488ccf05bac0",
+    "qa\\L04\\figma\\slide-03.png": "a5dd2bf1b7e9264c624b8e97dcf718c7ded19c34d57b75dbf7ac876804ddfd83",
+    "qa\\L04\\figma\\editable_slides\\slide-03.png": "270c938036edca7636a95b632bc9447270f29e6b78e6f8cc78c6c9e6354e589d",
+    "assets\\figma\\L04\\slide-04.svg": "fc93a50d7177fc82bb0388919cf6e41fb61244a11af36e100952ed91c8c2f589",
+    "qa\\L04\\figma\\slide-04.pdf": "d03a981bc9d36081a7782bb07f7c1638722895f1921dbae470d03292030b0f43",
+    "qa\\L04\\figma\\slide-04.png": "45bfa13904f3d7b59cfb14c81983250efad11baefd3d64bd33c28ccd926b0636",
+    "qa\\L04\\figma\\editable_slides\\slide-04.png": "95102d2fc7e09c3464888d892988014171a940e0e132e865d2886b46ffe8730c",
+    "assets\\figma\\L04\\slide-05.svg": "42d0c7980109cb91c600b936722089c90becfb9a00a3738533c683782d8157c1",
+    "qa\\L04\\figma\\slide-05.pdf": "d2a5a6f0e486351b3a0fbf7936c9640132e2ee6c16008afa28bd2049cb862fda",
+    "qa\\L04\\figma\\slide-05.png": "b28ec2868f77e68944413d524bd34e9fab0856f11155c5bf97cd0e49777b323f",
+    "qa\\L04\\figma\\editable_slides\\slide-05.png": "e23c4fee1049a30dc3d3def3fa3ab8fc0f0268da073efb476518af8561cfb361",
+    "assets\\figma\\L04\\slide-06.svg": "1e1a8bc7bb209d23c4b31a98c253b382e51fd7e84b30c9f8148035b63021d89e",
+    "qa\\L04\\figma\\slide-06.pdf": "a9b1b689720eb022d599952e7811e73e45ca367117a4dcca130fccce6f06ce16",
+    "qa\\L04\\figma\\slide-06.png": "03f6bf076e8819a8dc3500c38205082b8672e6d940ed9f2d6a0dd9df53129d3d",
+    "qa\\L04\\figma\\editable_slides\\slide-06.png": "0a2d728aaa7b4533f22bcfc79b6b2dedb5371ad2041c921d998b84d37b902d02",
+    "assets\\figma\\L04\\slide-07.svg": "7a7082a914d494306540f2437d667b9e68964e94b714f08f7a693cb60f99eebf",
+    "qa\\L04\\figma\\slide-07.pdf": "73fbcde1b5aa8938e30eff99c96cb631682cfe26b2811be4ba6e3e1cbe3bfb82",
+    "qa\\L04\\figma\\slide-07.png": "25341351c28e7e823dd4b1d30a2cc64836c23c18e45e6be8feae4d7e87051a82",
+    "qa\\L04\\figma\\editable_slides\\slide-07.png": "357a884e06868467277e75bdefcd02f0185c5021b58b00cef36c3655a7434976",
+    "assets\\figma\\L04\\slide-08.svg": "983d4f3045051ebc1cf9182a3d36393eae83c692cfc211d48c9306590e1be117",
+    "qa\\L04\\figma\\slide-08.pdf": "2e49b939293befc50688ae8249f640c12c9ba601e0ceae477ddf2ce3cc5c4f04",
+    "qa\\L04\\figma\\slide-08.png": "bcc92be217f4cf2604d6d0a02ed48fa669dc322453be6e4f41f6fbd840775386",
+    "qa\\L04\\figma\\editable_slides\\slide-08.png": "d29bfa639f06679e7d7c7378af00b3889d8849b8942166b69178c26cf7383333",
+    "assets\\figma\\L04\\slide-09.svg": "1d95e7258f8f08fdc030cc183a1b2ae343de823ec3a684c52ca53f86ac68b8b9",
+    "qa\\L04\\figma\\slide-09.pdf": "00bc340871586d43b903e564bd81adaabeeeed03371369f6c69c642e126946e3",
+    "qa\\L04\\figma\\slide-09.png": "fe55a4d1319d2fd94fcf66db481ba8a2e9290f44e32cf0d18a7e24ae5e20e9cd",
+    "qa\\L04\\figma\\editable_slides\\slide-09.png": "62c5fb48fee2aec395f4da77f65394db724150758c430bebe6b53bd53fb03751",
+    "assets\\figma\\L04\\slide-10.svg": "1e6feb8e906dfd7cfc36ea0b823f3d234a25456b30f5e340523518ca142d6163",
+    "qa\\L04\\figma\\slide-10.pdf": "c1c6a0076a6d5fd3bec6ebea694f33129fae67721f5bf0bba68cc3a8af15a877",
+    "qa\\L04\\figma\\slide-10.png": "53201ea9d500ce7e94bf41cfe5bc8a4200fa380b256bf504cfe9a18bf1f29023",
+    "qa\\L04\\figma\\editable_slides\\slide-10.png": "b8fcbf453a6f78261984e7c378991de884c099b5da0add398135cd06fea09390",
+    "assets\\figma\\L04\\slide-11.svg": "c2d05b67378837a691b171bd719c33381c9a79502198989a48a135674d45211e",
+    "qa\\L04\\figma\\slide-11.pdf": "0e5782310af313a3d606798ba02d5c4a86e7c018a1a07b71bbd17dec9c3bf298",
+    "qa\\L04\\figma\\slide-11.png": "2fc87193a1e285ded4548e55b6e0a8e13b811605335cf6706b2ae8036a0d9b4d",
+    "qa\\L04\\figma\\editable_slides\\slide-11.png": "3a2039d630ff1592dc99f5fd583566c632ecaa61f446493b80749780a920183a",
+    "assets\\figma\\L04\\slide-12.svg": "3a557fa8bed7fc21b05d8198d74ad1b217865630749725603a55b61877072087",
+    "qa\\L04\\figma\\slide-12.pdf": "737525e659dd741595006b2e58f98623c6b1910275003bf3b654785e14cc2b8f",
+    "qa\\L04\\figma\\slide-12.png": "7a61d982bd4a61cfbbd40824154fcadb37f0ada8f971bb185fd6912afb717704",
+    "qa\\L04\\figma\\editable_slides\\slide-12.png": "278dd6a614667ed0605372ba27cb04905814d74c3ed08685a52bb9eaabad3cbb",
+    "assets\\figma\\L04\\slide-13.svg": "131bdcf36d48cc9c939c396766a400695abd4f6fb545c2855ca39211e52be426",
+    "qa\\L04\\figma\\slide-13.pdf": "62ca3eb57724db03f26036d760c1561b87a8422944838f5950d8cb1405ecfb4e",
+    "qa\\L04\\figma\\slide-13.png": "3730f029c6c5ac5c9a7ff051802b11c8f59c5071f3bf1979040353c1a5927904",
+    "qa\\L04\\figma\\editable_slides\\slide-13.png": "516577c323620783dfa2cb0773625ac044f987db0d503e1c832b0fcfb7259ebb",
+    "assets\\figma\\L04\\slide-14.svg": "61fda3cf7629bea52b1b37be837a1e811a4bc91fe2643437a4045d55dcfb5c5c",
+    "qa\\L04\\figma\\slide-14.pdf": "c32e2ed1856d4a07685ca502dda4af7eb7745d715a2bba89d019f23f59e6ba9b",
+    "qa\\L04\\figma\\slide-14.png": "b1f116ff9182e5114e33be2768942f7fa8497d20614d417befe819d8cdb8738b",
+    "qa\\L04\\figma\\editable_slides\\slide-14.png": "79df64b5480300e893b3f76e69dbe8f7f39b0bfec244b54589631f0f46d12551",
+    "assets\\figma\\L04\\slide-15.svg": "608467fb1d4d57ec23bf33c8155790fd0336126bbda25cc55d4141d6c1e52f1f",
+    "qa\\L04\\figma\\slide-15.pdf": "d8061f0cd94f3f83fa2992a9c6e0e3d510caffe1a4737cc2b02ba9b10e106c7f",
+    "qa\\L04\\figma\\slide-15.png": "e935347a29a72f7f50de4117c92443ed01ae1b1eadaa4c464ad1227dde04ab25",
+    "qa\\L04\\figma\\editable_slides\\slide-15.png": "00bd5bae20390cdbecb7f3eafc2fd25743b0b94942abebf7160e9603509dcd9a",
+    "assets\\figma\\L04\\slide-16.svg": "d268c9d9d154b23e0e6f4c5c22c82f2fa3208e5dfec3e080cc543157e78dc983",
+    "qa\\L04\\figma\\slide-16.pdf": "d6428e18cae9a6d6917a41d8233f0153bb9d74c577d25662a8166e7be0193829",
+    "qa\\L04\\figma\\slide-16.png": "051298fbcba3fa063c6464f240a764a19c56f521ce7fe5812b1ea4f90d4baf08",
+    "qa\\L04\\figma\\editable_slides\\slide-16.png": "9ecef750d247002bb10ddfa4ea641dd2e104efa264331cdaac9f0be32d12488f",
+    "assets\\figma\\L04\\slide-17.svg": "0494837e9d13143051408e992cacd3f8ed5ef08b2c9b0bebe628c7b1fc1cec7b",
+    "qa\\L04\\figma\\slide-17.pdf": "d7ce55f53d8a399f1a2bdbc2afdb569228f8b9defe4b23e468ffb700bbbbf247",
+    "qa\\L04\\figma\\slide-17.png": "bbab84f24a170034f782a541751967c37a9f43b726483e86a1ee980cf4d0de26",
+    "qa\\L04\\figma\\editable_slides\\slide-17.png": "e599d6484bcc72ee8999e641b3758525e2f114db6c30d571672e45539379bc37",
+    "assets\\figma\\L04\\slide-18.svg": "9abe710687daff2326c4b11e1a68d3e3f6e16d7d081d291842305b3e02cb7e90",
+    "qa\\L04\\figma\\slide-18.pdf": "d80c12694829df72b1af98abd6f2e56bb77416f847ef0050d04f8d442221a6fe",
+    "qa\\L04\\figma\\slide-18.png": "f577004bf00603f35de1bced09b6950667821c6a314a225a47a020ef303754de",
+    "qa\\L04\\figma\\editable_slides\\slide-18.png": "f4aaf685727162c761aeeba360b8a6c662fcdc7c8971bb869c915c440371eeab",
+    "assets\\figma\\L04\\slide-19.svg": "b4e3a57a7aede624e9c2c47c327631b07db29fc16be592a083c2ef685e391c49",
+    "qa\\L04\\figma\\slide-19.pdf": "1dd6a57583b8a5e1f87cac890e1c2e52c3e0d2ea81b41a87985356ffa291180c",
+    "qa\\L04\\figma\\slide-19.png": "c78402fd9a988d8d8b2b04a2486876ccfdc97a0ad5acec106d12c201b5ab15e9",
+    "qa\\L04\\figma\\editable_slides\\slide-19.png": "b757cc0c8c05cd6f88b40a74c637e9af582e8f8f7e6947088c881986019ee506",
+    "assets\\figma\\L04\\slide-20.svg": "9eba68149c3437b1d385636200910175feaf28d9d7057bf27fb80bfde6eac8fa",
+    "qa\\L04\\figma\\slide-20.pdf": "d6aeb208b3ce55aa02dcfe7f369f2c08824b23e5163db5151a000cd7ee2db605",
+    "qa\\L04\\figma\\slide-20.png": "eca380030c6aee27221665322c4bb7c0e7d12e035ee6b723b0dc2206161a3fb4",
+    "qa\\L04\\figma\\editable_slides\\slide-20.png": "9107ab102310023956128246a2f8dec27113181e62aad6f6d7b32b9fcea9bfcc",
+    "assets\\figma\\L04\\slide-21.svg": "1a6350373694dc50f0f4babc88103fa3f59d95feef61ddf0fff90b3596fbe40e",
+    "qa\\L04\\figma\\slide-21.pdf": "6dd4317334b0eb67c85d47fe37d23403edc70c5368eb64eb7647ac18b685c7b8",
+    "qa\\L04\\figma\\slide-21.png": "c2eee9b3586166fd99c3c7baad86c1d2cde816757b451b2bd80d88846d0ceca5",
+    "qa\\L04\\figma\\editable_slides\\slide-21.png": "246559f4f715bbfc9bded75217f564933e4a2cd43f97b8b9ce6437c49d2e4332",
+    "assets\\figma\\L04\\slide-22.svg": "ab43cfcae03c17206a621fa0a6665b71066369a23f437bbc47b2344ac5fa1665",
+    "qa\\L04\\figma\\slide-22.pdf": "bc74616dca4bcb46e639dde8077dcb5616fbd85622b21b062e9dfd2dba65a263",
+    "qa\\L04\\figma\\slide-22.png": "df1675a0af1f06bdb61a98fc89b256ca776e124029b9b735542d0a0c915894cf",
+    "qa\\L04\\figma\\editable_slides\\slide-22.png": "26eed4ff6b5cb1fc75da4b719b9153b950031b1cbd7477e8f4788a463d58c022",
+    "assets\\figma\\L04\\slide-23.svg": "e45700c18fc346c8c5aab720a2314a25a21ec7ea8542a230c7a734bf4c5ad63a",
+    "qa\\L04\\figma\\slide-23.pdf": "334445b2b500239270e665f78f942a807a2dd6fcc923fed82a72f280af8829c1",
+    "qa\\L04\\figma\\slide-23.png": "35186a8d8388eb720bd03b99ef9fcd0cfe732dcb38846161279ac215b7d26694",
+    "qa\\L04\\figma\\editable_slides\\slide-23.png": "39641e1271ac451941d9b5888a8a4180b5dc43a9697251714565ef3539f07811",
+    "assets\\figma\\L04\\slide-24.svg": "f4382d36e1a6cbdf52cf70866767babcb17dd4748a0942caa9a22881e8834808",
+    "qa\\L04\\figma\\slide-24.pdf": "09954465904401aa1777f8fd32c442b4571475e116cff98792fbdd51ad078ffa",
+    "qa\\L04\\figma\\slide-24.png": "7919a96578a08ea5cbdef1973760a2114fed211bea79f64eb60116b783d36ecc",
+    "qa\\L04\\figma\\editable_slides\\slide-24.png": "f8608cc8e13efa3ee4f685afa4d9b4016b003315b1a9ed99dffc1ed600646369",
+    "qa\\L04\\figma\\editable.pptx": "bb8909727a8501523f95ce140c3e0a4d3281f49bfb0fda8c391954ff4cd1bee7",
+    "qa\\L04\\figma\\editable.pdf": "135a4ee3f8e1d8215dd26d635b05f01fa936f0b09d388ff69da8b2428e559cee",
+    "qa\\L04\\figma\\presentation.pdf": "d05e5be4d6fb0c79f9a0f9e529efc5a6ffd1566e0757ede4b66cbbf49c5bee97",
+    "dist\\teacher\\L04\\lecture.pdf": "d416a6869ac79b1489a59e32d46ab8f2b193a170e69a195b97be90652dab0237",
+    "source\\lectures\\L04.md": "fa349864cd37b746dfcd076d57f16e10e40a5389725328f48bc651ae58458d1e",
+    "source\\figma\\L04_content.json": "054026b56b7ecd478ae5cb2e4bca20818d064103f4fc668f9fa991d95cc45560",
+    "source\\figma\\L04_visuals.json": "c6d750c884a316830e9531212ae98c77ef4b9705e3b47b4255202c1c03a15f73"
+  },
+  "slides": 24,
+  "size_emu": [
+    12192000,
+    6858000
+  ],
+  "slide_results": [
+    {
+      "slide": 1,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 8
+      },
+      "text_boxes": 6,
+      "notes_match": true,
+      "notes": "L04-S01\n- Предложить несколько продолжений.\n- Сопоставить учебник, дверь, окно и кабинет.\n- Контекст делает одни варианты естественнее.\n- Модель сначала выдаёт распределение, а затем выбирается токен.\nФрагмент лекции: Начнём с фразы «Студент открыл…».",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 2,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S01\n- Здесь варианты без чисел, потому что конкретная модель ещё не определена.\n- Префикс один, продолжений несколько.\n- После выбора следующий шаг получает уже дополненный текст.\nФрагмент лекции: Языковая модель задаёт распределение вероятностей",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 3,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S01\n- BOS подаётся в начале, EOS предсказывается как конец.\n- Для пустого текста остаётся цель EOS.\n- Затем оценим вероятность конкретного пути.\nФрагмент лекции: Пока договоримся о границах.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 4,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L04-S02\n- Три события: первый токен, второй и EOS.\n- Вероятности относятся к соответствующим историям.\n- Различать сумму альтернатив внутри шага и произведение вдоль пути.\nФрагмент лекции: Для последовательности w₁,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 5,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 16,
+      "notes_match": true,
+      "notes": "L04-S03\n- Униграмма не видит историю, биграмма видит один предыдущий токен, триграмма два.\n- Таблица относится к языковому моделированию, не к признакам документа из L02.\nФрагмент лекции: Униграммная модель, n=1,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 6,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L04-S03\n- Общий префикс студент встречается три раза.\n- Два продолжения читает и одно возвращает.\n- В следующем кадре разделим эти количества на число всех продолжений истории.\nФрагмент лекции: Возьмём три предложения:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 7,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 16
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes": "L04-S03\n- После «студент» два наблюдения «читает», одно «возвращает».\n- После «читает» два разных продолжения по одному.\n- Попросить достроить переходы к EOS после «книгу» и «журнал».\n- Далее обнаружим нулевую оценку нового перехода.\nФрагмент лекции: Биграммная оценка даёт",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 8,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S04\n- Оба слова известны, но сочетание не встретилось.\n- Один нулевой множитель обнуляет вероятность текста.\n- Нужен способ выделить массу ненаблюдавшимся продолжениям.\nФрагмент лекции: В мини-корпусе переход",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 9,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L04-S04\n- Добавляем alpha каждому возможному продолжению.\n- В знаменателе alpha умножается на размер выходного словаря.\n- Сглаживание перераспределяет массу.\n- На следующем слайде вычислим семь конкретных вероятностей.\nФрагмент лекции: При сглаживании add-alpha",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 10,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 18,
+      "notes_match": true,
+      "notes": "L04-S04\n- Ручной пример: alpha=1, семь элементов словаря.\n- «Читает» получает 0,3, «возвращает» — 0,2, пять остальных — по 0,1.\n- В словарь входят студент, читает, возвращает, книгу, журнал, EOS, UNK; BOS исключён.\n- После проверки суммы перейти к тому, какие слова скрываются за UNK.\nФрагмент лекции: Для ручного примера положим α=1.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 11,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S04\n- Словарь строится только по train.\n- Различные редкие/неизвестные слова отображаются в один маркер.\n- Модель оценивает уже изменённую последовательность, поэтому нужен показатель доли замен.\nФрагмент лекции: Неизвестное сочетание нужно отличать",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 12,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L04-S05\n- На каждой позиции берём вероятность эталонной цели.\n- Суммируем отрицательные логарифмы и делим на общее число целей T.\n- Экспонента среднего даёт perplexity.\n- Далее подставим три вероятности уже разобранного пути.\nФрагмент лекции: Чтобы проверить модель,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 13,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L04-S05\n- Использовать путь, который уже дал 1/16.\n- T=3, включая EOS.\n- H=ln(16)/3≈0,9242, perplexity≈2,5198.\n- Число не является буквальным количеством слов на каждом шаге.\n- Затем зафиксировать условия сравнения.\nФрагмент лекции: Вернёмся к вероятностям 0,5;",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 14,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S05\n- Разные токенизаторы или правила UNK меняют сами цели.\n- Для корпуса усредняются потери позиций, а не perplexity документов.\n- В нашем опыте изменение n меняет историю, но сохраняет набор целей.\n- Теперь отделим оценку от свободной генерации.\nФрагмент лекции: Для корпуса суммируем потери",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 15,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L04-S06\n- Сравниваются вероятности двух путей; для каждого взят лучший переход на втором шаге.\n- Greedy предпочитает 0,6, но произведение 0,6 × 0,4 меньше 0,4 × 0,9.\n- Это учебный пример из лекции.\n- Затем сравним реальные пути вероятностной выборки.\nФрагмент лекции: Жадный выбор, greedy,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 16,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S06\n- Сопоставить правила greedy и sampling, затем прочитать примеры продолжений после «как» из лекции.\n- В примере из лекции seed 7 дал три новых слова и EOS; продолжения с seed 42 и 99 приведены в речи с сокращениями.\n- Только первый шаг имеет общее распределение: после разных токенов истории расходятся.\n- Повтор одного seed воспроизводит путь.\n- Далее сменим представление истории на рекуррентное состояние.\nФрагмент лекции: При sampling следующий токен",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 17,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 19
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L04-S07\n- Вектор состояния заменяет явный список последних n−1 токенов.\n- Одни параметры используются на каждом шаге.\n- Стрелки задают последовательную зависимость от состояния и текущего эмбеддинга.\n- Проверим её на двух скалярных шагах.\nФрагмент лекции: N-граммная модель хранит",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 18,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L04-S07\n- Параметры заданы вручную, начальное состояние h0=0.\n- Для входов 1 и 0 состояния равны примерно 0,7616 и 0,3634; для двух нулей оба равны нулю.\n- Это демонстрация обновления, не обучение языковой модели.\n- Затем подпишем настоящие входы и цели обучения.\nФрагмент лекции: Возьмём скалярный пример",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 19,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 21
+      },
+      "text_boxes": 19,
+      "notes_match": true,
+      "notes": "L04-S08\n- Каждый столбец — один шаг.\n- По BOS предсказывается «студент», после «книгу» — EOS.\n- Две строки таблицы показывают сдвиг входов и целей на один токен.\n- На следующем кадре уточним, какой токен подаётся после ошибочного ответа.\nФрагмент лекции: Для «студент читает книгу» запишем два ряда.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 20,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L04-S08\n- Даже если модель ошибочно предпочла «журнал», при обучении в режиме teacher forcing следующим входом будет правильный токен из эталона.\n- При генерации следующим входом станет токен, выбранный самой моделью.\n- Градиент обучения проходит по цепочке общих параметров; её устройство можно изменить для более гибкого сохранения информации.\nФрагмент лекции: В режиме teacher forcing",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 21,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L04-S08\n- Упрощённая идея LSTM: часть прежнего состояния сохраняется, новая информация добавляется.\n- Управляющие коэффициенты обучаемые и непрерывные.\n- Это не полная схема всех ворот и не обещание бесконечной памяти.\n- Вернуться к измеримому эксперименту с n-граммами.\nФрагмент лекции: На длинной цепочке градиент",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 22,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 16,
+      "notes_match": true,
+      "notes": "L04-S09\n- Три модели обучены на одном словаре при alpha=0,1.\n- По validation выбирается n=2, хотя train perplexity у n=3 немного ниже.\n- Числа взяты из выполненной работы.\n- Для объяснения абсолютного уровня нужна доля UNK.\nФрагмент лекции: В работе возьмём по одному обращению",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 23,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L04-S09\n- Тестовая perplexity биграммы — около 4,9404 на 190 целях.\n- UNK заменяет 71,08% обычных слов теста; эта доля считается без EOS.\n- Низкое значение perplexity получено для последовательности, в которой многие разные слова заменены одним маркером UNK.\n- Прочитаем реальные продолжения.\nФрагмент лекции: Тестовая perplexity биграммы",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 24,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 15
+      },
+      "text_boxes": 13,
+      "notes_match": true,
+      "notes": "L04-S09\n- Greedy после «как» выдаёт 40 UNK и достигает предела.\n- Sampling с seed 7 выдаёт три новых слова, затем EOS на четвёртом предсказании.\n- Узнаваемая тема не делает фразу грамматически правильной.\n- Завершить вопросом о прямом доступе к разным позициям контекста — это тема следующей лекции об attention.\nФрагмент лекции: Генерация делает ограничение заметным.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    }
+  ],
+  "fonts": [
+    {
+      "font": "Carlito",
+      "bold": false,
+      "runs": 227
+    },
+    {
+      "font": "Prata",
+      "bold": false,
+      "runs": 31
+    },
+    {
+      "font": "Carlito",
+      "bold": true,
+      "runs": 9
+    }
+  ],
+  "pdf_fonts": [
+    "BAAAAA+Carlito-Regular",
+    "CAAAAA+Prata-Regular",
+    "DAAAAA+Carlito-Regular",
+    "EAAAAA+Prata-Regular",
+    "FAAAAA+Carlito-Regular",
+    "GAAAAA+Carlito-Regular",
+    "HAAAAA+Carlito-Regular",
+    "IAAAAA+Carlito-Regular",
+    "JAAAAA+Carlito-Regular",
+    "KAAAAA+Carlito-Regular",
+    "LAAAAA+Carlito-Regular",
+    "MAAAAA+Carlito-Bold",
+    "NAAAAA+Carlito-Regular",
+    "OAAAAA+Carlito-Regular",
+    "PAAAAA+Carlito-Regular",
+    "QAAAAA+Carlito-Regular",
+    "RAAAAA+Carlito-Regular",
+    "SAAAAA+Carlito-Regular",
+    "TAAAAA+Carlito-Regular",
+    "UAAAAA+Carlito-Regular",
+    "VAAAAA+Prata-Regular",
+    "WAAAAA+Carlito-Regular",
+    "XAAAAA+Carlito-Regular",
+    "YAAAAA+Prata-Regular"
+  ],
+  "media_parts": [
+    "ppt/media/"
+  ],
+  "negative_extents": [],
+  "shape_types": {
+    "AUTO_SHAPE (1)": 339
+  },
+  "personal_visual_review": {
+    "slides_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "rechecked_after_revision": [
+      16
+    ],
+    "status": "accepted"
+  }
+}
