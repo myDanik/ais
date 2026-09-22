@@ -1,0 +1,25 @@
+﻿id,text,label,group_id,split
+it-01-1,После смены пароля не могу войти в личный кабинет.,it,it-01,train
+it-01-2,Здравствуйте! После смены пароля не могу войти в личный кабинет.,it,it-01,train
+it-01-3,"Подскажите, пожалуйста. После смены пароля не могу войти в личный кабинет.",it,it-01,train
+library-01-1,Как продлить срок пользования учебником?,library,library-01,train
+library-01-2,Здравствуйте! Как продлить срок пользования учебником?,library,library-01,train
+library-01-3,"Подскажите, пожалуйста. Как продлить срок пользования учебником?",library,library-01,train
+dormitory-01-1,Какие документы нужны для заселения в общежитие?,dormitory,dormitory-01,train
+dormitory-01-2,Здравствуйте! Какие документы нужны для заселения в общежитие?,dormitory,dormitory-01,train
+dormitory-01-3,"Подскажите, пожалуйста. Какие документы нужны для заселения в общежитие?",dormitory,dormitory-01,train
+study-01-1,Когда состоится пересдача экзамена по математике?,study,study-01,train
+study-01-2,Здравствуйте! Когда состоится пересдача экзамена по математике?,study,study-01,train
+study-01-3,"Подскажите, пожалуйста. Когда состоится пересдача экзамена по математике?",study,study-01,train
+admission-01-1,Какие вступительные испытания нужны на это направление?,admission,admission-01,train
+admission-01-2,Здравствуйте! Какие вступительные испытания нужны на это направление?,admission,admission-01,train
+admission-01-3,"Подскажите, пожалуйста. Какие вступительные испытания нужны на это направление?",admission,admission-01,train
+scholarship-01-1,Когда перечислят назначенную академическую стипендию?,scholarship,scholarship-01,train
+scholarship-01-2,Здравствуйте! Когда перечислят назначенную академическую стипендию?,scholarship,scholarship-01,train
+scholarship-01-3,"Подскажите, пожалуйста. Когда перечислят назначенную академическую стипендию?",scholarship,scholarship-01,train
+audit-duplicate,После смены пароля не могу войти в личный кабинет.   ,it,audit-a,audit
+audit-empty,,it,audit-b,audit
+audit-spaces,   	 ,study,audit-c,audit
+audit-label,Когда можно продлить книгу?,dormitory,audit-d,audit
+audit-unknown,Как войти в кабинет?,unknown,audit-e,audit
+audit-conflict,После смены пароля не могу войти в личный кабинет.,library,audit-f,audit
