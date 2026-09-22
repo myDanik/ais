@@ -1,0 +1,533 @@
+{
+  "sha256": {
+    "assets\\figma\\L05\\slide-01.svg": "a1e466d6d36724a90b549ad4858fbf899da6a49cb60ccf2f22a803e6032c2e4e",
+    "qa\\L05\\figma\\slide-01.pdf": "9e1a193f9172086862a2171b9ee93b473de8aec4ea3bbf75c78fcea02ef38590",
+    "qa\\L05\\figma\\slide-01.png": "da777b9b2a32a88e53dac5643c0af3e1f79465891874a5e47acf736e9a238973",
+    "qa\\L05\\figma\\editable_slides\\slide-01.png": "9c86bc3dc0a61c34c7aae478f3cbd394bc7067c24b1286d5a66f8c847dff3933",
+    "assets\\figma\\L05\\slide-02.svg": "e851c0b455e6f46d724f472b9696e8a98727e7897b36fc4b8a375b52abe9bf25",
+    "qa\\L05\\figma\\slide-02.pdf": "d4a6affd47a624d36e2f305ee1d4c151498b12e78aee86a85105e412a4ac55f2",
+    "qa\\L05\\figma\\slide-02.png": "baf21bfc01fe8a2db108f2b2212897d09f71e8ea214c85caabcbbe8d1e762fee",
+    "qa\\L05\\figma\\editable_slides\\slide-02.png": "b5a2162b3d4b887347b9e86f63bd03b95ce143e8153a43ed67eec42b7e103676",
+    "assets\\figma\\L05\\slide-03.svg": "72b38bce9f5e9a3e347c35266afea0b12f9f2e94872742065050c4ff4aa55a31",
+    "qa\\L05\\figma\\slide-03.pdf": "b875a3248c8547eff3d8529519c80b93eb67949c3e540e455e81f9a88d960590",
+    "qa\\L05\\figma\\slide-03.png": "723508433f6c3b4c9b27bba851788e720afde78b35d6c274de8b0e24490e447e",
+    "qa\\L05\\figma\\editable_slides\\slide-03.png": "090232212e9d767f93a32599cd5210e3608abeefc92c4c0974c52ddab3bbecfb",
+    "assets\\figma\\L05\\slide-04.svg": "6f75897de8f79745ecc395c501a47d7ff4a88346403b4177cc00e28b04e2a322",
+    "qa\\L05\\figma\\slide-04.pdf": "f2d8806f81d3e06eed183c6a7615eb0c2126fbfd4624341c943b2c96b7693204",
+    "qa\\L05\\figma\\slide-04.png": "5001d3b963d839000406b2fa0247d46da2a26be1497b928dcd7d494ba9b05c88",
+    "qa\\L05\\figma\\editable_slides\\slide-04.png": "04e97901059d8d92fa6b5644df946f4dce1cae5b04991e4fc2039845d1a9445e",
+    "assets\\figma\\L05\\slide-05.svg": "923b7b4b35bac2a70c9ddc8bec26a001eba12404c01b27ab70e05817283446fc",
+    "qa\\L05\\figma\\slide-05.pdf": "9963980c553ad4030236d1c42a497df38f13bc692f4c6b79a38bbfab40ef4b41",
+    "qa\\L05\\figma\\slide-05.png": "a6756bf831212c86409d94f9072637427130abd149dcc2efa916cd8bf3619ab8",
+    "qa\\L05\\figma\\editable_slides\\slide-05.png": "6637196826995d8e69d398bb197ce764f4511ee313683a82609f9359566b98dc",
+    "assets\\figma\\L05\\slide-06.svg": "20d023b0d8d3c6eb1c8a09d0402e380d0a4dfaa4d09062973a7c3ff5c51aa04a",
+    "qa\\L05\\figma\\slide-06.pdf": "dcac98accb6ab9f8d6c9ee023e8f22d0ecdd6577a7e1cccce7976519c22da6bc",
+    "qa\\L05\\figma\\slide-06.png": "95a7bffe2ba236c349b344dfc9f7df979d13fb00799a20bdf9518be1177a87cc",
+    "qa\\L05\\figma\\editable_slides\\slide-06.png": "869f2b1170021c4575f4df3dc87dcef22947bf5ff10ae6da55a80e9a9e38b6d9",
+    "assets\\figma\\L05\\slide-07.svg": "b88186d3a00c9a3e8785fac2be6fda23802c12a33ecfe055e93f69a845431b98",
+    "qa\\L05\\figma\\slide-07.pdf": "6072520d8a9b16a617d0f5db8b3708f86ebc33dc3a50bb21e6b33baedd646eab",
+    "qa\\L05\\figma\\slide-07.png": "9de40953e9d8dfb79241f71de1532cccbd9bf6cc37284f549440aad844872663",
+    "qa\\L05\\figma\\editable_slides\\slide-07.png": "91ddcf048d9c190527806239796aae51020feb030e62741f4f65768b4c9333ae",
+    "assets\\figma\\L05\\slide-08.svg": "14eb51ce030d79af5a828f01cd41b186d6a9ccdf64baf43652a19eadad08d971",
+    "qa\\L05\\figma\\slide-08.pdf": "806ff1c9a95b126ce63109a8675f0752ddf08eb6b0a9c4bfb995093ada2ab551",
+    "qa\\L05\\figma\\slide-08.png": "83ae467bb87bd93ace4a39ac7727b0669626c7340b91003970cc99051342e418",
+    "qa\\L05\\figma\\editable_slides\\slide-08.png": "228c364a908b715d03d87119aae2f159214556d054d4956a23a4f5c2139f2b5f",
+    "assets\\figma\\L05\\slide-09.svg": "30963c567c98c6090e6090e0b2251e78dfa7ca97dd1f340c26d6c3deac0b17e5",
+    "qa\\L05\\figma\\slide-09.pdf": "078c196dab4953da3c11e130b0870b87a00dcb18cbd6a9f46c08208255f69cd0",
+    "qa\\L05\\figma\\slide-09.png": "9459519eb941c9be6670ebd569212fa749d29fd8da199131bf43524d6cda5849",
+    "qa\\L05\\figma\\editable_slides\\slide-09.png": "b1a1e2ded4b8b459ebcfe99eb1e305b9c8daa944a661b7ef05cefd8d5d91565d",
+    "assets\\figma\\L05\\slide-10.svg": "4cd4d4583dfb16bdabdc9b039b20c5762d929e53c691e0bf7fc597663fd865e3",
+    "qa\\L05\\figma\\slide-10.pdf": "ac6376b98bd6f7a4a11f0c9ee16e93c0eaa84ad9e239603b8a0fc9dd0a619c48",
+    "qa\\L05\\figma\\slide-10.png": "71583b799cad4f44ba95e98891dfb2c6ff9ba4f866e444b10c180fa6b58e558e",
+    "qa\\L05\\figma\\editable_slides\\slide-10.png": "7b5d98a38c85de21733f8b9a40db65d5c7220443e4a288efc01624be30999830",
+    "assets\\figma\\L05\\slide-11.svg": "c3e0a3c3939ad35c92a62bb41e8751b7eaa69d869fafd85206b13179a4adb41e",
+    "qa\\L05\\figma\\slide-11.pdf": "d06a725b472ae433fc984cc853d20d099d3990917071f15b2aa48d604c1eaaa7",
+    "qa\\L05\\figma\\slide-11.png": "60cd2b712c618cce3c878c53bf836b984042c26b5f6ed9a3f855b61fdcaad57b",
+    "qa\\L05\\figma\\editable_slides\\slide-11.png": "e99396867a910c44086b8e8ddb22d31c0bc5f164ee612f3102bb08e9aff9949c",
+    "assets\\figma\\L05\\slide-12.svg": "66212bfe13c134195853d83ec9ecf6f458305fe0db96ef0d650b4954bdf0972e",
+    "qa\\L05\\figma\\slide-12.pdf": "ce0ca1285868ac0f5d2e3eb48ccbb87761ef3c98089a84e50a312edca93aebfe",
+    "qa\\L05\\figma\\slide-12.png": "13be755f5cc829e7e2c17bfd45bba55db73510c500b63299f6ed392c635cdce0",
+    "qa\\L05\\figma\\editable_slides\\slide-12.png": "337fc7ef5bf30cd0a7a9a8ed2738f8f26e304f4c58b524c2de55117505f770c4",
+    "assets\\figma\\L05\\slide-13.svg": "a3bd93e53ea7497b871d105baceb3dcd8803563b6a77cbb41793215060632a20",
+    "qa\\L05\\figma\\slide-13.pdf": "c04fcde7ddc283891e60df2399dd7baa84d0b407941b3454e1d3334a2dbef59d",
+    "qa\\L05\\figma\\slide-13.png": "322a998f7f596925a58707b6a2dbe35d4849cfd12944ea6647c410b7f9b14fc6",
+    "qa\\L05\\figma\\editable_slides\\slide-13.png": "f9317e3585f7ab938b67c7ab951d594a76f4c8c4faaf9f53307f13c8d63c22d8",
+    "assets\\figma\\L05\\slide-14.svg": "70219fda1387c776ea65cd812ee630530a7e507d37e180a3315ae7d496350288",
+    "qa\\L05\\figma\\slide-14.pdf": "a63e15c6a848e5f3707c80f402c9869e5e69e6794e1db0c24fca7f959104a91b",
+    "qa\\L05\\figma\\slide-14.png": "2525589fa44c6f904e1c1b2af41ebec58ebbf5a42267acfd53372c34c4eec018",
+    "qa\\L05\\figma\\editable_slides\\slide-14.png": "2f8a29326a09f35e5328cb8f0b5492ff6410c137053fbad4becec7f23bf8ecc0",
+    "assets\\figma\\L05\\slide-15.svg": "2e34def6a27ac3e405cb58b9517c33dd53e4c319c5b48f1ea1474d88e6890620",
+    "qa\\L05\\figma\\slide-15.pdf": "cbf3d6718a8b84c25e2e8c062148ad9854852d197aabb7022bbcc3365549a118",
+    "qa\\L05\\figma\\slide-15.png": "58c99cccaf330a7d862eb7fe9e6c7c333d48f0e02356cc837f1a8963505b94ca",
+    "qa\\L05\\figma\\editable_slides\\slide-15.png": "adc04ffeeeb1c03a36698e93b5588e0d9534018fa2a1f5ee55132322afba6c07",
+    "assets\\figma\\L05\\slide-16.svg": "7a2d952468a3ba6f0de8fd53acd6c9ac1ec6e2b792979a22e422060d4257386e",
+    "qa\\L05\\figma\\slide-16.pdf": "bd1309d00f9c50d8b4dbfd478ee6b211f50948f473749c9b9831bfabaa63de31",
+    "qa\\L05\\figma\\slide-16.png": "2f57b226a940d9edd059c53aff7cf275ef35113b2ec6fe489f4a55272d08a41a",
+    "qa\\L05\\figma\\editable_slides\\slide-16.png": "ac51e0c73a3e53ab8a8a88ba5a5fa7a0d79406f84bdb1fea7035f9ce89a1d12a",
+    "assets\\figma\\L05\\slide-17.svg": "efd5e47e7a96a801cd39f658e65400b88ea6ba750ee2a0e13113a567b198e0a5",
+    "qa\\L05\\figma\\slide-17.pdf": "aedc143affca0c0a799228fcb0a5d23ae571d0e2d7510fe9a6b034803e8128f6",
+    "qa\\L05\\figma\\slide-17.png": "c8d48ea71245327b635c38fa1a6777fb75fa1811293e92009b3d3ed06ee7c555",
+    "qa\\L05\\figma\\editable_slides\\slide-17.png": "b308faf5c40d7aac34df6788f841d98b4064b4eb8d529a378144318302644ed3",
+    "assets\\figma\\L05\\slide-18.svg": "a30d564830ddfb372b1e2e798cc03e3e83af1bc991674dd643a9565ddcd44e90",
+    "qa\\L05\\figma\\slide-18.pdf": "7e7a86e4f69feafc629491bb176e8efea2cc14298e29724954a2a82862e0c1ae",
+    "qa\\L05\\figma\\slide-18.png": "13274e9f522e2fc70c74991b1efcdd23d2b35d95a3e84cea6b32ae1518a85dbd",
+    "qa\\L05\\figma\\editable_slides\\slide-18.png": "2f5f439eb7a7b703e53f11f0396128780e35501d4b97e5ff0b66d97a4d922ce4",
+    "assets\\figma\\L05\\slide-19.svg": "6e8f4f30f157ff28b5932602d350f10427a3dc9680312c35ccb0088bc15d8131",
+    "qa\\L05\\figma\\slide-19.pdf": "7e0378cbd307017c847e09be98b4c0f4a24fd0fc77f0cb8b832899b0555877bf",
+    "qa\\L05\\figma\\slide-19.png": "958a884e073e87bce24c07dc678eca496a9c0bb555a74f01961dcaa2659e7cd7",
+    "qa\\L05\\figma\\editable_slides\\slide-19.png": "eee4d66184c72741c0af18b4d848d33c94c05a959551700e71eded18a0a67292",
+    "assets\\figma\\L05\\slide-20.svg": "a9f408a3299dff88d995a904f819d56572804f6635e839f346efdfb609c12bae",
+    "qa\\L05\\figma\\slide-20.pdf": "2790beb1fd4bef80e4e100b28fb6264b1f2fb75a3de60ba2d6d429058faff04f",
+    "qa\\L05\\figma\\slide-20.png": "2b5afe70e828175fb1506193ae8b2b8afd819beb6b78d21ed8c97ba2c1df745a",
+    "qa\\L05\\figma\\editable_slides\\slide-20.png": "e11f000e0482aaac7087e8f995c1aac1df30e25fb6fd08d800b3d69af332c84e",
+    "assets\\figma\\L05\\slide-21.svg": "28e140ea44e7be3d9db96826869102ecbc70545b34202dad75105d67c1ad8a3c",
+    "qa\\L05\\figma\\slide-21.pdf": "10473fb14dca511ab8ea4798740a49bdc75f8d9fe06fe50a16b68d0ea022ca27",
+    "qa\\L05\\figma\\slide-21.png": "37a190851ec714f1209ba8150bd94a7dea50eaa2bcbe172c2c7a6096786f0697",
+    "qa\\L05\\figma\\editable_slides\\slide-21.png": "8a0b210c5c610d3ee0fa4eb02f65ad1cd30f4aa1bc38e5f75b78239c0e07657b",
+    "assets\\figma\\L05\\slide-22.svg": "bdc8c4dbd3afca6885368711fa268e6c37be101197967e867839c95ca60a4d7b",
+    "qa\\L05\\figma\\slide-22.pdf": "0bba3b9ef9dfccdca2fcaaa684c05db2295940f797fa1cfff184c39fa3e076d9",
+    "qa\\L05\\figma\\slide-22.png": "d7144ffeaf7139599d237678ed5078c95819a2b5619004d231b40bd4c507165d",
+    "qa\\L05\\figma\\editable_slides\\slide-22.png": "978e7371d9418f9426b702ae77655c8e2acc26a2f9a080931e63ba48535ae4a3",
+    "assets\\figma\\L05\\slide-23.svg": "1f354076c024ad66ab755ecebb7f056817339842fe0c136e3855ab2017e1413d",
+    "qa\\L05\\figma\\slide-23.pdf": "3cfe4a29c1110f1d86f79117ca65c80555a4389fd28ec0070f394eae203f595a",
+    "qa\\L05\\figma\\slide-23.png": "f1aecba4293d55b7686ab6baa626d0c7f479ea4ac866adc9e396788ffbaaea9a",
+    "qa\\L05\\figma\\editable_slides\\slide-23.png": "0e71e1b8bb7bcba5e398444452262a46bbecfc7b0c9e514b65f77690cbc6f59b",
+    "assets\\figma\\L05\\slide-24.svg": "c2a2b0f75a4d52f8e158520a03967cb81690d522614ea6f945f6f2bd24353b5b",
+    "qa\\L05\\figma\\slide-24.pdf": "df07882ba97732e390657627745d31c73cea10114cf97deeb3cb5176a48b999e",
+    "qa\\L05\\figma\\slide-24.png": "cb3f48a70d26708142f1147bb0ce80866cfa06d9ad53f053532eee25881b24d5",
+    "qa\\L05\\figma\\editable_slides\\slide-24.png": "20649d32ab0440a55e2def948cd4a4fcb6255db62e0911c6da2aa59722963494",
+    "qa\\L05\\figma\\editable.pptx": "b1795887351858e002d7b2f063d79dda67672c2a15c14a24724b50e5a79d58e9",
+    "qa\\L05\\figma\\editable.pdf": "af12293a3a3dca73c038cbc3ce6fd1e1252f918e51e6c34cdc311c42e23a77a9",
+    "qa\\L05\\figma\\presentation.pdf": "6e82cbcd635095dcb1a887174cc732e54457eea8bf338f32a596bfb07a959e52",
+    "dist\\teacher\\L05\\lecture.pdf": "05f6e9040dd2a2a28aa98108b024bbca15fec9994201d62e17f56f5042ab0c7f",
+    "source\\lectures\\L05.md": "fd1eafb78e31312358bd5e254e9e92594bd9c14dcc426b34993329a2d617059c",
+    "source\\figma\\L05_content.json": "3275b297995ee7373c233360680e717deb49be186e6e964d7c44c56e6375378d",
+    "source\\figma\\L05_visuals.json": "a0cbeb2c4cc8f96ab1aea84ab3dfae8672be21603668201c37a6cf3b038ffc78"
+  },
+  "slides": 24,
+  "size_emu": [
+    12192000,
+    6858000
+  ],
+  "slide_results": [
+    {
+      "slide": 1,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 8
+      },
+      "text_boxes": 6,
+      "notes_match": true,
+      "notes": "L05-S01\n- Начать с идеи: новое представление позиции объединяет информацию из доступного окружения.\n- Веса определяют вклад доступных позиций.\n- Сегодня разберём, как позиция может использовать информацию из окружения.\nФрагмент лекции: Механизм attention позволяет",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 2,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 19
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L05-S01\n- Проследить раннюю деталь в длинном обращении.\n- RNN передаёт состояние по цепочке.\n- Attention позволяет сравнивать запрос с доступными ключами, в том числе удалёнными по позиции; вес ещё предстоит вычислить.\nФрагмент лекции: Представим длинное обращение.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 3,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 23
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L05-S02\n- Показать общий вход и три отдельные обучаемые проекции.\n- Строка соответствует позиции.\n- Q и K имеют совместимую ширину; V может иметь другую.\nФрагмент лекции: Пусть вход представлен матрицей X.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 4,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 24
+      },
+      "text_boxes": 22,
+      "notes_match": true,
+      "notes": "L05-S02\n- Для устного примера подставить N=2 и M=3 в показанные общие размерности.\n- Сначала получается таблица 2×3, затем умножение на три значения даёт два выходных вектора.\n- Число запросов и ключей может различаться.\nФрагмент лекции: Запрос и ключ должны иметь одинаковую размерность",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 5,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L05-S03\n- Первый запрос q₁=(1;0).\n- Его скалярные произведения с ключами равны 1 и 0.\n- Значения V пока не участвуют.\n- На слайде оценки уже разделены на √2; далее применим softmax.\nФрагмент лекции: В scaled dot-product attention",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 6,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S03\n- После деления оценок на √2 уже получены 0,7071 и 0.\n- После softmax веса равны 0,6698 и 0,3302, их сумма — 1.\n- Нулевая оценка не означает нулевого веса.\nФрагмент лекции: Теперь softmax.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 7,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S03\n- Умножить каждое значение на его вес.\n- Получить (6,6976;0) и (0;6,6048), затем сложить координаты.\n- У меньшего веса может быть заметный вклад, если само значение больше.\nФрагмент лекции: Новое значение для первой позиции",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 8,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 16
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes": "L05-S03\n- Каждая строка A относится к своему запросу.\n- В нашем симметричном примере веса меняются местами.\n- Умножение A на V даёт по новому вектору для каждой позиции; общего требования симметрии нет.\nФрагмент лекции: Для второго запроса в нашем примере",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 9,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 20
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes": "L05-S04\n- Заменить оценку будущего ключа на −∞ до softmax.\n- Exp(−∞)=0: первая строка весов становится (1;0).\n- Это результат применения маски, сама маска задаёт доступность.\n- Затем предложить вопрос следующего слайда.\nФрагмент лекции: До сих пор каждый запрос мог обращаться",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 10,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S04\n- Остановиться на вопросе.\n- Обсудить, какие величины изменились: только V₂; Q, K, V₁ и маска прежние.\n- Попросить предсказать первый выход.\n- Ответ показывается следующим кадром.\nФрагмент лекции: Проверим понимание.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 11,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S04\n- Сопоставить ответ с предыдущим кадром: доступность ключей осталась прежней.\n- Вклад V₂′ равен нулю, поэтому o₁=V₁=(10;0).\n- Это проверка применения маски, которую затем воспроизводим в коде.\nФрагмент лекции: При корректной маске выход первой позиции не меняется",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 12,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L05-S04\n- Сопоставить ключ позиции текста и ключ заполнителя PAD.\n- Для позиции текста указано True, для заполнителя PAD — False.\n- Маска ограничивает ключи; обработка выходов padding-позиций — отдельный вопрос.\nФрагмент лекции: Другой вид маски нужен для padding.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 13,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S04\n- Попросить восстановить знаменатель softmax.\n- Все экспоненты нулевые, поэтому нормировка не определена.\n- В лабораторной такой вход вызывает ValueError.\nФрагмент лекции: Что произойдёт, если в строке закрыть все ключи?",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 14,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S05\n- Сопоставить две части равенства: перестановку входных строк и ту же перестановку выходных.\n- Маски и позиции отсутствуют.\n- После одинаковой перестановки строк выходы меняют порядок таким же образом.\nФрагмент лекции: Для следующего опыта временно уберём маски:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 15,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S05\n- Сравнить перемещение содержимого и фиксированные позиционные значения.\n- X меняется по порядку, P сохраняется по местам.\n- Это уже другое изменение входа, чем перестановка X+P целиком.\nФрагмент лекции: Один из способов — добавить",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 16,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 13
+      },
+      "text_boxes": 11,
+      "notes_match": true,
+      "notes": "L05-S06\n- Объяснить параллельные обучаемые преобразования.\n- Каждая голова получает общий X, но строит собственные Q/K/V и веса.\n- Предметные роли голов заранее не назначаются.\nФрагмент лекции: Одна голова attention использует",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 17,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L05-S06\n- Проследить, что координаты выходов голов записываются одна за другой, а не усредняются.\n- Для устного примера возьмём три головы по две координаты: получится шесть координат одной позиции.\n- W_O возвращает нужную ширину.\nФрагмент лекции: Для каждой головы вычисляются свои Q, K, V",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 18,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 10
+      },
+      "text_boxes": 8,
+      "notes_match": true,
+      "notes": "L05-S07\n- Найти слагаемые X и H: они сохраняют вход соответствующего подблока.\n- Здесь pre-norm: LayerNorm перед attention и FFN.\n- Attention включает выходную проекцию, поэтому размерность совместима с X.\nФрагмент лекции: Attention — часть блока,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 19,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L05-S08\n- Это схемы доступности, не численные веса.\n- Энкодер может обращаться к левому и правому окружению; причинный декодер использует префикс.\n- В обоих случаях padding закрывается отдельно.\nФрагмент лекции: Энкодер обрабатывает доступную последовательность целиком.",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 20,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 16
+      },
+      "text_boxes": 14,
+      "notes_match": true,
+      "notes": "L05-S08\n- Различить происхождение Q и K/V.\n- Энкодер обрабатывает исходную последовательность.\n- Декодер формирует запрос по своему состоянию и обращается к представлениям источника.\nФрагмент лекции: В encoder-decoder архитектуре",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 21,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 14
+      },
+      "text_boxes": 12,
+      "notes_match": true,
+      "notes": "L05-S09\n- Сопоставить увеличение стороны в четыре раза с ростом площади в шестнадцать. 4/64 MiB относятся к одной полной матрице float32; весь расход реализации может отличаться.\nФрагмент лекции: Если N запросов сравниваются с N ключами,",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 22,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 9
+      },
+      "text_boxes": 7,
+      "notes_match": true,
+      "notes": "L05-S09\n- Два набора нормированных весов смешивают одинаковые значения.\n- Оба дают (1;2).\n- Поэтому карта A не определяет содержательную важность без V и дальнейшего вычисления.\nФрагмент лекции: Есть и другой важный вопрос:",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 23,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L05-S10\n- Связать каждую проверку с разобранной операцией: строковая нормировка, запрет ключа и изменение будущего значения.\n- Студенты должны объяснить ожидаемый результат до выполнения кода.\nФрагмент лекции: В лабораторной мы реализуем",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    },
+    {
+      "slide": 24,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 18
+      },
+      "text_boxes": 10,
+      "notes_match": true,
+      "notes": "L05-S10\n- Завершить вопросом о происхождении проекций.\n- Сегодня числа были заданы вручную; в предобученном энкодере параметры уже получены на данных.\n- Механизм внимания остаётся тем же.\nФрагмент лекции: На следующем занятии вместо маленьких матриц",
+      "missing_svg_fragments": [],
+      "extra_pptx_fragments": [],
+      "pdf_missing_fragments": [],
+      "outside_shapes": [],
+      "outside_pdf": []
+    }
+  ],
+  "fonts": [
+    {
+      "font": "Carlito",
+      "bold": false,
+      "runs": 215
+    },
+    {
+      "font": "Prata",
+      "bold": false,
+      "runs": 27
+    },
+    {
+      "font": "Carlito",
+      "bold": true,
+      "runs": 3
+    }
+  ],
+  "pdf_fonts": [
+    "BAAAAA+Carlito-Regular",
+    "CAAAAA+Prata-Regular",
+    "DAAAAA+Carlito-Regular",
+    "EAAAAA+Prata-Regular",
+    "FAAAAA+Carlito-Regular",
+    "GAAAAA+Carlito-Regular",
+    "HAAAAA+Carlito-Regular",
+    "IAAAAA+Carlito-Regular",
+    "JAAAAA+Carlito-Regular",
+    "KAAAAA+Carlito-Regular",
+    "LAAAAA+Carlito-Regular",
+    "MAAAAA+Carlito-Regular",
+    "NAAAAA+Carlito-Regular",
+    "OAAAAA+Carlito-Regular",
+    "PAAAAA+Carlito-Regular",
+    "QAAAAA+Carlito-Regular",
+    "RAAAAA+Carlito-Regular",
+    "SAAAAA+Carlito-Regular",
+    "TAAAAA+Carlito-Regular",
+    "UAAAAA+Carlito-Regular",
+    "VAAAAA+Carlito-Regular",
+    "WAAAAA+Carlito-Regular",
+    "XAAAAA+Carlito-Regular",
+    "YAAAAA+Prata-Regular",
+    "ZAAAAA+Carlito-Bold"
+  ],
+  "media_parts": [
+    "ppt/media/"
+  ],
+  "negative_extents": [],
+  "shape_types": {
+    "AUTO_SHAPE (1)": 324
+  },
+  "personal_visual_review": {
+    "slides_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "rechecked_after_revision": [
+      19
+    ],
+    "status": "accepted"
+  }
+}

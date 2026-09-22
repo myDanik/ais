@@ -1,0 +1,107 @@
+{
+  "lesson": "L05",
+  "sha256": {
+    "source\\lectures\\L05.md": "24df81bd58a1b00aa544090944a2e34e5a86fe2e271b103361bf120a33d2097c",
+    "source\\labs\\L05.py": "12b2089dd6ee5d0236637ea585c9b033a71577164c30745ed8ec30b7eb3ec475",
+    "source\\labs\\L05.json": "2014fa575c68e67d4b30422497d7a0e672322425561f83872ef283f46018c380",
+    "dist\\teacher\\L05\\solution.ipynb": "101e90d49d37f3a840fcb955fe2aa2a3cc942520d4deaceebb02f5d1d8e58b99"
+  },
+  "code_cells": 13,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "errors": [],
+  "data_copies": {
+    "requests.csv": {
+      "sha256": "34de51d864ff14fb25e9a0081935a1bcdcc1526eaf1c52c247fa0532bf4ffcb8",
+      "identical": true
+    },
+    "knowledge.csv": {
+      "sha256": "9a1fd3637b4eeeeb7471d14d972123fcb6b223f06eeb5930e393835edc6401a6",
+      "identical": true
+    },
+    "retrieval_queries.csv": {
+      "sha256": "4f160aa444eb9d295d7168c1fe622e074414ece86715653bca9f7a5ec1e31112",
+      "identical": true
+    }
+  },
+  "lightweight_reexecution": "passed; all original assertions; no model downloads or neural inference",
+  "arrays": {
+    "scores": [
+      [
+        1000.0,
+        1001.0,
+        1002.0
+      ],
+      [
+        -2.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "Q": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "K": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "V": [
+      [
+        10.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0
+      ]
+    ],
+    "weights": [
+      [
+        0.6697615493266569,
+        0.3302384506733431
+      ],
+      [
+        0.3302384506733431,
+        0.6697615493266569
+      ]
+    ],
+    "masked_weights": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.3302384506733431,
+        0.6697615493266569
+      ]
+    ]
+  },
+  "code_matches_current_lab_sources": true,
+  "matched_code_cells": 13
+}
